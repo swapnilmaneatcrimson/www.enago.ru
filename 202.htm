@@ -1,0 +1,306 @@
+<?php 
+  $currentPage="Author Support";
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- HEAD -->
+<head>
+<meta name="author" content="DigitalCavalry" />
+<meta name="description" content="помощь в выборе журнала компания Энаго выбирает из команды известных авторов, рецензентов, которые помогут автору и предоставят автору выбрать издателя для его рукописи." />
+<meta name="keywords" content="" />
+<meta name="language" content="english" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Помощь в Выборе Научного Журнала | Средство Выбора Журнала EnagoTM</title>
+<!-- ICON -->
+<link rel="icon" href="img/common/icons/favicon.ico" type="image/x-icon" />
+<!-- CSS (Cascading Style Sheets) Files -->
+<link type="text/css" rel="stylesheet" href="css/common.css" />
+
+<link type="text/css" rel="stylesheet" href="css/index.css" />
+<!-- JavaScript Files -->
+
+<script src="js/jquery-1.2.1.min.js" type="text/javascript"></script>
+
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+<script src="js/organictabs.jquery1.js"></script>
+<script type="text/javascript" src="js/ddaccordion.js"></script>
+    <script>
+//Initialize 2nd demo:
+ddaccordion.init({
+	headerclass: "question", //Shared CSS class name of headers group
+	contentclass: "answer", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: false, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content.
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: false, //persist state of opened contents within browser session?
+	toggleclass: ["closedlanguage", "openlanguage"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "<img src='images/common/icon_+.png' style='width:13px; height:13px' class='vabsmiddle' /> ", "<img src='images/common/icon_close.png' class='vabsmiddle' /> "], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+
+
+	window.onload = function() {
+	setTimeout(function() {
+		// preload image
+		new Image().src = "images/ec-support/ec-tab-sprite.png";
+	}, 100);
+};
+
+        $(function() {
+    
+            $("#example-one").organicTabs();
+            
+            $("#example-two").organicTabs({
+                "speed": 200
+            });
+    
+        });
+    </script>
+
+<!--[if IE 6]>
+        <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script>
+          DD_belatedPNG.fix('.ie6PNGfix, .commonLink');
+          
+          /* string argument can be any CSS selector */
+          /* .ie6PNGfix example is unnecessary */
+          /* change it to what suits you! */
+        </script>
+        <![endif]-->
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+            sfHover = function() {
+                var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+                for (var i=0; i<sfEls.length; i++) {
+                    sfEls[i].onmouseover=function() {
+                        this.className+=" sfhover";
+                    }
+                    sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                    }
+                }
+            }
+            if (window.attachEvent) window.attachEvent("onload", sfHover);
+        //--><!]]></script>
+</head>
+
+<body>
+
+<!-- HEADER SECTION -->
+<?php include("inc_header.htm"); ?>
+<!-- headerContainer  --> <!-- BODY CONTAINER -->
+<div id="bodyContainer">
+  <div class="cleaner"></div>
+  <!-- NAVIGATION -->
+<?php include("inc_navigation.htm"); ?>
+  <!-- navigationContainer --> 
+ 
+  <!-- SERVICES AND PRODUCTS, LAST NEWS LIST -->
+  <div id="bodyContainer">
+  <div class="cleaner"></div>
+  <!-- NAVIGATION -->
+  
+  <!-- navigationContainer -->
+  <!-- SERVICES AND PRODUCTS, LAST NEWS LIST -->
+  <div id="corporateInfoContainer">
+    <!-- COLUMN #2 -->
+    <div class="columnLatestNews">
+      <h2 id="latestNewsHeader">Сервис авторской поддержки</h2>
+      <div class="sidebarLinkPanelContainer">
+      <a href="200.htm" class="item">Сервис авторской поддержки</a>
+         <a href="208.htm" class="item">Повторный обзор и проверка отклоненных рукописей<!-- revised rejected paper --></a>
+         <a href="205.htm" class="item">Услуга по предоставлению сопроводительных писем<!-- cover letter service --></a>
+         <a href="202.htm" class="item active-sub">Инструкция для авторов рукописей<!-- Instruction to author --></a>
+         <a href="201.htm" class="item">Выбор журнала<!-- Journal Selection --></a>
+         <a href="203.htm" class="item">Художественное редактирование<!-- Art work editing --></a>
+         <a href="204.htm" class="item">Количественное сокращение  слов<!-- word count reduction --></a>
+         <a href="206.htm" class="item">Предварительное получение экспертной оценки<!--Pre-submission peer-review--></a>
+        <!-- Left banner -->
+      <?php include("inc_leftbottom.htm"); ?>
+        <!-- Left banner end -->            
+        </div>
+    </div>
+    <!-- COLUMN #1 -->
+    <div class="columnServicesProducts">
+      <h2>Инструкция для авторов рукописей</h2>
+      <div id="navigationTreeContainer">
+                        <a href="index.htm" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="200.htm" class="prev">Сервис авторской поддержки</a>&nbsp;&nbsp;\&nbsp;&nbsp; 
+                        <a class="current">Инструкция для авторов рукописей</a>
+                    </div>
+      <div class="columnText">
+   
+<div id="EC-support">
+              <div id="example-one">
+            <ul class="ECtab">
+                  <li class="ec-tab1"><a href="#featured1" class="current">О сервисе</a></li>
+                  <li class="ec-tab2"><a href="#core1">Оплата</a></li>
+                  <li class="ec-tab3"><a href="#jquerytuts1">Процесс</a></li>
+                  <li class="ec-tab4 last"><a href="#php1">FAQ</a></li>                     
+                </ul>
+            <div class="list-wrap">
+                <ul id="featured1">
+                  <div id="ec-div-main">
+                  <h3>Об Услуге: Цель и Определение</h3>
+                  
+                  <p>Авторы, которые нуждаются в помощи, форматируют рукописи согласно принципам специфического журнала</p>
+                  
+                  <p>Статус рукописи: письмо рукописи завершено и выбран журнал.</p>
+                  <p>По этой услуге, мы хотим удостовериться, что Ваша рукопись следует  всем принципам  журнала относительно параметров публикации, таких как межстрочный интервал, шрифт, и стили заглавных букв.</p>
+                  
+                  <h4>“Рукописи, которые не соответствуют принципам журнала, не будут рассмотрены для публикации”</h4>
+                  <p>Это предложение, которое Вы найдете на большинстве страниц инструкций автора. Для того, чтобы избежать отклонений и задержек рассмотрения вашей рукописи для публикации, Вы должны выбрать нашу услугу Инструкции для Авторов. Иногда в инструкциях описан  подробный стиль многолетнего журнала, который должен соблюдаться. Наши опытные редакторы, имеющие огромный опыт готовят вашу рукопись согласно многочисленным руководящим принципам, которые выдвигаются журналами.</p>
+
+                <div class="clearBoth"></div>
+                    <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div> 
+           </div>
+              </ul>
+                <ul id="core1" class="hide">
+                <div id="ec-div-main">
+                <p>В услуге Инструкции к Авторам, время обработки зависит от количества слов Вашей рукописи:</p>
+                 <table class="tableBasic1 marb20" width="100%" border="0" cellspacing="0" cellpadding="0">
+  
+  <tr>
+    <td class="head">Количество</td>
+    <td class="head">Оплата</td>
+     <td class="head">Период обработки рукописи</td>
+  </tr>
+  <tr>
+    <td>0–5000</td>
+    <td> 21,241 казахстанских тенге
+</td>
+    <td>3 дня</td>
+  </tr>
+  <tr>
+    <td>5000–10000</td>
+    <td>4 казахстанских тенге</td>
+    <td>5 дней</td>
+  </tr>
+  <tr>
+    <td>10000–40000</td>
+    <td>4 казахстанских тенге</td>
+    <td>5 дней – 10 дней</td>
+  </tr>
+     </table>
+     
+     <strong>Примечание:</strong>
+<ul class="ulbasic3 marB10">
+<li>Оплата за Редактирование иллюстративных материалов не включена в данную услугу.</li>
+<li>Создание Сопроводительного письма не включено в данную услугу.</li>
+</ul>
+<p>Обратитесь, если Ваше требование по обработке рукописи составляет менее, чем 3 дня.</p>
+<h3>Обязательные Услуги</h3>
+<h4>РЕЦЕНЗИЯ ПЕРЕД ПРЕДСТАВЛЕНИЕМ ПИСЬМА</h4>
+<p>Если Вы желаете быть уверенным относительно правильности отредактированного содержания для подачи в журнал, просмотрите услугу «Рецензии» перед представлением рукописи.</p>
+<h4>УСЛУГА СОКРАЩЕНИЯ ДЛЯ ПОДСЧЕТА КОЛИЧЕСТВА СЛОВ</h4>
+<p>Наши редакторы сообщат Вам, если количество слов в Вашей рукописи будет больше чем, как указано в инструкциях к авторам. Наша услуга «Сокращение     количества слов» поможет Вам достигнуть необходимого количества слов.</p>				
+                <div class="clearBoth"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                  
+           </div>
+              </ul>
+                <ul id="jquerytuts1" class="hide">
+                <div id="ec-div-main">
+
+<div class="number-sprite step1"><span>Оценка:</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Заполните форму Инструкции к Авторам.</div>
+
+
+<div class="number-sprite step2"><span>Подтверждение цитаты</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">После получения Вашего запроса Enago отправит Вам детали  собранных замечаний и цитат для вашего обзора, которые необходимы в дальнейшей работе над вашей рукописью. Как только Вы примите цитату, заказ будет подтвержден.
+ </div>
+
+
+<div class="number-sprite step3"><span>heading missing (step 3 is missing in content)</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Начало предоставления услуги. Редактор, который знаком с руководящими принципами журнала, отформатирует Вашу рукопись.</div>
+
+<div class="number-sprite step4"><span>Доставка</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Мы обеспечим работу до крайнего срока, оповещая вас по вашей электронной почте.</div>
+
+<div class="number-sprite step5"><span>Создание/Отправление платежных документов</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Мы принимаем безналичные и наличные формы оплаты. Мы можем предоставить вам удобный тип платежа,. Свяжитесь с нами через сайт payments@enago.com. Вы можете найти более подробную информацию на странице платежей.</div>
+
+<div class="number-sprite step6"><span>Оплата</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Вы можете оплатить в форме банковского перевода или кредитной картой.</div>
+
+<div class="number-sprite step7"><span>После предоставления услуг</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Отношение между Вами и Enago будут продолжатся после доставки рукописи и оплаты. Если у Вас есть вопросы или сомнения относительно редактирования, посетите Free Q&A. Редактор, который будет редактировать Вашу рукопись, ответит на все Ваши вопросы.</div>
+
+
+<div class="cleaner marb18"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div> 
+                 
+           </div>
+              </ul>
+				<ul id="php1" class="hide">
+                <div id="ec-div-main">
+                <p align="right" class="marR20"><a href="#" onclick="ddaccordion.expandall('question'); return false"><img width="79" height="23" src="images/subjectareas/button-expandall.png"></a>&nbsp;&nbsp;<a href="#" onclick="ddaccordion.collapseall('question'); return false"><img width="79" height="23" src="images/subjectareas/button-collapsall.png"></a> </p>
+<!-- question 1 -->
+<div class="question">&nbsp; Q. Сократите ли вы количество слов в этой услуге?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">сокращение количества слов не предусмотрено в рамках этой услуги. Если рукопись требует сокращения количества слов, пожалуйста, выберите нашу услугу Word Count - Служба сокращения слов (<a href="http://www.enago.kr/204.htm" class="text-link" target="_blank">http://www.enago.kr/204.htm</a>).</div></div></div></div></div></div></div></div></div>
+<!-- question 2 -->  
+<div class="question">&nbsp; Q. Входит ли форматирование в эту услугу?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">Форматирование фигур (графиков, таблиц) не входит в эту услугу. Пожалуйста, выберите услугу службы форматирования  (<a href="http://www.enago.kr/203.htm" target="_blank" class="text-link">http://www.enago.kr/203.htm</a>), если вам нужно отформатировать рукопись.</div></div></div></div></div></div></div></div></div>
+
+<!-- question 3 -->                
+<div class="question">&nbsp; Q. Включено ли  редактирование  как часть этой услуги?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">Нет, редактирование не входит. Мы только форматируем текст в соответствии с руководящими принципами журнала. Пожалуйста, выберите услугу нашего стандартного или продвинутого редактирования, если вы хотите, чтобы ваша рукопись была скорректирована по грамматике и вопросам стиля.</div></div></div></div></div></div></div></div></div>
+
+<!-- question 4 -->  
+<div class="question">&nbsp; Q. Какова квалификация / опыт рецензента, который оценивает мою рукопись оказывая мне эту услугу?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">рецензент будет иметь степень Ph.D по вашей предметной области. Большинство обозревателей  являются исследователями, которые имеют собственные опубликованные  рукописи. Самое главное, они также имеют большой опыт работы в качестве рецензента в престижных журналах.</div></div></div></div></div></div></div></div></div>
+                
+                
+                               <div class="clearBoth"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                                
+           </div>
+              </ul>    
+
+                          	 
+                </div>
+            <!-- END List Wrap --> 
+            
+          </div>
+            </div>
+
+
+ </div>
+
+   </div>
+    <!-- columnLatestNews -->
+    <div class="clearBoth"></div>
+  </div>
+  <!-- corporateInfoContainer -->
+</div>
+  <!-- corporateInfoContainer --> 
+  
+</div>
+<!-- bodyContainer --> 
+
+<!-- FOOTER -->
+<?php include("inc_footer.htm"); ?>
+<!-- footerContainer -->
+
+</body>
+</html>
