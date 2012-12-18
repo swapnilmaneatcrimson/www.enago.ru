@@ -1,0 +1,71 @@
+.closebutton {
+    /* NOTE! This URL is relative to the HTML page, not the CSS */
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+		src='../jshow/graphics/close.png', sizingMethod='scale');
+
+	background: none;
+	cursor: hand;
+}
+
+/* Viewport fixed hack */
+.jshow-viewport {
+	position: absolute;
+    left: expression( ( ( ignoreMe1 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+	top: expression( ( ignoreMe2 = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) + 'px' );
+	width: expression( ( ( ignoreMe3 = document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) ) + 'px' );
+	height: expression( ( ( ignoreMe4 = document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) ) + 'px' );
+}
+
+/* Thumbstrip PNG fix */
+.jshow-scroll-down, .jshow-scroll-up {
+	position: relative;
+	overflow: hidden;
+}
+.jshow-scroll-down div, .jshow-scroll-up div {
+	/* NOTE! This URL is relative to the HTML page, not the CSS */
+	filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(
+		src='../jshow/graphics/scrollarrows.png', sizingMethod='scale');
+	background: none !important;
+	position: absolute;
+	cursor: hand;
+	width: 75px;
+	height: 75px !important;
+}
+.jshow-thumbstrip-horizontal .jshow-scroll-down div {
+	left: -50px;
+	top: -15px;
+}
+.jshow-thumbstrip-horizontal .jshow-scroll-up div {
+	top: -15px;
+}
+.jshow-thumbstrip-vertical .jshow-scroll-down div {
+	top: -50px;
+}
+
+/* Thumbstrip marker arrow trasparent background fix */
+.jshow-thumbstrip .jshow-marker {
+	border-color: white; /* match the background */
+}
+.dark .jshow-thumbstrip-horizontal .jshow-marker {
+	border-color: #111;
+}
+.jshow-viewport .jshow-marker {
+	border-color: #333;
+}
+.jshow-thumbstrip {
+	float: left;
+}
+
+/* Positioning fixes for the control bar */
+.text-controls .jshow-controls {
+	width: 480px;
+}
+.text-controls a span {
+	width: 4em;
+}
+.text-controls .jshow-full-expand a span {
+	width: 0;
+}
+.text-controls .jshow-close a span {
+	width: 0;
+}
