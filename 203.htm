@@ -1,0 +1,335 @@
+<?php 
+  $currentPage="Author Support";
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- HEAD -->
+<head>
+<meta name="author" content="DigitalCavalry" />
+<meta name="description" content="помощь в выборе журнала компания Энаго выбирает из команды известных авторов, рецензентов, которые помогут автору и предоставят автору выбрать издателя для его рукописи." />
+<meta name="keywords" content="" />
+<meta name="language" content="english" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Помощь в Выборе Научного Журнала | Средство Выбора Журнала EnagoTM</title>
+<!-- ICON -->
+<link rel="icon" href="img/common/icons/favicon.ico" type="image/x-icon" />
+<!-- CSS (Cascading Style Sheets) Files -->
+<link type="text/css" rel="stylesheet" href="css/common.css" />
+
+<link type="text/css" rel="stylesheet" href="css/index.css" />
+<!-- JavaScript Files -->
+
+<script src="js/jquery-1.2.1.min.js" type="text/javascript"></script>
+
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+<script src="js/organictabs.jquery1.js"></script>
+<script type="text/javascript" src="js/ddaccordion.js"></script>
+    <script>
+//Initialize 2nd demo:
+ddaccordion.init({
+	headerclass: "question", //Shared CSS class name of headers group
+	contentclass: "answer", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: false, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content.
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: false, //persist state of opened contents within browser session?
+	toggleclass: ["closedlanguage", "openlanguage"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "<img src='images/common/icon_+.png' style='width:13px; height:13px' class='vabsmiddle' /> ", "<img src='images/common/icon_close.png' class='vabsmiddle' /> "], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+
+
+	window.onload = function() {
+	setTimeout(function() {
+		// preload image
+		new Image().src = "images/ec-support/ec-tab-sprite.png";
+	}, 100);
+};
+
+        $(function() {
+    
+            $("#example-one").organicTabs();
+            
+            $("#example-two").organicTabs({
+                "speed": 200
+            });
+    
+        });
+    </script>
+
+<!--[if IE 6]>
+        <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script>
+          DD_belatedPNG.fix('.ie6PNGfix, .commonLink');
+          
+          /* string argument can be any CSS selector */
+          /* .ie6PNGfix example is unnecessary */
+          /* change it to what suits you! */
+        </script>
+        <![endif]-->
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+            sfHover = function() {
+                var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+                for (var i=0; i<sfEls.length; i++) {
+                    sfEls[i].onmouseover=function() {
+                        this.className+=" sfhover";
+                    }
+                    sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                    }
+                }
+            }
+            if (window.attachEvent) window.attachEvent("onload", sfHover);
+        //--><!]]></script>
+</head>
+
+<body>
+
+<!-- HEADER SECTION -->
+<?php include("inc_header.htm"); ?>
+<!-- headerContainer  --> <!-- BODY CONTAINER -->
+<div id="bodyContainer">
+  <div class="cleaner"></div>
+  <!-- NAVIGATION --> 
+<?php include("inc_navigation.htm"); ?>
+  <!-- navigationContainer --> 
+ 
+  <!-- SERVICES AND PRODUCTS, LAST NEWS LIST -->
+  <div id="bodyContainer">
+  <div class="cleaner"></div>
+  <!-- NAVIGATION -->
+  
+  <!-- navigationContainer -->
+  <!-- SERVICES AND PRODUCTS, LAST NEWS LIST -->
+  <div id="corporateInfoContainer">
+    <!-- COLUMN #2 -->
+    <div class="columnLatestNews">
+      <h2 id="latestNewsHeader">Сервис авторской поддержки</h2>
+      <div class="sidebarLinkPanelContainer">
+      <a href="200.htm" class="item">Сервис авторской поддержки</a>
+         <a href="208.htm" class="item">Повторный обзор и проверка отклоненных рукописей<!-- revised rejected paper --></a>
+         <a href="205.htm" class="item">Услуга по предоставлению сопроводительных писем<!-- cover letter service --></a>
+         <a href="202.htm" class="item ">Инструкция для авторов рукописей<!-- Instruction to author --></a>
+         <a href="201.htm" class="item">Выбор журнала<!-- Journal Selection --></a>
+         <a href="203.htm" class="item  active-sub">Художественное редактирование<!-- Art work editing --></a>
+         <a href="204.htm" class="item">Количественное сокращение  слов<!-- word count reduction --></a>
+         <a href="206.htm" class="item">Предварительное получение экспертной оценки<!--Pre-submission peer-review--></a>
+        <!-- Left banner -->
+      <?php include("inc_leftbottom.htm"); ?>
+        <!-- Left banner end -->            
+        </div>
+    </div>
+    <!-- COLUMN #1 -->
+    <div class="columnServicesProducts">
+      <h2>Художественное редактирование</h2>
+<div id="navigationTreeContainer">
+                        <a href="index.htm" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="200.htm" class="prev">Сервис авторской поддержки</a>&nbsp;&nbsp;\&nbsp;&nbsp; 
+                        <a class="current">Художественное редактирование</a>
+                    </div>
+      <div class="columnText">
+   
+<div id="EC-support">
+              <div id="example-one">
+            <ul class="ECtab">
+                  <li class="ec-tab1"><a href="#featured1" class="current">О сервисе</a></li>
+                  <li class="ec-tab2"><a href="#core1">Оплата</a></li>
+                  <li class="ec-tab3"><a href="#jquerytuts1">Процесс</a></li>
+                  <li class="ec-tab4 last"><a href="#php1">FAQ</a></li>                   
+                </ul>
+            <div class="list-wrap">
+                 <ul id="featured1">
+                  <div id="ec-div-main">
+                <h4>Редактирование иллюстрированного материала</h4>
+      
+     <p> <strong>Кто должен выбрать данную услугу?</strong><br />
+Авторы, которые нуждаются в профессиональной помощи относительно  изменения иллюстрированного материала. 
+Статус рукописи: эскизы готовых иллюстрированных материалов или изменений в иллюстрациях, предлагаемых рецензентами.
+</p>
+
+<p>В данной услуге нам необходимо удостовериться, что Ваши иллюстрации соответствуют обязательным руководящим принципам журнала. Данная услуга может облегчить некоторые моменты для исследователей, если принять во внимание необходимость изменений иллюстраций согласно инструкциям и требованиям журнала, которых трудно придерживаться.</p>
+      
+<p><strong>Примечание</strong>: больше всего журналы запрещают корректировку параметров изображения, таких как яркость. Поэтому, мы не регулируем параметры изображения, которые могут казаться обработкой данных.</p>
+
+<h3>Ориентир услуги</h3>
+<p>Согласно данной услуге, мы проверяем, определены ли следующие параметры  руководящих принципов журнала.</p>
+
+<div class="editor-box">
+<img height="100" align="left" width="134" alt="Lektorat Doktorarbeit, lektorat englisch" src="images/art-editing1.jpg">
+<h4>Разрешение изображения</h4>
+<p>Мы проверяем, находится ли разрешение изображения в диапазоне, определенного журналом (обычно 300 точек на дюйм).</p>
+<div class="cleaner"></div>
+</div>
+
+<div class="editor-box">
+<img height="100" align="left" width="134" alt="Lektorat Doktorarbeit, lektorat englisch" src="images/art-editing2.jpg">
+<h4>Цветовые Требования</h4>
+<p>Некоторые журналы рекомендуют, чтобы художественные работы были представлены в CMKY (Nature), в то время как другие рекомендуют RGB (Cell). Некоторые журналы хотят только черно-белые изображения. Мы можем показать такую цветовую гамму.</p>
+<div class="cleaner"></div>
+</div>
+
+<div class="editor-box">
+<img height="100" align="left" width="134" alt="Lektorat Doktorarbeit, lektorat englisch" src="images/art-editing3.jpg">
+<h4>Размер изображения</h4>
+<p>Журналы обычно указывают ширину изображения, чтобы можно было подогнать изображение в1 или 2 две колонны. Также иногда необходимо  подогнать иллюстрации по размеру, чтобы не видеть искажения в печатном виде.</p>
+<div class="cleaner"></div>
+</div>
+
+<div class="editor-box">
+<img height="100" align="left" width="134" alt="Lektorat Doktorarbeit, lektorat englisch" src="images/art-editing4.jpg">
+<h4>Размер файла</h4>
+<p>У некоторых журналов существует лимит по размеру файла каждой иллюстрации (например, изображения не должны быть размером больше 10Мб). Нам необходимо  удостовериться,  что Ваши изображения удовлетворяют требования издателя без потери качества.</p>
+<div class="cleaner"></div>
+</div>
+
+<div class="editor-box">
+<img height="100" align="left" width="134" alt="Lektorat Doktorarbeit, lektorat englisch" src="images/art-editing5.jpg">
+<h4>Шрифт</h4>
+<p>Мы проверим вид шрифта (больше всего журналы предпочитают Helvetica) и наименьший размер шрифта (например, размером 8), определенный журналом.</p>
+<div class="cleaner"></div>
+</div>
+
+<div class="editor-box">
+<img height="100" align="left" width="134" alt="Lektorat Doktorarbeit, lektorat englisch" src="images/art-editing6.jpg">
+<h4>Многопанельные изображения</h4>
+<p>Мы проверяем последовательность между цифрами, буквами и значками, используемые в многопанельных цифрах.</p>
+<div class="cleaner"></div>
+</div>
+
+<div class="editor-box">
+<img height="121" align="left" width="134" alt="Lektorat Doktorarbeit, lektorat englisch" src="images/art-editing7.jpg">
+<h4>Формат файла</h4>
+<p>Журналы принимают только особые форматы файлов. Мы можем конвертировать файлы с одного формата в другой, например, с PowerPoint на TIFF по каждому требованию журнала.</p>
+<div class="cleaner"></div>
+</div>
+
+<div class="editor-box">
+<img height="100" align="left" width="134" alt="Lektorat Doktorarbeit, lektorat englisch" src="images/art-editing8.jpg">
+<h4>Толщина линии</h4>
+<p>Графические линии, строка ошибок и контуры должны быть наименьшей толщиной, чтобы отображались  корректно в печатном виде. Они определяются минимальным разрывом линий. Мы должны проследить за тем, что все элементы Ваших изображений  не  превышают определенную   линию того или иного журнала.</p>
+<div class="cleaner"></div>
+</div>
+
+                <div class="clearBoth"></div>
+                    <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>   
+           </div>
+              </ul>
+                 <ul id="core1" class="hide">
+                <div id="ec-div-main">
+                <p>Сумма за услугу редактирования иллюстрированного материала зависит от количества изображений.</p>
+                 <table class="tableBasic1 marb20" width="100%" border="0" cellspacing="0" cellpadding="0">
+  
+  <tr>
+    <td class="head">Количество изображений </td>
+    <td class="head">Оплата</td>
+    <td class="head">TAT</td>
+  </tr>
+  <tr>
+    <td>3 или меньше</td>
+    <td> 12,745 Тенге</td>
+     <td>3 дня</td>
+  </tr>
+ <tr>
+    <td>Более  3</td>
+    <td> 4,248 Тенге за дополнительное изображение</td>
+     <td>Более  1  дня за  каждые  3   изображения дополнительно</td>
+  </tr>
+     </table>
+     
+				
+                <div class="clearBoth"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                    
+           </div>
+              </ul>
+                 <ul id="jquerytuts1" class="hide">
+                <div id="ec-div-main">
+
+<div class="number-sprite step1"><span>Оценка</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Заполните форму Редактирования иллюстрированного материала.</div>
+
+
+<div class="number-sprite step2"><span>Подтверждение цитат</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">По получению Вашего запроса, Энаго отправит Вам детали по цитатам с оплатой суммы и длительности цикла обработки. </div>
+
+
+<div class="number-sprite step3"><span>Оказание услуг</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Мы начинаем подготовку или редактирование изображения</div>
+
+<div class="number-sprite step4"><span>Поставка</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Мы доставим статью в срок через почту в зависимости от размера файла</div>
+
+<div class="number-sprite step5"><span>Выпуск/отправление документа для оплаты</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Мы принимаем все платежи в любом виде. Мы можем предоставить вид счета-фактур, которого Вы можете потребовать. Свяжитесь с нами. Вы можете получить больше информации на странице для оплаты.</div>
+
+<div class="number-sprite step6"><span>Платеж</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Вы можете оплатить через банковский перевод или кредитную карточку</div>
+
+<div class="number-sprite step7"><span>Гарантийное и постгарантийное обслуживание</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Энаго продолжит удостоверение того, что Вы получаете ответы на Ваши запросы даже после отправления файла и оплаты.</div>
+
+<div class="cleaner marb18"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                    
+           </div>
+              </ul>
+				 <ul id="php1" class="hide">
+                <div id="ec-div-main">
+                <p align="right" class="marR20"><a href="#" onclick="ddaccordion.expandall('question'); return false"><img width="79" height="23" src="images/subjectareas/button-expandall.png"></a>&nbsp;&nbsp;<a href="#" onclick="ddaccordion.collapseall('question'); return false"><img width="79" height="23" src="images/subjectareas/button-collapsall.png"></a> </p>
+<!-- question 1 -->
+<div class="question">&nbsp; Q. Подразумевается ли под этой услугой редактирования художественное редактирование для улучшения качества рукописей?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">Нет, мы только редактируем и форматируем вашу рукопись в соответствии с руководящими принципами необходимого для вашей рукописи журнала.</div></div></div></div></div></div></div></div></div>
+<!-- question 2 -->  
+<div class="question">&nbsp; Q. Какие форматы файлов вы принимаете?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">Мы рекомендуем нашим клиентам отправлять работы в редактируемом формате, желательно в том файле, который используется для создания художественной работы. В случае, если вы отправляете работу в качестве изображения, мы сможем преобразовать его в необходимый редактируемый формат и внести необходимые изменения, однако это может привести к низкому качеству изображения. Поэтому, пожалуйста, отправляйте свою рукопись в исходном файле,  по которому работа была создана</div></div></div></div></div></div></div></div></div>
+                
+                               <div class="clearBoth"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                                  
+           </div>
+              </ul>       
+                 	  				    
+                </div>
+            <!-- END List Wrap --> 
+            
+          </div>
+            </div>
+
+
+ </div>
+
+    </div>
+    <!-- columnLatestNews -->
+    <div class="clearBoth"></div>
+  </div>
+  <!-- corporateInfoContainer -->
+</div>
+  <!-- corporateInfoContainer --> 
+  
+</div>
+<!-- bodyContainer --> 
+
+<!-- FOOTER -->
+<?php include("inc_footer.htm"); ?>
+<!-- footerContainer -->
+
+</body>
+</html>
