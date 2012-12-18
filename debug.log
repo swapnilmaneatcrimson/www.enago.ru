@@ -1,0 +1,4 @@
+[1016/121237:WARNING:proto_formatter.cc(110)] warning: unable to localize argument $2 (82%) in format string 'Compressing the following resources with gzip could reduce their transfer size by $1 ($2 reduction).
+[1016/121237:WARNING:proto_formatter.cc(110)] warning: unable to localize argument $3 (82%) in format string 'Compressing $1 could save $2 ($3 reduction).
+[1016/121237:WARNING:proto_formatter.cc(110)] warning: unable to localize argument $2 (15%) in format string 'Minifying the following CSS resources could reduce their size by $1 ($2 reduction).
+[1016/121237:WARNING:proto_formatter.cc(110)] warning: unable to localize argument $3 (15%) in format string 'Minifying $1 could save $2 ($3 reduction).
