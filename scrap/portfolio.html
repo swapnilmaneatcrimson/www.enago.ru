@@ -1,0 +1,465 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+    <!-- HEAD -->
+    <head>
+       <meta name="author" content="DigitalCavalry" />
+       <meta name="description" content="A short description of your company" />
+       <meta name="keywords" content="Some keywords that best describe your business. Try to use these words in the texts from the page" />
+       <meta name="language" content="english" />    
+       <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       <title>Innovation Business Template</title>
+       <!-- ICON -->
+       <link title="Enago English Editing" type="image/x-icon" href="images/favicon.ico" rel="shortcut icon">       
+       <!-- CSS (Cascading Style Sheets) Files -->
+       <link type="text/css" rel="stylesheet" href="css/prettyPhoto/prettyPhoto.css" /> 
+       <link type="text/css" rel="stylesheet" href="css/common.css" />
+       <link type="text/css" rel="stylesheet" href="css/portfolio.css" /> 
+       <!-- JavaScript Files -->
+       <script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script>
+       <script type="text/javascript" src="lib/jquery.easing.1.2.js"></script>
+       <script type="text/javascript" src="lib/jquery.prettyPhoto.js"></script>
+       <script type="text/javascript" src="lib/cufon-yui.js"></script>
+       <script type="text/javascript" src="fonts/Sansation_700.font.js"></script>  
+       <script type="text/javascript" src="fonts/Sansation_400.font.js"></script>     
+       <script type="text/javascript" src="fonts/Sansation_300.font.js"></script>   
+       <script type="text/javascript" src="js/common.js"></script>
+       <script type="text/javascript" src="js/portfolio.js"></script>
+       
+        <!--[if IE 6]>
+        <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script>
+          DD_belatedPNG.fix('.ie6PNGfix, .commonLink');
+          
+          /* string argument can be any CSS selector */
+          /* .ie6PNGfix example is unnecessary */
+          /* change it to what suits you! */
+        </script>
+        <![endif]-->
+
+        <script type="text/javascript"><!--//--><![CDATA[//><!--
+            sfHover = function() {
+                var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+                for (var i=0; i<sfEls.length; i++) {
+                    sfEls[i].onmouseover=function() {
+                        this.className+=" sfhover";
+                    }
+                    sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                    }
+                }
+            }
+            if (window.attachEvent) window.attachEvent("onload", sfHover);
+        //--><!]]></script>		
+    </head>
+    
+    <body>
+
+        <!-- HEADER SECTION -->
+        <?php include("inc_header.htm"); ?> <!-- headerContainer  -->
+
+
+        <!-- BODY CONTAINER -->
+        <div id="bodyContainer">    
+
+            <!-- NAVIGATION -->
+            <?php include("inc_navigation.htm"); ?><!-- navigationContainer --> 
+                                    
+            
+            <!-- PAGE CONTENT HERE, PORTFOLIO LIST AND RIGHT SIDE BAR --> 
+            <div id="portoflioHeaderContainer">
+
+                <!-- PAGE TITLE AND NAVIGATION TREE -->
+                <h1 class="commonPageTitle">Portfolio</h1>
+                <div id="navigationTreeContainer">
+                    <a href="index.html" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp; 
+                    <a class="current">Portfolio</a>
+                </div>  <!-- navigationTreeContainer -->
+                    
+                <!-- SHORT TEXT THAT DESCRIBE PAGE CONTENT  --> 
+                <p class="commonIntroductionText">
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                    totam rem aperiam, eaque ipsa quae. Nemo enim ipsam voluptatem quia <span class="spanBold">voluptas 
+                    sit aspernatur</span> aut odit aut fugit, sed quia 
+                    consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                    qui dolorem ipsum quia dolor sit amet consectetur, adipisci velit.
+                </p>
+                
+                <!-- PORTFOLIO STATISTICS, CURRENT/ALL PAGE AND CURRENT/ALL PROJECT NUMBER  -->   
+                <div class="portfolioStatisticsContainer">
+                    <div class="pageStatsWrapper">
+                        <span id="pageNumber"></span><span id="pageCount"></span> 
+                    </div>
+                    <div class="imageStatsWrapper">
+                        <span id="hoveredImageIndex">Project: 1/</span><span id="numberOfImages">0</span>
+                    </div>
+                </div>  <!-- portfolioStatisticsContainer -->
+                
+            </div> <!-- portoflioHeaderContainer -->
+                
+                
+            <div id="portfolioContainer">
+            
+                <!-- page 1 -->
+                <div class="portfolioPage">
+                    <!-- first project on page -->
+                    <div class="portfolioProjectWrapper borderGray">
+                        <a href="portfolioPage.html" class="image asyncImgLoad" title="img/portfolio/img/1.jpg"></a>
+                        <p class="imageDesc">phot. Dietrich | Untertrifaller &copy;</p>
+                        <h3 class="title">Porffolio project title</h3>
+                        <p class="subtitle">Subtitle for this item</p>
+                        <p class="desc">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                            qui dolorem ipsum quia dolor, consectetur, adipisci velit. 
+                            Ad officiis percipitur theophrastus quo, ancillae per eu voluptatem quia voluptas, 
+                            pri natum tritani copiosae in. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit mea an, sumo omittam 
+                            adolescens has te. Impedit ancillae per eu, 
+                            pri natum tritani copiosae in. <a href="portfolioPage.html" class="commonLink">Read more</a>                        
+                        </p>
+                    </div>
+                    
+                    <!-- second project on page -->
+                    <div class="portfolioProjectWrapper borderGray">
+                        <a href="portfolioPage.html" class="image asyncImgLoad" title="img/portfolio/img/2.jpg"></a>
+                        <p class="imageDesc">phot. Dietrich | Untertrifaller &copy;</p>
+                        <h3 class="title">Porffolio project title</h3>
+                        <p class="subtitle">Subtitle for this item</p>
+                        <p class="desc">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                            qui dolorem, ancillae per eu voluptatem quia voluptas, 
+                            pri natum tritani copiosae in. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit mea an, sumo omittam 
+                            adolescens has te. Impedit ancillae per eu, 
+                            pri natum tritani copiosae in. <a href="portfolioPage.html" class="commonLink">Read more</a>                        
+                        </p>
+                    </div>
+                    
+                    <!-- third project on page -->
+                    <div class="portfolioProjectWrapper borderWhite">
+                        <a href="portfolioPage.html" class="image asyncImgLoad" title="img/portfolio/img/3.jpg"></a>
+                        <p class="imageDesc">phot. Dietrich | Untertrifaller &copy;</p>
+                        <h3 class="title">Porffolio project title</h3>
+                        <p class="subtitle">Subtitle for this item</p>
+                        <p class="desc">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                            qui dolorem ipsum quia dolor, consectetur, adipisci velit. 
+                            Ad officiis percipitur theophrastus quo, ancillae per eu voluptatem quia voluptas, 
+                            pri natum tritani copiosae in. Nemo enim ipsam natus voluptatem quia voluptas sit aspernatur aut odit aut fugit mea an, sumo omittam 
+                            adolescens has te. Impedit dolores eos qui ratione ancillae per eu, 
+                            pri natum tritani copiosae in. <a href="portfolioPage.html" class="commonLink">Read more</a>                        
+                        </p>
+                    </div>      
+                </div> <!-- portfolioPage -->
+                
+                <!-- page 2 -->
+                <div class="portfolioPage">
+                    <!-- first project on page -->
+                    <div class="portfolioProjectWrapper borderGray">
+                        <a href="portfolioPage.html" class="image asyncImgLoad" title="img/portfolio/img/4.jpg"></a>
+                        <p class="imageDesc">phot. Dietrich | Untertrifaller &copy;</p>
+                        <h3 class="title">Porffolio project title</h3>
+                        <p class="subtitle">Subtitle for this item</p>
+                        <p class="desc">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                            qui dolorem ipsum quia dolor, consectetur, adipisci velit. 
+                            Ad officiis percipitur theophrastus quo, ancillae per eu voluptatem quia voluptas, 
+                            pri natum tritani copiosae in. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit mea an, sumo omittam 
+                            adolescens has te. Impedit ancillae per eu, 
+                            pri natum tritani copiosae in. <a href="portfolioPage.html" class="commonLink">Read more</a>                        
+                        </p>
+                    </div>
+                    
+                    <!-- second project on page -->
+                    <div class="portfolioProjectWrapper borderGray">
+                        <a href="portfolioPage.html" class="image asyncImgLoad" title="img/portfolio/img/5.jpg"></a>
+                        <p class="imageDesc">phot. Dietrich | Untertrifaller &copy;</p>
+                        <h3 class="title">Porffolio project title</h3>
+                        <p class="subtitle">Subtitle for this item</p>
+                        <p class="desc">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                            qui dolorem, ancillae per eu voluptatem quia voluptas, 
+                            pri natum tritani copiosae in. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit mea an, sumo omittam 
+                            adolescens has te. Impedit ancillae per eu, 
+                            pri natum tritani copiosae in. <a href="portfolioPage.html" class="commonLink">Read more</a>                        
+                        </p>
+                    </div>
+                    
+                    <!-- third project on page -->
+                    <div class="portfolioProjectWrapper borderWhite">
+                        <a href="portfolioPage.html" class="image asyncImgLoad" title="img/portfolio/img/6.jpg"></a>
+                        <p class="imageDesc">phot. Dietrich | Untertrifaller &copy;</p>
+                        <h3 class="title">Porffolio project title</h3>
+                        <p class="subtitle">Subtitle for this item</p>
+                        <p class="desc">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                            qui dolorem ipsum quia dolor, consectetur, adipisci velit. 
+                            Ad officiis percipitur theophrastus quo, ancillae per eu voluptatem quia voluptas, 
+                            pri natum tritani copiosae in. Nemo enim ipsam natus voluptatem quia voluptas sit aspernatur aut odit aut fugit mea an, sumo omittam 
+                            adolescens has te. Impedit dolores eos qui ratione ancillae per eu, 
+                            pri natum tritani copiosae in. <a href="portfolioPage.html" class="commonLink">Read more</a>                        
+                        </p>
+                    </div>      
+                </div> <!-- portfolioPage -->
+                
+                <!-- page 3 -->
+                <div class="portfolioPage">
+                    <!-- first project on page -->
+                    <div class="portfolioProjectWrapper borderGray">
+                        <a href="portfolioPage.html" class="image asyncImgLoad" title="img/portfolio/img/7.jpg"></a>
+                        <p class="imageDesc">phot. Dietrich | Untertrifaller &copy;</p>
+                        <h3 class="title">Porffolio project title</h3>
+                        <p class="subtitle">Subtitle for this item</p>
+                        <p class="desc">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                            qui dolorem ipsum quia dolor, consectetur, adipisci velit. 
+                            Ad officiis percipitur theophrastus quo, ancillae per eu voluptatem quia voluptas, 
+                            pri natum tritani copiosae in. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit mea an, sumo omittam 
+                            adolescens has te. Impedit ancillae per eu, 
+                            pri natum tritani copiosae in. <a href="portfolioPage.html" class="commonLink">Read more</a>                        
+                        </p>
+                    </div>
+                    
+                    <!-- second project on page -->
+                    <div class="portfolioProjectWrapper borderGray">
+                        <a href="portfolioPage.html" class="image asyncImgLoad" title="img/portfolio/img/8.jpg"></a>
+                        <p class="imageDesc">phot. Dietrich | Untertrifaller &copy;</p>
+                        <h3 class="title">Porffolio project title</h3>
+                        <p class="subtitle">Subtitle for this item</p>
+                        <p class="desc">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                            qui dolorem, ancillae per eu voluptatem quia voluptas, 
+                            pri natum tritani copiosae in. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit mea an, sumo omittam 
+                            adolescens has te. Impedit ancillae per eu, 
+                            pri natum tritani copiosae in. <a href="portfolioPage.html" class="commonLink">Read more</a>                        
+                        </p>
+                    </div>
+                    
+                    <!-- third project on page -->
+                    <div class="portfolioProjectWrapper borderWhite">
+                        <a href="portfolioPage.html" class="image asyncImgLoad" title="img/portfolio/img/9.jpg"></a>
+                        <p class="imageDesc">phot. Dietrich | Untertrifaller &copy;</p>
+                        <h3 class="title">Porffolio project title</h3>
+                        <p class="subtitle">Subtitle for this item</p>
+                        <p class="desc">
+                            Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, 
+                            totam rem aperiam. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia 
+                            consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, 
+                            qui dolorem ipsum quia dolor, consectetur, adipisci velit. 
+                            Ad officiis percipitur theophrastus quo, ancillae per eu voluptatem quia voluptas, 
+                            pri natum tritani copiosae in. Nemo enim ipsam natus voluptatem quia voluptas sit aspernatur aut odit aut fugit mea an, sumo omittam 
+                            adolescens has te. Impedit dolores eos qui ratione ancillae per eu, 
+                            pri natum tritani copiosae in. <a href="portfolioPage.html" class="commonLink">Read more</a>                        
+                        </p>
+                    </div>      
+                </div> <!-- portfolioPage -->
+            </div> <!-- portfolioContainer -->
+            
+            <!-- PORTFOLIO CONTROL PANEL -->
+            <div id="portfolioControlPanel">
+                <div id="portfolioPrevPageBtn">Prev page</div>
+                <div id="portfolioNextPageBtn">Next page</div>
+            </div> <!-- portfolioControlPanel -->
+                   
+            <!-- OTHER PORTFOLIOS LIST AND RIGHT SIDEBAR --> 
+            <div id="portfolioContentContainer">
+            
+                <div class="portfolioOtherHeader">Other portfolios</div>    
+                <div class="portfolioListContainer">
+                    <div class="portfolioListItemContainer">
+                        <div class="contentSectionTitleWhite">Portfolio</div>
+                        <div class="portfolioListItemImage asyncImgLoad" title="img/portfolio/list/portfolio2.jpg"></div>
+                        <h2 class="commonItemHeader">Selected projects</h2>
+                        <div class="commonItemInfoContainer">
+                            21 projects<span 
+                            class="separator">&nbsp;&nbsp;|&nbsp;&nbsp;</span>12 November 2009<span 
+                            class="separator">&nbsp;&nbsp;|&nbsp;&nbsp;</span>Product Design           
+                        </div>                
+                        <p class="portfolioListItemDesc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque ipsum, 
+                            rhoncus eu euismod sed, ullamcorper a urna.  at tortor nisi. 
+                            Aliquam sit amet sapien nibh. Ut at tortor nisi. Aliquam sit amet sapien nibh. Vivamus quis tellus 
+                            id eros volutpat condimentum sed ac ante. In vel tortor ac nibh sagittis pellentesque eu a est.<br /><br />  
+                            <a href="portfolio.html" class="readViewMoreBtn">View portfolio</a>
+                        </p>
+                    </div> <!-- portfolioListItemContainer -->
+                            
+                    <div class="portfolioListItemContainer">
+                        <div class="contentSectionTitleWhite">Portfolio</div>
+                        <div class="portfolioListItemImage asyncImgLoad" title="img/portfolio/list/portfolio3.jpg"></div>
+                        <h2 class="commonItemHeader">Current and planed projects</h2>
+                        <div class="commonItemInfoContainer">
+                            15 projects<span 
+                            class="separator">&nbsp;&nbsp;|&nbsp;&nbsp;</span>12 August 2009<span 
+                            class="separator">&nbsp;&nbsp;|&nbsp;&nbsp;</span>Research and Development            
+                        </div>                
+                        <p class="portfolioListItemDesc">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla neque ipsum, 
+                            rhoncus eu euismod sed, ullamcorper a urna.  at tortor nisi. 
+                            Aliquam sit amet sapien nibh. Ut at tortor nisi. Aliquam sit amet sapien nibh. Vivamus quis tellus 
+                            id eros volutpat condimentum sed ac ante. In vel tortor ac nibh sagittis pellentesque eu a est.<br /><br />  
+                            <a href="portfolio.html" class="readViewMoreBtn">View portfolio</a>
+                        </p>
+                    </div> <!-- portfolioListItemContainer -->
+                </div> <!-- galleryListContainer -->
+            
+                <!-- RIGHT SIDEBAR -->
+                <div id="rightSideBarContainer">
+               
+                    <!-- SIDEBAR TABS -->
+                    <div class="contentSectionTitleWhite">Sidebar Tabs Panel</div>
+                    <div class="sidebarTabsContainer">
+                        <div class="wrapper">
+                        
+                            <!-- tab1 -->
+                            <div id="tab1" class="tab">
+                                <div class="head">
+                                    <img class="image" src="images/common/img/face.jpg" alt="" />
+                                    <div class="titleWrapper">
+                                        <h4 class="title">Title for first tab</h4>
+                                        <h5 class="subTitle">This is tab subtitle</h5>
+                                    </div>
+                                </div> <!-- head -->
+                                <p class="text">
+                                    Ut dico exerci cum. Ipsum movet dolore sit ea, pri ea dicant mediocrem aliquando. 
+                                    Stet maiestatis ut pri, et vim melius <a href="#" class="commonLink">legimus</a> alienum. Nam nibh ipsum ad, pri dictas ornatus consequat te. 
+                                    Vel quem vidit posidonium in, brute dicunt maiorum vis te, mei veniam sanctus imperdiet ad.
+                                    Ut dico exerci cum. Ipsum movet dolore sit ea, pri ea dicant mediocrem aliquando. Supendisse sit amet est odio. 
+                                    Suspendisse semper, tur pi eget feugiat venenatis. <a href="#" class="commonLink">Read more</a>
+                                </p>
+                                <div class="thumbsBar">
+                                    <a class="thumb imgTipLeftTop" rel="img/index/tabs/tab3/1.jpg">
+                                        <img src="images/index/tabs/tab3/thumb1.jpg" alt="" />
+                                        <span class="desc displayNone">Description</span> 
+                                    </a>
+                                    <a class="thumb imgTipLeftTop" rel="img/index/tabs/tab3/2.jpg">
+                                        <img src="images/index/tabs/tab3/thumb2.jpg" alt="" />
+                                        <span class="desc displayNone">Description</span> 
+                                    </a>
+                                    <a class="thumb imgTipLeftTop" rel="img/index/tabs/tab3/3.jpg">
+                                        <img src="images/index/tabs/tab3/thumb3.jpg" alt="" />
+                                        <span class="desc displayNone">Description</span> 
+                                    </a>
+                                </div>  <!-- thumbsBar -->
+                            </div> <!-- tab1 -->
+                            
+                            <!-- tab2 -->
+                            <div id="tab2" class="tab">
+                                <div class="head">
+                                    <img class="image" src="images/common/img/face.jpg" alt="" />
+                                    <div class="titleWrapper">
+                                        <h4 class="title">Title for second tab</h4>
+                                        <h5 class="subTitle">This is tab subtitle</h5>
+                                    </div>
+                                </div> <!-- head -->
+                                <p class="text">
+                                    Ut dico exerci cum. Ipsum movet dolore sit ea, pri ea dicant mediocrem aliquando. 
+                                    Stet maiestatis ut pri, et vim melius <a href="#" class="commonLink">legimus</a> alienum. Nam nibh ipsum ad, pri dictas ornatus consequat te. 
+                                    Vel quem vidit posidonium in, brute dicunt maiorum vis te, mei veniam sanctus imperdiet ad.
+                                    Ut dico exerci cum. Ipsum movet dolore sit ea, pri ea dicant mediocrem aliquando. Supendisse sit amet est odio. 
+                                    Suspendisse semper, tur pi eget feugiat venenatis. <a href="#" class="commonLink">Read more</a>
+                                </p>
+                                <div class="thumbsBar">
+                                    <a class="thumb imgTipLeftTop" rel="img/index/tabs/tab3/4.jpg">
+                                        <img src="images/index/tabs/tab3/thumb4.jpg" alt="" />
+                                        <span class="desc displayNone">Description</span> 
+                                    </a>
+                                    <a class="thumb imgTipLeftTop" rel="img/index/tabs/tab3/5.jpg">
+                                        <img src="images/index/tabs/tab3/thumb5.jpg" alt="" />
+                                        <span class="desc displayNone">Description</span> 
+                                    </a>
+                                    <a class="thumb imgTipLeftTop" rel="img/index/tabs/tab3/6.jpg">
+                                        <img src="images/index/tabs/tab3/thumb6.jpg" alt="" />
+                                        <span class="desc displayNone">Description</span> 
+                                    </a>
+                                </div>  <!-- thumbsBar -->
+                            </div> <!-- tab2 -->                            
+
+                            <!-- tab3 -->
+                            <div id="tab3" class="tab">
+                                <div class="head">
+                                    <img class="image" src="images/common/img/face.jpg" alt="" />
+                                    <div class="titleWrapper">
+                                        <h4 class="title">Title for first tab</h4>
+                                        <h5 class="subTitle">This is tab subtitle</h5>
+                                    </div>
+                                </div> <!-- head -->
+                                <p class="text">
+                                    Ut dico exerci cum. Ipsum movet dolore sit ea, pri ea dicant mediocrem aliquando. 
+                                    Stet maiestatis ut pri, et vim melius <a href="#" class="commonLink">legimus</a> alienum. Nam nibh ipsum ad, pri dictas ornatus consequat te. 
+                                    Vel quem vidit posidonium in, brute dicunt maiorum vis te, mei veniam sanctus imperdiet ad.
+                                    Ut dico exerci cum. Ipsum movet dolore sit ea, pri ea dicant mediocrem aliquando. Supendisse sit amet est odio. 
+                                    Suspendisse semper, tur pi eget feugiat venenatis. <a href="#" class="commonLink">Read more</a>
+                                </p>
+                                <div class="thumbsBar">
+                                    <a class="thumb imgTipLeftTop" rel="img/index/tabs/tab3/2.jpg">
+                                        <img src="images/index/tabs/tab3/thumb2.jpg" alt="" />
+                                        <span class="desc displayNone">Description</span> 
+                                    </a>
+                                    <a class="thumb imgTipLeftTop" rel="img/index/tabs/tab3/3.jpg">
+                                        <img src="images/index/tabs/tab3/thumb3.jpg" alt="" />
+                                        <span class="desc displayNone">Description</span> 
+                                    </a>
+                                </div>  <!-- thumbsBar -->
+                            </div> <!-- tab3 -->
+                                                     
+                        </div> <!-- wrapper -->
+                        
+                        <div class="btnBar">
+                            <div class="btn">
+                                First Btn
+                                <span class="source">#tab1</span>
+                                <span class="default"></span>
+                            </div>
+                            <div class="btn">
+                                Second Btn
+                                <span class="source">#tab2</span>
+                            </div> 
+                            <div class="btn">
+                                Third Btn
+                                <span class="source">#tab3</span> 
+                            </div> 
+                        </div> <!-- btnBar -->
+                    </div> <!-- sidebarTabsContainer -->                                                                                            
+                
+                    <!-- MUTLI IMAGE BOX -->
+                    <div class="contentSectionTitleWhite">Multi-Image Box</div>
+                    <div class="sidebarMultiImageBoxContainer">
+                        <div class="row">                            
+                            <a class="picture asyncImgLoad" href="images/sidebar/mmbox/snowboard.jpg" rel="prettyPhoto[gallery][unusual]" title="img/sidebar/mmbox/1.jpg"></a>
+                            <a class="picture asyncImgLoad" href="images/sidebar/mmbox/nieve.jpg" rel="prettyPhoto[gallery][unusual]" title="img/sidebar/mmbox/2.jpg"></a>
+                            <a class="pictureLast asyncImgLoad" href="images/sidebar/mmbox/bikini_girl_big.jpg" rel="prettyPhoto[gallery][unusual]" title="img/sidebar/mmbox/3.jpg"></a>   
+                        </div>
+                        <div class="rowLast">
+                            <a class="picture asyncImgLoad" href="images/sidebar/mmbox/4big.jpg" rel="prettyPhoto[gallery][unusual]" title="img/sidebar/mmbox/4.jpg"></a>
+                            <a class="picture asyncImgLoad" href="images/sidebar/mmbox/creattica.jpg" rel="prettyPhoto[gallery][unusual]" title="img/sidebar/mmbox/5.jpg"></a>
+                            <a class="pictureLast asyncImgLoad" href="images/sidebar/mmbox/adidas.jpg" rel="prettyPhoto[gallery][unusual]" title="img/sidebar/mmbox/6.jpg"></a> 
+                        </div>
+                    </div> <!-- sidebarMultiImageBoxContainer -->                
+                
+                </div> <!-- rightSideBarContainer -->                                          
+                                                        
+            </div> <!-- portfolioContentContainer -->
+            <div class="clearBoth"></div>
+
+        </div> <!-- bodyContainer -->  
+
+        <!-- FOOTER --> 
+        <?php include("inc_footer.htm"); ?> <!-- footerContainer -->    
+        <div class="bodyEndBlock"></div>
+    </body>
+</html>
