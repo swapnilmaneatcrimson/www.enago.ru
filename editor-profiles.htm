@@ -1,0 +1,2710 @@
+<?php 
+  $currentPage="Editors";
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- HEAD -->
+<head>
+<title>Наши редакторы | Enago ™ английского редактирование и корректуру для научных документов</title>
+<meta name="author" content="DigitalCavalry" />
+<meta name="description" content="Наши редакторы | Enago ™ английского редактирование и корректуру для научных документов" />
+<meta name="keywords" content="" />
+<meta name="language" content="english" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<!-- ICON -->
+<link title="Enago English Editing" type="image/x-icon" href="images/favicon.ico" rel="shortcut icon">
+<!-- CSS (Cascading Style Sheets) Files -->
+<link type="text/css" rel="stylesheet" href="css/prettyPhoto/prettyPhoto.css" />
+<link type="text/css" rel="stylesheet" href="css/common.css" />
+<link type="text/css" rel="stylesheet" href="css/index.css" />
+<!-- JavaScript Files -->
+<script type="text/javascript" src="lib/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="lib/jquery.easing.1.2.js"></script>
+<script type="text/javascript" src="lib/jquery.prettyPhoto.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+
+<!--[if IE 6]>
+        <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script>
+          DD_belatedPNG.fix('.ie6PNGfix, .commonLink');
+          
+          /* string argument can be any CSS selector */
+          /* .ie6PNGfix example is unnecessary */
+          /* change it to what suits you! */
+        </script>
+        <![endif]-->
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+            sfHover = function() {
+                var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+                for (var i=0; i<sfEls.length; i++) {
+                    sfEls[i].onmouseover=function() {
+                        this.className+=" sfhover";
+                    }
+                    sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                    }
+                }
+            }
+            if (window.attachEvent) window.attachEvent("onload", sfHover);
+        //--><!]]></script>
+        
+        <script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+    <script src="js/organictabs.jquery.js"></script>
+    <script>
+        $(function() {
+    
+            $("#example-one").organicTabs();
+            
+            $("#example-two").organicTabs({
+                "speed": 200
+            });
+    
+        });
+    </script>
+
+
+
+	
+	<script type="text/javascript" src="./fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+	<link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+ 	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			/*
+			*   Examples - images
+			*/
+
+			$("a#example1").fancybox();
+
+			$("a#example2").fancybox({
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'elastic'
+			});
+
+			$("a#example3").fancybox({
+				'transitionIn'	: 'none',
+				'transitionOut'	: 'none'	
+			});
+
+			$("a#example4").fancybox({
+				'opacity'		: true,
+				'overlayShow'	: false,
+				'transitionIn'	: 'elastic',
+				'transitionOut'	: 'none'
+			});
+
+			$("a#example5").fancybox();
+
+			$("a#example6").fancybox({
+				'titlePosition'		: 'outside',
+				'overlayColor'		: '#000',
+				'overlayOpacity'	: 0.9
+			});
+
+			$("a#example7").fancybox({
+				'titlePosition'	: 'inside'
+			});
+
+			$("a#example8").fancybox({
+				'titlePosition'	: 'over'
+			});
+
+			$("a[rel=example_group]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			$("a[rel=example_group1]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+			$("a[rel=example_group2]").fancybox({
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'titlePosition' 	: 'over',
+				'titleFormat'		: function(title, currentArray, currentIndex, currentOpts) {
+					return '<span id="fancybox-title-over">Image ' + (currentIndex + 1) + ' / ' + currentArray.length + (title.length ? ' &nbsp; ' + title : '') + '</span>';
+				}
+			});
+
+			/*
+			*   Examples - various
+			*/
+
+			$("#various1").fancybox({
+				'titlePosition'		: 'inside',
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+
+			$("#various2").fancybox();
+
+			$("#various3").fancybox({
+				'width'				: '75%',
+				'height'			: '75%',
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none',
+				'type'				: 'iframe'
+			});
+
+			$("#various4").fancybox({
+				'padding'			: 0,
+				'autoScale'			: false,
+				'transitionIn'		: 'none',
+				'transitionOut'		: 'none'
+			});
+		});
+	</script>
+</head>
+
+<body>
+
+<!-- HEADER SECTION -->
+<?php include("inc_header.htm"); ?>
+<!-- headerContainer  --> 
+
+<!-- BODY CONTAINER -->
+<div id="bodyContainer">
+  <div class="cleaner"></div>
+  <!-- NAVIGATION -->
+  <?php include("inc_navigation.htm"); ?>
+  <!-- navigationContainer --> 
+ 
+  <!-- SERVICES AND PRODUCTS, LAST NEWS LIST -->
+  <div id="corporateInfoContainer"> 
+    <!-- COLUMN #2 -->
+    <div class="columnLatestNews">
+      <h2 id="latestNewsHeader">Редакторы</h2>
+        <div class="sidebarLinkPanelContainer">
+            <a href="103.htm" class="item">Редакторы</a>
+            <a href="editor-profiles.htm" class="item active-sub">Профили редакторов</a><br />
+        <!-- Left banner -->
+      <?php include("inc_leftbottom.htm"); ?>
+        <!-- Left banner end -->   
+        </div>
+    </div>
+    
+    <!-- COLUMN #1 -->
+    <div class="columnServicesProducts">
+      <h2 id="servicesProductsHeader">Профили Редакторов</h2>
+		<div id="navigationTreeContainer">
+			<a href="index.html" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="103.htm" class="prev">Редакторы</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="editor-profiles.html" class="current">Профили редакторов</a>
+		</div>      
+      <div class="columnText">
+      <p>Enago работает с английскими редакторами, получившими степень Доктора философии и Магистра, все из которых являются экспертами во всех сферах деятельности.</p>
+        <div id="editor-nav">
+              <div id="example-one">
+            <ul class="nav">
+                <li class="green"><a href="#featured" class="current">Медицина и<br /> Бионауки</a></li>
+                <li class="blue"><a href="#core">Физика и<br /> инжиниринг</a></li>
+                <li class="copper last"><a href="#jquerytuts">Бизнес и гума<br />нитарные науки</a></li>
+                
+            </ul>
+            <div class="list-wrap">
+                  <ul id="featured">
+                <div id="editor-pro">
+                      <ul>
+                    <li><a id="various1" rel="example_group" href="#editor6"><img src="editor-profile/images/editor6s.jpg" alt=""  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Microbiology</div>
+                        </li>
+                    
+                    <li><a id="various1" rel="example_group" href="#editor24"><img src="editor-profile/images/editor24s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Experimental Pathology</div>
+                        </li>
+                    <li><a id="various1" rel="example_group" href="#editor49"><img src="editor-profile/images/editor49s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Biophysics /Immunology</div>
+                        </li>
+                        <li class="last"><a id="various1" rel="example_group" href="#editor48"><img src="editor-profile/images/editor48s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">BSc in Botany and Zoology</div>
+                        </li>
+                        <li><a id="various1" rel="example_group" href="#editor23"><img src="editor-profile/images/editor23s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Medical Physiology</div>
+                        </li>
+                    <!--<li><a id="various1" rel="example_group" href="#editor1"><img src="editor-profile/images/editor1s.jpg" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" /></div>
+                          <div class="edu-head">Bachelor of Arts (magna cum laude)</div>
+                        </li>
+                    <li><a id="various1" rel="example_group" href="#editor9"><img src="editor-profile/images/editor9s.jpg" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif"  /></div>
+                          <div class="edu-head">BS Animal Bioscience</div>
+                        </li>-->
+                    <li><a id="various1" rel="example_group" href="#editor19"><img src="editor-profile/images/editor19s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Physiology</div>
+                        </li>
+                    <li><a id="various1" rel="example_group" href="#editor39"><img src="editor-profile/images/editor39s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Public Health (Policy)</div>
+                        </li>
+                        <li class="last"><a id="various1" rel="example_group" href="#editor52"><img src="editor-profile/images/editor52s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">Doctor of Science (Oxon)</div>
+                        </li>
+                        <li><a id="various1" rel="example_group" href="#editor25"><img src="editor-profile/images/editor25s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Neuroscience</div>
+                        </li>
+                        <li><a id="various1" rel="example_group" href="#editor50"><img src="editor-profile/images/editor50s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Behavioral Ecology</div>
+                        </li>
+                        <li><a id="various1" rel="example_group" href="#editor30"><img src="editor-profile/images/editor30s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Cardiovascular Enzymology</div>
+                        </li>
+                        <li class="last"><a id="various1" rel="example_group" href="#editor2"><img src="editor-profile/images/editor2s.jpg" alt=""  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt="" /></div>
+                          <div class="edu-head">Bachelor of Veterinary Science</div>
+                        </li>
+                    <li><a id="various1" rel="example_group" href="#editor4"><img src="editor-profile/images/editor4s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">MSc in Wine Microbiology</div>
+                        </li>    
+                        <li><a id="various1" rel="example_group" href="#editor29"><img src="editor-profile/images/editor29s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Developmental Biology</div>
+                        </li>
+                        <li><a id="various1" rel="example_group" href="#editor33"><img src="editor-profile/images/editor33s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Pathology</div>
+                        </li>
+                         <li class="last"><a id="various1" rel="example_group" href="#editor36"><img src="editor-profile/images/editor36s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Biochemistry</div>
+                        </li>
+                        <li><a id="various1" rel="example_group" href="#editor28"><img src="editor-profile/images/editor28s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">Diploma in Audiology</div>
+                        </li>
+                    <li><a id="various1" rel="example_group" href="#editor44"><img src="editor-profile/images/editor44s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Medical Sciences</div>
+                        </li>
+                        <li><a id="various1" rel="example_group" href="#editor5"><img src="editor-profile/images/editor5s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Pharmacology</div>
+                        </li>
+                        
+                    
+                    <!--<li><a id="various1" rel="example_group" href="#editor21"><img src="editor-profile/images/editor21s.jpg" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif"  /></div>
+                          <div class="edu-head">PhD Biophysics</div>
+                        </li>
+                    <li><a id="various1" rel="example_group" href="#editor7"><img src="editor-profile/images/editor7s.jpg"  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif"  /></div>
+                          <div class="edu-head">Master of Public Health</div>
+                        </li>
+                        <li><a id="various1" rel="example_group" href="#editor3"><img src="editor-profile/images/editor3s.jpg"  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" /></div>
+                          <div class="edu-head">MPhil Development Studies</div>
+                        </li>
+                    <li><a id="various1" rel="example_group" href="#editor8"><img src="editor-profile/images/editor8s.jpg" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif"  /></div>
+                          <div class="edu-head">BS Biology</div>
+                        </li>
+                        <li><a id="various1" rel="example_group" href="#editor46"><img src="editor-profile/images/editor46s.jpg" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif"  /></div>
+                          <div class="edu-head">Doctor of Philosophy</div>
+                        </li>
+                    <li><a id="various1" rel="example_group" href="#editor47"><img src="editor-profile/images/editor47s.jpg" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif"  /></div>
+                          <div class="edu-head">PhD. (Microbiology)</div>
+                        </li>
+                        <li><a id="various1" rel="example_group" href="#editor53"><img src="editor-profile/images/editor53s.jpg" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif"  /></div>
+                          <div class="edu-head">D.Phil.</div>
+                        </li>-->
+                  </ul>
+                  <!-- this is start of hidden table -->
+                      <div style="display:none">
+                    <div id="editor1"> <img src="editor-profile/images/editor1b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Sean T | <span>PhD in Microbiology</span></div>
+                        <ul>
+                              <li>Участвуя активно в исследованиях рака более 40 лет, у доктора Шон Т есть огромный список публикаций и обширный опыт, действующего в качестве рецензента для  многих престижных журналов.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Areas of expertise</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Notable achievements</td>
+                            </tr>
+                        <tr>
+                            </tr><tr>
+                              <td class="head">Образование</td>
+                              <td>Education</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор</td>
+                              <td>Peer-review experience </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации (научные труды) Опыт</td>
+                              <td>Publication experience</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Certificates and awards</td>
+                            </tr>
+                        
+                              <td class="head">Трудовой стаж</td>
+                              <td>Work experience</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                  <!---->
+                      <div style="display: none;">
+                    <div id="editor2"> <img src="editor-profile/images/editor2b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Quinn S | <span>Bachelor of Veterinary Science</span></div>
+                        <ul>
+                              <li>С  момента ухода в отставку с ветеринарной практики, доктор Квинн С нашел успешную карьеру в качестве редактора, где он считает знание и качества развитыми в предыдущей дисциплине, которые имеют большую ценность для науки.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Veterinary Science, Animal Husbandry, Zoology, Ecology, Agronomy, General Medicine</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Has spent most of his time conducting a single-handed branch surgery, a position requiring a high degree of self-discipline and time-management</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Veterinary and Life Sciences, University of Glasgow</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Blackwell Publishing, Oxford; CUP, Cambridge; Out of House Publishing, Stroud, Glos</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>CABI Publishing, Wallingford, Oxon</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Consultant, Sheriff’s Highway Veterinary Group<br />
+                            Practiced as Veterinary surgeon in England</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor3"> <img src="editor-profile/images/editor3b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Sean T | <span>PhD in Microbiology</span></div>
+                        <ul>
+                              <li>Участвуя активно в исследованиях рака более 40 лет, у доктора Шон Т есть огромный список публикаций и обширный опыт, действующего в качестве рецензента для  многих престижных журналов.</li>
+                              
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Areas of expertise</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Notable achievements</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Education</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Peer-review experience </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Publication experience</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Certificates and awards</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Work experience</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor4"> <img src="editor-profile/images/editor4b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Lisa C | <span>MSc in Wine Microbiology</span></div>
+                        <ul>
+                              <li>Редактировала более 2000 рукописи, больше всего написанные иностранцами, г-жа Лиза К. может вести много работ в области редактирования без труда.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Virology, Applied Life Sciences, Zoology, Ecology, Conservation, Microbiology, Food Science</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Has edited approximately 2000 manuscripts as part of her professional editing experience. She writes, edits, and proofreads papers/articles for publication on commercial websites, in databases, and in academic journals (e.g., InPharma, AlterNative), and is extremely attuned to editing research articles and PhD theses for academicians from Asia</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>MSc, Wine Microbiology, University of Auckland<br />
+BCom, Management, University of Auckland<br />
+BSc, Biology, University of Auckland
+</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Senior Prize in Management and Employment Relations <br />
+                            University of Auckland Faculty of Science Access Award in 2001 </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Medical Writer, Wolters Kluwer Health (Adis International)<br />
+                            Marketing Co-Ordinator and Technical Writer- Idiom Software</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor5"> <img src="editor-profile/images/editor5b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Dr. Little M | <span>PhD in Pharmacology</span></div>
+                        <ul>
+                              <li>Доктор М Литтл имеет больше 10 лет опыта редактирования и является членом многих профессиональных организаций по редактированию. Он также опубликовал статьи в престижных журналах как Science и Cell.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                        <tr>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                              <td class="head" width="135">Специализация</td>
+                              <td>Pharmaceutical Sciences and Medicine</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Setting up joint ventures with Raven Department of Education at the Royal College of Surgeons of England, British Orthopaedic Association, and Elsevier groups</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, Pharmacology, University College London, UK<br />
+                            MSc, Chemical Research, University College London, UK<br />
+                            BSc (Honours), Applied Chemistry, University of Greenwich, UK</td>
+                            </tr>
+                        
+                              <td class="head">Публикации Опыт</td>
+                              <td>Science and Cell</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Member of European Medical Writers Association, Society for Editors and Proofreaders, Guild of Health Writers, Medical Journalists Association</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Senior Editorial Project Executive, PHASE II International Communications, Kingston upon Thames<br />
+                            Managing Editor, Elsevier, Oxon<br />
+                            Technical Editor, Rapra Technology Limited, Shropshire<br />
+                            Postdoctoral Research Associate, Scripps Institution, University of California, San Diego, USA </td>
+                            </tr>
+                      </table>
+                        </tr></div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor6"> <img src="editor-profile/images/editor6b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Sean T | <span>PhD in Microbiology</span></div>
+                        <ul>
+                              <li>Участвуя активно в исследованиях рака более 40 лет, у доктора Шон Т есть огромный список публикаций и обширный опыт, действующего в качестве рецензента для  многих престижных журналов.</li>
+                            </ul>
+                        <!--<!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Biochemistry, Bioinformatics, Biotechnology, Molecular Pathology, Genetics, Neurosciences, Virology, Cancer Medicine/Oncology, Herpetology, Histology/Histopathology, Bacteriology, Cell Biology, Immunology, Microbiology, Molecular Biology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Has been on committees and review panels of Santa Cruz County Board of Supervisors Hazardous Materials Appeals Commission; Biotechnology Industrial Advisory Council, California Polytechnic State University; Marine Biotechnology Task Force of Monterey County; Italian Association for Cancer Research (AIRC); and National Cancer Institute Information Processing Committee</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD Microbiology, University of California, Los Angeles
+                            
+                            BA (Highest Honors), Bacteriology, University of California, Los Angeles </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Biochemistry, Cancer Research, EMBO Journal, Gene, Genomics, Journal of Bacteriology, Journal of Biological Chemistry, Journal of Clinical Microbiology, Journal of Immunology, Journal of the National Cancer Institute, Journal of Virology, Molecular and Cellular Biology, Nature, New Biologist, Nucleic Acids Research, Oncogene, Proceedings of the National Academy of Sciences, USA, Science, Virology, Virus Research, </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Has authored more than 35 papers published in high-impact journals such as Journal of Bacteriology, Journal of Virology, Cell, Nature, Science, and Proceedings of the National Academy of Sciences</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>National Institute Of General Medical Sciences Grant, Federal Technology Transfer Award, National Cancer Institute, National Institutes of Health, Director’s Award, National Institutes of Health, Merit Award </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Director, Technical Services, Santa Cruz Biotechnology, Inc., Santa Cruz, CA<br />
+                            Director, Research & Development, Santa Cruz Biotechnology, Inc., Santa Cruz, CA<br />
+                            Acting Chief, Laboratory of Cellular & Molecular Biology, National Cancer Institute, Bethesda, MD<br />
+                            Research Microbiologist, Laboratory of Cellular & Molecular Biology, National Cancer Institute, Bethesda, MD<br /></td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor7"> <img src="editor-profile/images/editor7b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Sean T | <span>PhD in Microbiology</span></div>
+                        <ul>
+                              <li>Участвуя активно в исследованиях рака более 40 лет, у доктора Шон Т есть огромный список публикаций и обширный опыт, действующего в качестве рецензента для  многих престижных журналов.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Areas of expertise</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Notable achievements</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Education</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Peer-review experience </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Publication experience</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Certificates and awards</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Work experience</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor8"> <img src="editor-profile/images/editor8b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Sean T | <span>PhD in Microbiology</span></div>
+                        <ul>
+                              <li>Участвуя активно в исследованиях рака более 40 лет, у доктора Шон Т есть огромный список публикаций и обширный опыт, действующего в качестве рецензента для  многих престижных журналов.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Areas of expertise</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Notable achievements</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Специализация</td>
+                              <td>Education</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Peer-review experience </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Publication experience</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Certificates and awards</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Work experience</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor9"> <img src="editor-profile/images/editor9b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Sean T | <span>PhD in Microbiology</span></div>
+                        <ul>
+                              <li>Участвуя активно в исследованиях рака более 40 лет, у доктора Шон Т есть огромный список публикаций и обширный опыт, действующего в качестве рецензента для  многих престижных журналов.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Areas of expertise</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Notable achievements</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Education</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Peer-review experience </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Publication experience</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Certificates and awards</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Work experience</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      
+                      <!--  new editors subject AE  -->
+                      <div style="display: none;">
+                    <div id="editor19"> <img src="editor-profile/images/editor19b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Brian K | <span>PhD in Physiology</span></div>
+                        <ul>
+                              <li>Доктор Брайан К действовал в качестве рецензента для многих рецензируемых журналов и опубликовал более чем 20 научных статей в рейтинговых журналах. Он также занимал должность авторитетного рецензента для многих учреждений.</li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Physiology, Zoology, Biology, Biochemistry, Biotechnology, General Medicine, Exercise Physiology, Ichthyology, Endocrinology, Obstetrics, Gynecology, Psychiatry, Veterinary Medicine</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Grant Reviewer of University of Delaware Sea Grant, Louisiana Sea Grant College Program, National Science Foundation Small Business Initiative (NSF SBIR), University of Texas Sea Grant</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, Physiology, North Carolina State University, USA<br />
+                            MS, Biology, University of North Dakota, USA<br />
+                            BS, Biology, Juniata College, Huntingdon, USA<br /></td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Comparative Biochemistry and Physiology, General and Comparative Endocrinology, Journal of Applied Aquaculture, Journal of Aquatic Animal Health, Journal of the World Aquaculture Society, and North American Journal of Fisheries Management</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>More than 20 publications in American Journal of Veterinary Research, General and Comparative Endocrinology, and Fish Physiology and Biochemistry</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Member of American Fisheries Society and World Aquaculture Society</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Research Associate, Department of Zoology, University Of New Hampshire, Durham<br />
+                            Research Specialist, Department Of Animal and Avian Sciences, University of Maryland<br />
+                            Research Associate, Department of Zoology, North Carolina State University, Raleigh<br />
+                            Consulting Biologist, Instituto Espanol de Oceanografia, Centro Oceanografia de Murcia, Mazarron, Spain<br /></td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor21"> <img src="editor-profile/images/editor21b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Sean T | <span>PhD in Microbiology</span></div>
+                        <ul>
+                              <li>Участвуя активно в исследованиях рака более 40 лет, у доктора Шон Т есть огромный список публикаций и обширный опыт, действующего в качестве рецензента для  многих престижных журналов.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Areas of expertise</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Notable achievements</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Education</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Peer-review experience </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Publication experience</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Certificates and awards</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Work experience</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor23"> <img src="editor-profile/images/editor23b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Stephen D | <span>PhD in Medical Physiology/Neuroscience</span></div>
+                        <ul>
+                              <li>Cо-разработчик некоторых первых методов по острой изоляции нейронов и глии от зрелого разъедающего мозга, доктор Стивен Д вел активную деятельность в области исследования нейробиологии и опубликовал много статей в известных журналах, таких как PNAS. Имеет  более чем 15 летний опыт научного редактирования.</li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Computational Neuroscience, Developmental Neuroscience, Cognitive Neuroscience, Cellular Neuroscience, Behavioral Neuroscience, Neurosciences, Molecular Pathology, General Pathology, Pharmaceutical Research, Pharmaceutical Toxicology, Pharmaceutics, Pharmacotherapy, Cardiology, Immunology, Neurology, Pain Medicine, Physiology, Psychiatry, Sleep Medicine</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Recognized expert in the biological mechanisms of memory, cognitive development, epilepsy, and psychiatric illness, and has worked with some of the most respected medical institutions such as Mount Sinai Hospital, and top universities such as University of Toronto at Scarborough College and University of British Columbia</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD Medical Physiology/Neuroscience, University of Calgary, Canada</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Journal of Neurophysiology, Journal of Neuroscience, Journal of Neurochemistry, Learning and Memory, Hippocampus, PNAS, Neuropsychopharmacology, Neuroscience, FASEB Journal, Annals of Neurology </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Young Investigator Award, National Alliance for Research on Schizophrenia And Depression (NARSAD-USA), 2005-2007<br />
+                            Alberta Heritage for Medical Research (AHFMR) Fellowship, 1999-2002<br />
+                            Heart and Stroke Foundation Fellowship, 1996-1998 </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Researcher, Samuel Lunenfeld Research Institute, Mount Sinai Hospital<br />
+                            Instructor, University of Toronto at Scarborough College<br />
+                            Researcher and Instructor, Department of Physiology, University of Alberta<br />
+                            Researcher, Department of Psychiatry, University of British Columbia </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor24"> <img src="editor-profile/images/editor24b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Benjamin S | <span>PhD in Experimental Pathology</span></div>
+                        <ul>
+                              <li>У доктора Бенджамин С есть огромный опыт редактирования, отредактировав более чем 600 рукописей, написанных в основном азиатскими исследователями. Он также является членом наблюдательной комиссии многочисленных рецензируемых журналов.</li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>General Biochemistry, Metabolism, Food Sciences, Bacteriology, Nutrition, Physiology, Sports Medicine & Technology, Vascular Medicine, Biomedical Research (Experimental Medicine), Cardiology, Clinical Microbiology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Sole editor of abstracts of the 7th International Diabetes Federation Western Pacific Region Congress</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, Experimental Pathology, University of Otago, New Zealand
+                            Postgraduate Diploma in Science, Biochemistry, University of Otago, New Zealand
+                            BSc, Biochemistry, University of Otago, New Zealand </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Has been on the review boards of the Australian and New Zealand Society of Nephrology, Australasian Society for  Experimental Pathology, International Society for Clinical Haemorheology, and European Society for the Study of Diabetes</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Has published over 60 papers in journals such as Clinical Nephrology, Pathology, Atherosclerosis Reviews, Cardiovascular Risk Factors, and British Journal of Clinical Pharmacology </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Member of the Australasian Society for  Experimental Pathology,  Christchurch Medical Research Society, International Society for Clinical Haemorheology </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Scientist, Lipid and Diabetes Research Group, Christchurch Hospital<br />
+                            Contract scientist, Department of Nephrology, Christchurch Hospital, Canterbury Health, Christchurch<br />
+                            Scientific Officer, Department of Pathology, University of Otago Medical School, Dunedin</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor25"> <img src="editor-profile/images/editor25b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Lauren G | <span>PhD in Neuroscience</span></div>
+                        <ul>
+                              <li>Активно исследуя в области нейробиологии больше 10 лет, доктор Лорен Г. стала автором множество важнейших научных статей. У нее также есть много опыта по редактированию зарубежных статей.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>General Neurosciences, Developmental Neuroscience, Behavioral Neuroscience, Psychiatric and Mental Health Nursing, General Psychiatry, Neuromedicine, Neurosurgery, Molecular Biology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Multiple Young Investigator Awards from National Alliance for Research on Schizophrenia and Affective Disorders (NARSAD)<br />
+                            First author of an article that is one of the top ten most cited articles from 2006–2008 in Schizophrenia Research<br />
+                            Expert in multiple scientific experimental areas including immunoassays, protein biochemistry, molecular neurobiology, neuroanatomy, neurodevelopment and neuropathophysiology </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD Neuroscience, University of Pittsburgh, Pittsburgh, USA <br />
+                            MSc, Behavioral Neuroscience, University of Pittsburgh, Pittsburgh, USA<br />
+                            BA, Biological Bases of Behavior, University of Pennsylvania, Philadelphia, USA</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Schizophrenia Research, Neuropsychopharmacology, Biological Psychiatry, Arch Gen Psychiatry, and Synapse</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>NIH/NIMH K01 Award; NARSAD Young Investigator Award; 
+                            Lilly Fellowship Award; Society of Biological Psychiatry Membership Scholarship; Hartford Research Scholar; Scottish Rite Schizophrenia Research Program Award </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Research scientist, Assistant Professor, Department of Psychiatry, University of North Carolina, Chapel Hill, NC<br />
+                            Postdoctoral Fellow, Department of Psychiatry, University of North Carolina, Chapel Hill, NC<br />
+                            Research Assistant, Bipolar Disorders Unit, Department of Psychiatry, University of Pennsylvania, Philadelphia, PA </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor28"> <img src="editor-profile/images/editor28b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Nellie B | <span>Diploma in Audiology</span></div>
+                        <ul>
+                              <li>С ее историей в управлении и связью с клиентами в медицинской отрасли, г-жа Нелли Б. хорошо осведомлена с медицинскими стилями документации. У нее есть более 5 лет опыта в редактировании научных статей связанных с медициной.
+</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Otolaryngology, Rehabilitation Sciences, Speech/Audio Therapy
+                            Medical Education, Pediatrics, Cognitive Science, Health Information Management, Healthcare Policies/Economics, Hospital Management/Administration, Public Health Management/Administration, General Medicine, Physiology, Radiology/Imaging, Infertility </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Winner of the peer-elected position of Victorian President of the Audiological Society of Australia 2 years in a row</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Diploma of Publishing, Australian College, QED, Australia<br />
+                            Diploma in Audiology, Melbourne University, Australia<br />
+                            Bachelor of Arts, Linguistics (Monash University) </td>
+                            </tr>
+                        
+                              <td class="head">Сертификаты и награды</td>
+                              <td>President of Victorian Branch of the Audiological Society of Australia</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>District Manager/Paediatric Audiologist, Australian Hearing</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor29"> <img src="editor-profile/images/editor29b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Nancy B | <span>PhD in Developmental Biology</span></div>
+                        <ul>
+                              <li>С опытом исследования  в области онтогенетики и более 5 лет опыта научного редактирования, доктор Нэнси Б. является экспертом в редактировании онтогенетики и смежных тем.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Neurobiology, Developmental Biology, Biochemistry, Molecular Biology, and Genetics</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Writing featured in UCL Science, a publication for schools to inspire tomorrow’s scientists</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, Developmental Biology, University College London, Gower Street, London, UK<br />
+                            BSc (Honors), Anatomy & Developmental Biology, University College London, Gower Street, London, UK </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Assistant Editor, The Obstetrician & Gynaecologist Royal College of Obstetricians and Gynaecologists<br />
+                            Junior Technician, UCL Zebrafish Facility, Department of Anatomy & Developmental Biology, University College London </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor30"> <img src="editor-profile/images/editor30b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Molly P | <span>PhD in Cardiovascular Enzymology</span></div>
+                        <ul>
+                              <li>С более чем 15 годами исследования в специализированных областях как сердечно-сосудистые, легочные и воспалительные заболевания, доктор Молли П является хорошо осведомленной в области редактирования рукописей во многих областях медицины и биологии. Она также была членом редакционной коллегии журналов, среди которых Международный журнал хронической обструктивной болезни легких и  токсикологических препаратов при метаболизме.</li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Cancer Research, Cell Biology, Enzymology, Molecular Biology, Structural Biology, Pharmaceutical Research, Biomedical Research (Experimental Medicine), Infectious Disease, Molecular Medicine, Pulmonology/Respiratory Medicine, Vascular Medicine, Cardiology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Numerous grants by NIH
+                            Official Medical/Scientific Advisor & Writer for PutMeBackTogether.com, BloomingRoseFoundation.org, and Flatley Discovery </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Postdoctoral Research, Electrophysiology, University of Sherbrooke, Canada<br />
+                            Postdoctoral Research, Pulmonary Pharmacology, Cystic Fibrosis/Pulmonary Research and Treatment Center, NC, USA,<br />
+                            PhD, Cardiovascular Enzymology, University of Sherbrooke, Canada <br />
+                            Masters’ degree, Plant Biochemistry, University of Sherbrooke, Canada<br />
+                            Bachelors’ degree, Biology (Honors), University of Concordia, Canada </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Editorial board member of Open Arthritis Journal, Open Rheumatology Journal, ISRN Pulmonology Journal, International Journal of COPD, and Drug Metabolism and Toxicology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>More than 25 publications in journals such as American Journal of Physiology, Journal of Biological Chemistry, Biochemistry, Journal of Physiology, American Journal of Respiratory Cell and Molecular Biology, Journal of Pharmacology and Experimental Therapeutics, Drug Development Research, and Biochimica et Biophysica Acta</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>CFRx (Research Institute) – Advisor on Infectious Diseases, Cornell University, Ithaca, NY<br />
+                            Research Assistant Professor, Cystic Fibrosis Pulmonary Research/Treatment Center </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor33"> <img src="editor-profile/images/editor33b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Jamie D | <span>PhD in Pathology </span></div>
+                        <ul>
+                              <li>Медицинский автор и нейробиолог с более чем 8 летним опытом в академии, доктор Джейми Д изучал нейротравму и болезнь Альцгеймера с акцентом на преклинические терапевтические применения. Он действовал в качестве рецензента для многих престижных журналов и опубликовал более чем 10 научных статей в известных международных журналах. </li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Biomedical Research, Neurology, Clinical/Anatomical Pathology, Neuroscience, Clinical Medicine, Lipid Research, Anatomy</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>An ad hoc reviewer for NH&MRC<sup class="sup">TM</sup> project grant applications</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD Pathology University of Adelaide, Department of Pathology, Adelaide, Australia<br />
+                            Bachelor of Health Sciences (Honours), University of Adelaide, Adelaide, Australia </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Journal of Neurotrauma, Journal of Neurochemistry, Journal of Cerebral Blood Flow and Metabolism, Journal of Lipid Research, Journal of Biological Chemistry, Current Opinion in Neurology, Journal of Neuroscience Research</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>BBA Journal, Journal of Biological Chemistry, The Journal of Neuroscience, Journal of Neurotrauma</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td><strong>Awards:</strong> International Conference on Alzheimer’s disease Travel Award, Canadian Institute of Health Research Fellowship Travel Award, International Neurotrauma Symposium Travel Award<br />
+                            <strong>Fellowships:</strong> Alzheimer’s Society of Canada,Ray Congdon Postdoctoral Fellowship, University of BC, Arthur & June Willms Postdoctoral Fellowship </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Clinical Monitor and Laboratory Technician, CMAX Clinical Drug Studies Unit, Adelaide, Australia<br />
+                            Research Assistant, University of Adelaide, Australia </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor36"> <img src="editor-profile/images/editor36b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Ellen G | <span>PhD in Biochemistry</span></div>
+                        <ul>
+                              <li>У доктора Эллен Г. есть более чем 5 летний опыт редактирования для английских авторов нерезидентов, специализирующихся на генетике, молекулярной биологии, цитобиологии, биологии рака, биомедицине, и смежных областях. Она опубликовала статьи в журналах, таких как BMC Bioinformatics и Nucleic Acid Research.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Cancer Research, Cell Biology, Evolutionary Biology, Applied Genetics, Genetics, Genetic Engineering, Genomics, Pharmaceutical Microbiology, Molecular Biology, Proteomics/Protein Studies, Structural Biology, Zoology, Nucleic Acid Research, Pharmacogenomics</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>
+                            PhD, Biochemistry, Institute of Biochemistry and Biophysics, Poland<br />
+							MSc, Information Technology, University College, London, England<br />
+                            MSc, Biochemistry, Warsaw University, Poland</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>BMC Bioinformatics, Proteomics, International Journal of Developmental Biology, and Nucleic Acids Research</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Research Assistant/Technical Expert in Informatics and Bioinformatics, CIC bioGUNE, Bilbao, Spain<br />
+								Scientific Computing Analyst: Cheminformatics, Celltech R&D, Cambridge, England<br />
+                            Senior Software Engineer, Labsystems Affinity Sensors, Bar Hill, Cambridge</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <!--  new editors end -->
+                      
+                      <div class="cleaner"></div>
+                    </div>
+              </ul>
+                  <ul id="core" class="hide">
+                <div id="editor-pro">
+                      <ul>
+                      <li><a id="various1" rel="example_group1" href="#editor41"><img src="editor-profile/images/editor41s.jpg" alt="" width="150" height="166" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Geological Sciences</div>
+                        </li>
+                        <li><a id="various1" rel="example_group1" href="#editor20"><img src="editor-profile/images/editor20s.jpg" alt=""  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt="" /></div>
+                          <div class="edu-head">MS in Tele- communications</div>
+                        </li>
+                      <li><a id="various1" rel="example_group1" href="#editor51"><img src="editor-profile/images/editor51s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">BSc in Chemistry</div>
+                        </li>
+                      
+                    
+                    <li class="last"><a id="various1" rel="example_group1" href="#editor27"><img src="editor-profile/images/editor27s.jpg" alt=""  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt="" /></div>
+                          <div class="edu-head">BA in Technical Communications</div>
+                        </li>
+                      <li><a id="various1" rel="example_group1" href="#editor40"><img src="editor-profile/images/editor40s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Organic Chemistry</div>
+                        </li>
+                        <li><a id="various1" rel="example_group1" href="#editor22"><img src="editor-profile/images/editor22s.jpg" alt=""  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt="" /></div>
+                          <div class="edu-head">Masters in Marine Affairs</div>
+                        </li>
+                        <li><a id="various1" rel="example_group1" href="#editor42"><img src="editor-profile/images/editor42s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Earth and Space Sciences</div>
+                        </li>
+                    <li class="last"><a id="various1" rel="example_group1" href="#editor38"><img src="editor-profile/images/editor38s.jpg" alt=""  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt="" /></div>
+                          <div class="edu-head">PhD in Organic Chemistry</div>
+                        </li>
+                        <li><a id="various1" rel="example_group1" href="#editor26"><img src="editor-profile/images/editor26s.jpg" alt=""  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt="" /></div>
+                          <div class="edu-head">PhD in Wireless Communications</div>
+                        </li>
+                        <li><a id="various1" rel="example_group1" href="#editor45"><img src="editor-profile/images/editor45s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Chemistry</div>
+                        </li>
+                        <!--<li><a id="various1" rel="example_group1" href="#editor10"><img src="editor-profile/images/editor10s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt="" /></div>
+                          <div class="edu-head">PhD in Physics</div>
+                        </li>-->
+                      <li><a id="various1" rel="example_group1" href="#editor11"><img src="editor-profile/images/editor11s.jpg" alt=""  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt="" /></div>
+                          <div class="edu-head">PhD in Bioinorganic Chemistry</div>
+                        </li>  
+                       <li class="last"><a id="various1" rel="example_group1" href="#editor31"><img src="editor-profile/images/editor31s.jpg" alt=""  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt="" /></div>
+                          <div class="edu-head">PhD in Semiconductor Physics</div>
+                        </li> 
+                    <li><a id="various1" rel="example_group1" href="#editor43"><img src="editor-profile/images/editor43s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">Master in Economics of Science</div>
+                        </li>
+                    <!--<li><a id="various1" rel="example_group1" href="#editor12"><img src="editor-profile/images/editor12s.jpg"  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" /></div>
+                          <div class="edu-head">PhD Computer Science</div>
+                        </li>
+                        <li><a id="various1" rel="example_group1" href="#editor32"><img src="editor-profile/images/editor32s.jpg"  /><br /></a><div class="edu-icon">
+		  <img src="editor-profile/images/edu-icon.gif" /></div><div class="edu-head">PhD Organic Chemistry</div></li> 
+                    <li><a id="various1" rel="example_group1" href="#editor35"><img src="editor-profile/images/editor35s.jpg"  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" /></div>
+                          <div class="edu-head">PhD in Geological Sciences</div>
+                        </li>-->
+                  </ul>
+                      <div  style="display: none;">
+                    <div id="editor10"> <img src="editor-profile/images/editor10b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Shirley G | <span>PhD in Physics</span></div>
+                        <ul>
+                              <li>Доктор Ширли Г. не только руководил студентами в области Физики и Астрономии, но также и выполнил совместное исследование со многими коллегами в той же области. У нее есть более чем 6 летний опыт в качестве  научного редактора, и она специализируется на передаче сложных мыслей нетехнической аудитории.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Applied Physics, Astronomy & Astrophysics, Crystal Physics, Fluid Physics, Optics, Plasma Physics/Chemistry, Quantum Physics, Spectroscopy (Mass/Solid State/Molecular)</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>During her stint as a student researcher, she was instrumental in testing a popular data analysis tool developed for the Spitzer Space Telescope. Her work at the university included extending the code for inferring elemental abundances from planetary nebulae spectra and integrating software packages for modeling stellar and nebular radiation. </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Doctor of Philosophy, Physics, Cornell University <br />
+                            Master of Science, Physics, Cornell University<br />
+                            Bachelor of Science, Physics (magna cum laude), University of California </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Astronomy & Astrophysics and Advances in Physics</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Graduate Student Researcher, Astronomy Department, Cornell University, Ithaca, NY<br />
+                            Graduate Student Teaching Assistant, Astronomy and Physics Departments, Cornell University, Ithaca, NY </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor11"> <img src="editor-profile/images/editor11b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Dr Rosina D | <span>PhD in Bioinorganic Chemistry</span></div>
+                        <ul>
+                              <li>Почти  15 летний опыт в фармацевтической области и сильном уровне образовательной подготовки, она обладает знаниями и пониманием правописания, научного редактирования и комментирования широкого диапазона медицинских и фармакологических тем, в особом узко-специальной направлении экспертизы в кардиологии, заживлении раны, лёгочном заболевании, и гематологии.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Cardiology, Wound Management, Respiratory Health and Hematology, Analytical Chemistry, Applied Chemistry, Coordination Chemistry, Inorganic Chemistry, Organic Chemistry </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, Bioinorganic Chemistry, University of Nottingham <br />
+                            BSc, Chemistry, University of Durham </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Associated with Medical Action Communications (formerly part of the Quintiles Group)</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Account Director, Langland (Medical Advertising Agency)<br />
+                            Project Manager, Medical Action Communications<br />
+                            Senior Medical Writer, Sanofi </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor12"> <img src="editor-profile/images/editor12b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Sean T | <span>PhD in Microbiology</span></div>
+                        <ul>
+                              <li>Участвуя активно в исследованиях рака более 40 лет, у доктора Шон Т есть огромный список публикаций и обширный опыт, действующего в качестве рецензента для  многих престижных журналов.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Areas of expertise</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Notable achievements</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Education</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Peer-review experience </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Publication experience</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Certificates and awards</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Work experience</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      
+                      <!--  new editors subject B  -->
+                      <div style="display: none;">
+                    <div id="editor20"> <img src="editor-profile/images/editor20b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Lori W | <span>MS in Telecommunications</span></div>
+                        <ul>
+                              <li>Авторитетный технологический автор для Bell Labs, у г-жи Лори В. есть обширный опыт редактирования в химии и смежных областях. У нее также есть опыт в управлении и проектировании веб-сайтов издательских ресурсов.</li>
+                            </ul>
+                            <img src="editor-profile/images/book-author-bt.png" alt="" class="peer-head" />
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Analytical Chemistry, Applied Chemistry, Coordination Chemistry, Inorganic Chemistry, Organic Chemistry, Physical Chemistry, Solid State Chemistry, Astrochemistry, Nuclear Chemistry, Ceramics, Nanomaterials, Polymer Science and Engineering, Plasma Physics/Chemistry, Biomaterial Science</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Wrote well-received articles on photonics, sonar arrays, lithium batteries, computer architecture, and related topics for Bell Lab’s external science and technology magazine; created and maintained the editorial style and indexing guides; spearheaded an early SGML-based document-management initiative, and designed and managed intranet project management and publications resources websites</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>MS, Telecommunications, University of Colorado, Boulder, CO, USA<br />
+                            MS & ABD, Chemistry, University of Michigan, Ann Arbor, MI, USA<br />
+                            AB, Chemistry, Cornell University, Ithaca, NY</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Contract Writer/Editor, Avaya, Polycom<br />
+Senior Technical Writer, Cisco Systems<br />
+Documentation Manager, Bell Labs/AT&T/Lucent/Avaya
+</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor22"> <img src="editor-profile/images/editor22b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Naomi L | <span>Masters in Marine Affairs</span></div>
+                        <ul>
+                              <li>Этот редактор вел работу по научному редактированию в Национальном управлении по исследованию океанов и атмосферы. Во время данной работы, она представила рецензии примерно 60 научных статей из двух международных симпозиумов, из которых она получила огромный опыт.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Environmental Chemistry, Geochemistry, Marine Chemistry, Atmospheric Sciences, Environmental Science, Mineralogy, Oceanography, Ocean Engineering, Environmental Engineering, Environmental Material Sciences, Ecological Engineering</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Summarized and annotated over 200 scientific papers on many aspects of Narragansett Bay including policy, phytoplankton, benthos, etc.</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Masters in Marine Affairs, MMA, University of Rhode Island, USA<br />
+                            Masters of Science, Chemical Oceanography, University of Rhode Island, USA<br />
+                            Certificate des Etudes, La Sorbonne, Paris, France<br />
+                            BSc, Geology, Cum Laude. New England College, Henniker, New Hampshire, USA</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>The editor has worked with major publishers such as Blackwell Science, Nature, and has published over 20 papers in journals such as Journal of Geophysical Research, Journal of New England Water Works Association</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Gubernatorial Appointee, Rhode Island Coastal Resources Management Council<br />
+                            Member of Aquaculture Subcommittee and Dredging Subcommittee, Rhode Island Coastal Resources Management Council, State of Rhode Island </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Graduate Student Researcher, Astronomy Department, Cornell University, Ithaca, NY<br />
+                            Graduate Student Teaching Assistant, Astronomy and Physics Departments, Cornell University, Ithaca, NY </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor26"> <img src="editor-profile/images/editor26b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Leo H | <span>PhD in Wireless Communications</span></div>
+                        <ul>
+                              <li>Доктор Лео Х – активный исследователь в технике дальней связи. У него есть практическое знание японского языка, который весьма помогает ему в редактировании научных статей, написанных японскими авторами. </li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Information Technology, Systems Engineering, Electronics Engineering, Telecommunication Engineering, Computer Science, Image Processing, Electrical Engineering</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>G8 Summit English Support Staff: Provided language support for delegates and journalists attending the G8 Summit at Lake Toya</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Postdoctoral Researcher, Wireless Networks and Bio-Electromagnetics<br />
+                            PhD, Engineering (Wireless Communications), Hokkaido University, Japan<br />
+                            Japanese Language Student, International Student Centre, Hokkaido University, Japan & Lancaster University, England <br />
+                            MSc, Space Communications Engineering (Distinction), University of the West Indies, Trinidad <br />
+                            BSc, Electrical & Computer Engineering, New Horizons Training Center, Jamaica </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>IEICE Transactions and Limnology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Member of Institute of Electrical & Electronic Engineers (IEEE)</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Postdoctoral Researcher, Institut d'Électronique et de Télécommunications de Rennes (IETR)
+                            Lecturer, The University of Technology, Jamaica </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor27"> <img src="editor-profile/images/editor27b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Tom I | <span>BA in Technical Communications </span></div>
+                        <ul>
+                              <li>Из-за его превосходной технической истории, г-н Том И. чрезвычайно владеет мастерством осуществления новых проектных технологий и программных средств. Он был также ответственен за управление техническими проектами правописания, руководил авторами, назначенными в проекты, разрабатывал и редактировал справочники работая директором отдела документации в одной из его предыдущих компаний.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Applied Information Sciences, Computer Networking, Computer Science, Computer Software, Information Management, Knowledge Management, Multimedia, Hypermedia, Programming Languages, Software Engineering </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>IBM Management School (technical writing and editing, multimedia, business environment, project planning and management, graphics, development lifecycle, technical writing tools, software tools, Six-Sigma Quality training, etc.)<br />
+                            BA, Technical Communications, summa cum laude, St. Edward’s University, Austin Texas </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Senior Research Writer, EBSCO Publishing, Inc.<br />
+                            Project Manager, Senior Technical Writer, Editor,  InfoPros, Inc.<br />
+                            Sr. Technical Writer, Documentation Manager, and Editor,  IBM Corebank International Center, Copenhagen, Denmark. </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor31"> <img src="editor-profile/images/editor31b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Alec L | <span>PhD in Semiconductor Physics</span></div>
+                        <ul>
+                              <li>С опытом исследования в ядерной физике, физике элементарных частиц, и нанотехнологии, доктор Алек Л вполне квалифицирован по редактированию документы почти во всех областях физики.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Engineering Physics, Nanoengineering, Nanotechnology, Signal Processing, Biophysics, Computational Physics, Condensed Matter Physics, Low Temperature Physics, Mathematical Physics, Mechanics, Molecular Physics, Quantum Physics, Semiconductor Physics, Theoretical Physics, Design Of Experiments, Statistical Modeling</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Secretary and Chairman of the Cambridge Physics Society</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, Semiconductor Physics, Cavendish Laboratory, Cambridge University<br />
+                            MSc + BA (Hons), Physics Class 1, Trinity College, Cambridge University<br />
+                            International Baccalaureate, International School of Geneva </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Journal of Biomechanical Engineering, Physical Review B, PNAS, and Physica E</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Member of European Association of Science Editors, Editorial Board of Applied Physics Research, St. Thomas’s Hospital Research Ethics Committee</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Research Associate, actin dynamics and cell motility, London Centre for Nanotechnology, University College London<br />
+                            Research Associate, Single-molecule and cell manipulation with optical tweezers, Randall Division for Cell and Molecular Biophysics, King’s College London<br /></td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      
+                      <!--<div style="display: none;">
+		<div id="editor32">
+			<img src="editor-profile/images/editor32b.jpg" class="profile-img" align="left" width="188" height="178" />
+            <div id="key-heighlight">
+            <div class="headline">Sean T | <span>PhD in Microbiology</span></div>
+            <ul>
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+            <li>&nbsp;</li>
+            </ul>
+            
+            
+            
+            <div class="cleaner"></div>
+            </div>
+            
+            <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="head" width="135">Специализация</td>
+    <td>Areas of expertise</td>
+  </tr>
+  <tr>
+    <td class="head">Примечания Достижения</td>
+    <td>Notable achievements</td>
+  </tr>
+  <tr>
+    <td class="head">Специализация</td>
+    <td>Education</td>
+  </tr>
+  <tr>
+    <td class="head">Предварительный обзор Опыт</td>
+    <td>Peer-review experience </td>
+  </tr>
+  <tr>
+    <td class="head">Публикации Опыт</td>
+    <td>Publication experience</td>
+  </tr>
+  <tr>
+    <td class="head">Сертификаты и награды</td>
+    <td>Certificates and awards</td>
+  </tr>
+  
+  
+  <tr>
+    <td class="head">Трудовой стаж</td>
+    <td>Work experience</td>
+  </tr>
+</table>
+		</div>
+	</div> -->
+                      
+                      <div style="display: none;">
+                    <div id="editor35"> <img src="editor-profile/images/editor35b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Sean T | <span>PhD in Microbiology</span></div>
+                        <ul>
+                              <li>Участвуя активно в исследованиях рака более 40 лет, у доктора Шон Т есть огромный список публикаций и обширный опыт, действующего в качестве рецензента для  многих престижных журналов.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Areas of expertise</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Notable achievements</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Education</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Peer-review experience </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Publication experience</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Certificates and awards</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Work experience</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor38"> <img src="editor-profile/images/editor38b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Tracy M | <span>PhD in Organic Chemistry</span></div>
+                        <ul>
+                              <li>Работая профессиональным ученым в течение многих лет, доктор Трейси М получила ценный опыт исследования во многих областях химии. Тот опыт исследования наряду с ее опытом редактирования более чем 12 лет делает ее способной в обработке всех сложных документов. </li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Analytical Chemistry, Biochemistry, Inorganic Chemistry, Natural Products Chemistry, Organic Chemistry, Organometallic Chemistry 
+                            Spectroscopy, Structural Chemistry, Biotechnology, Chemical Engineering </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Received a letter of appreciation from the Journal of Medicinal Chemistry for being one of their top-tier reviewers</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD Organic Chemistry, The Ohio State University, Columbus, OH, USA<br />
+                            BA, magna cum laude, Chemistry, The University of Indianapolis, Indianapolis, IN, USA </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Journal of Medicinal Chemistry</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Journal of Medicinal Chemistry, Bioorganic and Medicinal Chemistry, Journal of Combinatorial Chemistry, and Tetrahedron Letters</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Principal Scientist/Senior Scientist, Boehringer Ingelheim Pharmaceuticals, Inc., Ridgefield, CT<br />
+                            Graduate Research Associate, Department of Chemistry, The Ohio State University<br />
+                            Organic Chemist/Associate Organic Chemist, Eli Lilly and Company, Indianapolis </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      
+                      <!--  new editors end  -->
+                      
+                      <div class="cleaner"></div>
+                    </div>
+              </ul>
+                  <ul id="jquerytuts" class="hide">
+                <div id="editor-pro">
+                      <ul>
+                    <li><a id="various1" rel="example_group2" href="#editor17"><img src="editor-profile/images/editor17s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">PhD in Comparative Literature</div>
+                        </li>
+                    <li><a id="various1" rel="example_group2" href="#editor13"><img src="editor-profile/images/editor13s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt="" /></div>
+                          <div class="edu-head">MA in Economics</div>
+                        </li>
+                    <li><a id="various1" rel="example_group2" href="#editor16"><img src="editor-profile/images/editor16s.jpg" alt="" /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">Doctor of Education</div>
+                        </li>
+                    <li class="last"><a id="various1" rel="example_group2" href="#editor18"><img src="editor-profile/images/editor18s.jpg" alt=""  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt=""  /></div>
+                          <div class="edu-head">MBA in Finance & Policy Studies</div>
+                        </li>
+                    
+                    <!-- new editors -->
+                    <li><a id="various1" rel="example_group2" href="#editor34"><img src="editor-profile/images/editor34s.jpg" alt=""  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt="" /></div>
+                          <div class="edu-head">PhD in English</div>
+                        </li>
+                    <li><a id="various1" rel="example_group2" href="#editor37"><img src="editor-profile/images/editor37s.jpg" alt=""  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt="" /></div>
+                          <div class="edu-head">PhD in English Literature</div>
+                        </li>
+                    <!-- new editors end --> 
+                    <!--<li><a id="various1" rel="example_group2" href="#editor14"><img src="editor-profile/images/editor14s.jpg"  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" /></div>
+                          <div class="edu-head">MA Intercultural Relations</div>
+                        </li>-->
+                    <li><a id="various1" rel="example_group2" href="#editor15"><img src="editor-profile/images/editor15s.jpg" alt=""  /><br />
+                      </a>
+                          <div class="edu-icon"> <img src="editor-profile/images/edu-icon.gif" alt="" /></div>
+                          <div class="edu-head">Juris Doctor</div>
+                        </li>
+                  </ul>
+                      <div  style="display: none;">
+                    <div id="editor13"> <img src="editor-profile/images/editor13b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Dustin N | <span>MA in Economics</span></div>
+                        <ul>
+                              <li>Г-н Дастин Н написал и редактировал материал по экономике и финансам для большинства высокопоставленных руководителей фирм и правительства, включая трех американских Сенаторов. У него есть более 30 лет опыта в области корпоративной коммуникации.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Banking, Business, Economics, Human Resources, Philosophy</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Author of nine books about economics, investor relations, personal finance intermediate fluency in German<br />
+                            Taught courses in Treasury securities and financial markets for Wall Street professionals and the former U.S. League of Savings Institutions. </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>BA, Public Relations Journalism, University of Iowa<br />
+MA, English, University of Iowa<br />
+MA, Financial Journalism, University of Iowa<br />
+MFA, Expository Writing, University of Iowa<br />
+MA, Economics, Case Western Reserve</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Director of Corporate Communication, Freddie Mac Corporation<br />
+                            Director of Corporate Communication, United States Senate<br />
+                            Director of Corporate Communication, Hartmarx Corporation</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor14"> <img src="editor-profile/images/editor14b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Sean T | <span>PhD in Microbiology</span></div>
+                        <ul>
+                              <li>Участвуя активно в исследованиях рака более 40 лет, у доктора Шон Т есть огромный список публикаций и обширный опыт, действующего в качестве рецензента для  многих престижных журналов.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Areas of expertise</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Notable achievements</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Education</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Peer-review experience </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Publication experience</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Certificates and awards</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Work experience</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor15"> <img src="editor-profile/images/editor15b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Andrea J | <span>Juris Doctor</span></div>
+                        <ul>
+                              <li>С опытом редактирования больше чем 200 рукописей на собственном опыте, г-жа Андреа Дж. хорошо знает все принципы и ключевые моменты научного редактирования. В ее выдающейся карьере в качестве адвоката, она не только написала меморандумы для судов, приказы, и ходатайство для отмены судебного дела и разногласий по опеке над детьми, но также и обсуждала, разрабатывала и редактировала различные юридические документы.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Entrepreneurship, Human Resources, Law, Management, Marketing , Literature, Theology/Religion, Speech Communication</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Authored and edited size book reviews.</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>JD, Stetson University College of Law<br />
+                            BA English, Trinity University</td>
+                            </tr>
+                        
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Gubernatorial Appointee, Rhode Island Coastal Resources Management Council
+                            Member of Aquaculture Subcommittee and Dredging Subcommittee, Rhode Island Coastal Resources Management Council, State of Rhode Island</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Board Member, Democratic Professionals Council<br />
+                            Campaign Associate, Bryan Miller for Florida State House<br />
+                            Attorney, Joel Weissman, P.A<br />
+                            Law Clerk, Civil Appeals Coordinator, Family/County/Juvenile/Probate Coordinator, 15th Judicial Circuit Court, Palm Beach </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor16"> <img src="editor-profile/images/editor16b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Dr Teresa D | <span>Doctor of Education</span></div>
+                        <ul>
+                              <li>Доктор Тереза Д обеспечивает управление проектом публикации, опыт сочинения и редактирования для редактирования копий, независимого научного редактирования, и разработки содержания в газете и электронных носителях. У нее есть опыт в разработке делового содержания для фирм технологических исследований, таких как Gartner Research.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Law, Library Sciences, Literature, Philosophy, Psychology, Business Administration, Management, Entrepreneurship</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Periodic articles and editing services for CMP publications: New Architect, Web Techniques, Web Review<br />
+                            Periodic articles for ClickZ.com <br />
+                            Periodic business and technology analysis articles for Gartner Research<br />
+                            Weekly column, "Training for E-Business," for marketing portal ClickZ.com<br />
+                            International Speaking Engagements on CPI and Business Re-Engineering topics </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Doctor of Education, Industrial Psychology (Adult Education/Instructional Design/Performance Improvement): Nova University, Ft. Lauderdale, FL <br />
+                            Master of Arts, Public Administration: Loyola College, Baltimore, MD. <br />
+                            Master of Arts, Speech & Theatre: Indiana University, Bloomington, IN </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Insurance Learning Solutions Designer and Editor, MetLife<br />
+                            Workforce Development Quality Assurance Program Manager United Information Technologies, Inc.<br />
+                            Senior Editor, Diamond Edge Business Communications </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor17"> <img src="editor-profile/images/editor17b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Dr Laura W | <span>PhD in Comparative Literature</span></div>
+                        <ul>
+                              <li>С более чем 30 летним опытом редактирования, доктор Лора В. обладает обширным опытом в литературе. Она предоставила услуги экспертной оценки многим академическим журналам и была автором важных цитат в литературе.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Literature, History, Political Science, European Studies, Humanities, Psychology, Germanic Studies</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Author of a book about women’s literature in World War II</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, Comparative Literature, Indiana University Bloomington, Bloomington, IN, USA 
+                            MA, German, Indiana University Bloomington, Bloomington, IN, USA 
+                            BA, German and Political Science, Indiana University-Purdue University, Fort Wayne, IN, USA </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>The Journal Clio: A Journal of Literature, History and the Philosophy of History (Indiana University-Purdue University, Fort Wayne)</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Adjunct Faculty, Department of English, Queens University of Charlotte<br />
+                            English Instructor, Department of English and Linguistics, Indiana University-Purdue University Fort Wayne<br />
+                            Adjunct Faculty, Department of English, Manchester College<br />
+                            Assistant Professor, Department of English, Illinois State University, Normal, IL</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor18"> <img src="editor-profile/images/editor18b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Tamara K | <span>MBA in Finance & Policy Studies</span></div>
+                        <ul>
+                              <li>У г-жи Тамары К есть более чем 8 летний опыт в передаче корпоративного контроля во всех формах, включая покупку и обмен активами, которое включает (соединение компаний в одну),   приобретение компаний, выкуп акций заёмными средствами  на Уолл-стрит, ее обязанности состоят из выполнения сделок, работы с клиентами, и презентации правления. У нее есть более чем 7 летний опыт научного редактирования.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Banking, Business Management, Business Administration, Corporate Finance, E-Commerce, Mathematics</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>MBA with Honors, Finance and Policy Studies, University of Chicago Graduate School of Business
+                            A.B., Applied Mathematics, Harvard College </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>English Editor, Online English, a division of PressCorps Pty Ltd, Sydney (online)<br />
+                            English Editor, Technology Exchange Communication<br />
+                            English Editor, Mind Your Language, Hong Kong (online)<br />
+                            Investment Banker, Mergers & Acquisitions, Merrill Lynch, Chase H&Q, Salomon Brothers </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      
+                      <!--  new editors subject CD  -->
+                      <div style="display: none;">
+                    <div id="editor34"> <img src="editor-profile/images/editor34b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Alvin B | <span>PhD in English</span></div>
+                        <ul>
+                              <li>Кроме редактирования статей в журнале и журналах, доктор Алвин Б редактировал многочисленные книги. Он преподавал на университетском уровне и получил награды за редактирование. Его языковая экспертиза помогла многим иностранным авторам</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Educational Philosophy, History, Language and Linguistics, Literature, Performing Arts, Visual Arts, Ethics, History of Philosophy, Philosophical Traditions, Political Philosophy, Political Science, Sociology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Edited many fiction and nonfiction books in various fields. Supervised the production of ABA publications.</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, English, Penn State University, USA<br />
+MA, English, Penn State University, USA<br />
+BA, English, Allegheny College, Meadville, PA, USA
+</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>American Literature, American Literary Realism, English Language Notes, English Studies, The Explicator, The Henry James Review, and Papers on Language & Literature</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Best edited book award from Colorado Independent Publishers Association</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Senior Editor, About Books, Inc., Colorado Springs, CO<br />
+                            Director of Publications, American Birding Association (ABA) Colorado Springs, CO <br />
+                            Assistant Professor of English, Southern Illinois University (SIUE) Edwardsville, IL <br />
+                            Assistant Professor of English, James Madison University  Harrisonburg, VA </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div style="display: none;">
+                    <div id="editor37"> <img src="editor-profile/images/editor37b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Ruth M | <span>PhD in English Literature</span></div>
+                        <ul>
+                              <li>Публикации, включая академические статьи, рецензии на книгу, учебники для образовательных веб-сайтов, работы над массовой культурой, создание контента, и социальные материалы СМИ, доктор Рут М может приспособиться к стилям письма от диалоговых проз и академического языка до формального написания. У нее есть более 5 лет опыта научного редактирования.</li>
+                            </ul>
+                            <img src="editor-profile/images/book-author-bt.png" alt="" class="peer-head" />
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Curriculum and Instruction, Distance Education, History, Language and Linguistics, Literature, Performing Arts, Nonverbal Communication, Web Content Development, Aesthetics, Cultural and Ethnic Studies, Gender and Sexuality Studies</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Contributing Writer for AP European History Course and AP World History Course, published by www.k12.com<br />
+                            Primary Writer and Contributor for Study Guides published at www.shmoop.com</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, English Literature, University of California, Santa Barbara, USA<br />
+                            MA, English Literature, University of California, Santa Barbara, USA<br />
+                            BA, English and B.F.A. in Ballet Performance, University of Utah, USA</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Instructor, Grantham University<br />
+                            Instructor, Education Program for Gifted Youth, Stanford University<br />
+                            Teaching Associate and Lecturer, University of California, Santa Barbara </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <!--=======================================================================================New Profiles===============================================================================-->
+                      <div style="display: none;">
+                    <div id="editor39"> <img src="editor-profile/images/editor39b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Amily C | <span>PhD in Public Health (Policy)</span></div>
+                        <ul>
+                              <li>Доктор Эмили К активно вела исследование в области эпидемиологии и здравоохранения в течение прошлых 17 лет. Кроме оказания редакционных услуг, она также предоставляет консультативные услуги по программам здоровья матери и ребенка.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Cancer Research, Embryology, Anthropology, Alternative Medicine, Chiropractic Medicine, Biomedical Research (Experimental Medicine), Epidemiology, Health Information Management, Public Health Management/Administration, Healthcare Policies/Economics, Infectious Diseases, Medical Education, Family Planning, Obstetrics, Gynecology, Perinatology, Pediatrics, Physiology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD Public Health (Policy), University of Texas Health Science Center School of Public Health<br />
+                            MA, Human Services Administration, St. Edward’s University<br />
+                            BA, Business Administration, Coe College </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Journal of Maternal-Fetal and Neonatal Medicine, American Journal of Medical Genetics, Clinical and Molecular Teratology, Preventive Medicine, Journal of Genetic Counseling</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Policy & Prevention Researcher, Texas Department of State Health Services Birth Defects Epidemiology & Surveillance<br />
+                            Information Specialist, Texas Department of State Health Services Bureau of Kidney Health Care<br />
+                            Adjunct Faculty, Austin Community College Department of Management </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor40"> <img src="editor-profile/images/editor40b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Carol C | <span>PhD in Organic Chemistry</span></div>
+                        <ul>
+                              <li>Активный исследователь больше 10 лет, доктор Кэрол К использовала ее опыт в химии и родственных темах для Enago. Кроме редактирования многочисленных рукописей, она также является автором книг в своей области экспертизы и опубликовала статьи в рецензируемых журналах, таких как JACS.</li>
+                            </ul>
+                            <img src="editor-profile/images/book-author-bt.png" alt="" class="peer-head" />
+                            <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Applied Chemistry, Biochemistry, Coordination Chemistry, Inorganic Chemistry, Natural Products Chemistry, Organic Chemistry, Organometallic Chemistry, Catalysis, Nanomaterials, Polymer Science and Engineering</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Has authored a comprehensive technical review on the chemistry of a specialty product and edited the Ashgate Handbook of Chiral Intermediates and the Ashgate Handbook of Chiral Drugs</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, Organic Chemistry, University of Chicago, Chicago, Illinois, USA <br />
+                            MBA, Management of Technology, Rensselaer Polytechnic Institute, Troy, New York, USA <br />
+                            NIH Predoctoral Fellow, University of Chicago, USA <br />
+                            BSc, Chemistry, Stanford University, Stanford, California, USA </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Tetrahedron letters, JACS </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Principle Consultant, C&M Consulting<br />
+                            Technical Services Director, Bedoukian Research Inc<br />
+                            Principal Research Chemist, ARCO Chemical Company </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor41"> <img src="editor-profile/images/editor41b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Dave F | <span>PhD in Geological Sciences</span></div>
+                        <ul>
+                              <li>Помимо редактирования многочисленных рукописей, доктор Дэйв Ф. редактировал книгу, созданную Комиссией Полезных ископаемых Ганы. Он был активен в области геологической разведки больше 30 лет.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Environmental Science, Geochemistry, Geography, Geology, Mineralogy, Petrology, Sedimentology, Tectonics, Volcanology Energy (General), Mining </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, Geological Sciences, University of California Los Angeles, USA <br />
+                            BSc, Geology, University of Pennsylvania, USA </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Registered Professional Geologist in Wyoming<br />
+                            Member, Geological Society of America<br />
+                            Former Member or Fellow, Geological Association of Canada, Society of Economic Geologists,  Association of Exploration Geochemists, Colorado Scientific Society, Sigma Xi, of a number of local professional geological societies </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Research Geologist, US Geological Survey<br />
+                            Consulting Geologist, Watts Griffis and McQuat, Denver, Colorado </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor42"> <img src="editor-profile/images/editor42b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Dennis K | <span>PhD in Earth and Space Sciences</span></div>
+                        <ul>
+                              <li>У доктора Денниса К есть более 10 лет опыта редактирования и прочный послужной список публикации в области Наук о Земле. Он также предоставил услуги по рецензиям многочисленным журналам.</li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Astrobiology, Environmental Chemistry, Geochemistry, Physical Chemistry, Geology, Geophysics, Mineralogy, Petrology, Volcanology, Civil Engineering, Environmental Material Sciences, Ceramics, Material Characterization and Instrumentation Thermodynamics </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Invited Speaker: Bavarian Geosciences Institute, University of Minnesota Duluth, University of Minnesota Twin Cities, Texas A&M University College Station, SUNY Stony Brook, Florida International University, Jet Propulsion Laboratory</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, Earth and Space Sciences, SUNY Stony Brook<br />
+                            MSc, Geology (minor Chemistry), University of Minnesota Duluth<br />
+                            Diploma, Geological Sciences, University of Athens, Greece </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>American Mineralogist, Chemical Geology, Geochimica et Cosmochimica Acta, Physics and Chemistry of Minerals, Geology, Meteoritics and Planetary Science, Lithos</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>American Mineralogist, Geochimica et Cosmochimica Acta, Earth and Planetary Science Letters</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Academy of Sciences C.A. Ktenas Prize in Mineral Sciences, Athens, Greece (joint with D.H. Lindsley)<br />
+                            Sigma Xi Graduate Research Award<br />
+                            Member of American Society for Quality, Statistics Division, European Geosciences Union, Eurostars Technical Expert, Intota Network of Experts, Geochemical Society, Geological Society of Greece </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Laboratory Director & Partner, GeoTerra Ltd - Geomechanics & Quality Control Laboratory, Athens, Greeece<br />
+                            Research Associate, Astromaterials Research Office, NASA JSC & Chemistry Dept., Texas Southern University, Houston, TX </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor43"> <img src="editor-profile/images/editor43b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Pete L | <span>Master in Economics of Science</span></div>
+                        <ul>
+                              <li>Технический редактор и высококвалифицированный экономист инновации с обширным опытом. У него есть серьезный список работы в мульти-дисциплинарных, международных группах, для предоставления высококачественной документации и проектов в области научного редактирования на  высоком  профессиональном уровне.</li>
+                            </ul>
+                            <img src="editor-profile/images/book-author-bt.png" alt="" class="peer-head" />
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Hydrogeology, Hydrology, Soil Science, Energy (General), Energy Conservation, Power Engineering, Renewable Energy/Alternate Sources, Biotechnology, Chemical Engineering, Civil Engineering, Ecological engineering, Process Engineering, Urban Engineering, Environmental Engineering </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Scholarship holder of Master of the Economics of Science and Innovation (2008)</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Master in the Economics of Science and Innovation (MSc), Universitat Autònoma de Barcelona & Universitat Pompeu Fabra<br />
+                            Bachelor of Engineering (Environmental) (Hons), The University of Queensland, Australia </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>IFRF Combustion Handbook</td>
+                            </tr>
+
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Energy-Environment Consultant and Technical Editor, International Flame Research Foundation (Netherlands & Italy)<br />
+                            Senior Consultant, Cardno (Management Services Unit)<br />
+                            Senior Infrastructure and Asset Management Consultant, Faber Maunsell AECOM (UK), Buro Happold (UK), South East Water (UK), Tube Lines (UK) </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor44"> <img src="editor-profile/images/editor44b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Sam L | <span>PhD in Medical Sciences</span></div>
+                        <ul>
+                              <li>Доктор Сэм Л. – активный исследователь в области медицинских наук, с многочисленными публикациями в рецензируемых журналах, таких как Журнал Вирусология и Клиническая и Вакцинальная Иммунология. У него есть более чем 5 лет  опыта научного  редактирования. </li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Cancer Research, Cell Biology, Genetics, Food Microbiology, Virology, Bacteriology, Mycology, Medical Microbiology, Molecular Biology, Microbiology, Andrology, Biomedical Research (Experimental Medicine), Clinical Microbiology, Endocrinology, General Medicine, General Surgery, Infectious Diseases, Gynecology, Oncology, Emergency Surgery</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Published more than 500 articles on LIVESTRONG.com and eHOW.com</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, Medical Sciences, University of Toledo<br />
+                            Master of Science, Medical Science, Medical College of Ohio<br />
+                            Bachelor of Science, Biology, University of Toledo </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Aquaculture Research Journal, Virology Journal, Archives of Virology, Applied Microbiology and Biotechnology Journal, Journal of Photochemistry and Photobiology B: Biology, Journal of Plastic, Reconstructive & Aesthetic Surgery, Clinical and Vaccine Immunology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Biological Research Assistant, Medical College of Ohio
+                            Adjunct Professor of Biology and Chemistry, Owens Community College
+                            Assistant Professor of Anatomy and Physiology, Herzing University, Toledo, OH </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor45"> <img src="editor-profile/images/editor45b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Tabansi N | <span>PhD in Chemistry</span></div>
+                        <ul>
+                              <li>Доктор Тэбэнси Н получил неоценимый опыт, работая в качестве младшего редактора для Редакционной коллегии NIH. Он  владеет особенным мастерством редактирования рукописей автора ESL во многих областях химии и физики.</li>
+                            </ul>
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Inorganic Chemistry, Nuclear Chemistry, Organic Chemistry, Physical Chemistry, Spectroscopy, Structural Chemistry, Bioinformatics, Biotechnology, Biophysics</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>NIH Postdoctoral Fellow</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, Chemistry with dual concentration in Biochemistry and Organic Chemistry, Georgia Institute of Technology, Atlanta, GA<br />
+                            BSc, Chemistry, University of Delaware, Newark, DE </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>International Journal of Radiation Biology, Journal of Radiation Research, Organic and Biomolecular Chemistry Journal</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td><strong>Awards:</strong><br />
+                            Radiation Research Society Travel Award <br />
+                            National Institutes of Health Postdoctoral Fellowship<br />
+                            Georgia Institute of Technology, Graduate Research Assistantship<br />
+                            Howard Hughes Summer Program Teaching Assistant Award<br />
+                            <strong>Memberships:</strong><br />
+                            Council of Science Editors Member<br />
+                            American Chemical Society Member<br />
+                            Radiation Research Society Member </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Associate Editor, NIH Fellows Editorial Board, Bethesda, MD<br />
+                            Postdoctoral Fellow, National Institutes of Health Clinical Center, Bethesda, MD<br />
+                            Graduate Research Assistant, Georgia Institute of Technology, Atlanta, GA </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor46"> <img src="editor-profile/images/editor46b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Alan N | <span>Doctor of Philosophy</span></div>
+                        <ul>
+                              <li>Активный исследователь в областях биохимии и молекулярной биологии, у доктора Алан Н есть обширный опыт, действующего в качестве рецензента в  высоко-рейтинговых журналах, таких как Nature и PNAS. У него также в активе есть список публикаций, со многими статьями, опубликованными в журналах высшего качества с иллюстрациями.</li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Biochemistry, Biophysics, Biotechnology, Cell Biology, Genetics<br />
+                            Molecular Biology, Virology, Cancer Medicine/Oncology </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Doctor of Philosophy, Biochemistry and Molecular Biology, University of Miami Miller School of Medicine, Miami, FL <br />
+                            Master of Science (Honors), Life Sciences, University of Mumbai, India <br />
+                            Bachelor of Science, Life Sciences and Biochemistry, St. Xavier’s College, University of Mumbai, Mumbai, India </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Nature, Cell, Molecular Cell, PNAS, Journal of Biological Chemistry, Nucleic Acid Research, Genes and Development</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>IUBMB Life, Journal of Biological Chemistry, Cell Cycle Journal, Genes and Development Journal, PNAS Journal </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Postdoctoral fellowship from TRDRP (Tobacco Related Disease Research Program) to study Mechanism of double strand DNA break repair breaks in germline cells </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Assistant project scientist, University of California; Davis, CA</td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor47"> <img src="editor-profile/images/editor47b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Annie A | <span>PhD. (Microbiology)</span></div>
+                        <ul>
+                              <li>С сильным послужным списком публикации и опытом рецензирования с впечатляющими журналами, такими как Nature Medicine и PLoS One, доктор Энни продемонстрировала способность понять и критически оценить исследование во многих областях биологических наук.</li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Applied Genetics, Applied Life Sciences and Biosciences, Biochemistry, Biotechnology, Cell Biology, Genetics, Microbiology, Molecular Biology, Virology, Cancer Medicine/Oncology, Cardiology, Endocrinology, Experimental medicine, Gastroenterology, General Medicine, Hematology, Internal Medicine, Molecular Medicine, Neurological Sciences, Ophthalmology, Palliative Medicine, Pathophysiological Sciences, Urology, Pharmacology, Toxicology </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD. (Microbiology), University of Mumbai, Mumbai, India.<br />
+                            Master of Philosophy (Biotechnology), University of Poona, Pune, India.<br />
+                            Master of Science (Biotechnology), University of Poona, Pune, India.<br />
+                            Bachelor of Science (Microbiology), University of Poona, Pune, India. </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Nature Medicine, Nature Neuroscience, PLoS One, Cell Death and Differentiation, Stroke, Annals of Neurology, Infection and Immunity, Journal of Biological Chemistry, Microbiology, Applied Environmental Microbiology, mAbs, Hematologica, Biomarkers, Palliative Care</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Current Microbiology Journal, Journal of Biological Chemistry, Molecular Biology of the Cell, The Write Stuff (journal of the European Medical Writers Association), The Journal of Bacteriology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Member of European Medical Writers Association (EMWA)</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Research Associate, INSERM U919, GIP-CYCERON, Caen, France.<br />
+                            Research Associate, CNRS, Université de Montpellier, Montpellier, France.<br />
+                            Research Associate, Université de Nice et Sophia-Antipolis, Nice, France.<br />
+                            Visiting Research Associate, Michigan State University, Michigan, USA. </td>
+
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor48"> <img src="editor-profile/images/editor48b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Boris D | <span>BSc in Botany and Zoology</span></div>
+                        <ul>
+                              <li>С опытом в консультировании студентам по исследованию на докторском уровне, рецензировав для журналов, таких как Журнал Прикладной Энтомологии, и прочный список научных публикаций, профессор Борис Д вполне квалифицирован в оценке всех типов рукописей в энтомологии и смежных тем.</li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Entomology, Plant Pathology, Ecology, Virology, Molecular Biology, Biological Control, Arachnology, and Weed Sciences</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Did fundamental ecological research on population dynamics of pests of agricultural crops, developed pest control systems in small fruit and vegetable crops, and created computer models for integrated control of pests.</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>BSc, Botany and Zoology, University of British Columbia<br />
+                            PhD, Entomology, University of California (Berkeley) </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Canadian Entomology, Economic Entomology, Journal of Applied Entomology, Canadian Journal of Zoology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Published 40 articles in peer-reviewed journals including Journal of Entomology, Journal of Applied Ecology, Journal of Plant Sciences, Journal of Animal Ecology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Research Officer, Agriculture Canada Research Branch Vancouver, BC, Canada <br />
+                            Research Scientist, Agriculture Canada Research Branch Vancouver, BC, Canada </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor49"> <img src="editor-profile/images/editor49b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Derek J | <span>PhD in Biophysics /Immunology</span></div>
+                        <ul>
+                              <li>Доктор Дерек Дж был активным исследователем в области биофизики и иммунологии в течение прошлых 30 лет. В дополнение к публикации более чем 30 научных статей в рецензируемых журналах, он участвовал в операциях, таких как разрешенное редактирование NIH и абстрактное письмо.</li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Asthma and Allergy, Pulmonary Medicine, Cell and Molecular Biology, Clinical and Basic Immunology, Immunogerontology, Biophysical Studies, Biochemistry</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Had published over 30 papers in international peer-reviewed journals</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PostdocImmunology, University of Michigan, Ann Arbor, MI<br />
+                            PhD, Biophysics/Immunology, University of Minnesota, Minneapolis, MN, USA<br />
+                            MS, Biophysics/Cell Biology, University of Minnesota, Minneapolis, MN, USA<br />
+                            MD MT (ASCP), Medical Technology, National Naval Medical Center, Bethesda, USA<br />
+                            BA, Biology/Chemistry, Macalester College, MN, USA </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Scandinavian Journal of Immunology, Clinical and Experimental Allergy, Clinical Chemistry.</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Over 30 papers published in journals such as Antimicrobial Agents Chemotherapy, Cell Biophysics, Annals of Allergy, Asthma and Immunology, and Journal of Immunology </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Member of American Association for the Advancement of Science, American Association of Immunologists, American Medical Writers Association</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Assistant Professor, Allergy Section, Department of Medicine, University of Minnesota Medical School, Minneapolis, MN<br />
+                            Research Projects Manager, Allergy Section, Department of Medicine, University of Minnesota Medical School, Minneapolis, MN.<br />
+                            Postdoctoral Research Associate, Department of Laboratory Medicine and Pathology, University of Minnesota Medical School, Minneapolis, MN. </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor50"> <img src="editor-profile/images/editor50b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Donald J | <span>PhD in Behavioral Ecology</span></div>
+                        <ul>
+                              <li>С опытом исследования в биоинформатике, у доктора Дональда Дж есть рецензии для многих высококачественных журналов, такие как Nature. У него более чем 10 летний опыт редактирования и серьезный список публикаций.</li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Animal Behavior, Animal Physiology, Virology, Microbiology, Parasitology, Cell Biology, Zoology, Ecology, Ecological Modeling, Environmental Science, Genetics, Taxonomy, Bioinformatics, Medical Research, Healthcare Assessment, Health Economics, Computer Science, Computational Modeling, Economics, Chemistry, and Engineering</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Referee of grants for BBSRC, EPSRC, and NERC<br />
+                            His research was mentioned on the Discovery Channel </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>PhD, Behavioral Ecology and Modeling, University of Sheffield<br />
+                            MSc (MRes), Bioinformatics, with Distinction, Exeter University<br />
+                            BSc, Biology, First Class Hons, University of Bristol </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Nature, Current Biology, PNAS, Animal Behaviour, Royal Society Interface Journal, Royal Society Proceedings B, PLoS One, PLoS Biology, Journal of Experimental Biology, Ecological Entomology, Bio-systems, Behavioural Processes, Behavioral Ecology & Sociobiology, Ethology, Chemical Senses, Naturwissenschaften, Functional Ecology, Animal Cognition, Ecology & Behavioral Ecology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Journal of Behavioural Ecology and Sociobiology, Memetic Computing, Current Biology, Animal Behaviour, Myrmecological News</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Full EPSRC-funded student scholarship for Bioinformatics MSc (MRes)<br />
+                            Nominated for British Computer Society Distinguished Dissertation Prize<br />
+                            Nominated for British Entomological Society Wallace Prize for best PhD thesis<br />
+                            “MASSING” grant funded by EPSRC ($400k)<br />
+							“Evolution of Recognition” grant funded by NERC ($1m)</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Research Fellow (part-time), University of Sheffield, UK<br />
+                            Data Systems Consultant, National Health Service (UK)<br />
+                            Senior Scientist, South West Water, Exeter (UK)<br />
+                            Associate Editor, Communicative and Integrative Biology<br />
+                            Senior Scientific Officer, Ministry of Agriculture Fisheries and Food, Exeter (UK) </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor51"> <img src="editor-profile/images/editor51b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Mark S  | <span>BSc in Chemistry</span></div>
+                        <ul>
+                              <li>Больше чем со 150 публикациями в рецензируемых журналах и обширным опытом рецензирования, профессор Марк С определенно знает, что у него есть способности для опубликования научных статей. Он являлся членом  редакционной коллегии Elsevier и руководствовал многим исследовательскими публикациями ученых.  </li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Chemistry, Materials, Environmental Chemistry, Catalysis, Chemical Engineering, Surface Chemistry, Industrial Chemistry</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Fellow of the Royal Society of Chemistry (UK)</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>BSc Hons (Chemistry), University of Nottingham <br />
+                            PhD (Chemistry), University of Nottingham<br />
+                            DSc, University of Nottingham </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Journal of Catalysis, Journal of Molecular Catalysis, Applied Catalysis, Catalysis Reviews: Science and Engineering, Langmuir, Journal of Physical Chemistry, Macromolecular Rapid Communications, Catalysis Letters, Materials Science and Engineering, Industrial and Engineering Chemistry, European Journal of Physics, Materials Chemistry and Physics, European Polymer Journal, Journal of Materials Science, Journal of Polymer Research, Gold Bulletin, Journal of Macromolecular Science, Catalysis Today, Topics in Catalysis, Chemical Communications, Smart Materials and Structure, South African Journal of Science, Chemistry and Physics Letters, Journal of the Chemical Society, Faraday Transactions</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Over 150 papers published in journals such as Journal of Catalysis, Journal of the Chemical Society, and Chemical Communications</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Fellow of the Royal Society of Chemistry (UK) and Chartered Chemist <br />
+                            Member, South African Chemical Institute <br />
+                            Member, American Chemical Society <br />
+                            Elected Fellow of the Royal Society of South Africa </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Professor of Physical Chemistry, University Of the Witwatersrand, Johannesburg, South Africa<br />
+                            Applied Research Manager, Anglo American Research Laboratories (Pty) Ltd, Johannesburg, South Africa<br />
+                            Visiting NATO Research Fellow, University of Wisconsin-Milwaukee, USA<br />
+                            Assistant Dean (Research) – Faculty of Science, University of the Witwatersrand </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor52"> <img src="editor-profile/images/editor52b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Peter W | <span>Doctor of Science (Oxon)</span></div>
+                        <ul>
+                              <li>Занимаясь в области поведенческих исследований в течение прошлых 20 лет, у профессора Питера В в активе многочисленные рецензии для престижных журналов, таких как Архивы Общей Психиатрии. Он также опубликовал много статей в рецензируемых журналах, с более чем  6800 цитатами. </li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+
+                              <td>Biochemistry, Biomodeling, Cognitive Science, Forensic Science Neurosciences, Nutrition & Food Sciences, Educational Psychology, Neuromedicine, Physiology, Psychiatry, Clinical Pharmacology, Medico-Pharmaceutical Sciences, Pharmacokinetics, Toxicology, Cognitive Science, Psychology, Social Work and Social Policy, Neurosurgery</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>Editorial Board Member of European Neuropsychopharmacology, Frontiers in Psychopharmacology, ISRN Pharmacology, Neuropsychobiology, Physiology & Behavior, Pharmacological Reports, and Synapse<br />
+                            Director, Centre for Behavioural Neuroscience, City of London Polytechnic<br />
+                            Director, Centre for Substance Abuse Research, University of Wales, Swansea </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>Doctor of Science (Oxon), Chartered Clinical Psychologist, Fellow of the British Psychological Society (F.B.Ps.S.), Chartered Psychologist (CPsychol), MA, DPhil (Oxon), BA (Oxon)</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Addiction, Animal Behavior, Archives of General Psychiatry, Biological Psychiatry, British Journal of Psychiatry, Journal of Affective Disorders, Neuropsychopoharmacology, Neuroscience and Biobehavioral Reviews, Psychological Medicine, Psychoneuroendocrinology</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Journal of Psychopharmacology, Behavioural Pharmacology, Journal of Affective Disorders, European Journal of Pharmacology,
+                            Journal of Applied Research in Intellectual Disabilities </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>Consultant Clinical Psychologist, Abertawe Bro Morgannwg University NHS Trust <br />
+                            Professor of Psychology, University of Wales, Swansea<br />
+                            Professor of Psychology, City of London Polytechnic (now London Metropolitan University)<br />
+                            Visiting Professor of Psychiatry, University of California, San Diego<br />
+                            Editor-in-Chief: Behavioural Pharmacology </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      <div  style="display: none;">
+                    <div id="editor53"> <img src="editor-profile/images/editor53b.jpg" alt="" width="188" height="178" align="left" class="profile-img" />
+                          <div id="key-heighlight">
+                        <div class="headline">Dr. Sharon S | <span>D.Phil.</span></div>
+                        <ul>
+                              <li>С опытом исследования в физике конденсированного вещества, доктор Шарон С действовала в качестве рецензента для престижных журналов, таких как Nature, Science и Physical Review Letters. У нее также есть свой большой список публикаций.</li>
+                            </ul>
+                        <!--<img src="editor-profile/images/peer-reviewer-bt.png" alt="" class="peer-head" />-->
+                        <div class="cleaner"></div>
+                      </div>
+                          <table class="tableBasic1" width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+                              <td class="head" width="135">Специализация</td>
+                              <td>Molecular Physics, Optics, Quantum Physics, Semiconductor Physics, Theoretical Physics</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Примечания Достижения</td>
+                              <td>JSPS Postdoctoral Fellowship<br />
+                            Senior Scholarship, Corpus Christi College, University of Oxford<br />
+                            Commonwealth Scholarship, Commonwealth Scholarship Commission<br />
+                            Arthur Cooke Prize for best achievement of a graduate student in the first year, Condensed Matter Physics Department, University of Oxford<br />
+                            Invited speaker at the 1st One Day Meeting of UK Molecular Magnetism Network, Manchester, UK </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Образование</td>
+                              <td>D.Phil., University of Oxford, United Kingdom<br />
+                            MSc (Thesis group), [1st Class 1st position], University of Dhaka, Bangladesh<br />
+                            BSc (Honours), [1st Class 1st position], University of Dhaka, Bangladesh </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Предварительный обзор Опыт</td>
+                              <td>Nature, Science, Physical Review Letters, Physical Review B </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Публикации Опыт</td>
+                              <td>Journal of Physics: Conference Series, Physical Review B, Journal de Physique IV, European Physical Journal B: Condensed Matter</td>
+                            </tr>
+                        <tr>
+                              <td class="head">Сертификаты и награды</td>
+                              <td>Member of the Physical Society of Japan<br />
+                            Member of the Institute of Physics, United Kingdom<br />
+                            Member of the Oxford Alumni Association </td>
+                            </tr>
+                        <tr>
+                              <td class="head">Трудовой стаж</td>
+                              <td>FIRST Researcher, Department of Condensed Matter Physics, Tokyo Institute of Technology<br />
+                            Global Center of Excellence (GCOE) Researcher, Department of Condensed Matter Physics, Tokyo Institute of Technology<br />
+                            Japan Society for the Promotion of Science (JSPS) Postdoctoral Fellow,  Materials and Structures Laboratory, Tokyo Institute of Technology, Japan<br />
+                            Editor, Nihon Numerical Algorithms Group KK, Japan<br />
+                            Country adviser,  British Council, Manchester, United Kingdom </td>
+                            </tr>
+                      </table>
+                        </div>
+                  </div>
+                      
+                      <!--  new editors end -->
+                      
+                      <div class="cleaner"></div>
+                    </div>
+              </ul>
+                </div>
+            <!-- END List Wrap --> 
+            
+          </div>
+            </div>
+      </div>
+        <div id="calltoaction"><a href="106.htm" class="btn-checkprice"></a><a href="23.htm" class="btn-submitmanuscript"></a></div>
+    </div>
+    
+    <!-- columnLatestNews -->
+    <div class="clearBoth"></div>
+  </div>
+  <!-- corporateInfoContainer --> 
+  
+</div>
+<!-- bodyContainer --> 
+
+<!-- FOOTER -->
+<?php include("inc_footer.htm"); ?>
+<!-- footerContainer -->
+
+</body>
+</html>
