@@ -1,0 +1,179 @@
+@charset "UTF-8";
+
+.TabbedPanels {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	clear: none;
+	width: 545px; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+	border:1px solid #ccc;
+	border-bottom:0;
+	width:686px;
+	padding:0 0 0 1px;
+}
+
+.TabbedPanelsTab {
+	font:Arial, Helvetica, sans-serif;
+	position: relative;
+	top: 1px;
+	float: left;
+	margin: 0px 3px 0px 0px;
+	list-style: none;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+	color:#454545;
+	width:215px;
+	margin:13px 9px 5px 0;
+    height: 42px;
+}
+.TabbedPanelsTab a.medicine {
+	background: url(../images/subjectareas/2bt-grey.png) no-repeat scroll 0 0 transparent;
+	color: black;
+	text-decoration: none;
+	padding: 14px 7px 24px 53px;
+	color:#454545;
+}
+
+.TabbedPanelsTab a.medicine:hover{
+    background: url(../images/subjectareas/2bt-blue.png) no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+}
+.TabbedPanelsTab a.journal {
+	background: url(../images/subjectareas/1bt-grey.png) no-repeat scroll 0 0 transparent;
+	color: black;
+	text-decoration: none;
+	padding: 14px 80px 24px 53px;
+	color:#454545;
+}
+.TabbedPanelsTab a.journal:hover {
+    background: url(../images/subjectareas/1bt-blue.png) no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+}
+.TabbedPanelsTab a.physics {
+	background: url(../images/subjectareas/3bt-grey.png) no-repeat scroll 0 0 transparent;
+	color: black;
+	text-decoration: none;
+	padding: 14px 80px 24px 53px;
+	color:#454545;
+}
+
+.TabbedPanelsTab a.physics:hover{
+    background: url(../images/subjectareas/3bt-blue.png) no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+}
+.TabbedPanelsTab a.business {
+	background: url(../images/subjectareas/4bt-grey.png) no-repeat scroll 0 0 transparent;
+	color: black;
+	text-decoration: none;
+	padding: 14px 80px 24px 53px;
+	color:#454545;
+}
+
+.TabbedPanelsTab a.business:hover{
+    background: url(../images/subjectareas/4bt-blue.png) no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+}
+.TabbedPanelsTab a.social  {
+	background: url(../images/subjectareas/5bt-grey.png) no-repeat scroll 0 0 transparent;
+	color: black;
+	text-decoration: none;
+	padding: 14px 80px 24px 53px;
+	color:#454545;
+}
+
+.TabbedPanelsTab a.social:hover{
+    background: url(../images/subjectareas/5bt-blue.png) no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+}
+.TabbedPanelsTab a.eco  {
+	background: url(../images/subjectareas/6bt-grey.png) no-repeat scroll 0 0 transparent;
+	color: black;
+	text-decoration: none;
+	padding: 14px 80px 24px 53px;
+	color:#454545;
+}
+
+.TabbedPanelsTab a.eco:hover{
+    background: url(../images/subjectareas/6bt-blue.png) no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+}
+
+
+
+.tabclicked1	{
+    background: url(../images/subjectareas/2bt-blue.png) no-repeat scroll 0 0 transparent  !important;
+	color:#fff !important;
+}
+.tabunclicked1	{
+	background: url(../images/subjectareas/2bt-grey.png) no-repeat scroll 0 0 transparent  !important;
+}
+.tabclicked2	{
+    background: url(../images/subjectareas/1bt-blue.png) no-repeat scroll 0 0 transparent  !important;
+	color:#fff !important;
+}
+.tabunclicked	{
+	background: url(../images/subjectareas/1bt-grey.png) no-repeat scroll 0 0 transparent  !important;
+}
+.tabclicked3	{
+    background: url(../images/subjectareas/3bt-blue.png) no-repeat scroll 0 0 transparent  !important;
+	color:#fff !important;
+}
+.tabunclicked3{
+	background: url(../images/subjectareas/3bt-grey.png) no-repeat scroll 0 0 transparent  !important;
+}
+.tabclicked4	{
+    background: url(../images/subjectareas/4bt-blue.png) no-repeat scroll 0 0 transparent  !important;
+	color:#fff !important;
+}
+.tabunclicked4{
+	background: url(../images/subjectareas/4bt-grey.png) no-repeat scroll 0 0 transparent  !important;
+}
+.tabclicked5	{
+    background: url(../images/subjectareas/5bt-blue.png) no-repeat scroll 0 0 transparent  !important;
+	color:#fff !important;
+}
+.tabunclicked5{
+	background: url(../images/subjectareas/5bt-grey.png) no-repeat scroll 0 0 transparent  !important;
+}
+.tabclicked6	{
+    background: url(../images/subjectareas/6bt-blue.png) no-repeat scroll 0 0 transparent  !important;
+	color:#fff !important;
+}
+.tabunclicked6{
+	background: url(../images/subjectareas/6bt-grey.png) no-repeat scroll 0 0 transparent  !important;
+}
+
+
+
+.TabbedPanelsTabSelected {
+    border: 0 none;
+    color: #A50A3A !important;
+}
+.TabbedPanelsContentGroup { width:687px;
+	clear: both; height:auto; 
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	border-top: solid 1px #CCC;
+	border-right: solid 1px #CCC;
+	background-color: #FFF;
+}
+
+
+.TabbedPanelsContent {
+	padding: 4px;
+}
+
+.TabbedPanelsContentVisible {
+}

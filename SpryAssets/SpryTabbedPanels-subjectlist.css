@@ -1,0 +1,69 @@
+@charset "UTF-8";
+
+.TabbedPanels {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	clear: none;
+	width: 545px; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+}
+
+.TabbedPanelsTabGroup {
+	margin: 0px;
+	padding: 0px;
+	border:1px solid #ccc;
+	border-bottom:0;
+	width:624px;
+	padding:0 0 0 1px;
+}
+
+.TabbedPanelsTab {
+	font:bold 0.8em 'DiavloLight';
+	position: relative;
+	top: 1px;
+	float: left;
+	padding: 4px 10px;
+	margin: 0px 3px 0px 0px;
+	background-color: #eee;
+	list-style: none;
+	border-bottom: solid 3px #58a8c9;
+	-moz-user-select: none;
+	-khtml-user-select: none;
+	cursor: pointer;
+}
+
+.TabbedPanelsTabHover {
+    background: url("../images/subjectareas/blue-bt-hover.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+    height: 38px;
+    padding: 4px 12px;}
+
+.TabbedPanelsTabSelected {
+    background: url("../images/subjectareas/blue-bt-hover.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #FFFFFF;
+    height: 38px;
+    padding: 4px 12px;}
+
+.TabbedPanelsTab a {
+	color: black;
+	text-decoration: none;
+}
+
+.TabbedPanelsContentGroup { width:625px;
+	clear: both; height:auto; 
+	border-left: solid 1px #CCC;
+	border-bottom: solid 1px #CCC;
+	border-top: solid 1px #CCC;
+	border-right: solid 1px #CCC;
+	background-color: #FFF;
+}
+
+
+.TabbedPanelsContent {
+	padding: 4px;
+}
+
+.TabbedPanelsContentVisible {
+}
