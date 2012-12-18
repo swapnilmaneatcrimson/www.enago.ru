@@ -1,0 +1,330 @@
+<?php 
+  $currentPage="Author Support";
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- HEAD -->
+<head>
+<meta name="author" content="DigitalCavalry" />
+<meta name="description" content="помощь в выборе журнала компания Энаго выбирает из команды известных авторов, рецензентов, которые помогут автору и предоставят автору выбрать издателя для его рукописи." />
+<meta name="keywords" content="" />
+<meta name="language" content="english" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Помощь в Выборе Научного Журнала | Средство Выбора Журнала EnagoTM</title>
+<!-- ICON -->
+<link rel="icon" href="img/common/icons/favicon.ico" type="image/x-icon" />
+<!-- CSS (Cascading Style Sheets) Files -->
+<link type="text/css" rel="stylesheet" href="css/common.css" />
+
+<link type="text/css" rel="stylesheet" href="css/index.css" />
+<!-- JavaScript Files -->
+
+<script src="js/jquery-1.2.1.min.js" type="text/javascript"></script>
+
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+<script src="js/organictabs.jquery1.js"></script>
+<script type="text/javascript" src="js/ddaccordion.js"></script>
+    <script>
+//Initialize 2nd demo:
+ddaccordion.init({
+	headerclass: "question", //Shared CSS class name of headers group
+	contentclass: "answer", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: false, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content.
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: false, //persist state of opened contents within browser session?
+	toggleclass: ["closedlanguage", "openlanguage"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "<img src='images/common/icon_+.png' style='width:13px; height:13px' class='vabsmiddle' /> ", "<img src='images/common/icon_close.png' class='vabsmiddle' /> "], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+
+
+	window.onload = function() {
+	setTimeout(function() {
+		// preload image
+		new Image().src = "images/ec-support/ec-tab-sprite.png";
+	}, 100);
+};
+
+        $(function() {
+    
+            $("#example-one").organicTabs();
+            
+            $("#example-two").organicTabs({
+                "speed": 200
+            });
+    
+        });
+    </script>
+
+<!--[if IE 6]>
+        <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script>
+          DD_belatedPNG.fix('.ie6PNGfix, .commonLink');
+          
+          /* string argument can be any CSS selector */
+          /* .ie6PNGfix example is unnecessary */
+          /* change it to what suits you! */
+        </script>
+        <![endif]-->
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+            sfHover = function() {
+                var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+                for (var i=0; i<sfEls.length; i++) {
+                    sfEls[i].onmouseover=function() {
+                        this.className+=" sfhover";
+                    }
+                    sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                    }
+                }
+            }
+            if (window.attachEvent) window.attachEvent("onload", sfHover);
+        //--><!]]></script>
+</head>
+
+<body>
+
+<!-- HEADER SECTION -->
+<?php include("inc_header.htm"); ?>
+<!-- headerContainer  --> 
+
+<!-- BODY CONTAINER -->
+<div id="bodyContainer">
+  <div class="cleaner"></div>
+  <!-- NAVIGATION -->
+  <?php include("inc_navigation.htm"); ?>
+  <!-- navigationContainer --> 
+ 
+ 
+  <!-- SERVICES AND PRODUCTS, LAST NEWS LIST -->
+  <div id="corporateInfoContainer"> 
+    <!-- COLUMN #2 -->
+    <div class="columnLatestNews">
+      <h2 id="latestNewsHeader">Сервис авторской поддержки</h2>
+      <div class="sidebarLinkPanelContainer">
+      <a href="200.htm" class="item">Сервис авторской поддержки</a>
+         <a href="208.htm" class="item">Повторный обзор и проверка отклоненных рукописей<!-- revised rejected paper --></a>
+         <a href="205.htm" class="item ">Услуга по предоставлению сопроводительных писем<!-- cover letter service --></a>
+         <a href="202.htm" class="item">Инструкция для авторов рукописей<!-- Instruction to author --></a>
+         <a href="201.htm" class="item">Выбор журнала<!-- Journal Selection --></a>
+         <a href="203.htm" class="item">Художественное редактирование<!-- Art work editing --></a>
+         <a href="204.htm" class="item">Количественное сокращение  слов<!-- word count reduction --></a>
+         <a href="206.htm" class="item active-sub">Предварительное получение экспертной оценки<!--Pre-submission peer-review--></a>
+        <!-- Left banner -->
+      <?php include("inc_leftbottom.htm"); ?>
+        <!-- Left banner end -->            
+        </div>
+    </div>
+    
+    <!-- COLUMN #1 -->
+    <div class="columnServicesProducts">
+      <h2>Рецензия перед представлением рукописи</h2>
+      <div id="navigationTreeContainer">
+                        <a href="index.html" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp; 
+                        <a class="prev">Сервис авторской поддержки</a>&nbsp;&nbsp;\&nbsp;&nbsp; 
+                        <a class="current">Қолжазбаны ұсынар алдындағы Рецензия</a>
+                    </div>
+      <div class="columnText" style="min-height:1180px">
+   
+<div id="EC-support">
+              <div id="example-one">
+            <ul class="ECtab">
+                  <li class="ec-tab1"><a href="#featured1" class="current">О сервисе</a></li>
+                  <li class="ec-tab2"><a href="#core1">Оплата</a></li>
+                  <li class="ec-tab3"><a href="#jquerytuts1">Процесс</a></li>
+                  <li class="ec-tab4 last"><a href="#php1">FAQ</a></li>                      
+                </ul>
+            <div class="list-wrap">
+                  <ul id="featured1">
+                  <div id="ec-div-main">
+                  <h4>Об услуге: цель и определение</h4>
+                  
+                  <p><strong>Кто должен выбрать данную услугу?</strong><br />
+Если Вы хотите получить критический анализ своей статьи, подобную экспертной оценке перед представлением в журнал.
+Статус рукописи: завершенная рукопись /целевой журнал
+</p>
+                  
+                  <p>Мы предлагаем рецензию  для вашей рукописи опытными рецензентами в области вашего исследования. Услуга соответствует двум главным критериям с точки зрения автора:</p>
+         
+                  
+<div class="number-sprite  number1"><span>Утверждение выбора журнала:</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Одна из наиболее распространенных причин отклонения – неправильный выбор журнала; т.е., охват содержания вашей статьи не соответствует тематике журнала. Наш рецензент оценивает пригодность вашей рукописи к вашему  выбранному журналу и представляет  вашу рукопись для получения цитат со всеми нюансами «за и против»  для дальнейшей публикации.</div>
+
+<div class="number-sprite  number2"><span>Повышение шансов  для публикации:</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Рукописи также отклоняются по различным причинам, среди которых  оригинальность, недостаточность представленных математических деталей в графиках, диаграммах и низкий уровень английского языка в написании в вашей рукописи и т.д. Наш рецензент обеспечивает критические комментарии к качеству вашего исследования и к качеству статьи, которая повысит Ваши шансы для публикации рукописи.</div>
+
+<p>&nbsp;</p>
+<h3>Контрольно-проверочный сервис</h3>
+<p>Рецензент обеспечивает детализированные комментарии и оценки по следующим аспектам вашей рукописи.</p>
+
+<ul class="ulbasic3 marb20">
+<li>Качество вашего исследования</li>
+<li>Качество содержания вашей статьи</li>
+<li>Доразвитие вашей рукописи (доработка ключевых моментов)</li>
+<li>Пригодность журнала для вашей рукописи</li>
+<li>\Следующие Шаги</li>
+<li>Скачайте образец отчета</li>
+</ul>
+
+<h4>Профиль рецензента</h4>
+<p>Большинство наших рецензентов имели опыт работы в качестве рецензентов в издательствах высококачественных журналов, таких как Природа, Наука, Исследования по Прикладной Физике, и Журнал Физической химии. Они также имели опыт работы преподавателями в известных мировых университетах и имеют свои опубликованные многочисленные рукописи. Будучи преподавателями и рецензентами, они знают точно, чего требует Ваша статья.</p>
+
+<p>У нас очень строгие и жесткие критерии  выбора вам рецензента для вашей  рукописи. Специалист, выбранный в качестве рецензента должен иметь:</p>
+<ul class="ulbasic3">
+<li>степень доктора философии PhD</li>
+<li>опыт иметь работы рецензентом в международном журнале</li>
+<li>иметь опыт  работы в вашей предметной области исследования</li>
+<li>иметь современные знания и навыки в области вашего исследования</li>
+<li>обязательно должен быть автором свыше   10 публикаций в высоко рейтинговых научных международных журналах с импакт-фактором</li>
+<li>должен подписать соглашение о неразглашении информации клиента для сохранения полной конфиденциальности</li>
+<li>смотрите детализированный профиль наших рецензентов</li>
+</ul>
+
+
+                <div class="clearBoth"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                   
+           </div>
+              </ul>
+                  <ul id="core1">
+                <div id="ec-div-main">
+                <p>Сумма для оплаты и период обработки вашей рукописи</p>
+                 <table class="tableBasic1 marb20" width="100%" border="0" cellspacing="0" cellpadding="0">
+  
+  <tr>
+    <td class="head">Сумма для оплаты: </td>
+    <td class="head">Цикл обработки:</td>
+  </tr>
+  <tr>
+    <td>99,840 тенге за рукопись</td>
+    <td>1 или 2 недели в зависимости от доступности рецензента по Вашей предметной области.</td>
+  </tr>
+     </table>
+     
+<h3>Дополнительные услуги</h3>
+<h4>Выбор журнала</h4>
+<p>В разделе «услуга Энаго  по предварительной экспертной оценке при представлении рукописи», мы просто оцениваем вашу рукопись со всеми «за» и «против» по отношению к выбранному журналу. Если Вам необходима помощь в выборе подходящего журнала, смотрите в разделе Выбор Журнала.</p>
+
+<h4>Представление рукописи</h4>
+<p>Как только Вы предприняли все следующие шаги, предложенные нашим рецензентом перед представлением рукописи, мы можем помочь Вам представить рукопись через услугу «представление рукописи».</p>
+				
+                <div class="clearBoth"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                   
+           </div>
+              </ul>
+                  <ul id="jquerytuts1" class="hide">
+                <div id="ec-div-main">
+
+<div class="number-sprite step1"><span>Оценка</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Заполните форму «Услуга Enago по предварительной экспертной оценке»</div>
+
+
+<div class="number-sprite step2"><span>Подтверждение Цитаты</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">После получения Вашего запроса Enago отправит Вам детали цитат  с суммой для оплаты и с определением периода обработки вашей рукописи. Если Вы примете цитату, то  ваш заказ будет автоматически подтвержден.</div>
+
+
+<div class="number-sprite step3"><span>обзор Рукописи</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Рецензенту по вашей предметной области предоставят на рассмотрение вашу рукопись.</div>
+
+<div class="number-sprite step4"><span>Поставка</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Enago доставит вашу рукопись в сроки на вашу электронную почту.</div>
+
+<div class="number-sprite step5"><span>Выпуск/отправление платежной документации</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Мы принимаем безналичные и наличные формы оплаты.  Мы предоставим вам возможности для удобной оплаты, которая вам необходима. Свяжитесь с нами по адресу at.payments@enago.com. Вы можете найти более подробную информацию на платежной странице.</div>
+
+<div class="number-sprite step6"><span>Оплата</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Вы можете оплатить  банковским  переводом или кредитной картой</div>
+
+<div class="number-sprite step7"><span>После оказания услуг</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Enago продолжит контроль за предоставляемым для вас сервисом.  Enago будет поддерживать с вами связь  после получения вами рукописи и произведения оплаты за услуги. Свяжитесь с нами как только посчитаете необходимым.</div>
+
+<div class="cleaner marb18"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                   
+           </div>
+              </ul>
+             	  <ul id="php1" class="hide">
+                <div id="ec-div-main">
+                <p align="right" class="marR20"><a href="#" onclick="ddaccordion.expandall('question'); return false"><img width="79" height="23" src="images/subjectareas/button-expandall.png"></a>&nbsp;&nbsp;<a href="#" onclick="ddaccordion.collapseall('question'); return false"><img width="79" height="23" src="images/subjectareas/button-collapsall.png"></a> </p>
+<!-- question 1 -->
+<div class="question">&nbsp; В случае, если  я назову адрес и название выбранного мною  журнала самостоятельно в своей заявке, который не совсем подходит под мою рукопись, сможет ли в этом случае рецензент предложить журнал наиболее подходящий для моей рукописи?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">Согласно  этой службе, наш  рецензент будет оценивать вашу рукопись подробно предоставляя  вам обратную связь относительно качества языка, содержания  рукописи и, безусловно, качества проведенного научного исследования, однако, они не будут предлагать другие журналы, которые могут удовлетворить вопрос в публикации вашей рукописи. Для выбора подходящего журнала для вашей рукописи, мы предоставляем вам другую службу: Выбор журнала (http://www.enago.kr/201.htm).</div></div></div></div></div></div></div></div></div>
+<!-- question 2 -->  
+<div class="question">&nbsp; Q. В чем разница между редактированием и  услугой сервиса рассмотрения рецензентом?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">В нашей услуге редактирования, наши редакторы будут проверять положение английского языка в вашей рукописи. Редактор будет работать с английским содержанием вашей рукописи и сделает свои профессиональные замечания. Редактор изложит свои предложения по совершенствованию языка, для уточнения и правильного корректирования вашей работы и получения  от вас ответов в случае  неясности, неполноты  или незавершенности предложений  в  вашей рукописи.</div></div></div></div></div></div></div></div></div>
+
+<!-- question 3 -->                
+<div class="question">&nbsp; Q. Могу ли я задавать вопросы после того, как я получу рукопись после рассмотрения  экспертом?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">Да, Вы можете связаться с нами в случае, если у Вас возникли вопросы или если вы не согласны с любым из замечаний рецензентов по вашей рукописи.</div></div></div></div></div></div></div></div></div>
+
+<!-- question 4 -->  
+<div class="question">&nbsp; Q. Если  в отчете эксперта говорится, что моя рукопись подходит для публикации в журнале, гарантируете  ли  вы публикацию?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">публикация рукописи зависит от ряда факторов и принятие решения об отклонении зависит от журнала. Журналы получают несколько работ с разным качеством и их задача выбрать лучшую работу среди всех работ, следовательно, лишь немногие из них получают публикацию. Следовательно, мы не гарантируем 100 % публикацию.  Коллегиальный обзор рукописи будет только указывать, является ли ваша рукопись подходящей и подлежит ли она публикации в журнале.  Мы будем делать свои замечания, что несомненно улучшит качество работы и поможет в выборе самого подходящего журнала. Вам необходимо будет работать вплотную с вашим редактором и помогать ему вносить ваши личные изменения в рукопись так, чтобы увеличить ваши  шансы на публикацию.</div></div></div></div></div></div></div></div></div>
+
+<!-- question 5 -->  
+<div class="question">&nbsp; Q. Будет ли моя рукопись оцениваться  по шкале от 1-10?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">Рейтинг рукописей по числовой шкале не даст вам четкого представления о содержании и направлении совершенствования рукописи. Наши специалисты предоставят вам обратную связь, и объяснят вам, как вы можете совершенствовать свою рукопись при  непосредственном участии своего рецензента. Такая обратная связь поможет вам пересмотреть свою рукопись, увеличивая шансы на принятие рукописи в подходящий для вас журнал.</div></div></div></div></div></div></div></div></div>  
+  
+<!-- question 6 -->  
+<div class="question">&nbsp; Q. Будет ли обозреватель также предоставлять ссылки, по которым я могу проверить и пересмотреть свою рукопись?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">Нет, в этой услуге, рецензенты только предоставляют свои замечания по улучшению содержания рукописи, и, они не предоставят Вам никакой другой информации. </div></div></div></div></div></div></div></div></div>    
+                
+                
+                               <div class="clearBoth"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                                 
+           </div>
+              </ul>             
+                </div>
+               
+            <!-- END List Wrap --> 
+            
+          </div>
+            </div>
+
+<div class="cleaner marB10"></div>
+ </div>
+
+    </div>
+    <div class="clearBoth"></div>    
+    <!-- columnLatestNews -->
+    <div class="clearBoth">	</div>
+  </div>
+  <!-- corporateInfoContainer --> 
+   <div class="cleaner"></div>    
+</div>
+<!-- bodyContainer --> 
+   <div class="cleaner"></div>
+      <div class="cleaner"></div>
+         <div class="cleaner"></div>
+<!-- FOOTER -->
+<?php include("inc_footer.htm"); ?>
+<!-- footerContainer -->
+</body>
+</html>
