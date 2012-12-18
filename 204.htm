@@ -1,0 +1,317 @@
+<?php 
+  $currentPage="Author Support";
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- HEAD -->
+<head>
+<meta name="author" content="DigitalCavalry" />
+<meta name="description" content="помощь в выборе журнала компания Энаго выбирает из команды известных авторов, рецензентов, которые помогут автору и предоставят автору выбрать издателя для его рукописи." />
+<meta name="keywords" content="" />
+<meta name="language" content="english" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Помощь в Выборе Научного Журнала | Средство Выбора Журнала EnagoTM</title>
+<!-- ICON -->
+<link rel="icon" href="img/common/icons/favicon.ico" type="image/x-icon" />
+<!-- CSS (Cascading Style Sheets) Files -->
+<link type="text/css" rel="stylesheet" href="css/common.css" />
+
+<link type="text/css" rel="stylesheet" href="css/index.css" />
+<!-- JavaScript Files -->
+
+<script src="js/jquery-1.2.1.min.js" type="text/javascript"></script>
+
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+<script src="js/organictabs.jquery1.js"></script>
+<script type="text/javascript" src="js/ddaccordion.js"></script>
+    <script>
+//Initialize 2nd demo:
+ddaccordion.init({
+	headerclass: "question", //Shared CSS class name of headers group
+	contentclass: "answer", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: false, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content.
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: false, //persist state of opened contents within browser session?
+	toggleclass: ["closedlanguage", "openlanguage"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "<img src='images/common/icon_+.png' style='width:13px; height:13px' class='vabsmiddle' /> ", "<img src='images/common/icon_close.png' class='vabsmiddle' /> "], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+
+
+	window.onload = function() {
+	setTimeout(function() {
+		// preload image
+		new Image().src = "images/ec-support/ec-tab-sprite.png";
+	}, 100);
+};
+
+        $(function() {
+    
+            $("#example-one").organicTabs();
+            
+            $("#example-two").organicTabs({
+                "speed": 200
+            });
+    
+        });
+    </script>
+
+<!--[if IE 6]>
+        <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script>
+          DD_belatedPNG.fix('.ie6PNGfix, .commonLink');
+          
+          /* string argument can be any CSS selector */
+          /* .ie6PNGfix example is unnecessary */
+          /* change it to what suits you! */
+        </script>
+        <![endif]-->
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+            sfHover = function() {
+                var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+                for (var i=0; i<sfEls.length; i++) {
+                    sfEls[i].onmouseover=function() {
+                        this.className+=" sfhover";
+                    }
+                    sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                    }
+                }
+            }
+            if (window.attachEvent) window.attachEvent("onload", sfHover);
+        //--><!]]></script>
+</head>
+
+<body>
+
+<!-- HEADER SECTION -->
+<?php include("inc_header.htm"); ?>
+<!-- headerContainer  --> <!-- BODY CONTAINER -->
+<div id="bodyContainer">
+  <div class="cleaner"></div>
+  <!-- NAVIGATION -->
+<?php include("inc_navigation.htm"); ?>
+  <!-- navigationContainer --> 
+ 
+  <!-- SERVICES AND PRODUCTS, LAST NEWS LIST -->
+  <div id="bodyContainer">
+  <div class="cleaner"></div>
+  <!-- NAVIGATION -->
+  
+  <!-- navigationContainer -->
+  <!-- SERVICES AND PRODUCTS, LAST NEWS LIST -->
+  <div id="corporateInfoContainer">
+    <!-- COLUMN #2 -->
+    <div class="columnLatestNews">
+      <h2 id="latestNewsHeader">Сервис авторской поддержки</h2>
+      <div class="sidebarLinkPanelContainer">
+      <a href="200.htm" class="item">Сервис авторской поддержки</a>
+         <a href="208.htm" class="item">Повторный обзор и проверка отклоненных рукописей<!-- revised rejected paper --></a>
+         <a href="205.htm" class="item">Услуга по предоставлению сопроводительных писем<!-- cover letter service --></a>
+         <a href="202.htm" class="item ">Инструкция для авторов рукописей<!-- Instruction to author --></a>
+         <a href="201.htm" class="item">Выбор журнала<!-- Journal Selection --></a>
+         <a href="203.htm" class="item">Художественное редактирование<!-- Art work editing --></a>
+         <a href="204.htm" class="item active-sub">Количественное сокращение  слов<!-- word count reduction --></a>
+         <a href="206.htm" class="item">Предварительное получение экспертной оценки<!--Pre-submission peer-review--></a>
+        <!-- Left banner -->
+      <?php include("inc_leftbottom.htm"); ?>
+        <!-- Left banner end -->            
+        </div>
+    </div>
+    <!-- COLUMN #1 -->
+    <div class="columnServicesProducts">
+      <h2>Количественное сокращение  слов</h2>
+<div id="navigationTreeContainer">
+                        <a href="index.htm" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="200.htm" class="prev">Сервис авторской поддержки</a>&nbsp;&nbsp;\&nbsp;&nbsp; 
+                        <a class="current">Количественное сокращение  слов</a>
+                    </div>
+      <div class="columnText">
+   
+<div id="EC-support">
+              <div id="example-one">
+            <ul class="ECtab">
+                  <li class="ec-tab1"><a href="#featured1" class="current">О сервисе</a></li>
+                  <li class="ec-tab2"><a href="#core1">Оплата</a></li>
+                  <li class="ec-tab3"><a href="#jquerytuts1">Процесс</a></li>
+                  <li class="ec-tab4 last"><a href="#php1">FAQ</a></li>                     
+                </ul>
+            <div class="list-wrap">
+                  <ul id="featured1">
+                  <div id="ec-div-main">
+                  <h3>Служба сокращения количества слов </h3>
+      
+     <p> <strong>Кто должен выбрать данную услугу?</strong><br />
+Авторы, которые нуждаются в услуге сокращения объема рукописи, установленного в конкретном журнале.
+</p>
+
+<p>В этой   услуге  мы помогаем Вам сократить объем вашей рукописи согласно требованиям указанного журнала. Даже если ваши исследования проведены на высшем уровне и работа хорошо написана, она будет отклонена журналом, если его объем превышает лимит, указанный в журнале. Мы отредактируем документ так, чтобы он вошел в пределы, сохраняя все важные и ключевые понятия нетронутыми.</p>
+      
+<p>Предоставляя услуги академического редактирования, мы одновременно предлагаем  профессиональную услугу сокращения слов для научной рукописи. До 10% скидки при стандартном редактировании и до 20% скидки в продвинутом редактировании.  Служба сокращения слов  поможет вам решить, какой сервис лучше подходит для Вас, согласно руководящим принципам и требованиям.</p>
+
+
+
+
+                <div class="clearBoth"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                  
+           </div>
+              </ul>
+                  <ul id="core1" class="hide">
+                <div id="ec-div-main">
+                <h4>Оплата</h4>
+                <table class="tableBasic1 marb20" width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td class="head">Процент сокращения</td>
+                        <td class="head">Оплата</td>
+                      </tr>
+                      <tr>
+                        <td>0-10% сокращения</td>
+                        <td>11 тенге  за 100 слов </td>
+                      </tr>
+                      <tr>
+                        <td>10-20% сокращения</td>
+                        <td>15 тенге  за 100 слов</td>
+                      </tr>
+                      <tr>
+                        <td>>20% сокращения</td>
+                        <td>21 тенге  за 100 слов </td>
+                      </tr>
+                    </table>
+                <h4>Пожалуйста,  представьте  текст, который требует сокращения    и уточните список литературы</h4>
+                <table class="tableBasic1 marb20" width="100%" border="0" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <td class="head">Количество сокращений</td>
+                        <td class="head">Сроки</td>
+                      </tr>
+                      <tr>
+                        <td>0-1000 </td>
+                        <td>3-х рабочих дней</td>
+                      </tr>
+                      <tr>
+                        <td>1001-3000</td>
+                        <td>5 рабочих дней</td>
+                      </tr>
+                      <tr>
+                        <td>3001-10000</td>
+                        <td>7 рабочих дней</td>
+                      </tr>
+                      <tr>
+                        <td>10 001 и выше</td>
+                        <td>Пожалуйста, свяжитесь с нами</td>
+                      </tr>
+                    </table>     
+				<h3>Сопутствующие услуги</h3>
+                <h4>Выбор журналов</h4>
+                <p>Если вам нужна помощь в выборе подходящего для вашей рукописи  журнала  , см.  Выбор  журнала</p>
+                <h4>Инструкции для авторов</h4>
+                <p>Если вы хотите, чтобы ваша рукопись была отформатирована в соответствии с руководящими принципами журнала, пожалуйста, выберите «Обслуживание авторов».</p>
+                <h4>Представление рукописей</h4>
+                <p>После того как рукопись будет соответствовать требованиям указанного журнала, мы можем помочь вам представить рукопись с помощью службы «отправка рукописи».</p>
+                
+                <div class="clearBoth"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                  
+           </div>
+              </ul>
+                  <ul id="jquerytuts1" class="hide">
+                <div id="ec-div-main">
+
+<div class="number-sprite step1"><span>Выберите текст для сокращения слов</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara"> Если вы хотите сократить только часть рукописи, пожалуйста, отметьте, чтобы было отчетливо видно . Если вы желаете, чтобы сократилась вся рукопись, пожалуйста, отправить весь текст, включая список литературы, таблицы и рисунки.</div>
+
+
+<div class="number-sprite step2"><span>Оценка</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Пожалуйста, заполните форму для сокращения количества слов </div>
+
+
+<div class="number-sprite step3"><span>Цитата</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara"> После получения вашего запроса, Enago отправит вам извещение относительно деталей платежа. Как только вы примете наше предложение, Ваш заказ будет подтвержден.</div>
+
+<div class="number-sprite step4"><span>Начало предоставления данного сервиса</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Мы сокращаем количество слов в соответствии с пожеланиями   автора.</div>
+
+<div class="number-sprite step5"><span>Доставка</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Мы доставим  Вашу работу в срок, по электронной почте.</div>
+
+<div class="number-sprite step6"><span>Выпуск / Отправление  платежных документов</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Мы принимаем наличные и безналичные средства оплаты. Мы можем оформить тот тип платежа, который вам удобен. Пожалуйста, свяжитесь с нами по payments@enago.com. Вы можете найти более подробную информацию на странице платежей</div>
+
+<div class="number-sprite step7"><span>оплата</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Вы можете оплатить банковским переводом или кредитной картой.</div>
+
+<div class="number-sprite step8"><span>После получения услуг</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Отношения между вами и Enago будут продолжаться после получения вами рукописи и произведения оплаты. Если у вас есть вопросы или вы желаете выразить свое сомнение, пожалуйста, посетите бесплатно Q & A. Редактор, который отредактирует вашу  рукопись ответит в будущем на все ваши вопросы.</div>
+
+<div class="cleaner marb18"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                  
+           </div>
+              </ul>
+             	  <ul id="php1" class="hide">
+                <div id="ec-div-main">
+                <p align="right" class="marR20"><a href="#" onclick="ddaccordion.expandall('question'); return false"><img width="79" height="23" src="images/subjectareas/button-expandall.png"></a>&nbsp;&nbsp;<a href="#" onclick="ddaccordion.collapseall('question'); return false"><img width="79" height="23" src="images/subjectareas/button-collapsall.png"></a> </p>
+<!-- question 1 -->
+<div class="question">&nbsp; Q. Сокращая количество слов, можете ли вы также одновременно   редактировать  рукопись?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">Хотя мы и исправляем мелкие ошибки в грамматике, делая сокращения слов, основным направлением является сокращение слов в целях удовлетворения   руководящих принципов журнала. Таким образом, мы рекомендуем наши услуги сокращения в редактировании, если рукопись требует сложного редактирования.</div></div></div></div></div></div></div></div></div>
+<!-- question 2 -->  
+<div class="question">&nbsp; Q. Вы форматируете рукопись в этой услуге?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">Нет, форматирование не входит в эту услугу. Если ваша рукопись требует форматирования, выберите нашу инструкцию для авторов   (<a href="http://www.enago.kr/202.htm" class="text-link">http://www.enago.kr/202.htm</a>).</div></div></div></div></div></div></div></div></div>
+
+<!-- question 3 -->                
+<div class="question">&nbsp; Q. Как я могу решить процентное сокращение по форме просьбе?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">ограничение количества слов указано в инструкции руководящих принципов для авторов на сайте каждого журнала. Пожалуйста, проверьте руководящие принципы и сравните пределы количества слов, указывающих  фактическое количество  слов в вашей рукописи, чтобы решить вопрос требуемого процентного сокращения.</div></div></div></div></div></div></div></div></div>
+
+                
+                               <div class="clearBoth"></div>
+   <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                                
+           </div>
+              </ul>
+             
+                </div>
+            <!-- END List Wrap --> 
+            
+          </div>
+            </div>
+
+
+ </div>
+
+    </div>
+    <!-- columnLatestNews -->
+    <div class="clearBoth"></div>
+  </div>
+  <!-- corporateInfoContainer -->
+</div>
+  <!-- corporateInfoContainer --> 
+  
+</div>
+<!-- bodyContainer --> 
+
+<!-- FOOTER -->
+<?php include("inc_footer.htm"); ?>
+<!-- footerContainer -->
+
+</body>
+</html>
