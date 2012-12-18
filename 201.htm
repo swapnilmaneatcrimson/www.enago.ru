@@ -1,0 +1,290 @@
+<?php 
+  $currentPage="Author Support";
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- HEAD -->
+<head>
+<meta name="author" content="DigitalCavalry" />
+<meta name="description" content="помощь в выборе журнала компания Энаго выбирает из команды известных авторов, рецензентов, которые помогут автору и предоставят автору выбрать издателя для его рукописи." />
+<meta name="keywords" content="" />
+<meta name="language" content="english" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Помощь в Выборе Научного Журнала | Средство Выбора Журнала EnagoTM</title>
+<!-- ICON -->
+<link rel="icon" href="img/common/icons/favicon.ico" type="image/x-icon" />
+<!-- CSS (Cascading Style Sheets) Files -->
+<link type="text/css" rel="stylesheet" href="css/common.css" />
+
+<link type="text/css" rel="stylesheet" href="css/index.css" />
+<!-- JavaScript Files -->
+
+<script src="js/jquery-1.2.1.min.js" type="text/javascript"></script>
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+<script src="js/organictabs.jquery1.js"></script>
+<script type="text/javascript" src="js/ddaccordion.js"></script>
+    <script>
+//Initialize 2nd demo:
+ddaccordion.init({
+	headerclass: "question", //Shared CSS class name of headers group
+	contentclass: "answer", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: false, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content.
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: false, //persist state of opened contents within browser session?
+	toggleclass: ["closedlanguage", "openlanguage"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "<img src='images/common/icon_+.png' style='width:13px; height:13px' class='vabsmiddle' /> ", "<img src='images/common/icon_close.png' class='vabsmiddle' /> "], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+
+
+	window.onload = function() {
+	setTimeout(function() {
+		// preload image
+		new Image().src = "images/ec-support/ec-tab-sprite.png";
+	}, 100);
+};
+
+        $(function() {
+    
+            $("#example-one").organicTabs();
+            
+            $("#example-two").organicTabs({
+                "speed": 200
+            });
+    
+        });
+    </script>
+
+<!--[if IE 6]>
+        <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script>
+          DD_belatedPNG.fix('.ie6PNGfix, .commonLink');
+          
+          /* string argument can be any CSS selector */
+          /* .ie6PNGfix example is unnecessary */
+          /* change it to what suits you! */
+        </script>
+        <![endif]-->
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+            sfHover = function() {
+                var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+                for (var i=0; i<sfEls.length; i++) {
+                    sfEls[i].onmouseover=function() {
+                        this.className+=" sfhover";
+                    }
+                    sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                    }
+                }
+            }
+            if (window.attachEvent) window.attachEvent("onload", sfHover);
+        //--><!]]></script>
+</head>
+
+<body>
+
+<!-- HEADER SECTION -->
+<?php include("inc_header.htm"); ?>
+<!-- headerContainer  --> <!-- BODY CONTAINER -->
+<div id="bodyContainer">
+  <div class="cleaner"></div>
+  <!-- NAVIGATION -->
+<?php include("inc_navigation.htm"); ?>
+  <!-- navigationContainer --> 
+ 
+  <!-- SERVICES AND PRODUCTS, LAST NEWS LIST -->
+  <div id="bodyContainer">
+  <div class="cleaner"></div>
+  <!-- NAVIGATION -->
+  
+  <!-- navigationContainer -->
+  <!-- SERVICES AND PRODUCTS, LAST NEWS LIST -->
+  <div id="corporateInfoContainer">
+    <!-- COLUMN #2 -->
+    <div class="columnLatestNews">
+      <h2 id="latestNewsHeader">Сервис авторской поддержки</h2>
+      <div class="sidebarLinkPanelContainer">
+      <a href="200.htm" class="item">Сервис авторской поддержки</a>
+         <a href="208.htm" class="item">Повторный обзор и проверка отклоненных рукописей<!-- revised rejected paper --></a>
+         <a href="205.htm" class="item">Услуга по предоставлению сопроводительных писем<!-- cover letter service --></a>
+         <a href="202.htm" class="item ">Инструкция для авторов рукописей<!-- Instruction to author --></a>
+         <a href="201.htm" class="item active-sub">Выбор журнала<!-- Journal Selection --></a>
+         <a href="203.htm" class="item">Художественное редактирование<!-- Art work editing --></a>
+         <a href="204.htm" class="item">Количественное сокращение  слов<!-- word count reduction --></a>
+         <a href="206.htm" class="item">Предварительное получение экспертной оценки<!--Pre-submission peer-review--></a>
+        <!-- Left banner -->
+      <?php include("inc_leftbottom.htm"); ?>
+        <!-- Left banner end -->            
+        </div>
+    </div>
+    <!-- COLUMN #1 -->
+    <div class="columnServicesProducts">
+      <h2>Выбор журнала</h2>
+            <div id="navigationTreeContainer">
+                        <a href="index.htm" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="200.htm" class="prev">Сервис авторской поддержки</a>&nbsp;&nbsp;\&nbsp;&nbsp; 
+                        <a class="current">Выбор журнала</a>
+                    </div>
+      <div class="columnText">
+   
+<div id="EC-support">
+              <div id="example-one">
+            <ul class="ECtab">
+                  <li class="ec-tab1"><a href="#featured1" class="current">О сервисе</a></li>
+                  <li class="ec-tab2"><a href="#core1">Оплата</a></li>
+                  <li class="ec-tab3"><a href="#jquerytuts1">Процесс</a></li>
+                  <li class="ec-tab4 last"><a href="#php1">FAQ</a></li>                   
+                </ul>
+            <div class="list-wrap">
+				<ul id="featured1">
+                  <div id="ec-div-main">
+                  <h3>Об услуге: Цель и Определение</h3>
+                  
+                  <p>Кто должен выбрать данную услугу?<br />
+                  Если Вы не знаете, как выбрать журнал или хотите выбрать журнал, где вероятность принятия более доступна.</p>
+                  
+                  <p>Статус рукописи: Предварительный вариант рукописи готов.</p>
+                  <p>В данной услуге, мы включаем список нескольких журналов, которые больше всего соответствуют  Вашей рукописи. Очень важен выбор правильного журнала, чтобы избежать отклонений и задержек при публикации. Мы можем помочь Вам выбрать журнал, учитывая ваши пожелания. Наши эксперты помогут Вам в этом. Наши эксперты – известные авторы со степенью Доктора и долгое время работали в качестве рецензентов различных журналов. Они проанализируют Вашу рукопись и проверят её соответствие к журналам Вашей предметной области, затем рекомендуют список 5 журналов, основанных на следующих составных:</p>
+                  
+        <h4>Предметная область исследования</h4>:
+<ul class="ulbasic3">
+<li>Целевая аудитория журнала(охват, центр, и т.д.)</li>
+<li>Возможность и вероятность публикации</li>
+<li>Особенности журнала (открытый доступ, только для печати, и т.д.),</li>
+<li>Вид статьи</li>
+<li>Значение статьи в его предметной области</li>
+</ul>
+<p>Доступность отчета</p>
+
+
+                <div class="clearBoth"></div>
+                 <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div> 
+                 
+           </div>
+              </ul>
+				<ul id="core1" class="hide">
+                <div id="ec-div-main">
+                <p>Оплата и крайние сроки:</p>
+                 <table class="tableBasic1 marb20" width="100%" border="0" cellspacing="0" cellpadding="0">
+  
+  <tr>
+    <td class="head">Одноразовый платеж</td>
+     <td class="head">Время обработки</td>
+  </tr>
+  <tr>
+    <td> 31,862 Тенге<br />
+Требуется авансовый платеж
+</td>
+    <td>3 дня</td>
+  </tr>
+     </table>
+     
+                <div class="clearBoth"></div>
+                 <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                  
+           </div>
+              </ul>
+				<ul id="jquerytuts1" class="hide">
+                <div id="ec-div-main">
+
+<div class="number-sprite step1"><span>Оценка</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Заполните Форму Выбора Журнала.</div>
+
+
+<div class="number-sprite step2"><span>ПодтверждениеЗаказа</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">После получения Вашего запроса, Enago отправит вам детали цитаты. Если Вы примете цитату, то заказ будет подтвержден.</div>
+
+
+<div class="number-sprite step3"><span>Начало оказания услуги</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Эксперт по Вашей области включит в окончательный список 5 журналов, подходящих для Вашей рукописи.</div>
+
+<div class="number-sprite step4"><span>ДоставкаОтчета</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Мы отправим заключительный отчет с рекомендациямипо почте.</div>
+
+<div class="number-sprite step5"><span>Издание/отправка</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Мы принимаем безналичные и наличные средства оплаты. Мы можем выслать вам удобный вид платежа, который вам необходим. Свяжитесь с нами на сайте payments@enago.com. Вы можете найти более подробную информацию на странице платежей.</div>
+
+<div class="number-sprite step6"><span>Оплата</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Вы можете оплатить в форме банковского перевода или через Кредитную карточку.</div>
+
+<div class="number-sprite step7"><span>Послеоказанияуслуги</span></div>
+<div class="stepsarrow"></div>
+<div class="stepspara">Enago продолжит обслуживание и будет отвечать на все ваши вопросы даже после доставки и произведения платежа. Свяжитесьснами, если вам это необходимо.</div>
+
+
+<div class="cleaner marb18"></div>
+                 <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                  
+           </div>
+              </ul>
+				<ul id="php1" class="hide">
+                <div id="ec-div-main">
+                <p align="right" class="marR20"><a href="#" onclick="ddaccordion.expandall('question'); return false"><img width="79" height="23" src="images/subjectareas/button-expandall.png"></a>&nbsp;&nbsp;<a href="#" onclick="ddaccordion.collapseall('question'); return false"><img width="79" height="23" src="images/subjectareas/button-collapsall.png"></a> </p>
+<!-- question 1 -->
+<div class="question">&nbsp; Q. Что такое служба   выбора   журнала ?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">Эта услуга поможет вам выбрать журнал, в который следует отправить вашу рукописьдля публикации. Эксперт  в предметной области  рассмотрит вашу рукопись и предложит вашему выбору  5 подходящих  журналов. Рецензент также определит журнал, где ваша рукопись, скорее всего, будет принята.</div></div></div></div></div></div></div></div></div>
+<!-- question 2 -->  
+<div class="question">&nbsp; Q. Гарантирует ли Энаго публикацию в журналах?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">Нет, мы не можем гарантировать публикацию, поскольку решение принятия или  отклонения лежит полностью на самом журнале.  Журналы получают  очень много разных работ и среди них определяются лучшие работы и, следовательно, отбираются для публикации только лучшие исследования, которые получают возможность публикации. Под выбором журнала мы подразумеваем наиболее подходящий для вашей области исследования журнал, где есть максимальная гарантия в получении публикации вашей рукописи.</div></div></div></div></div></div></div></div></div>
+
+<!-- question 3 -->                
+<div class="question">&nbsp; Q. Почему я должен перечислить 5 журналов для вас, когда  у вас у самих есть услуга выбора 5-ти журналов, которые вы рекомендуете в своих услугах?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">Мы просим Вас перечислить 5 журналов для того, чтобы наши рецензенты могли проверить журналы, для того чтобы удовлетворить ваш запрос публикации вашей рукописи. В случае, если выбранные вами журналы не подходят, рецензенты упоминают причину по которой они не подходят. Такая обратная связь поможет Вам в выборе журналов для других ваших работ.<br />Кроме того, ваш список из 5 журналов, даст некоторую информацию, чтобы наш рецензент смог определить к какой конкретной категории подходит ваша рукопись или какой журнал необходимо будет подбирать для вашей рукописи.</div></div></div></div></div></div></div></div></div>
+
+<!-- question 4 -->  
+<div class="question">&nbsp; Q. Какова квалификация / опыт рецензента, который оценивает мою рукопись оказывая мне эту услугу?</div>
+<div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+  <div class="tr">рецензент будет иметь степень Ph.D по вашей предметной области. Большинство обозревателей  являются исследователями, которые имеют собственные опубликованные  рукописи. Самое главное, они также имеют большой опыт работы в качестве рецензента в престижных журналах.</div></div></div></div></div></div></div></div></div>
+                
+                
+                               <div class="clearBoth"></div>
+                 <div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                                
+           </div>
+              </ul>
+        	 
+                </div>
+            <!-- END List Wrap --> 
+          </div>        
+            </div>
+<div class="cleaner marB10"></div>
+
+ </div>
+
+    </div>
+    <!-- columnLatestNews -->
+    <div class="clearBoth"></div>
+  </div>
+  <!-- corporateInfoContainer -->
+</div>
+  <!-- corporateInfoContainer --> 
+   <div class="cleaner"></div>  
+</div>
+<!-- bodyContainer --> 
+   <div class="cleaner"></div>
+      <div class="cleaner"></div>
+         <div class="cleaner"></div>
+<!-- FOOTER -->
+<?php include("inc_footer.htm"); ?>
+<!-- footerContainer -->
+</body>
+</html>
