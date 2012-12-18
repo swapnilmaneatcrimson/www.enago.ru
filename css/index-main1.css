@@ -1,0 +1,452 @@
+/********************************************************************
+    File:   
+        indexCSS.css
+    Brief:  
+        Hold styles used in index.html
+    Author:
+        DigitalCavalry
+    Author URI:
+        http://graphicriver.net/user/DigitalCavalry
+*********************************************************************/
+
+/******************************** 
+    ACCORDION
+*********************************/
+
+#accordionContainer {
+	width:960px;
+	height:300px;
+	overflow:hidden;
+	background-color:#000;
+	position:relative;
+	border:0px solid #EEE;
+	margin-left:40px;
+	margin-top:15px;
+}
+.asyncImgLoadAccordion {
+	clear: none;
+}
+.accordionImgDiv {
+	width: 760px;
+	height: 300px;
+	position: absolute;
+	border-left:1px solid #222;
+	margin-left: 0px;
+	background-color: black;
+	cursor:pointer;
+	overflow: hidden;
+}
+.accordionImgDiv .slideStrip {
+	position: absolute;
+	width: 90px;
+	height: 300px;
+	left:0px;
+	top:0px;
+	overflow: hidden;
+	background-image: url('../images/common/ajax/loading6.gif');
+	background-repeat: no-repeat;
+	background-position: 100% 50%;
+	background-color: transparent;
+}
+.accordionImgDiv .slideDesc {
+	position: absolute;
+	left: 15px;
+	bottom: 15px;
+	font: normal 12px/12px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #eee;
+}
+.accordionSlideImage {
+	border-left: 0px solid #AAA;
+	width:760px;
+	height:300px;
+	display:block;
+	background-image: url('../images/common/ajax/loading10.gif');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.accordionDescBack {
+	bottom:-70px;
+	margin-left:0px;
+	margin-top:0px;
+	position:absolute;
+	left:0px;
+	width:760px;
+	height:70px;
+	opacity:0.0;
+	filter:alpha(opacity=0); /* IE */
+	background-color:#000;
+	border-top:1px solid #111;
+}
+.accordionDesc {
+	font-weight:normal;
+	font-family: verdana;
+	font-size:10px;
+	padding-top:0px;
+	padding-left:10px;
+	text-align:left;
+	color:#DDD;
+	bottom:-70px;
+	margin-left:0px;
+	margin-top:0px;
+	position:absolute;
+	left:0px;
+	width:760px;
+	height:70px;
+	opacity:0.0;
+	filter:alpha(opacity=0); /* IE */
+	background:none;
+	border:0px solid red;
+}
+.accordionDescHeader {
+	margin-top:5px;
+	position:static;
+	color:#FFF;
+	font: bold 20px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding-bottom:3px;
+	margin-bottom:0px;
+}
+/****************************************** 
+   NEWS BAR
+*******************************************/
+
+#newsBarContainer {
+	margin-left: 40px;
+	height: 16px;
+	width: 630px;
+	float:left;
+	margin-top:5px;
+	margin-bottom: 5px;
+	overflow: hidden;
+}
+#newsBar {
+	width: 620px;
+	left:0px;
+	top:0px;
+	display:inline;
+	background-color: white;
+	font: 10px/16px Verdana;
+	float:left;
+	margin-left: 0px;
+}
+#newsBarText {
+	color: #666;
+}
+#newsBarTitle {
+	color: #000;
+	font-weight: bold;
+}
+.newsBarNews {
+	display: none;
+}
+/****************************************** 
+   ACCORDION CONTROL PANEL
+*******************************************/
+
+#accordionControlPanel {
+	text-align:right;
+	width:250px;
+	height:16px;
+	margin-right:40px;
+	display:inline;
+	float:right;
+	margin-bottom:5px;
+	margin-top:5px;
+}
+#accorControlBtnDesc {
+	margin-right:0px;
+	padding-top:0px;
+	margin-top:0px;
+	font:10px/16px Verdana;
+	color:#666;
+	vertical-align:top;
+}
+.accorControlButton {
+	cursor: pointer;
+	vertical-align: top;
+}
+/****************************************** 
+   CSS STYLES FOR TABS IN FILE index.html 
+*******************************************/
+
+#tabsContainer {
+	width: 960px;
+	height: 172px; /* 32px for buttons and 140px for tab content*/
+	margin-left: 40px;
+	margin-bottom: 10px;
+	background-color: #FFF;
+}
+#tabsWrapper {
+	margin: 0px;
+	width: 960px;
+	height:140px;
+	overflow: hidden;
+	background-color: #000;
+	position: relative;
+}
+#tabsBtnBar {
+	height: 32px;
+	width: 960px;
+	background-color: #FFF;
+}
+.tabsBtn {
+	height: 32px;
+	float: right;
+	font: normal 12px/32px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: #000;
+	padding-right: 14px;
+	padding-left: 14px;
+	cursor: pointer;
+	border-top: 1px solid #999999;
+}
+.tabsDefaultTab {
+	display:none;
+}
+.tabsSource {
+	display:none;
+}
+.tabsGeneral {
+	position: absolute;
+	padding-top: 10px;
+	padding-left: 10px;
+	width:940px;
+	margin: 0px;
+	background-color:transparent;
+	visibility:visible;
+	left: 0px;
+	top:200px;
+}
+.tabsFeatureImageContainer {
+	float:left;
+	margin-right:10px;
+	width:168px;
+	height:112px;
+	background-color:#000;
+	border: 1px solid #333;
+	padding: 3px;
+	background-image: url('../images/common/ajax/loading6.gif');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+.tabsThumbsContainer {
+	margin-top:15px;
+	border: 0px solid blue;
+	margin-right: 0px;
+}
+.tabsThumb {
+	display:block;
+	float:right;
+	width:26px;
+	height:26px;
+	background-color:white;
+	background-image: url('../images/common/ajax/loading2.gif');
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	margin-left:5px;
+	overflow: hidden;
+	border: 1px solid #aaa;
+	cursor:pointer;
+}
+.tabsThumb:hover {
+	border: 1px solid #222;
+}
+.tabsDesc {
+	font: 11px Verdana;
+	color: #FFF;
+	line-height: 120%;
+}
+.tabsHeader {
+	margin-bottom: 5px;
+	font: bold 25px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	height: 30px;
+	color:#dddddd;
+}
+/****************************************** 
+Added by sagar
+*******************************************/  
+
+#corporateInfoContainer {
+	margin-top: 0px;
+	margin-left: 0px;
+	width: 960px;
+	padding:10px 40px 30px;
+	border-top: 0px dotted #ccc;
+	border-bottom: 0px solid #FFF;
+}
+
+.maincontentcontainer {
+	display:block;
+	float:left;
+	color:#222;
+	width:960px;
+	padding-left:0px;
+	margin-top: 0px;
+}
+.columnText {
+	padding-left: 0px;
+	margin-top: 10px;
+	font: 12px Verdana;
+	line-height: 140%;
+}
+
+#slildercontainer{ display:block; width:958px; height:340px; margin-bottom:20px; background:url(../images/indexpage/slider/sliderbg.png) no-repeat left bottom}
+
+#topcontentcontainer{display:block; float:left; width:960px;}
+#videocontainer{ width:470px; margin-bottom:20px;margin-right:20px; float:left }
+#videocontainer .video{ padding:0px;  float:left; background-color:#CCC}
+#videocontainer .videocontent{ width:470px; float:left; margin-top:20px;}
+#videocontainer .videocontent .point1{ text-align:left; width:470px; font-size:16px; line-height:150%; margin-right:10px; margin-bottom:20px;}
+#videocontainer .videocontent .point2{ text-align:left; width:470px; font-size:16px; line-height:150%; margin-right:10px; margin-top:20px;}
+
+#servicescontainer{ width:470px; margin-bottom:20px; float:left}
+#servicescontainer .normalcontainer{padding:0px; float:left; width:470px; margin-bottom:20px; }
+.ideal-box{background-color:#f6f6f6; width: 460px; height:76px; padding:5px 3px 5px 7px!important; font-size:12px; color:#454545; letter-spacing:0px!important; margin-bottom:0px!important;}
+.ideal-box strong{display:block; font-weight:bold; color:#2369ad;}
+#servicescontainer .advancecontainer{padding:0px; float:left; width:470px; }
+
+#editorcontainer{ display:block; width:960px; margin-bottom:20px; clear:both;}
+#editorcontainer .editor-left{padding:0px; margin-right:0px; float:left; width:960px; margin-bottom:20px; }
+#editorcontainer .editor-right{padding:0px; float:left; width:960px }
+.editorsbanner{ background:url(../images/indexpage/editors-banner.jpg) no-repeat 0 0; width:960px; height:236px; vertical-align:bottom; text-align:right}
+.padding20BR{padding:0px 20px 20px 0px!important;}
+.editor-readmore{display:block; margin-top:30px; text-align:right}
+
+.big-divider{ display:block; width:960px; padding:20px 0px 0px 0px; clear:both}
+
+#whyenagocontainer{ display:block; width:960px; margin-bottom:20px; clear:both;}
+#whyenagocontainer .accepted-papers{padding:0px; margin-right:20px; float:left; width:470px;}
+#whyenagocontainer .journals{padding:0px; float:left; width:470px;  float:left }
+.awards{
+	padding:0px; 
+	display:block; 
+	clear:both; 
+	margin-bottom:0px; 
+	background-color:#f6f6f6; 
+	padding:10px 0px;
+	width:1040px;
+	margin:auto;
+	margin-top:0px;
+	margin-bottom:0px;
+	position: relative;background:url(../images/footer/logo-bg.png) repeat-x top; padding:12px 0; text-align:center;
+
+}
+
+
+h2.h2Index {
+	font: 21px Arial, Helvetica, sans-serif;
+	color: #84213f;
+	padding-left: 0px;
+	padding-bottom:15px;
+}
+h3.h3Index {
+	font: 21px Arial, Helvetica, sans-serif;
+	color: #84213f;
+	background:url(../images/indexpage/h3-bg.png) no-repeat bottom left; 
+	padding-bottom:5px;
+	margin-bottom:15px;
+}
+
+.h3-whyenago{
+	font: 41px "Times New Roman", Times, serif;
+	color: #84213f;
+	margin:15px 0px; text-align:center; width:960px; display:block; clear:both
+}
+
+h4.h4NE{
+	font: 19px Arial, Helvetica, sans-serif;
+	color: #222222;
+	background:url(../images/indexpage/h4-ne-bg.png) no-repeat bottom left;
+	padding-top:5px;
+	margin-bottom:0px!important; text-indent:27px; height:30px;
+}
+
+h4.h4AE{
+	font: 19px Arial, Helvetica, sans-serif;
+	color: #222222;
+	background:url(../images/indexpage/h4-ae-bg.png) no-repeat bottom left;
+	padding-top:5px;
+	margin-bottom:0px!important; text-indent:29px; height:30px;
+}
+
+.h4-blank{
+	font: 19px Arial, Helvetica, sans-serif;
+	color: #222222;
+	background:url(../images/indexpage/h4-blank-bg.png) no-repeat bottom left;
+	margin-bottom:10px; height:30px;
+
+}
+
+.h4-whyenago{
+	font: 17px Arial, Helvetica, sans-serif;
+	color: #222222;
+	background:url(../images/indexpage/h4-blank-bg.png) no-repeat bottom left;
+	margin-bottom:10px; height:35px; font-weight:bold; 
+
+}
+.brd1image{border:1px solid #ccc; padding:0px 5px; background-color:#fff}
+.more {
+    background: url("../images/indexpage/more-button.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 28px;
+    margin:10px 0 0 15px;
+    padding: 0 0 0 230px;
+    width: 174px;
+}
+.more1{
+    background: url("../images/indexpage/more-button1.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 28px;
+    margin:10px 0 0 15px;
+    padding: 0 0 0 386px;
+    width: 174px;
+}
+.more2 {
+    background: url("../images/indexpage/more-button.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 28px;
+    margin:10px 0 0 15px;
+    padding: 0 0 0 207px;
+    width: 174px;
+}
+.more3 {
+    background: url("../images/indexpage/more-button2.png") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 28px;
+    margin:10px 0 0 15px;
+    padding: 0 0 0 133px;
+    width: 174px;
+}
+
+.tableblue{border-collapse:collapse;}
+.tableblue th{background: #E7F2F9;
+    padding: 8px 12px 4px 16px; border:1px solid #D8E0E9; color: #961A40;
+    font-weight: bold; font-size:10px;
+    text-decoration: none;}
+.tableblue td{border: 1px solid #D8E0E9;
+    color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 11px !important;
+    padding: 6px 12px;}
+.tableblue tr.alt{background: none repeat scroll 0 0 #F8F8F8;color: #797268}
+.tableblue td.brdb{border-bottom: 1px solid #D8E0E9; border-left:none!important; border-right:none!important; border-top:none!important; padding: 3px 0px;}	
+.tableblue td.brdb-txt{border-bottom: 1px solid #D8E0E9; border-left:none!important; border-right:none!important; border-top:none!important; padding: 3px 0px 3px 10px; vertical-align:middle; font-size:18px!important; color:#454545; line-height:26px; }
+
+#calltoaction{display:block; margin-top:30px; margin-bottom:30px; text-align:center; clear:both}
+a.btn-checkprice{ width:405px; height:58px; background:url(../images/indexpage/buttons-call-to-action.jpg) no-repeat 0 0; display:inline-block; margin-right:20px;}
+a.btn-submitmanuscript{ width:405px; height:58px; background:url(../images/indexpage/buttons-call-to-action.jpg) no-repeat -415px 0; display:inline-block;}
+
+/****************************************** 
+Added by sagar end
+*******************************************/  
+
+
+
+#latestNewsHeader {
+	border-bottom: 1px solid #DDDDDD;
+	color: #000000;
+	font: 25px Arial, Helvetica, sans-serif;
+	padding-bottom: 7px;
+	padding-left: 2px;
+}
