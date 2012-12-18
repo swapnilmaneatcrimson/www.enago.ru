@@ -1,0 +1,331 @@
+<?php 
+  $currentPage="Author Support";
+?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<!-- HEAD -->
+<head>
+<meta name="author" content="DigitalCavalry" />
+<meta name="description" content="помощь в выборе журнала компания Энаго выбирает из команды известных авторов, рецензентов, которые помогут автору и предоставят автору выбрать издателя для его рукописи." />
+<meta name="keywords" content="" />
+<meta name="language" content="english" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Помощь в Выборе Научного Журнала | Средство Выбора Журнала EnagoTM</title>
+<!-- ICON -->
+<link rel="icon" href="img/common/icons/favicon.ico" type="image/x-icon" />
+<!-- CSS (Cascading Style Sheets) Files -->
+<link type="text/css" rel="stylesheet" href="css/common.css" />
+
+<link type="text/css" rel="stylesheet" href="css/index.css" />
+<!-- JavaScript Files -->
+
+<script src="js/jquery-1.2.1.min.js" type="text/javascript"></script>
+
+<script src='http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js'></script>
+<script src="js/organictabs.jquery1.js"></script>
+<script type="text/javascript" src="js/ddaccordion.js"></script>
+    <script>
+//Initialize 2nd demo:
+ddaccordion.init({
+	headerclass: "question", //Shared CSS class name of headers group
+	contentclass: "answer", //Shared CSS class name of contents group
+	revealtype: "click", //Reveal content when user clicks or onmouseover the header? Valid value: "click", "clickgo", or "mouseover"
+	mouseoverdelay: 200, //if revealtype="mouseover", set delay in milliseconds before header expands onMouseover
+	collapseprev: false, //Collapse previous content (so only one open at any time)? true/false 
+	defaultexpanded: [], //index of content(s) open by default [index1, index2, etc]. [] denotes no content.
+	onemustopen: false, //Specify whether at least one header should be open always (so never all headers closed)
+	animatedefault: false, //Should contents open by default be animated into view?
+	persiststate: false, //persist state of opened contents within browser session?
+	toggleclass: ["closedlanguage", "openlanguage"], //Two CSS classes to be applied to the header when it's collapsed and expanded, respectively ["class1", "class2"]
+	togglehtml: ["prefix", "<img src='images/common/icon_+.png' style='width:13px; height:13px' class='vabsmiddle' /> ", "<img src='images/common/icon_close.png' class='vabsmiddle' /> "], //Additional HTML added to the header when it's collapsed and expanded, respectively  ["position", "html1", "html2"] (see docs)
+	animatespeed: "fast", //speed of animation: integer in milliseconds (ie: 200), or keywords "fast", "normal", or "slow"
+	oninit:function(expandedindices){ //custom code to run when headers have initalized
+		//do nothing
+	},
+	onopenclose:function(header, index, state, isuseractivated){ //custom code to run whenever a header is opened or closed
+		//do nothing
+	}
+})
+
+
+
+
+	window.onload = function() {
+	setTimeout(function() {
+		// preload image
+		new Image().src = "images/ec-support/ec-tab-sprite.png";
+	}, 100);
+};
+
+        $(function() {
+    
+            $("#example-one").organicTabs();
+            
+            $("#example-two").organicTabs({
+                "speed": 200
+            });
+    
+        });
+    </script>
+
+<!--[if IE 6]>
+        <script type="text/javascript" src="lib/DD_belatedPNG_0.0.8a-min.js"></script>
+        <script>
+          DD_belatedPNG.fix('.ie6PNGfix, .commonLink');
+          
+          /* string argument can be any CSS selector */
+          /* .ie6PNGfix example is unnecessary */
+          /* change it to what suits you! */
+        </script>
+        <![endif]-->
+
+<script type="text/javascript"><!--//--><![CDATA[//><!--
+            sfHover = function() {
+                var sfEls = document.getElementById("nav").getElementsByTagName("LI");
+                for (var i=0; i<sfEls.length; i++) {
+                    sfEls[i].onmouseover=function() {
+                        this.className+=" sfhover";
+                    }
+                    sfEls[i].onmouseout=function() {
+                        this.className=this.className.replace(new RegExp(" sfhover\\b"), "");
+                    }
+                }
+            }
+            if (window.attachEvent) window.attachEvent("onload", sfHover);
+        //--><!]]></script>
+</head>
+
+<body>
+
+<!-- HEADER SECTION -->
+<?php include("inc_header.htm"); ?>
+<!-- headerContainer  --> <!-- BODY CONTAINER -->
+<div id="bodyContainer">
+  <div class="cleaner"></div>
+  <!-- NAVIGATION -->
+<?php include("inc_navigation.htm"); ?>
+  <!-- navigationContainer --> 
+ 
+  <!-- SERVICES AND PRODUCTS, LAST NEWS LIST -->
+  <div id="bodyContainer">
+  <div class="cleaner"></div>
+  <!-- NAVIGATION -->
+  
+  <!-- navigationContainer -->
+  <!-- SERVICES AND PRODUCTS, LAST NEWS LIST -->
+  <div id="corporateInfoContainer">
+    <!-- COLUMN #2 -->
+    <div class="columnLatestNews">
+      <h2 id="latestNewsHeader">Сервис авторской поддержки</h2>
+      <div class="sidebarLinkPanelContainer">
+      <a href="200.htm" class="item">Сервис авторской поддержки</a>
+         <a href="208.htm" class="item active-sub">Повторный обзор и проверка отклоненных рукописей<!-- revised rejected paper --></a>
+         <a href="205.htm" class="item">Услуга по предоставлению сопроводительных писем<!-- cover letter service --></a>
+         <a href="202.htm" class="item">Инструкция для авторов рукописей<!-- Instruction to author --></a>
+         <a href="201.htm" class="item">Выбор журнала<!-- Journal Selection --></a>
+         <a href="203.htm" class="item">Художественное редактирование<!-- Art work editing --></a>
+         <a href="204.htm" class="item">Количественное сокращение  слов<!-- word count reduction --></a>
+         <a href="206.htm" class="item">Предварительное получение экспертной оценки<!--Pre-submission peer-review--></a>
+        <!-- Left banner -->
+      <?php include("inc_leftbottom.htm"); ?>
+        <!-- Left banner end -->            
+        </div>
+    </div>
+    <!-- COLUMN #1 -->
+    <div class="columnServicesProducts">
+      <h2>Повторный обзор и проверка отклоненных рукописей</h2>
+      <div id="navigationTreeContainer">
+                        <a href="index.html" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp; 
+                        <a class="prev">Сервис авторской поддержки</a>&nbsp;&nbsp;\&nbsp;&nbsp; 
+                        <a class="current">Повторный обзор и проверка отклоненных рукописей</a>
+                    </div>
+      <div class="columnText" style="min-height:1200px">
+        <h3>Пересмотрение / Редактирование отклоненной рукописи</h3>
+        <div id="EC-support">
+          <div id="example-one">
+            <ul class="ECtab">
+              <li class="ec-tab1"><a href="#featured1" class="current">О сервисе</a></li>
+              <li class="ec-tab2"><a href="#core1">Оплата</a></li>
+              <li class="ec-tab3"><a href="#jquerytuts1">Процесс</a></li>
+                  <li class="ec-tab4 last"><a href="#php1">FAQ</a></li>                 
+            </ul>
+            <div class="list-wrap">
+              <ul id="featured1">
+                <div id="ec-div-main">
+                  <h3>О сервисе: Цель и определение </h3>
+                  <p>Кто должен выбрать этот сервис?<br />
+                    Ваша статья была отклонена журналом или рецензентом, который предложил  внести изменения в вашу рукопись</p>
+                  <p>Статус рукописи: получение ответа  экспертов.</p>
+                  <p>В предоставлении этого вида услуг, мы снова обрабатываем вашу рукопись для того чтобы убедиться о правильном внесении вами дополнительных изменений в соответствии с замечаниями рецензента.  Наша главная цель заключается в повышении шансов принятия вашей рукописи тем или иным журналом. </p>
+                  <p>Данная услуга включает в себя Премиум редактирование и форматирование в соответствии с руководящими принципами журнала. </p>
+                  <p>После получения ответа рецензента, вы должны принять решение о том, хотите ли вы повторного издания вашей очередной рукописи в тот  или иной журнал. В зависимости от вашего решения, вы должны внести соответствующие изменения в вашу рукопись. Мы проконсультируем Вас о том, что необходимо будет сделать, если вы еще не получили ни одного отзыва рецензента.</p>
+                  <p>После пересмотра рукописи и написания вами ответа на комментарии рецензента, мы делаем следующие шаги:</p>
+                  <table class="tableBasic1 marb20" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td class="head">Вы должны представить  нам следующие документы:</td>
+                      <td class="head">То, что мы будем вам доставлять :</td>
+                    </tr>
+                    <tr>
+                      <td><ul class="ulbasic3">
+                          <li>Оригинал рукописи представленный в  журнал</li>
+                          <li>Пересмотренную рукопись в соответствии с инструкциями и замечаниями рецензентов</li>
+                          <li>Комментарии внешнего обозревателя (рецензента)</li>
+                          <li>Ответ на комментарии рецензента (черновик)* </li>
+                        </ul></td>
+                      <td><ul class="ulbasic3">
+                          <li>Отредактированные пересмотренные Рукописи</li>
+                          <li>Отредактированные ответы на комментарии в соответствии с редактированной рукописью*</li>
+                          <li>Сопроводительное письмо для пересмотренных / новых рукописей *</li>
+                          <li>Отчет о ваших комментариях</li>
+                        </ul></td>
+                    </tr>
+                  </table>
+                  <div style="font-family:Arial, Helvetica, sans-serif; font-size:9px"><span style="color:#C00">*</span>В зависимости  от  представления  в  тот  же журнал  или  в новый журнал.</div>
+                  <div class="clearBoth"></div>
+<div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                  
+                </div>
+              </ul>
+              <ul id="core1" class="hide">
+                <div id="ec-div-main">
+                <table class="tableBasic1 marb20" width="100%" border="0" cellspacing="0" cellpadding="0">
+	<tr>
+    	<td class="head">Стоимость</td>
+        <td>42 тенге за 100 слов  </td>
+    </tr>                   
+</table>
+                  <table class="tableBasic1 marb20" width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                      <td class="head">Количество слов</td>
+                      <td class="head">Сроки доставки – первый тур</td>
+                      <td class="head">Клиент возвращает рукопись для  окончательной проверки</td>
+                      <td class="head">Доставка  рукописи после завершенной проверки</td>
+                    </tr>
+                    <tr>
+                      <td>0-2000 слов</td>
+                      <td>5 рабочих</td>
+                      <td>3 дня </td>
+                      <td rowspan="3">3 дня </td>
+                    </tr>
+                    <tr>
+                      <td>2001-5000 слов </td>
+                      <td>7 рабочих дней </td>
+                      <td>3 дня</td>
+                    </tr>
+                    <tr>
+                      <td>5001-10000 слов</td>
+                      <td>10 рабочих дней </td>
+                      <td>7 дней</td>
+                    </tr>
+                    <tr>
+                      <td>10,001 слов и более</td>
+                      <td>Пожалуйста, задавайте вопросы. </td>
+                      <td>-</td>
+                      <td>-</td>
+                    </tr>
+                  </table>
+                  <p><strong>Примечание</strong>: Пожалуйста, дайте знать, если вы хотите получить доставку срочно.  Пожалуйста, при этом укажите ваши сроки. Убедитесь, что вы предоставляете нам вашу рукопись не менее двух недель до крайнего срока подачи заявок.</p>
+                  <h3>Сопутствующий сервис</h3>
+                  <h4>Выбор журнала</h4>
+                  <p>Если Вам нужна помощь в выборе нового журнала после того, как ваша рукопись была отклонена одним журналом, пожалуйста, см. Помощь в  выборе журнала. </p>
+                  <h4>Художественное редактирование</h4>
+                  <p>Если рецензенты предложили внести изменения в вашу работу см. Художественное редактирование.</p>
+                  <h4>Службы представления рукописи</h4>
+                  <p>После того как вы завершили рукопись для повторного представления, мы можем помочь вам представить рукопись с помощью «службы отправки рукописей»</p>
+                  <div class="clearBoth"></div>
+<div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                  
+                </div>
+              </ul>
+              <ul id="jquerytuts1" class="hide">
+                <div id="ec-div-main">
+                  <div class="number-sprite step1"><span>Оценка</span></div>
+                  <div class="stepsarrow"></div>
+                  <div class="stepspara">Пожалуйста, заполните форму пересмотренной/отклоненной отредактированной рукописи</div>
+                  <div class="number-sprite step2"><span>Подтверждение цитат</span></div>
+                  <div class="stepsarrow"></div>
+                  <div class="stepspara">После получения вашего запроса, Enago отправит вам извещение о деталях платежа. Если вы согласны с извещением, подтвердите заказ . У вас будут три крайних срока
+                    <ul class="ulbasic3">
+                      <li>Срок редактируемых файлов - первый тур.</li>
+                      <li>Предположительное или точное время, согласно которому нужно отправить рукопись обратно после  нашей проверки с внесением изменений для окончательной проверки.</li>
+                      <li>Окончательный срок доставки рукописи</li>
+                    </ul>
+                  </div>
+                  <div class="number-sprite step3"><span>Пересмотр рукописи и доставка (первый тур) Қадам</span></div>
+                  <div class="stepsarrow"></div>
+                  <div class="stepspara">Наши специалисты будут работать над вашим документом и комментариями рецензента. Мы доставим работу в сроки, по электронной почте.</div>
+                  <div class="number-sprite step4"><span>Автор проверки (первый тур)</span></div>
+                  <div class="stepsarrow"></div>
+                  <div class="stepspara">Автор должен проверить все изменения и отправить документ обратно в сроки, указанные в письме по электронной почте. Автор может добавлять свои комментарии для проверки редактором  отдельных частей.</div>
+                  <div class="number-sprite step5"><span>Пересмотр рукописи и доставки (второй тур)</span></div>
+                  <div class="stepsarrow"></div>
+                  <div class="stepspara">Тот же редактор работает над документом, и уточняет ваши комментарии. Мы доставим ваш документ до крайнего срока.</div>
+                  <div class="number-sprite step6"><span>оплата</span></div>
+                  <div class="stepsarrow"></div>
+                  <div class="stepspara">Вы можете оплатить с помощью банковского перевода или кредитной карточкой.</div>
+                  <div class="number-sprite step7"><span>После получения услуг</span></div>
+                  <div class="stepsarrow"></div>
+                  <div class="stepspara">Если у вас есть нерешенные вопросы   / сомнения, пожалуйста, посетите Q & A. Редактор, который занимался редактированием вашего документа ответит на все ваши вопросы.</div>
+                  <div class="clearBoth"></div>
+<div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>                  
+                </div>
+              </ul>
+              <ul id="php1" class="hide">
+                <div id="ec-div-main">
+                    <div>
+                    <p align="right" class="marR20"><a href="#" onclick="ddaccordion.expandall('question'); return false"><img width="79" height="23" src="images/subjectareas/button-expandall.png"></a>&nbsp;&nbsp;<a href="#" onclick="ddaccordion.collapseall('question'); return false"><img width="79" height="23" src="images/subjectareas/button-collapsall.png"></a> </p>
+                    <!-- question 1 -->
+                    <div class="question">&nbsp; Q. В чем разница между пересмотренной отклоненной отредактированной рукописью  и рукописью после стандартного редактирования?</div>
+                    <div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+                      <div class="tr">Сервис пересмотрения отклоненной отредактированной рукописи является специализированной службой, в которой мы берем во внимание комментарии всех наших рецензентов с их замечаниями, которые вы получили согласно вашей рукописи  и комментарии относительно формата для вашей рукописи согласно руководящим принципам журнала.  Редакция будет пересматривать  авторские рукописи в соответствии с  комментариями рецензентов. Редакция гарантирует, что все вопросы, поднятые обозревателями рецензентами будут решаться должным образом. Редакторы также гарантируют, что ответы на комментарии рецензента являются профессиональными и  соответствуют  изменениям , внесенными в рукопись. <br />
+                     В стандартном редактировании, редактор  не будет переписывать рукопись на основе замечаний обозревателей и его комментариев; они будут делать свои грамматические и структурные поправки и корректирования, необходимые в рукописи. <br />
+                    Далее отзывы о содержании изменений осуществляющихся через "Предварительный обзор" и "Файл сообщения от редактора".
+                    </div></div></div></div></div></div></div></div></div>
+                    <div class="clearBoth"></div>
+                    <!-- question 2 -->  
+                    <div class="question">&nbsp; Q. Как вы оцениваете категории (Minor / Major) которое должно быть выбрано в соответствии с пересмотрением отклоненной отредактированной рукописи?</div>
+                    <div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+                      <div class="tr">
+                      Когда журнал отвергает рукопись, комментарии редактора / рецензента журнала требует значительных или незначительных внесений или изменений для повторного пересмотрения. В случае наличия такого строгого комментария, мы принимаем решение по большой и малой  категории основанной на комментариях рецензента. Если комментарии рецензента включают  предложения по пересмотру содержания, рукопись попадает под основную большую категорию. Если рецензенты указывают, что рукопись требует незначительных изменений относительно анлийского языка, то рукопись попадает под малую категорию.<br />
+                     Решение журнала также играет очень важную роль в классификации рукописи. Часто отзывы отмечают, что они приглашают авторов сдать рукопись для повторного представления или они отклоняют рукопись.
+                    
+                      </div></div></div></div></div></div></div></div></div>
+                                          <div class="clearBoth"></div>
+                    
+                    <!-- question 3 -->                
+                    <div class="question">&nbsp; Q. Пишете ли вы также ответы на комментарии рецензента?</div>
+                    <div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+                      <div class="tr">Мы не пишем ответы. Мы будем редактировать свои ответы по языку чтобы убедиться, что они согласны с внесенными изменениями  в рукописи. Мы также гарантируем, что ответы охватывают все вопросы обозревателей, которые поднимаются в процессе работы.</div></div></div></div></div></div></div></div></div>
+                                          <div class="clearBoth"></div>
+                    
+                    <!-- question 4 -->  
+                    <div class="question">&nbsp; Q. Вы предоставляете бесплатное сопроводительное письмо?</div>
+                    <div class="answer"><div class="curve_t"><div class="curve_b"><div class="curve_r"><div class="curve_l"><div class="bl"><div class="br"><div class="tl">
+                      <div class="tr">Да, мы предоставляем бесплатное сопроводительное письмо по пересмотренной отклоненной службе редактирования рукописи</div></div></div></div></div></div></div></div></div>
+					<div class="clearBoth"></div>
+					<div id="calltoaction"><a href="mailto:request-ru@enago.com" class="btn-contactus"></a></div>
+                    </div>
+				</div>
+              </ul>
+            </div>
+            <!-- END List Wrap -->
+          </div>
+        </div>
+      </div>
+     
+    </div>
+    <!-- columnLatestNews -->
+    <div class="clearBoth"></div>
+  </div>
+  <!-- corporateInfoContainer -->
+</div>
+  <!-- corporateInfoContainer --> 
+  
+</div>
+<!-- bodyContainer --> 
+
+<!-- FOOTER -->
+<?php include("inc_footer.htm"); ?>
+<!-- footerContainer -->
+
+</body>
+</html>
