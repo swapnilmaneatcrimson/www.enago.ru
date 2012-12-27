@@ -9,7 +9,7 @@
 <meta name="author" content="DigitalCavalry" />
 <meta name="description" content="Прочитайте то, о чем авторы говорят про нас, которые прибегли к нашим услугам в области научного редактирования. Наше обязательство по предоставлению качества и оказания внимания к потребностям клиентов делают нас одной из лучших академических компаний по редактированию во всем мире." />
 <meta name="keywords" content="" />
-<meta name="language" content="english" />
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Enago оказывает услуги редактирования и мы завоевали доверие 20 000 клиентов из более чем 67 стран</title>
 <!-- ICON -->

@@ -657,7 +657,7 @@ mail("$email", "$sub", $message1,
 <meta name="author" content="DigitalCavalry" />
 <meta name="description" content="Enago предлагает  Вам услуги академического научного редактирования английского языка  по доступным ценам. Enago имеет опыт в редактировании более 120000 слов. Наши редакторы - носители английского языка в области редактирования из США, Великобритании. Редакторы имеют степень магистра, доктора наук. " />
 <meta name="keywords" content="" />
-<meta name="language" content="english" />
+
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Услуги научного английского редактирования, научное английское редактирование, услуги корректирования научного английского языка</title>
 <!-- ICON -->
