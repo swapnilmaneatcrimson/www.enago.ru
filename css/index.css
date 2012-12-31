@@ -1,13 +1,4 @@
-/********************************************************************
-    File:   
-        indexCSS.css
-    Brief:  
-        Hold styles used in index.html
-    Author:
-        DigitalCavalry
-    Author URI:
-        http://graphicriver.net/user/DigitalCavalry
-*********************************************************************/
+
 
 /******************************** 
     ACCORDION
@@ -166,7 +157,7 @@
 	vertical-align: top;
 }
 /****************************************** 
-   CSS STYLES FOR TABS IN FILE index.html 
+   CSS STYLES FOR TABS IN FILE index.htm 
 *******************************************/
 
 #tabsContainer {

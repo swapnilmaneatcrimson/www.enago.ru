@@ -99,9 +99,9 @@ function hidedes(id2){
     <div class="columnServicesProducts">
       <h2>Утвержденные рукописи</h2>
 		<div id="navigationTreeContainer">
-            <a href="index.html" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp;
+            <a href="index.htm" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp;
             <a href="editing-services.htm" class="prev">Качество Энаго</a>&nbsp;&nbsp;\&nbsp;&nbsp;
-            <a href="accepted-papers.htm" class="current">Утвержденные рукописи</a>
+            <a href="accepted-papers.php" class="current">Утвержденные рукописи</a>
 		</div>
 	  <div class="columnText">
       

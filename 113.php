@@ -13,7 +13,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Enago оказывает услуги редактирования и мы завоевали доверие 20 000 клиентов из более чем 67 стран</title>
 <!-- ICON -->
-<link rel="icon" href="img/common/icons/favicon.ico" type="image/x-icon" />
+<link type="image/x-icon" href="images/favicon.ico" rel="shortcut icon">
 <!-- CSS (Cascading Style Sheets) Files -->
 <link type="text/css" rel="stylesheet" href="css/prettyPhoto/prettyPhoto.css" />
 <link type="text/css" rel="stylesheet" href="css/common.css" />

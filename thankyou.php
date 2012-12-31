@@ -661,7 +661,7 @@ mail("$email", "$sub", $message1,
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Услуги научного английского редактирования, научное английское редактирование, услуги корректирования научного английского языка</title>
 <!-- ICON -->
-<link rel="icon" href="img/common/icons/favicon.ico" type="image/x-icon" />
+<link type="image/x-icon" href="images/favicon.ico" rel="shortcut icon">
 <!-- CSS (Cascading Style Sheets) Files -->
 <link type="text/css" rel="stylesheet" href="css/common.css" />
 
@@ -753,7 +753,7 @@ mail("$email", "$sub", $message1,
     <div class="columnServicesProducts">
       <h2>Благодарим вас за подачу рукописи!</h2>
       <div id="navigationTreeContainer">
-                        <a href="index.html" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="#" class="prev">Форма цитат</a>&nbsp;&nbsp;\&nbsp;&nbsp; 
+                        <a href="index.htm" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a href="#" class="prev">Форма цитат</a>&nbsp;&nbsp;\&nbsp;&nbsp; 
                         <a class="current">Благодарим вас за подачу рукописи!</a>
                     </div>
       <div class="columnText">

@@ -2,7 +2,7 @@
     File:   
         indexCSS.css
     Brief:  
-        Hold styles used in index.html
+        Hold styles used in index.htm
     Author:
         DigitalCavalry
     Author URI:
@@ -166,7 +166,7 @@
 	vertical-align: top;
 }
 /****************************************** 
-   CSS STYLES FOR TABS IN FILE index.html 
+   CSS STYLES FOR TABS IN FILE index.htm 
 *******************************************/
 
 #tabsContainer {
