@@ -11,7 +11,15 @@ function redirect()
 }
 </script>
 <div id="topbarContainer">
-<table border="0" cellspacing="0" cellpadding="0" align="right">
+<div class="keywords floatLeft">
+<?php
+if(is_null($a)){?>
+ <strong class="Topkeyword">Английское редактирование, Английский редактор, Научное редактирование, Услуги научного редактирования</strong>
+ <?php } else{ ?>
+ <strong class="Topkeyword"><?php echo $a; ?></strong>
+ <?php }  ?>
+</div>
+<table border="0" cellspacing="0" cellpadding="0" align="right" class="floatRight">
   <tr>
     <td width="24"><img src="images/header/home.png" width="19" height="18" alt="Английский редактор, Enago Russia, Enago English Editing" class="vabsmiddle" /></td>
     <td width="45"><a class="text-link topLink_font" href="index.htm">Home</a></td>

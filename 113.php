@@ -55,6 +55,9 @@
 </head>
 
 <body>
+<?php
+$a = "Английское редактирование, Английский редактор, Научное редактирование, Услуги научного редактирования";
+?>
 
 <!-- HEADER SECTION -->
 <?php include("inc_header.htm"); ?>
@@ -82,7 +85,7 @@
     
     <!-- COLUMN #1 -->
     <div class="columnServicesProducts">
-      <h2>Отзывы</h2>
+      <h1>Отзывы</h1>
       <div id="navigationTreeContainer">
                         <a href="index.htm" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp; 
                         <a href="quality.htm" class="prev">Качество Энаго</a>&nbsp;&nbsp;\&nbsp;&nbsp;<a class="current">Отзывы</a>

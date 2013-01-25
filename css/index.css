@@ -328,13 +328,13 @@
 	font: 12px Verdana;
 	line-height: 145%;
 }
-h2 {
+h1 {
 	font: 25px Arial, Helvetica, sans-serif;
 	color: #84213F;
 	border-bottom:1px solid #DDDDDD;
 	padding-bottom:7px;
 }
-h3 {
+h2 {
 	font: 21px Arial, Helvetica, sans-serif;
 	color: #000;
 	border-bottom:1px solid #84213F;

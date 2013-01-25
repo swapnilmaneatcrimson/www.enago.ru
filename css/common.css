@@ -355,7 +355,7 @@ body {
 	padding-right:40px;
 	height:20px;
 	margin:10px auto auto;
-	padding-top:5px;
+	padding-top:15px;
 	padding-bottom: 0px;
 	padding-left:40px;
 	background-color:#fff; text-align:right; font-size:14px;
@@ -3932,3 +3932,5 @@ sup{font-size:45%; vertical-align:top}
 .logo_12{background: url("../images/sprite/logo.png") no-repeat scroll -1313px 0 transparent; height: 100px; margin: 0 auto; width: 108px;}
 .logo_13{background: url("../images/sprite/logo.png") no-repeat scroll -1425px 0 transparent; height: 100px; margin: 0 auto; width: 101px;}
 .logo_14{background: url("../images/sprite/logo.png") no-repeat scroll -1530px 0 transparent; height: 100px; margin: 0 auto; width: 161px;}
+.keywords{}
+.keywords .Topkeyword{font-weight:normal!important; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#999; border:none}

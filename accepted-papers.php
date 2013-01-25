@@ -67,6 +67,9 @@ function hidedes(id2){
 </head>
 
 <body>
+<?php
+$a = "Английское редактирование, Английский редактор, Научное редактирование, Услуги научного редактирования";
+?>
 
 <!-- HEADER SECTION -->
 <?php include("inc_header.htm"); ?>
@@ -97,7 +100,7 @@ function hidedes(id2){
     
     <!-- COLUMN #1 -->
     <div class="columnServicesProducts">
-      <h2>Утвержденные рукописи</h2>
+      <h1>Утвержденные рукописи</h1>
 		<div id="navigationTreeContainer">
             <a href="index.htm" class="prev">Home</a>&nbsp;&nbsp;\&nbsp;&nbsp;
             <a href="editing-services.htm" class="prev">Качество Энаго</a>&nbsp;&nbsp;\&nbsp;&nbsp;
