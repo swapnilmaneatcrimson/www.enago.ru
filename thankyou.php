@@ -640,7 +640,7 @@ $autoresponse
 С наилучшими пожеланиями, 
 Служба клиентской поддержки
 научного редактирования  
-Crimson Interactive Pvt Ltd";
+CRIMSON INTERACTIVE, LLC (USA)";
 
 mail("$email", "$sub", $message1,    
                 "From: CRIMSON (DO_NOT_REPLY-ENAGO)<$clientfromAdd>\r\n" . 
