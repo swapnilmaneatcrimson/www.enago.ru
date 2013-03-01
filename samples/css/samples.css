@@ -231,3 +231,7 @@ p.rounded-corners em{
 .commentText{ font-family: Verdana,Geneva,sans-serif;
     font-size: 11px;
     line-height: 16px; text-align:left!important}
+	
+#calltoaction{display:block; margin-top:20px; margin-bottom:20px; text-align:center; clear:both}
+a.btn-checkprice{ width:315px; height:49px;margin-top:20px;  background: url("../../images/samples/call-to-action.jpg") no-repeat 0 0; display:inline-block; margin-right:20px;}
+a.btn-submitmanuscript{ width:315px; height:49px;margin-top:20px;  background:url("../../images/samples/call-to-action.jpg") no-repeat -344px 0; display:inline-block;}	
