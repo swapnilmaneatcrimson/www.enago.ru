@@ -1,5 +1,5 @@
 <?php
-$conn = mysql_connect("db143b.pair.com","crimsoni_17","taPiK2dF") or die("could not connect to server");
+$conn = mysql_connect("db143b.pair.com","crimsoni_17","68F09dL3a") or die("could not connect to server");
 
 mysql_set_charset('utf8',$conn); 
 
