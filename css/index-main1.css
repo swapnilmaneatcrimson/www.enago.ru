@@ -294,17 +294,17 @@ Added by sagar
 #slildercontainer{ display:block; width:958px; height:340px; margin-bottom:20px; background:url(../images/indexpage/slider/sliderbg.png) no-repeat left bottom}
 
 #topcontentcontainer{display:block; float:left; width:960px;}
-#videocontainer{ width:470px; margin-bottom:20px;margin-right:20px; float:left }
+#videocontainer{margin-bottom:5px;margin-right:20px; float:left }
 #videocontainer .video{ padding:0px;  float:left; background-color:#CCC}
-#videocontainer .videocontent{ width:470px; float:left; margin-top:20px;}
-#videocontainer .videocontent .point1{ text-align:left; width:470px; font-size:16px; line-height:150%; margin-right:10px; margin-bottom:20px;}
-#videocontainer .videocontent .point2{ text-align:left; width:470px; font-size:16px; line-height:150%; margin-right:10px; margin-top:20px;}
+#videocontainer .videocontent{float:left; margin-top:5px;}
+#videocontainer .videocontent .point1{ text-align:left; font-size:16px; line-height:150%; margin-right:10px; margin-bottom:5px;}
+#videocontainer .videocontent .point2{ text-align:left; font-size:16px; line-height:150%; margin-right:10px; margin-top:5px; margin-bottom:15px}
 
-#servicescontainer{ width:470px; margin-bottom:20px; float:left}
-#servicescontainer .normalcontainer{padding:0px; float:left; width:470px; margin-bottom:20px; }
+#servicescontainer{margin-bottom:20px; float:left}
+#servicescontainer .normalcontainer{padding:0px; float:left; width:470px; margin-bottom:20px; margin-right:5px }
 .ideal-box{background-color:#f6f6f6; width: 460px; height:76px; padding:5px 3px 5px 7px!important; font-size:12px; color:#454545; letter-spacing:0px!important; margin-bottom:0px!important;}
 .ideal-box strong{display:block; font-weight:bold; color:#2369ad;}
-#servicescontainer .advancecontainer{padding:0px; float:left; width:470px; }
+#servicescontainer .advancecontainer{padding:0px; float:left; width:470px; margin-left:5px}
 
 #editorcontainer{ display:block; width:960px; margin-bottom:20px; clear:both;}
 #editorcontainer .editor-left{padding:0px; margin-right:0px; float:left; width:960px; margin-bottom:20px; }

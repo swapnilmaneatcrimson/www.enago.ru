@@ -30,7 +30,7 @@ function validate_step2()
 function validate_step3()
 {
 	_gaq.push(['_trackEvent', 'Form', 'Submit', 'Step4']);
-	if (isattachfiles() && isReceipt() && isCLtype())
+	if (isattachfiles() && isCLtype())
 	{
 		return showonlyone('personaldetails');
 	}
@@ -90,21 +90,21 @@ function isSubjectArea()
 {
 	if(document.frmSubmit.subsubject.selectedIndex == 0)
 	{
-			alert("«Міндетті»:  Басты пәндік аумақ");
+			alert("обязательный:  Предметная область");
 			document.frmSubmit.subsubject.focus();
 			return false;
 	
 	}
 	else if(document.frmSubmit.specialization.selectedIndex == 0)
 	{
-				alert("«Міндетті»:  Пәнаралық");
+				alert("обязательный:  Список предметных областей науки");
 				document.frmSubmit.specialization.focus();
 				return false;
 	}
 		
 	else if((document.frmSubmit.specialization.value == "Other") && (document.frmSubmit.otherspecialization.value == ""))
 	{
-			alert("«Міндетті»: Басқа");
+			alert("обязательный: Другое");
 			document.frmSubmit.otherspecialization.focus();
 			return false;
 	}
@@ -118,13 +118,13 @@ function isattachfiles()
 	var itr = document.frmSubmit.numreferencefiles.value;
 	if (str == "")
 	{
-	alert("«Міндетті»: Жүктелетін файлдар саны")
+	alert("обязательный: Пожалуйста, выберите файл для загрузки")
 	document.frmSubmit.numeditingfiles.focus();
 	return false;
 	}
 	if (itr == "")
 	{
-	alert("«Міндетті»: Әдебиеттер тізімі үшін файлдар")
+	alert("обязательный:  Файлы для списка литературы")
 	document.frmSubmit.numreferencefiles.focus();
 	return false;
 	}
@@ -137,7 +137,7 @@ function ismemberid1()
 	var str = document.frmSubmit.membershipid.value;
 	if (str == "")
 	{
-		alert("«Міндетті»: Мүшелік")
+		alert("обязательный: Мүшелік")
 		document.frmSubmit.membershipid.focus();
 		
 		return false;
@@ -150,7 +150,7 @@ function islastname()
 	var str = document.frmSubmit.lname.value;
 	if (str == "")
 	{
-	alert("«Міндетті»: Аты")
+	alert("обязательный: Аты")
 	document.frmSubmit.lname.focus();
 	return false;
 	}
@@ -162,7 +162,7 @@ function istandc()
 {
 	if(document.frmSubmit.agreeterms.checked==false)
 	{
-	 alert("«Міндетті»: Мен қызмет көрсету шартын қабылдаймын ")
+	 alert("обязательный: Мен қызмет көрсету шартын қабылдаймын")
 	 document.frmSubmit.agreeterms.focus();
 	 return false;
     }
@@ -174,7 +174,7 @@ function isfirstname()
 	var str = document.frmSubmit.fname.value;
 	if (str == "")
 	{
-	alert("«Міндетті»: Тегі")
+	alert("обязательный: Тегі")
 	document.frmSubmit.fname.focus();
 	return false;
 	}
@@ -193,30 +193,30 @@ function isReceipt()
 		}
 		if(pub == false)
 		{
-			alert("«Міндетті»: ағымдағы кезең бойынша есеп шот");
+			alert("обязательный: Счет за текущий период");
 			document.frmSubmit.ePublicEx[0].focus();
 			return false;
 		}
 		if(document.frmSubmit.ePublicEx[1].checked)
 			{
 				if(document.frmSubmit.institution.value == ""){
-					alert("«Міндетті»: ЖОО-ң аты(университет, институт)");
+					alert("обязательный: ЖОО-ң аты(университет, институт)");
 					document.frmSubmit.institution.focus();
 					return false;
 				}
 				if(document.frmSubmit.regnumber.value == ""){
-					alert("«Міндетті»: Тіркеу номері");
+					alert("обязательный: Тіркеу номері");
 					document.frmSubmit.regnumber.focus();
 					return false;
 				}
 				if(document.frmSubmit.invoicedate.value == ""){
-					alert("«Міндетті»: Есеп мерзімі");
+					alert("обязательный: Есеп мерзімі");
 					document.frmSubmit.invoicedate.focus();
 					return false;
 				}
 				if(document.frmSubmit.otherinfo.value == "")
 				{
-					alert("«Міндетті»: Толық ақпарат");
+					alert("обязательный: Толық ақпарат");
 					document.frmSubmit.otherinfo.focus();
 					return false;
 				}
@@ -228,13 +228,13 @@ function isTypeofdoc()
 {
 	if (document.frmSubmit.typeofdoc.selectedIndex == 0)
 	{
-		alert("«Міндетті»: Tipo do Documento");
+		alert("обязательный: Вид документа");
 		document.frmSubmit.typeofdoc.focus();
 		return false;
 	}
 	if((document.frmSubmit.typeofdoc.selectedIndex == 23) && (document.frmSubmit.other_typeofdoc.value == ""))
 	{
-		alert("«Міндетті»: Tipo do Documento");
+		alert("обязательный: Вид документа");
 		document.frmSubmit.other_typeofdoc.focus();
 		return false;
 	}
@@ -246,7 +246,7 @@ function isInputfile()
 {
 	if(document.frmSubmit.inputfile.selectedIndex == 0)
 	{
-		alert("«Міндетті»:Қолжазбаның түпкі форматы");
+		alert("обязательный:Оригинальный формат рукописи");
 		document.frmSubmit.inputfile.focus();
 		return false;
 	}
@@ -257,7 +257,7 @@ function isOutputfile()
 {
 	if(document.frmSubmit.outputfile.selectedIndex == 0)
 	{
-		alert("«Міндетті»:файлдың талап етілетін форматы");
+		alert("обязательный:Требуемый формат файла");
 		document.frmSubmit.outputfile.focus();
 		return false;
 	}
@@ -276,7 +276,7 @@ function isservice()
 		}
 		if(pub == false)
 		{
-			alert("«Міндетті» : Сізге керекті редакциялау деңгейін таңдаңыз. Біздің басылым қызметтері туралы көбірек ақпарат алыңыз. ");
+			alert("обязательный : Выберите тот уровень редактирования, который, по Вашему мнению, вам необходим. Узнайте больше о наших издательских услуг. ");
 			document.frmSubmit.service[0].focus();
 			return false;
 		}
@@ -286,7 +286,7 @@ return true;
 function ispriority(){
 	if (document.frmSubmit.priority.selectedIndex == 0)
 	{
-		alert("«Міндетті» : Өтінеміз, жоспарды таңдаңыз");
+		alert("обязательный : Пожалуйста, выберите план");
 		document.frmSubmit.priority.focus();
 		return false;
 	}
@@ -316,7 +316,7 @@ var pub = false;
 	}
 	if(pub == false)
 	{
-		alert("«Міндетті»: Қалай төлегіңіз келер еді?");
+		alert("обязательный : Как бы вы хотели платить?");
 		document.frmSubmit.ePayment[0].focus();
 		return false;
 	}
@@ -327,7 +327,7 @@ function isLanguage()
 {
 	if(document.frmSubmit.language.selectedIndex == 0)
 	{
-		alert("«Міндетті»: талап етілетін Ағылшын тінідегі нұсқа");
+		alert("обязательный : Требуемый вариант английского");
 		document.frmSubmit.language.focus();
 		return false;
 	}
@@ -349,7 +349,7 @@ function isFormat3()
 			}
 			if(pub == false)
 			{
-				alert("«Міндетті»: Сіз файлды форматтап, оның орналасуын тексергіңіз келе ме");
+				alert("обязательный : Вы хотите  отформатировать / или проверить расположение файла");
 				document.frmSubmit.format[0].focus();
 				return false;
 			}
@@ -362,7 +362,7 @@ function isOrg()
 	var str = document.frmSubmit.organisation.value;
 	if (str == "")
 	{
-	alert("«Міндетті»: Институт/Ұйым")
+	alert("обязательный : Институт/Ұйым")
 	document.frmSubmit.organisation.focus();
 	return false;
 	}
@@ -377,7 +377,7 @@ function isEmail()
 
 	if((validateObject.val.indexOf("@") == -1) || (validateObject.val.charAt(0) == ".") || (validateObject.val.charAt(0) == "@") ||(validateObject.len < 6) || (validateObject.val.indexOf(".") == -1) || (validateObject.val.charAt(validateObject.val.indexOf("@")+1) == ".") || (validateObject.val.charAt(validateObject.val.indexOf("@")-1) == "."))
 	{
-		alert("«Міндетті»: Пошта мекен-жайы");
+		alert("обязательный : Пошта мекен-жайы");
 		document.frmSubmit.email.focus();
 		return false;
 	}
@@ -391,7 +391,7 @@ function isMatch()
 	
 	if(email!==cemail)
 	{
-		alert("«Міндетті»: Электронды пошта мекен-жайынызды растаңыз");
+		alert("обязательный : Электронды пошта мекен-жайынызды растаңыз");
 		document.frmSubmit.emailconfirm.focus();
 		return false;
 	}
@@ -402,7 +402,7 @@ function isCountry()
 {
 if (document.frmSubmit.country.selectedIndex == 0)
 	{
-		alert("«Міндетті»: Ел");
+		alert("обязательный : Ел");
 		document.frmSubmit.country.focus();
 		return false;
 	}
@@ -415,7 +415,7 @@ function isZipCode()
 	var str = document.frmSubmit.zipcode.value;
 	if (str == "")
 	{
-	alert("«Міндетті»: Индекс")
+	alert("обязательный: Индекс")
 	document.frmSubmit.zipcode.focus();
 	return false;
 	}
@@ -427,7 +427,7 @@ function iscity()
 	var str = document.frmSubmit.city.value;
 	if (str == "")
 	{
-	alert("«Міндетті»: Қала")
+	alert("обязательный: Қала")
 	document.frmSubmit.city.focus();
 	return false;
 	}
@@ -439,7 +439,7 @@ function isAddress()
 		var str = document.frmSubmit.mailingaddress1.value; 
 		if (str == "")
 		{
-		alert("«Міндетті»: Есепті көрсету үшін мекен-жай")
+		alert("обязательный: Есепті көрсету үшін мекен-жай")
 		document.frmSubmit.mailingaddress1.focus();
 		return false;
 }
@@ -451,7 +451,7 @@ function isPhone()
 		var no=document.frmSubmit.phone.value;
 		if (no.length==0)
 		{
-			alert("«Міндетті»: Телефон нөмірі");
+			alert("обязательный: Телефон нөмірі");
 			document.frmSubmit.phone.focus();
 			document.frmSubmit.phone.select();
 			return false;
@@ -461,7 +461,7 @@ function isPhone()
 			var strpno=(no.substring(i,i+1));
 			if((strpno > 'a' && strpno < 'z') || (strpno > 'A' && strpno < 'Z'))
 			{
-				alert("«Міндетті»: Телефон нөмірі");
+				alert("обязательный: Телефон нөмірі");
 				document.frmSubmit.phone.focus();
 				document.frmSubmit.phone.select();
 				return false;
@@ -476,7 +476,7 @@ function isRefered()
 	var menuSell = document.frmSubmit.R2.selectedIndex;
 	if(menuSel==0)
 		{
-			alert("«Міндетті»: Нақты код қандай?");
+			alert("обязательный: Нақты код қандай?");
 			document.frmSubmit.R1.focus();
 			return false;
 		}
@@ -484,7 +484,7 @@ function isRefered()
 		{
 			if(menuSell==0)
 			{
-				alert("«Міндетті»: Нақты код қандай?");
+				alert("обязательный: Нақты код қандай?");
 				document.frmSubmit.R2.focus();
 				return false;
 			}
@@ -497,7 +497,7 @@ function isRefered()
 		{
 			if((document.frmSubmit.txtRef.value=="")|| (document.frmSubmit.txtRef.value==null))
 				{
-					alert("«Міндетті»: Аталуы");
+					alert("обязательный: Другое");
 					document.frmSubmit.txtRef.focus();				
 					return false;
 				}
@@ -509,7 +509,7 @@ function isRefered()
 		{
 			if((document.frmSubmit.txtRef.value=="") || (document.frmSubmit.txtRef.value==null))
 				{
-					alert("«Міндетті»: Аталуы");
+					alert("обязательный: Другое");
 					document.frmSubmit.txtRef.focus();				
 					return false;
 				}
@@ -555,7 +555,7 @@ function isDelDate()
 		var str = document.frmSubmit.delMonth.selectedIndex; 
 		if (str == 0)
 		{
-		alert("«Міндетті» : Қолжазбаны жеткізу мерзімін таңдаңыз")
+		alert("обязательный : Выберите дату доставки рукописи")
 		document.frmSubmit.delMonth.focus();
 		return false;
 		}
@@ -563,7 +563,7 @@ function isDelDate()
 		var str = document.frmSubmit.delDay.selectedIndex; 
 		if (str == 0)
 		{
-		alert("«Міндетті» : Қолжазбаны жеткізу мерзімін таңдаңыз")
+		alert("обязательный : Выберите дату доставки рукописи")
 		document.frmSubmit.delDay.focus();
 		return false;
 		}
@@ -571,7 +571,7 @@ function isDelDate()
 		var str = document.frmSubmit.delYear.selectedIndex; 
 		if (str == 0)
 		{
-		alert("«Міндетті» : Қолжазбаны жеткізу мерзімін таңдаңыз")
+		alert("обязательный : Выберите дату доставки рукописи")
 		document.frmSubmit.delYear.focus();
 		return false;
 		}
@@ -580,7 +580,7 @@ function isDelDate()
 		var intMonth = document.frmSubmit.delMonth.selectedIndex;
 		var intDay = document.frmSubmit.delDay.selectedIndex;
 		if ((intMonth == 4 || intMonth == 6 || intMonth == 9 || intMonth == 11) && intDay == 31) {
-		alert("«Міндетті» : Қолжазбаны жеткізу мерзімін таңдаңыз");
+		alert("обязательный : Выберите дату доставки рукописи");
 		document.frmSubmit.delMonth.focus();
 		return false;
 		}
@@ -590,7 +590,7 @@ function isDelDate()
 		if(intYearvalue!=2012){
 		if((intMonth==2&&(intDay==29||intDay==30||intDay==31)))
 			{
-			alert("«Міндетті» : Қолжазбаны жеткізу мерзімін таңдаңыз");
+			alert("обязательный : Выберите дату доставки рукописи");
 			document.frmSubmit.delDay.focus();
 			return false;
 			}
@@ -632,7 +632,7 @@ return true;
 function isUseofdocu2()
 {
 	if(document.frmSubmit.useofdoc.selectedIndex == 0)
-	{	alert("«Міндетті»: Сіздің қолжазбаңыздың мақсатын таңдаңыз, өтінеміз");
+	{	alert("обязательный: Пожалуйста, выберите файл для загрузки");
 		document.frmSubmit.useofdoc.focus();
 		return false;
 	}
@@ -651,7 +651,7 @@ function isHrs()
 
 	if (document.frmSubmit.delHrs.selectedIndex == 0)
 			{
-				alert("«Міндетті»: Қолжазбаны жеткізу мерзімін таңдаңыз");
+				alert("обязательный: Выберите дату доставки рукописи");
 				document.frmSubmit.delHrs.focus();
 				return false;
 			}
@@ -1197,37 +1197,37 @@ function isSameasabove()
 	{
 		if (document.frmSubmit.lname_a.value == "")
 		{
-			alert("«Міндетті»: Sobrenome")
+			alert("обязательный: Имя")
 			document.frmSubmit.lname_a.focus();
 			return false;
 		}
 		if (document.frmSubmit.fname_a.value == "")
 		{
-			alert("«Міндетті»: Nome próprio")
+			alert("обязательный: Фамилия")
 			document.frmSubmit.fname_a.focus();
 			return false;
 		}
 		if (document.frmSubmit.phone_a.value.length==0)
 		{
-			alert("«Міндетті»: Telefone");
+			alert("обязательный: Телефон нөмірі");
 			document.frmSubmit.phone_a.focus();
 			return false;
 		}
 		if (document.frmSubmit.mailingaddress1_a.value == "")
 		{
-			alert("«Міндетті»: Endereço")
+			alert("обязательный: Почтовый адрес")
 			document.frmSubmit.mailingaddress1_a.focus();
 			return false;
 		}
 		if((validateObject.val.indexOf("@") == -1) || (validateObject.val.charAt(0) == ".") || (validateObject.val.charAt(0) == "@") ||(validateObject.len < 6) || (validateObject.val.indexOf(".") == -1) || (validateObject.val.charAt(validateObject.val.indexOf("@")+1) == ".") || (validateObject.val.charAt(validateObject.val.indexOf("@")-1) == "."))
 	{
-		alert("«Міндетті»: E-mail");
+		alert("обязательный: E-mail");
 		document.frmSubmit.email_a.focus();
 		return false;
 		}
 		if(email_a!==cemail)
 		{
-			alert("«Міндетті»: Digite novamente o endereço de e-mail");
+			alert("обязательный: Digite novamente o endereço de e-mail");
 			document.frmSubmit.emailconfirm_a.focus();
 			return false;
 		}
@@ -1241,7 +1241,7 @@ function isJournalName()
 	var str = document.frmSubmit.journalname.value;
 	if (str == "")
 	{
-	alert("«Міндетті»: Өтінеміз, журнал атын бізге анықтап беріңіз")
+	alert("обязательный: Пожалуйста, дайте нам знать название журнала")
 	document.frmSubmit.journalname.focus();
 	return false;
 	}
@@ -1253,7 +1253,7 @@ function isJournalURL()
 	var str = document.frmSubmit.journalurl.value;
 	if (str == "")
 	{
-	alert("«Міндетті»: URL do periódico")
+	alert("обязательный: URL")
 	document.frmSubmit.journalurl.focus();
 	return false;
 	}
@@ -1265,7 +1265,7 @@ function isManuscripttitle()
 		var str = document.frmSubmit.manuscripttitle.value; 
 		if (str == "")
 		{
-		alert("«Міндетті»: Título do artigo")
+		alert("обязательный: Название")
 		document.frmSubmit.manuscripttitle.focus();
 		return false;
 }
@@ -1276,7 +1276,7 @@ function isTypeofdoc()
 {
 	if(document.frmSubmit.typeofdoc.selectedIndex == 0)
 	{	
-		alert("«Міндетті»: Құжат түрі")
+		alert("обязательный: Вид документа")
 		document.frmSubmit.typeofdoc.focus();
 		return false;
 	}
@@ -1289,7 +1289,7 @@ function isBriefdes()
 		var str = document.frmSubmit.briefdescription.value; 
 		if (str == "")
 		{
-		alert("«Міндетті»: Explique com até 100 palavras o tema e a o potencial de pesquisa do artigo")
+		alert("обязательный:")
 		document.frmSubmit.briefdescription.focus();
 		return false;
 }
@@ -1301,7 +1301,7 @@ function isSummary()
 		var str = document.frmSubmit.summary.value; 
 		if (str == "")
 		{
-		alert("«Міндетті»: Resuma, com no máximo 50 palavras, por que seu artigo é interessante para o periódico e seu público-alvo. Isto ajudará a convencer o editor do periódico de que seu artigo deve ser aceito para publicação. Além disso, explique a importância do estudo.")
+		alert("обязательный: ")
 		document.frmSubmit.summary.focus();
 		return false;
 }
@@ -1316,7 +1316,7 @@ function isAddstatement()
 	var addstat4 = document.frmSubmit.addstatement4.checked;
 	if((addstat1==false) && (addstat2==false) && (addstat3==false) && (addstat4==false) )
 		{
-			alert("«Міндетті»: ");
+			alert("обязательный: ");
 			document.frmSubmit.addstatement1.focus();
 			return false;
 		}

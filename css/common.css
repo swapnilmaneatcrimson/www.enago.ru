@@ -400,20 +400,20 @@ body {
 	background:url(../images/header/enago-logo.gif) no-repeat 0 0;
 	width:273px;
 	height:63px;
-	float:right;
+	float:left;
 }
 #headerContainer #titleWrapper {
 	width:455px;
-	float:right;
-}
-#headerContainer .seg-logo {
 	float:left;
-	width:319px;
-	height:94px;
-	margin-top:-15px;
+}
+#headerContainer .cta-top {
+	float:right;
+	width:235px;
+	height:49px;
+	margin-top:34px;
 }
 /*====================================*/
-
+.clear{clear:both}
 
 #headerContainer #title {
 	font: bold 45px "Trebuchet MS", Arial, Helvetica, sans-serif;
@@ -614,7 +614,7 @@ body {
 }
 #nav a {
 	display: block;
-	padding:9px 20px;
+	padding:9px 17px;
 	color: #FFFFFF;
 	min-height:38px;
 	border-right:1px solid #0c97c9;
@@ -1712,6 +1712,7 @@ body {
 	color:#FF0000;
 	font-size:14px;
 }
+.innertable td{padding:0px!important}
 .heading_formsection {
 	height:30px;
 	line-height:30px;
@@ -3861,7 +3862,7 @@ sup{font-size:45%; vertical-align:top}
 .callus-banner {
     background: url("../images/left-sprite.png") no-repeat scroll 0 -385px transparent;
     display: block;
-    height: 118px;
+    height: 160px;
     margin-left: 0;
     margin-top: 15px;
     width: 215px;
