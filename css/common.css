@@ -374,7 +374,6 @@ body {
 	padding-left:40px;
 	background-color:white;
 }
-/**/
 #headerContainer #logo {
 	background:url(../images/header/enago-logo.gif) no-repeat 0 0;
 	width:273px;
@@ -382,11 +381,8 @@ body {
 	float:right;
 }
 #headerContainer #titleWrapper {
-	position: absolute;
-	top: 106px;
-	text-align:right;
-	width:550px;
-	right:318px;
+	width:455px;
+	float:right;
 }
 #headerContainer .seg-logo {
 	float:left;
@@ -394,7 +390,24 @@ body {
 	height:94px;
 	margin-top:-15px;
 }
-
+#headerContainer #title {
+	font: bold 45px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #000;
+}
+#headerContainer .titleSlogan {
+	font-weight:normal;
+	font-size:14px;
+	font-family:arial;
+	color:#999999;
+	padding:0px;
+}
+#headerContainer #enagoThumbsContainer {
+	padding-right:0px;
+	padding-top:00px;
+	float:right;
+	margin-top:0px;
+	width:155px;
+}
 /*===================================
 #headerContainer #logo {
 	background:url(../images/header/enago-logo.gif) no-repeat 0 0;
@@ -415,24 +428,6 @@ body {
 /*====================================*/
 .clear{clear:both}
 
-#headerContainer #title {
-	font: bold 45px "Trebuchet MS", Arial, Helvetica, sans-serif;
-	color: #000;
-}
-#headerContainer .titleSlogan {
-	font-weight:normal;
-	font-size:14px;
-	font-family:arial;
-	color:#999999;
-	padding:0px;
-}
-#headerContainer #enagoThumbsContainer {
-	padding-right:0px;
-	padding-top:00px;
-	float:right;
-	margin-top:0px;
-	width:155px;
-}
 #flickrBtn, #twitterBtn, #facebookBtn, #rssBtn {
 	float: right;
 	margin-left: 5px;
