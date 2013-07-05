@@ -374,7 +374,7 @@ body {
 	padding-left:40px;
 	background-color:white;
 }
-/*
+/**/
 #headerContainer #logo {
 	background:url(../images/header/enago-logo.gif) no-repeat 0 0;
 	width:273px;
@@ -394,8 +394,8 @@ body {
 	height:94px;
 	margin-top:-15px;
 }
-*/
-/*===================================*/
+
+/*===================================
 #headerContainer #logo {
 	background:url(../images/header/enago-logo.gif) no-repeat 0 0;
 	width:273px;
@@ -411,7 +411,7 @@ body {
 	width:235px;
 	height:49px;
 	margin-top:34px;
-}
+}*/
 /*====================================*/
 .clear{clear:both}
 
