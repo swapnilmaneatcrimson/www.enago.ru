@@ -1958,104 +1958,129 @@ a.lightBox:hover {
 	background: url("../editor-profile/images/blue-bt-hover.jpg") no-repeat scroll 0px 3px transparent !important;
 	color: #FFFFFF !important;
 }
-#editor-pro ul {
+.editor-pro	{
 	margin:0;
 }
-#editor-pro ul li {
+.editor-pro li	{
 	background:#f0f0f2;
 	float: left;
-	list-style-type: none;
-	margin: 0 10px 10px 0;
-	padding: 5px 5px 0 5px;
-	width: 151px;
+    list-style-type: none;
+    margin: 0 10px 10px 0;
+    padding: 5px 5px 0 5px;
+    width: 151px; position:relative;
 }
-#editor-pro ul li a {
+.editor-pro li a	{
 	color:#84213f;
 }
-#editor-pro ul li a:hover {
+.editor-pro li a:hover	{
 	color:#000 !important;
 }
-#editor-pro ul li images {
+.editor-pro li img	{
 	padding: 0 0 5px 0;
 }
-.edu-icon {
-	float: left;
-	padding: 5px 0 0;
-	width: 46px;
+.editor-pro li span.exp	{
+color: #333333;
+    font-family: verdana;
+    font-size: 13px;
+    left: 57px;
+    line-height: 11px;
+    padding: 0 !important;
+    position: absolute;
+    text-align: center;
+    top: 150px;
+    width: 100px;
 }
-.edu-head {
+
+.exp-big{
+color: #000000;
+    font-family: verdana;
+    font-size: 15px;
+    left: 92px;
+    line-height: 11px;
+    padding: 0 !important;
+    position: absolute;
+    text-align: center;
+    top: 171px;
+    width: 105px;
+}
+.edu-icon	{
+	float: left;
+    padding: 5px 0 0;
+    width: 46px;
+}
+.edu-head	{
 	color: #84213F;
 	letter-spacing:0;
-	float: left;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 12px;
-	line-height: 16px;
-	width: 105px;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    width: 105px;
 	padding:3px 0 0 0;
 	height:54px;
 }
-#editor-pro ul li span {
+.editor-pro li span	{
 	padding:5px 0 5px 0px;
 }
-.last {
-	margin: 0 0 10px 0 !important;
+
+.last	{
+	margin: 0 0 10px 0 !important ;
 }
-#editor1, #editor2, #editor3, #editor4, #editor5, #editor6, #editor7, #editor8, #editor9, #editor10, #editor11, #editor12, #editor13, #editor14, #editor15, #editor16, #editor17, #editor18, #editor19, #editor20, #editor21, #editor22, #editor23, #editor24, #editor25, #editor26, #editor27, #editor28, #editor29, #editor30, #editor31, #editor32, #editor33, #editor34, #editor35, #editor36, #editor37, #editor38, #editor39, #editor40, #editor41, #editor42, #editor43, #editor44, #editor45, #editor46, #editor47, #editor48, #editor49, #editor50, #editor51, #editor52, #editor53, #editor54, #editor55, #editor56, #editor57, #editor58 {
+#editor1, #editor2, #editor3, #editor4, #editor5, #editor6, #editor7, #editor8, #editor9, #editor10, #editor11, #editor12, #editor13, #editor14, #editor15, #editor16, #editor17, #editor18, #editor19, #editor20, #editor21, #editor22, #editor23, #editor24, #editor25, #editor26, #editor27, #editor28, #editor29, #editor30, #editor31, #editor32, #editor33, #editor34, #editor35, #editor36, #editor37, #editor38, #editor39, #editor40,#ac356, #ag419, #bfpr4, #casc30, #cj401, #cj406, #db461, #dj321, #el452, #jg395, #jq386, #ks470, #lh437, #mb402, #mg423, #nm398, #rs434, #sl359, #th393, #tm457, #vbsc29, #ag379, #ah460, #cc339, #ch472, #dh428, #dx335, #gt377, #ja466, #jlsc37, #lp414, #mspr1, #pl183, #rl425, #sl424, #sm468, #sm469, #sp462, #tc417, #tn353, #pw252, #ln411, #cd388, #gj392, #wt463	{
 	width:680px;
 	min-height:500px;
-	padding:20px 15px 0;
+	padding:20px 15px 0; position:relative;
 }
-.profile-images {
-	margin:0 30px 6px 0;
- *float:left;
+.profile-img	{
+	margin:-5px 20px 6px 0;
+	*float:left;
 }
-#key-heighlight {
-	width:460px;
+.key-heighlight	{
+	width:470px;
 	float:left;
-	margin:0 0 15px 0;
+	margin:-5px 0 15px;
 	background:#7c9c3d;
-	min-height:178px;
 }
-#key-heighlight .headline {
-	background:#FFFFFF;
-	color: #000000;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 17px;
-	height: 15px;
-	letter-spacing: 0;
-	line-height: 11px;
-	margin: 1px;
-	padding: 10px 17px;
+.key-heighlight .headline {
+    background:#FFFFFF;
+    color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    height: 15px;
+    letter-spacing: 0;
+    line-height: 11px;
+    margin: 1px;
+    padding: 10px 17px;
 }
-#key-heighlight .headline span {
+.key-heighlight .headline span{	
 	font-size:12px;
 	color:#4d4d4d;
-	font-family:Verdana, Geneva, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
 }
-#key-heighlight ul {
+.key-heighlight ul	{
 	margin:4px 0 4px 15px;
 	padding:0;
 }
-#key-heighlight ul li {
-	color: #FFFFFF;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 13px;
-	line-height: 17px;
-	list-style: none outside none;
-	padding: 9px 9px 7px 5px;
+.key-heighlight ul li {
+    color: #FFFFFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    line-height: 17px;
+    list-style: none outside none;
+    padding: 9px 9px 7px 5px;
 }
-#key-heighlight ul li span {
+.key-heighlight ul li span	{
 	font-size:12px;
 	letter-spacing:0;
-	font-family:Verdana, Geneva, sans-serif;
+	font-family:Arial, Helvetica, sans-serif;
 }
-#key-heighlight .bottom {
+.key-heighlight .bottom	{
 	height:37px;
 }
-.peer-head {
+.peer-head	{
 	margin:2px 1px 9px 15px
 }
-.profile-p {
+.profile-p	{
 	font-family:Arial, Helvetica, sans-serif;
 	font-size:12px;
 	color:#000;
@@ -2063,33 +2088,34 @@ a.lightBox:hover {
 	line-height:19px;
 	padding:15px 0 0 0;
 }
-#areas-exp {
+
+#areas-exp	{
 	float:left;
 	width:260px;
 }
-#education-x {
+#education-x	{
 	float:left;
 	width:400px;
 }
 .areas-exp-head {
-	background: url("../editor-profile/images/sub-head-bg.png") no-repeat scroll 0 0 transparent;
-	color: #000000;
-	font-family: 'DiavloLight';
-	font-size: 18px;
-	margin: 15px 0 7px;
-	padding: 0 0 5px 34px;
+    background: url("../editor-profile/images/sub-head-bg.png") no-repeat scroll 0 0 transparent;
+    color: #000000;
+    font-family: 'DiavloLight';
+    font-size: 18px;
+    margin: 15px 0 7px;
+    padding: 0 0 5px 34px;
 }
-#areas-exp ul, #education-x ul {
+#areas-exp ul, #education-x ul	{
 	margin:0 0 0 15px;
 	padding:0;
 }
 #areas-exp ul li, #education-x ul li {
-	background: url("../editor-profile/images/bullet2.gif") no-repeat scroll 0 8px transparent;
-	color: #3B3A3A;
-	font-family: Verdana, Geneva, sans-serif;
-	font-size: 12px;
-	list-style: none outside none;
-	padding: 3px 5px 3px 15px;
+    background: url("../editor-profile/images/bullet2.gif") no-repeat scroll 0 8px transparent;
+    color: #3B3A3A;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    list-style: none outside none;
+    padding: 3px 5px 3px 15px;
 }
 .profile-width {
 	width: 675px !important;
