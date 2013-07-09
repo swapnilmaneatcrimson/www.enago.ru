@@ -2031,7 +2031,7 @@ color: #000000;
 	*float:left;
 }
 .key-heighlight	{
-	width:470px;
+	width:472px;
 	float:left;
 	margin:-5px 0 15px;
 	background:#7c9c3d;
@@ -2045,7 +2045,7 @@ color: #000000;
     letter-spacing: 0;
     line-height: 11px;
     margin: 1px;
-    padding: 10px 17px;
+    padding: 10px 10px;
 }
 .key-heighlight .headline span{	
 	font-size:12px;
