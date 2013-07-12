@@ -351,38 +351,68 @@ body {
     HEADER
 *********************************/
 #topbarContainer {
-	width:960px;
-	padding-right:40px;
+	width:1000px;
+	padding-right:20px;
 	height:20px;
 	margin:10px auto auto;
-	padding-top:15px;
+	padding-top:5px;
 	padding-bottom: 0px;
-	padding-left:40px;
+	padding-left:20px;
 	background-color:#fff; text-align:right; font-size:14px;
 }
 #topbarContainer img{padding-right:5px; padding-left:5px}
 
-
-
 #headerContainer {
-	width:960px;
-	padding-right: 40px;
+	width:1000px;
+	padding-right: 20px;
 	height:80px;
 	margin:0px auto auto;
-	padding-top:30px;
+	padding-top:10px;
 	padding-bottom: 5px;
-	padding-left:40px;
+	padding-left:20px;
 	background-color:white;
 }
+#headerContainer .logo_container{
+	float:left;
+	margin-top: 40px;
+}
+#headerContainer .phone-detail .icon {
+    width: 50px;
+	margin-top:5px;
+}
+#headerContainer .phone-detail .content
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	width:185px;
+	margin-bottom:5px;
+	
+}
+#headerContainer .phone-detail .content .no
+{
+	color:#3B3B3B;
+	font-size:24px;
+	margin-left:10px;
+}
+#headerContainer .phone-detail .content .time{
+	color:#555555;
+	margin-left:10px;
+	letter-spacing:1px;
+}
+#headerContainer .cta-top {
+    float: right;
+    margin-top: 0;
+    width: 235px;
+}
+
 #headerContainer #logo {
 	background:url(../images/header/enago-logo.gif) no-repeat 0 0;
 	width:273px;
 	height:63px;
-	float:right;
+	float:left;
 }
 #headerContainer #titleWrapper {
 	width:455px;
-	float:right;
 }
 #headerContainer .seg-logo {
 	float:left;
@@ -401,6 +431,10 @@ body {
 	color:#999999;
 	padding:0px;
 }
+
+.phone-detail {
+    margin-bottom: 8px;
+}
 #headerContainer #enagoThumbsContainer {
 	padding-right:0px;
 	padding-top:00px;
@@ -408,26 +442,6 @@ body {
 	margin-top:0px;
 	width:155px;
 }
-/*===================================
-#headerContainer #logo {
-	background:url(../images/header/enago-logo.gif) no-repeat 0 0;
-	width:273px;
-	height:63px;
-	float:left;
-}
-#headerContainer #titleWrapper {
-	width:455px;
-	float:left;
-}
-#headerContainer .cta-top {
-	float:right;
-	width:235px;
-	height:49px;
-	margin-top:34px;
-}*/
-/*====================================*/
-.clear{clear:both}
-
 #flickrBtn, #twitterBtn, #facebookBtn, #rssBtn {
 	float: right;
 	margin-left: 5px;
@@ -450,6 +464,9 @@ body {
 #rssBtn {
 	background-image: url('../images/header/rss.png');
 }
+.clear {
+    clear: both;
+}
 /****************************
    FOOTER                                                
 ****************************/ 
@@ -458,7 +475,7 @@ body {
 	width:1040px;
 	margin:auto;
 	margin-top:0px;
-	margin-bottom:0px;
+	margin-bottom:15px;
 	padding-top:0px;
 	padding-left:0px;
 	background-color:transparent;
@@ -521,7 +538,7 @@ body {
 	color: #ccc;
 }
 .footerAboutus {
-	width:700px;
+	width:550px;
 	padding-left:10px;
 	padding-right:10px;
 	padding-top:10px;
@@ -539,15 +556,15 @@ body {
 	margin-top:10px;
 }
 .footerImpLinks {
-	width:216px;
-	padding-left:25px;
-	padding-right:10px;
-	margin-top:10px;
-	text-align:left;
-	display:inline-block;
-	height:100px;
-	float:left;
-	color:#fff;
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    height: 170px;
+    padding-left: 15px;
+    padding-right: 10px;
+    padding-top: 10px;
+    text-align: left;
+    width: 170px;
 }
 .footerImpLinks ul {
 	padding-left: 0px;
@@ -563,10 +580,43 @@ body {
 	margin-left: 0px;
 	padding-left: 0px;
 }
+
+
+.contantdetail {
+	padding-left:25px;
+	padding-right:10px;
+	margin-top:10px;
+	text-align:left;
+	display:inline-block;
+	height:100px;
+	float:left;
+	color:#fff;
+}
+.contantdetail ul {
+	padding-left: 0px;
+	margin-left:0px;
+	margin-top:10px;
+}
+.contantdetail li {
+	color:#fff;
+	font-size: 10px;
+	list-style-type:none;
+	list-style-position:outside;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.contantdetail li .no{
+	font-size:22px;
+
+}
+
+
 .footerCopyright {
-	color: #ddd;
+	color: #2B2B2B;
 	font: normal 10px Verdana;
 	margin-top: 0px;
+	margin-bottom:10px;
 }
 .footerPowered {
 	position:absolute;
@@ -585,8 +635,8 @@ body {
 	background-color:#00a5e0;
 	position:relative;
 	z-index: 600;
-	margin-left: 40px;
-	margin-right: 40px;
+	margin-left: 20px;
+	margin-right: 20px;
 	padding-left: 0px;
 	padding-right: 0px;
 	margin-top: 0px;
@@ -3956,3 +4006,13 @@ sup{font-size:45%; vertical-align:top}
 .logo_14{background: url("../images/sprite/logo.png") no-repeat scroll -1530px 0 transparent; height: 100px; margin: 0 auto; width: 161px;}
 .keywords{}
 .keywords .Topkeyword{font-weight:normal!important; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#999; border:none}
+.table-style1 {
+    border-collapse: collapse;
+	margin-bottom:15px;
+}
+
+.table-style1 td {
+    border: 1px solid #CCCCCC;
+    padding: 10px;
+    vertical-align: top;
+}	
