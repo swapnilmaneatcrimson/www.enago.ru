@@ -90,14 +90,14 @@ function isSubjectArea()
 {
 	if(document.frmSubmit.subsubject.selectedIndex == 0)
 	{
-			alert("обязательный:  Предметная область");
+			alert("обязательный: Предметная область");
 			document.frmSubmit.subsubject.focus();
 			return false;
 	
 	}
 	else if(document.frmSubmit.specialization.selectedIndex == 0)
 	{
-				alert("обязательный:  Список предметных областей науки");
+				alert("обязательный: Предметная область");
 				document.frmSubmit.specialization.focus();
 				return false;
 	}
@@ -124,7 +124,7 @@ function isattachfiles()
 	}
 	if (itr == "")
 	{
-	alert("обязательный:  Файлы для списка литературы")
+	alert("обязательный: Файлы для списка литературы")
 	document.frmSubmit.numreferencefiles.focus();
 	return false;
 	}
@@ -276,7 +276,7 @@ function isservice()
 		}
 		if(pub == false)
 		{
-			alert("обязательный : Выберите тот уровень редактирования, который, по Вашему мнению, вам необходим. Узнайте больше о наших издательских услуг. ");
+			alert("обязательный: Выберите тот уровень редактирования, который, по Вашему мнению, вам необходим. Узнайте больше о наших издательских услуг.");
 			document.frmSubmit.service[0].focus();
 			return false;
 		}
@@ -286,7 +286,7 @@ return true;
 function ispriority(){
 	if (document.frmSubmit.priority.selectedIndex == 0)
 	{
-		alert("обязательный : Пожалуйста, выберите план");
+		alert("обязательный: Пожалуйста, выберите план");
 		document.frmSubmit.priority.focus();
 		return false;
 	}
@@ -316,7 +316,7 @@ var pub = false;
 	}
 	if(pub == false)
 	{
-		alert("обязательный : Как бы вы хотели платить?");
+		alert("обязательный: Как бы вы хотели платить?");
 		document.frmSubmit.ePayment[0].focus();
 		return false;
 	}
@@ -327,7 +327,7 @@ function isLanguage()
 {
 	if(document.frmSubmit.language.selectedIndex == 0)
 	{
-		alert("обязательный : Требуемый вариант английского");
+		alert("обязательный: Требуемый вариант английского");
 		document.frmSubmit.language.focus();
 		return false;
 	}
@@ -349,7 +349,7 @@ function isFormat3()
 			}
 			if(pub == false)
 			{
-				alert("обязательный : Вы хотите  отформатировать / или проверить расположение файла");
+				alert("обязательный: Вы хотите  отформатировать / или проверить расположение файла");
 				document.frmSubmit.format[0].focus();
 				return false;
 			}
@@ -362,7 +362,7 @@ function isOrg()
 	var str = document.frmSubmit.organisation.value;
 	if (str == "")
 	{
-	alert("обязательный : Институт/Ұйым")
+	alert("обязательный: Институт/Ұйым")
 	document.frmSubmit.organisation.focus();
 	return false;
 	}
@@ -377,7 +377,7 @@ function isEmail()
 
 	if((validateObject.val.indexOf("@") == -1) || (validateObject.val.charAt(0) == ".") || (validateObject.val.charAt(0) == "@") ||(validateObject.len < 6) || (validateObject.val.indexOf(".") == -1) || (validateObject.val.charAt(validateObject.val.indexOf("@")+1) == ".") || (validateObject.val.charAt(validateObject.val.indexOf("@")-1) == "."))
 	{
-		alert("обязательный : Пошта мекен-жайы");
+		alert("обязательный: Пошта мекен-жайы");
 		document.frmSubmit.email.focus();
 		return false;
 	}
@@ -391,7 +391,7 @@ function isMatch()
 	
 	if(email!==cemail)
 	{
-		alert("обязательный : Электронды пошта мекен-жайынызды растаңыз");
+		alert("обязательный: Электронды пошта мекен-жайынызды растаңыз");
 		document.frmSubmit.emailconfirm.focus();
 		return false;
 	}
@@ -402,7 +402,7 @@ function isCountry()
 {
 if (document.frmSubmit.country.selectedIndex == 0)
 	{
-		alert("обязательный : Ел");
+		alert("обязательный: Ел");
 		document.frmSubmit.country.focus();
 		return false;
 	}
@@ -632,7 +632,7 @@ return true;
 function isUseofdocu2()
 {
 	if(document.frmSubmit.useofdoc.selectedIndex == 0)
-	{	alert("обязательный: Пожалуйста, выберите файл для загрузки");
+	{	alert("обязательный: Пожалуйста, выберите цель (назначение) для вашей рукописи");
 		document.frmSubmit.useofdoc.focus();
 		return false;
 	}
