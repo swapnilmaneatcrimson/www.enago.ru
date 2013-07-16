@@ -6,7 +6,7 @@ $toec="ec.enago@crimsoni.com, uploads@enago.com";
 
 $toecs="requestecs@enago.com, marketing@enago.com";
 // $autotod = "autoquote@enago.jp"; // autoquote emails
-$tod = "uploads@enago.com, crimsoni2005@gmail.com"; // to the people in the company
+$tod = "uploads@enago.com, crimsoni2005@gmail.com, request-ru@enago.com"; // to the people in the company
 $fromAdd= "uploads@enago.com"; //from which address
 $clientfromAdd= "DO_NOT_REPLY@enago.com"; //client email from address
 $toq = "uploads@enago.com, crimsoni2005@gmail.com";
