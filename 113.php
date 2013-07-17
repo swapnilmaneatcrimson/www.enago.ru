@@ -104,7 +104,7 @@ include('conn.php');
 
 $CountryName="Russia";
 
-$MyQuery = "select * from accepted_papers where Permission_to_Publish_Testimonial=\"Yes\"  And Testimonial_Kazak !='' order by field(region, \"Germany\", \"Global\", \"Taiwan\", \"Japan\", \"China\",  \"Iran\") ASC, Country ASC, Image_path DESC";
+$MyQuery = "select * from accepted_papers where Permission_to_Publish_Testimonial=\"Yes\"  And Testimonial_Russia !='' order by field(region, \"Germany\", \"Global\", \"Taiwan\", \"Japan\", \"China\",  \"Iran\") ASC, Country ASC, Image_path DESC";
 
 $numresults=mysql_query($MyQuery);
 

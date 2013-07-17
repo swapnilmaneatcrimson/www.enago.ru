@@ -1,4 +1,5 @@
 <?php
+ini_set("mbstring.internal_encoding","UTF-8");
 //check for all the non-printable codes in the standard ASCII set,
 //including null bytes and newlines, and exit immediately if any are found.
 if (preg_match("/[\\000-\\037]/",$email)) {
@@ -500,7 +501,7 @@ Comments: $sInstructions
 
 *****************************";
 
-	$subjectline = "[$nowClock][KAZAKHSTAN] $subjecttypeofdoc $re | $service $formatser $addition | $fname $lname | $shouldwestart | $priority | $delDay $delMonth $deadlinestrict";
+	$subjectline = "[$nowClock][RUSSIA] $subjecttypeofdoc $re | $service $formatser $addition | $fname $lname | $shouldwestart | $priority | $delDay $delMonth $deadlinestrict";
 	
 }
 else
@@ -642,9 +643,8 @@ $autoresponse
 научного редактирования  
 CRIMSON INTERACTIVE, LLC (USA)";
 
-mail("$email", "$sub", $message1,    
-                "From: CRIMSON (DO_NOT_REPLY-ENAGO)<$clientfromAdd>\r\n" . 
-				"Content-type: text/plain; charset=utf-8");
+		
+mb_send_mail("$email", "$sub", $message1, "From: CRIMSON (DO_NOT_REPLY-ENAGO)<$clientfromAdd>\r\n" );
 ?> 
 <?php 
   $currentPage="Quotation";
