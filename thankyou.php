@@ -472,7 +472,8 @@ Browser:$browser
 
 $date|$fname|$lname|$kanjinamegiven|$kanjinamefamily|$organisation|$organisation|$email|$email2|$country|$state|$city|$mailingaddress1|$zipcode|$phone|$fax,$cellno,$cellemailid|$website||$txtRef||$R1|$ePayment|$department|$designation|RUSSIA
 
-$service|$priority|$lname|$date|$nowClock||||$lastlinemif|||$oldeditor($asneditor)|$deadlinestrict|$shouldwestart|$formatsub||$coverletter|$mrc||$mainsubject|$subsubject_a|$useofdoc|$journalname|$typeofdoc|$format|$journalurl|$language|$oldeditor|$inputfile|$outputfile|$numeditingfiles|$numreferencefiles|$superdat_name|$file_size|$specialcode|NON-SECURE|$ip|$browser|NEW|$specialization_a|||$ePublicEx|$publicExText|$payer|||$email;$email2";
+
+$service|$priority|$lname|$date|$nowClock||||$lastlinemif|||$oldeditor($asneditor)|$deadlinestrict|$shouldwestart|$formatsub||$coverletter|$mrc||$mainsubject|$subsubject_a|$useofdoc|$journalname|$typeofdoc|$format|$journalurl|$language|$oldeditor|$inputfile|$outputfile|$numeditingfiles|$numreferencefiles|$superdat_name|$file_size|$specialcode|NON-SECURE|$ip|$browser|NEW|$specialization_a||$email;$email2|$ePublicEx|$publicExText|$payer|$membershipid||";
 
 	$msgvcs = "
 PLEASE REPLY TO: $replyvcs
@@ -575,7 +576,7 @@ $tandc
 IP: $ip
 Browser:$browser
 
-$service|$priority|$lname|$date|$nowClock||||$lastlinemif|||$oldeditor($asneditor)|$deadlinestrict|$shouldwestart|$formatsub||$coverletter|$mrc||$mainsubject|$subsubject_a|$useofdoc|$journalname|$typeofdoc|$format|$journalurl|$language|$oldeditor|$inputfile|$outputfile|$numeditingfiles|$numreferencefiles|$superdat_name|$file_size|$specialcode|NON-SECURE|$ip|$browser|EXISTING|$specialization_a|||$ePublicEx|$publicExText|$payer|$membershipid||$email;$email2";
+$service|$priority|$lname|$date|$nowClock||||$lastlinemif|||$oldeditor($asneditor)|$deadlinestrict|$shouldwestart|$formatsub||$coverletter|$mrc||$mainsubject|$subsubject_a|$useofdoc|$journalname|$typeofdoc|$format|$journalurl|$language|$oldeditor|$inputfile|$outputfile|$numeditingfiles|$numreferencefiles|$superdat_name|$file_size|$specialcode|NON-SECURE|$ip|$browser|EXISTING|$specialization_a||$email;$email2|$ePublicEx|$publicExText|$payer|$membershipid||";
 
 	$msgvcs = "
 PLEASE REPLY TO: $replyvcs
