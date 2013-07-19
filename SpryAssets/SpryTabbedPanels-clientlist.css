@@ -1,64 +1,57 @@
 @charset "UTF-8";
-
 .TabbedPanels {
 	margin: 0px;
 	padding: 0px;
 	float: left;
 	clear: none;
-	width: 630px; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
+	width: 100%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
 }
-
 .TabbedPanelsTabGroup {
 	margin: 0px;
 	padding: 0px;
 }
-
 .TabbedPanelsTab {
 	position: relative;
 	top: 1px;
 	float: left;
-	padding: 4px 10px;
+	padding: 9px 34px;
 	margin: 0px 3px 0px 0px;
-	font: bold 0.8em sans-serif;
-	background-color: #eee;
+	background-color:#AAA9AA;
 	list-style: none;
-	border-left: solid 1px #999;
-	border-bottom: solid 0px #CCC;
-	border-top: solid 1px #999;
-	border-right: solid 1px #999;
+	border-left: solid 1px #ccc;
+	border-bottom: solid 1px #ccc;
+	border-top: solid 1px #ccc;
+	border-right: solid 1px #ccc;
 	-moz-user-select: none;
 	-khtml-user-select: none;
-	cursor: pointer;  background-image:url(../images/subjectareas/downarrow.gif); background-repeat:no-repeat; background-position:97% 60%;
+	cursor: pointer;
+font-size:20px;color:#fff; font-family:Verdana, Geneva, sans-serif; font-weight:normal;	
 }
 
 .TabbedPanelsTabHover {
-	background-color: #FFF;
-	color:#84213f;  
+	background-color: #fff;
+	color:#000;
+	border-bottom: solid 1px #FFF;	
 }
-
 .TabbedPanelsTabSelected {
-	background-color: #FFF; padding: 4px 12px;
-	border-bottom: 1px solid #FFF; border-top: 1px solid #ccc; border-left: 1px solid #ccc; border-right: 1px solid #ccc; color:#84213f; }
-
+	background-color: #00A5E0;
+	border-bottom: 1px solid #fff;
+	color:#fff;
+} 
 .TabbedPanelsTab a {
 	color: black;
 	text-decoration: none;
 }
-
-.TabbedPanelsContentGroup { width:630px;
-	clear: both; height:auto; 
-	border-left: solid 1px #CCC;
-	border-bottom: solid 1px #CCC;
-	border-top: solid 1px #CCC;
-	border-right: solid 1px #CCC;
-	background-color: #FFF;
+.TabbedPanelsContentGroup {
+	clear: both;
+	border-left: solid 1px #ddd;
+	border-bottom: solid 1px #ddd;
+	border-top: solid 1px #ddd;
+	border-right: solid 1px #ddd;
+	background-color: #fff;
 }
-
-
 .TabbedPanelsContent {
 	padding: 4px;
 }
-
 .TabbedPanelsContentVisible {
 }
-.marT10{margin-top:10px;}
