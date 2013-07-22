@@ -768,9 +768,9 @@ if (chosen == "Search Engine") {
 selbox5.options[selbox5.options.length] = new Option('Google','Google');
 selbox5.options[selbox5.options.length] = new Option('Yahoo','Yahoo');
 selbox5.options[selbox5.options.length] = new Option('Bing (MSN)','Bing (MSN)');
-selbox5.options[selbox5.options.length] = new Option('Басқа','Others');
+selbox5.options[selbox5.options.length] = new Option('другие','Others');
 document.frmSubmit.R2.disabled = false;
-document.getElementById("span1").innerHTML  = "Басты сөздерді іздеу";
+document.getElementById("span1").innerHTML  = "Поиск ключевых слов";
 document.frmSubmit.txtRef.disabled = false;
 document.getElementById("message").style.display			= "block";
 document.getElementById("message").style.visibility		= "visible";
@@ -780,10 +780,10 @@ document.getElementById("txtref").style.display			= "block";
 document.getElementById("txtref").style.visibility		= "visible";
 }
 if (chosen == "Personal Referral") {
-selbox5.options[selbox5.options.length] = new Option('Достар, әріптес','Friend/Colleague');
-selbox5.options[selbox5.options.length] = new Option('Институт/ Ұйым','University/Institute/Organization');
+selbox5.options[selbox5.options.length] = new Option('Друзья Коллеги','Friend/Colleague');
+selbox5.options[selbox5.options.length] = new Option('Университет/ Институт/ Организация','University/Institute/Organization');
 document.frmSubmit.R2.disabled = false;
-document.getElementById("span1").innerHTML  = "Аталуы";
+document.getElementById("span1").innerHTML  = "Название";
 document.frmSubmit.txtRef.disabled = false;
 document.getElementById("r2").style.display			= "block";
 document.getElementById("r2").style.visibility		= "visible";
@@ -830,7 +830,7 @@ document.getElementById("txtref").style.visibility		= "hidden";
 }
 if (chosen == "Advertisement Banner") {
 document.frmSubmit.R2.disabled = true;
-document.getElementById("span1").innerHTML  = "Жарнаманы сіз қалай тапқаныңызды көрсетіңіз";
+document.getElementById("span1").innerHTML  = "Укажите как вы нашли рекламу";
 document.frmSubmit.txtRef.disabled = false;
 document.getElementById("message").style.display			= "block";
 document.getElementById("message").style.visibility		= "visible";
@@ -841,7 +841,7 @@ document.getElementById("txtref").style.visibility		= "visible";
 }
 if (chosen == "Website Link") {
 document.frmSubmit.R2.disabled = true;
-document.getElementById("span1").innerHTML  = "линк /URL-ды қалай тапқаныңызды көрсетіңіз.";
+document.getElementById("span1").innerHTML  = ".Укажите, как вы нашли линк /URL";
 document.frmSubmit.txtRef.disabled = false;
 document.getElementById("message").style.display			= "block";
 document.getElementById("message").style.visibility		= "visible";
@@ -852,7 +852,7 @@ document.getElementById("txtref").style.visibility		= "visible";
 }
 if (chosen == "Journal Recommendation") {
 document.frmSubmit.R2.disabled = true;
-document.getElementById("span1").innerHTML  = "URL журналының атауы";
+document.getElementById("span1").innerHTML  = "Название журнала /URL";
 document.frmSubmit.txtRef.disabled = false;
 document.getElementById("message").style.display			= "block";
 document.getElementById("message").style.visibility		= "visible";
@@ -863,7 +863,7 @@ document.getElementById("txtref").style.visibility		= "visible";
 }
 if (chosen == "Magazine Ads") {
 document.frmSubmit.R2.disabled = true;
-document.getElementById("span1").innerHTML  = "Журналдыңң аталуы";
+document.getElementById("span1").innerHTML  = "Название журнала";
 document.frmSubmit.txtRef.disabled = false;
 document.getElementById("message").style.display			= "block";
 document.getElementById("message").style.visibility		= "visible";
@@ -874,7 +874,7 @@ document.getElementById("txtref").style.visibility		= "visible";
 }
 if (chosen == "Others") {
 document.frmSubmit.R2.disabled = true;
-document.getElementById("span1").innerHTML  = "URL атауы";
+document.getElementById("span1").innerHTML  = "Название/URL ";
 document.frmSubmit.txtRef.disabled = false;
 document.getElementById("message").style.display			= "block";
 document.getElementById("message").style.visibility		= "visible";

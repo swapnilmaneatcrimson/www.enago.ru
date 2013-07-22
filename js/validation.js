@@ -137,7 +137,7 @@ function ismemberid1()
 	var str = document.frmSubmit.membershipid.value;
 	if (str == "")
 	{
-		alert("обязательный: Мүшелік")
+		alert("обязательный: Членство")
 		document.frmSubmit.membershipid.focus();
 		
 		return false;
@@ -150,7 +150,7 @@ function islastname()
 	var str = document.frmSubmit.lname.value;
 	if (str == "")
 	{
-	alert("обязательный: Аты")
+	alert("обязательный: Имя")
 	document.frmSubmit.lname.focus();
 	return false;
 	}
@@ -174,7 +174,7 @@ function isfirstname()
 	var str = document.frmSubmit.fname.value;
 	if (str == "")
 	{
-	alert("обязательный: Тегі")
+	alert("обязательный: Фамилия")
 	document.frmSubmit.fname.focus();
 	return false;
 	}
@@ -362,7 +362,7 @@ function isOrg()
 	var str = document.frmSubmit.organisation.value;
 	if (str == "")
 	{
-	alert("обязательный: Институт/Ұйым")
+	alert("обязательный: Институт/Организация")
 	document.frmSubmit.organisation.focus();
 	return false;
 	}
@@ -377,7 +377,7 @@ function isEmail()
 
 	if((validateObject.val.indexOf("@") == -1) || (validateObject.val.charAt(0) == ".") || (validateObject.val.charAt(0) == "@") ||(validateObject.len < 6) || (validateObject.val.indexOf(".") == -1) || (validateObject.val.charAt(validateObject.val.indexOf("@")+1) == ".") || (validateObject.val.charAt(validateObject.val.indexOf("@")-1) == "."))
 	{
-		alert("обязательный: Пошта мекен-жайы");
+		alert("обязательный: Почтовый адрес");
 		document.frmSubmit.email.focus();
 		return false;
 	}
@@ -391,7 +391,7 @@ function isMatch()
 	
 	if(email!==cemail)
 	{
-		alert("обязательный: Электронды пошта мекен-жайынызды растаңыз");
+		alert("обязательный: Подтвердите адрес электронный почты ");
 		document.frmSubmit.emailconfirm.focus();
 		return false;
 	}
@@ -402,7 +402,7 @@ function isCountry()
 {
 if (document.frmSubmit.country.selectedIndex == 0)
 	{
-		alert("обязательный: Ел");
+		alert("обязательный: Страна");
 		document.frmSubmit.country.focus();
 		return false;
 	}
@@ -415,7 +415,7 @@ function isZipCode()
 	var str = document.frmSubmit.zipcode.value;
 	if (str == "")
 	{
-	alert("обязательный: Индекс")
+	alert("обязательный: Почтовый индекс")
 	document.frmSubmit.zipcode.focus();
 	return false;
 	}
@@ -427,7 +427,7 @@ function iscity()
 	var str = document.frmSubmit.city.value;
 	if (str == "")
 	{
-	alert("обязательный: Қала")
+	alert("обязательный: Город")
 	document.frmSubmit.city.focus();
 	return false;
 	}
@@ -439,7 +439,7 @@ function isAddress()
 		var str = document.frmSubmit.mailingaddress1.value; 
 		if (str == "")
 		{
-		alert("обязательный: Есепті көрсету үшін мекен-жай")
+		alert("обязательный: Адрес для выставления счета")
 		document.frmSubmit.mailingaddress1.focus();
 		return false;
 }
@@ -451,7 +451,7 @@ function isPhone()
 		var no=document.frmSubmit.phone.value;
 		if (no.length==0)
 		{
-			alert("обязательный: Телефон нөмірі");
+			alert("обязательный: Номер телефона");
 			document.frmSubmit.phone.focus();
 			document.frmSubmit.phone.select();
 			return false;
@@ -461,7 +461,7 @@ function isPhone()
 			var strpno=(no.substring(i,i+1));
 			if((strpno > 'a' && strpno < 'z') || (strpno > 'A' && strpno < 'Z'))
 			{
-				alert("обязательный: Телефон нөмірі");
+				alert("обязательный: Номер телефона");
 				document.frmSubmit.phone.focus();
 				document.frmSubmit.phone.select();
 				return false;
@@ -476,7 +476,7 @@ function isRefered()
 	var menuSell = document.frmSubmit.R2.selectedIndex;
 	if(menuSel==0)
 		{
-			alert("обязательный: Нақты код қандай?");
+			alert("обязательный: Как вы узнали о нас?");
 			document.frmSubmit.R1.focus();
 			return false;
 		}
@@ -484,7 +484,7 @@ function isRefered()
 		{
 			if(menuSell==0)
 			{
-				alert("обязательный: Нақты код қандай?");
+				alert("обязательный: Как вы узнали о нас?");
 				document.frmSubmit.R2.focus();
 				return false;
 			}
@@ -1209,7 +1209,7 @@ function isSameasabove()
 		}
 		if (document.frmSubmit.phone_a.value.length==0)
 		{
-			alert("обязательный: Телефон нөмірі");
+			alert("обязательный: Номер телефона");
 			document.frmSubmit.phone_a.focus();
 			return false;
 		}
