@@ -104,7 +104,20 @@ include('conn.php');
 
 $CountryName="Russia";
 
-$MyQuery = "select * from accepted_papers where Permission_to_Publish_Testimonial=\"Yes\"  And Testimonial_Russia !='' order by field(region, \"Germany\", \"Global\", \"Taiwan\", \"Japan\", \"China\",  \"Iran\") ASC, Country ASC, Image_path DESC";
+/*$MyQuery = "select * from accepted_papers where Permission_to_Publish_Testimonial=\"Yes\"  And Testimonial_Russia !='' order by field(region, \"Germany\", \"Global\", \"Taiwan\", \"Japan\", \"China\",  \"Iran\") ASC, Country ASC, Image_path DESC";*/
+
+$MyQuery = "SELECT * FROM `accepted_papers` where Permission_to_Publish_Testimonial=\"Yes\" 
+Order by CASE 
+WHEN Image_Path='' then 1 
+WHEN Image_Path='client-defaultimage.png' then 1 
+WHEN Image_Path is NULL then 1 
+WHEN Image_Path = 'NULL' then 1 
+WHEN Image_Path = 'null' then 1 
+WHEN Country = 'Iran' then 1 
+ELSE 0 end ,
+field (Region, 'Global', 'Brazil', 'Germany', 'Europe', 'Turkey', 'Korea', 'Taiwan', 'China', 'Japan')
+";
+
 
 $numresults=mysql_query($MyQuery);
 
