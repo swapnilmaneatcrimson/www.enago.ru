@@ -76,7 +76,7 @@ if($clienttype == "New Client")
 		}
 	if($service =="Advance Editing")
 		{ 
-			$alert14="\n14. A new client has chosen Advance Editing, enter 10% new client discount."; 
+			$alert14="\n14. A new client has chosen Advance Editing, enter 20% new client discount."; 
 		}
 	
 	if($mrc!="" && $priority=="Economy")
