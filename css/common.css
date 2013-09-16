@@ -4017,3 +4017,15 @@ sup{font-size:45%; vertical-align:top}
     vertical-align: top;
 }	
 .marT10{margin-top:10px !important}
+.marB0{margin-bottom:0px !important}
+.itemDesc{width:100%;float:left;background-color:transparent;overflow:hidden;padding:0px; margin-bottom:20px}
+.itemDesc .date{text-align:left;font:10px Verdana;color:#000;width:255px; margin-bottom:5px;}
+.itemDesc .title{font:normal 18px 'sansation_lightregular', Arial, Helvetica, sans-serif;padding:0px;color:#84213f; font-weight:bold; margin-bottom:10px}
+.itemDesc .text{font:12px Verdana;text-align:justify;color:#000;margin-top:0px;line-height:20px;}
+.itemDesc .text1{font:12px Verdana;text-align:justify;color:#000;margin-top:0px;line-height:20px;}
+.news-img {
+    border: 1px solid #CCCCCC;
+    float: left;
+    margin: 5px 12px 0 0;
+    padding: 3px;
+}
