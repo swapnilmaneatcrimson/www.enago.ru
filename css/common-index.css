@@ -2219,7 +2219,7 @@ a.lightBox:hover {
 #demoFour a{display:block;font-size:11px;text-align:left;width:305px;border:0 solid silver;text-decoration:none;color:#454545;font-family:Arial, Helvetica, sans-serif;letter-spacing:0;margin:0 2px 2px 0;padding:5px;}
 #demoFour a:hover{background-color:#fff;}
 .demo{max-height:635px;overflow-y:scroll;overflow-x:hidden;border:1px solid silver;margin:0;padding:0;}
-h1.SRtab {
+h2.SRtab {
     background:url(../images/subjectareas/h1-bg.png) bottom left no-repeat;
     color: #9F0836;
     display: block;
