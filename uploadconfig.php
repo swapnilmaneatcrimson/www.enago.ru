@@ -1,5 +1,6 @@
 <?
-$absolute_path = "/usr/home/crimsonint/public_html/upload/ENAGO_KZ/"; //Absolute path to where files are uploaded
+$absolute_path = "/usr/home/crimsonint/upload/ENAGO_RU"; //Absolute path to where files are uploaded
+//$absolute_path = "/usr/home/crimsonint/public_html/upload/ENAGO_KZ/"; //Absolute path to where files are uploaded
 $absolute_path_translation = "/usr/home/crimsonint/public_html/upload/upload-edisense/translation/"; //Absolute path to where translations files are uploaded
 $absolute_path_invoicesub = "/usr/home/crimsonint/public_html/upload/upload-edisense/invoice/"; //Absolute path to where freelancer invoice files 
 $absolute_pathresume = "/usr/home/crimsonint/public_html/upload/upload-edisense/recruitment_applicant_resume/"; 
