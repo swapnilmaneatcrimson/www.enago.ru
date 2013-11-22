@@ -426,7 +426,7 @@ body {
 }
 
 .phone-detail {
-    margin-bottom: 8px;
+    margin-bottom: 8px; height:64px
 }
 #headerContainer #enagoThumbsContainer {
 	padding-right:0px;
