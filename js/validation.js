@@ -30,7 +30,7 @@ function validate_step2()
 function validate_step3()
 {
 	_gaq.push(['_trackEvent', 'Form', 'Submit', 'Step4']);
-	if (isattachfiles() && isCLtype())
+	if (isUpload() && isExtension() && isattachfiles() && isCLtype())
 	{
 		return showonlyone('personaldetails');
 	}
@@ -42,7 +42,7 @@ function validate_step3()
 
 function validate_confirm()
 {
-	if (isClientType() && isUpload() && istandc())
+	if (isClientType() && istandc())
 	{
 		document.frmSubmit.action = "thankyou.php";
 		return true;
@@ -52,6 +52,32 @@ function validate_confirm()
 			
 		return false;
 	}	
+}
+
+function isExtension()
+{
+	var s = document.frmSubmit.superdat.value;
+	// Return everything after the last '.'
+	function getExtension2(s) {
+		var m = s.match(/[^.]+$/);
+		return m? m[0] : '';
+	}
+	var ext = getExtension2(s);
+	if(s !== "")
+	{
+			if ((ext == "doc") || (ext == "docx") || (ext == "xls") || (ext == "xlsm") || (ext == "xlsx") || (ext == "ppt") || (ext == "pptx") || (ext == "rtf") || (ext == "dot")
+		|| (ext == "hwp") || (ext == "zip") || (ext == "rar") || (ext == "lzh") || (ext == "pdf") || (ext == "tex") || (ext == "7z") || (ext == "txt") || (ext == "jpeg") || (ext == "tiff") || (ext == "eps") || (ext == "png") || (ext == "gif"))
+			{
+				return true;
+			}
+			else
+			{
+				alert("File type not supported.");
+				document.frmSubmit.superdat.focus();
+				return false;
+			}
+	}
+return true;
 }
 
 

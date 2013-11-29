@@ -297,32 +297,49 @@ if($specialization == "Other")
 }
 //
 
-if ($superdat_name == "")
-{
-$autoresponse="Пожалуйста,  загрузите  файл.";
-$crimsonemailtext="Client did not upload the file";
-$thankyoupagetext="<p>Пожалуйста,  загрузите  файл.</p>";
-}
+/****************  EXT Rstriction  ********************/
 
-else if (($size_limit == "yes") && ($limit_size < $superdat_size))
-{
-$superdat_name=$fname."_".$lname."_".$superdat_name;
-$autoresponse="File size is very large, so cannot upload through website";
-$crimsonemailtext="FILE SIZE MORE THAN 8 MB, so cannot upload through website";
-$thankyoupagetext="<p>File size is very large, so cannot upload through website</p>";
+$finfo = explode('.',$superdat_name);
+$ext = array_pop($finfo);
+
+/****************  End  ********************/
+if ($superdat_name == "")
+	{
+	$autoresponse="Пожалуйста,  загрузите  файл.";
+	$crimsonemailtext="Client did not upload the file";
+	$thankyoupagetext="<p>Пожалуйста,  загрузите  файл.</p>";
+	}
+else if (($ext == "doc") || ($ext == "docx") || ($ext == "xls") || ($ext == "xlsm") || ($ext == "xlsx") || ($ext == "ppt") || ($ext == "pptx") || ($ext == "rtf") || ($ext == "dot")
+|| ($ext == "hwp") || ($ext == "zip") || ($ext == "rar") || ($ext == "lzh") || ($ext == "pdf") || ($ext == "tex") || ($ext == "7z") || ($ext == "txt") || ($ext == "jpeg") || ($ext == "tiff") || ($ext == "eps") || ($ext == "png") || ($ext == "gif"))
+	{
+	if (($size_limit == "yes") && ($limit_size < $superdat_size))
+	{
+	$superdat_name=$fname."_".$lname."_".$superdat_name;
+	$autoresponse="File size is very large, so cannot upload through website";
+	$crimsonemailtext="FILE SIZE MORE THAN 8 MB, so cannot upload through website";
+	$thankyoupagetext="<p>File size is very large, so cannot upload through website</p>";
+	}
+	else
+	{
+	if (file_exists("$absolute_path/$superdat_name"))
+		{
+		$superdat_name=$fname.$lname."_".$date.$nowClock."_".$superdat_name;
+		}
+		else {$superdat_name=$fname."_".$lname."_".$superdat_name;}
+	@copy($superdat, "$absolute_path/$superdat_name");
+	$autoresponse="Вы загрузили следующие файлы: $superdat_name";
+	$crimsonemailtext="FILE UPLOADED";
+	$thankyoupagetext="<p>Сіз келесідей файлдарды жүктедіңіз: $superdat_name</p>";
+	};
 }
 else
 {
-if (file_exists("$absolute_path/$superdat_name"))
-	{
-	$superdat_name=$fname.$lname."_".$date.$nowClock."_".$superdat_name;
-	}
-	else {$superdat_name=$fname."_".$lname."_".$superdat_name;}
-@copy($superdat, "$absolute_path/$superdat_name");
-$autoresponse="Вы загрузили следующие файлы: $superdat_name";
-$crimsonemailtext="FILE UPLOADED";
-$thankyoupagetext="<p>Сіз келесідей файлдарды жүктедіңіз: $superdat_name</p>";
-};
+	$thankyoupagetext="File type not supported.";
+	$autoresponse="File type not supported.";
+	$crimsonemailtext="File type not supported.";
+}
+
+/////////////////
 
 $to = $tod;
 if ($typeofdoc == "Abstract")
