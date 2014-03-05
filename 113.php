@@ -106,7 +106,7 @@ $CountryName="Russia";
 
 /*$MyQuery = "select * from accepted_papers where Permission_to_Publish_Testimonial=\"Yes\"  And Testimonial_Russia !='' order by field(region, \"Germany\", \"Global\", \"Taiwan\", \"Japan\", \"China\",  \"Iran\") ASC, Country ASC, Image_path DESC";*/
 
-$MyQuery = "SELECT * FROM `accepted_papers` where Permission_to_Publish_Testimonial=\"Yes\" 
+$MyQuery = "SELECT * FROM `accepted_papers` where Permission_to_Publish_Testimonial=\"Yes\" And Testimonial_Russia !=''
 Order by CASE 
 WHEN Image_Path='' then 1 
 WHEN Image_Path='client-defaultimage.png' then 1 
