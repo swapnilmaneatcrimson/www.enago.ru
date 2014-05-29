@@ -823,30 +823,31 @@ $a = "Английское редактирование, Английский р
 <?php include("inc_footer.htm"); ?>
 <!-- footerContainer -->
 
-<!-- Google Code for Enago Russia Conversion Page -->
+<!-- Google Code for EnagoKoreaPPC Conversion Page -->
 <script type="text/javascript">
 /* <![CDATA[ */
-var google_conversion_id = 1011632437;
+var google_conversion_id = 980682862;
 var google_conversion_language = "en";
 var google_conversion_format = "2";
 var google_conversion_color = "ffffff";
-var google_conversion_label = "VEEUCJP9_wMQtZKx4gM";
-var google_conversion_value = 0;
+var google_conversion_label = "st7ICPKU6AkQ7pDQ0wM";
+var google_remarketing_only = false;
 /* ]]> */
 </script>
-<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion.js">
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
 </script>
 <noscript>
 <div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="Английское редактирование, Английское корректура, научных редактирования Услуги" src="http://www.googleadservices.com/pagead/conversion/1011632437/?value=0&amp;label=VEEUCJP9_wMQtZKx4gM&amp;guid=ON&amp;script=0"/>
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/980682862/?label=st7ICPKU6AkQ7pDQ0wM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
-<!-- Google Code for Russia Remarketing -->
+
+<!-- Google Code for EnagoRussia Remarketing -->
 <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
 <script type="text/javascript">
 /* <![CDATA[ */
-var google_conversion_id = 1011632437;
-var google_conversion_label = "Sfv7CLuQ1gYQtZKx4gM";
+var google_conversion_id = 980682862;
+var google_conversion_label = "apT4CMK46AkQ7pDQ0wM";
 var google_custom_params = window.google_tag_params;
 var google_remarketing_only = true;
 /* ]]> */
@@ -855,7 +856,7 @@ var google_remarketing_only = true;
 </script>
 <noscript>
 <div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/1011632437/?value=0&amp;label=Sfv7CLuQ1gYQtZKx4gM&amp;guid=ON&amp;script=0"/>
+<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/980682862/?value=1.000000&amp;label=apT4CMK46AkQ7pDQ0wM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
 
