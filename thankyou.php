@@ -823,14 +823,14 @@ $a = "Английское редактирование, Английский р
 <?php include("inc_footer.htm"); ?>
 <!-- footerContainer -->
 
-<!-- Google Code for EnagoKoreaPPC Conversion Page -->
+<!-- Google Code for Google Code for EnagoRussia Conversion Page -->
 <script type="text/javascript">
 /* <![CDATA[ */
 var google_conversion_id = 980682862;
 var google_conversion_language = "en";
 var google_conversion_format = "2";
 var google_conversion_color = "ffffff";
-var google_conversion_label = "st7ICPKU6AkQ7pDQ0wM";
+var google_conversion_label = "q7yECKLg6wkQ7pDQ0wM";
 var google_remarketing_only = false;
 /* ]]> */
 </script>
@@ -838,9 +838,11 @@ var google_remarketing_only = false;
 </script>
 <noscript>
 <div style="display:inline;">
-<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/980682862/?label=st7ICPKU6AkQ7pDQ0wM&amp;guid=ON&amp;script=0"/>
+<img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/980682862/?label=q7yECKLg6wkQ7pDQ0wM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
+
+
 
 <!-- Google Code for EnagoRussia Remarketing -->
 <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
