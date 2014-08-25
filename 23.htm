@@ -57,6 +57,12 @@
 
 <body>
 <?php
+$num1 = rand(1, 9);
+$num2 = rand(1, 9);
+
+$question = "<label>What is sum of " . $num1 . " + " . $num2 ." ?</label>";
+?>
+<?php
 $a = "Английское редактирование, Английский редактор, Научное редактирование, Услуги научного редактирования";
 ?>
 
@@ -1071,10 +1077,19 @@ $a = "Английское редактирование, Английский р
                       </table></div>
       
 <div id="pd7"><table width="100%" border="0" cellspacing="0" cellpadding="0" class="table_form"><tr>
-<td class="col1a">Специальный код</td>
-<td class="col2a">&nbsp;</td>
-<td class="col3a"><input name="specialcode" type=text id="specialcode" size="10" maxlength="15"  class="textfield" /></td>
-</tr></table></div>
+<td class="col1">Специальный код</td>
+<td class="col2">&nbsp;</td>
+<td class="col3"><input name="specialcode" type=text id="specialcode" size="10" maxlength="15"  class="textfield" /></td>
+</tr>
+<tr>
+<td class="col1a"><?php echo $question ?> <span class="font11">Prove you are not a robot.</span></td>
+<td class="col2a mandatory">*</td>
+<td class="col3a"><input name="answer" type="text" id="answer" size="10" maxlength="15" class="textfield" />
+<input type="hidden" name="trackcode" value="crimson"  id="trackcode" />
+<input type="hidden" name="num1"  id="num1" value="<?php echo $num1 ?>" />
+<input type="hidden" name="num2" id="num2" value="<?php echo $num2 ?>" /></td>
+</tr>
+</table></div>
                   
 </div>
 

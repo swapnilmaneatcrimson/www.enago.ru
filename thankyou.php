@@ -1,16 +1,13 @@
 <?php
 ini_set("mbstring.internal_encoding","UTF-8");
-//check for all the non-printable codes in the standard ASCII set,
-//including null bytes and newlines, and exit immediately if any are found.
-if (preg_match("/[\\000-\\037]/",$email)) {
-  die("You have filled wrong information please fill the form again.");
-  return false;
-}
-$pattern = "/^[-_a-z0-9\'+*$^&%=~!?{}]++(?:\.[-_a-z0-9\'+*$^&%=~!?{}]+)*+@(?:(?![-.])[-a-z0-9.]+(?<![-.])\.[a-z]{2,6}|\d{1,3}(?:\.\d{1,3}){3})(?::\d++)?$/iD";
-if(!preg_match($pattern, $email)){
-  die("You have filled wrong information please fill the form again.");
-  return false;
-}
+$num1 = $_POST['num1'];
+$num2 = $_POST['num2'];
+$answer = $_POST['answer'];
+$trackcode = $_POST['trackcode'];
+
+$answer2 = $num1 + $num2;
+
+if($trackcode == "crimson" && $answer == $answer2){
 // end function validate_email
 $originallname=$lname;
 $originalfname=$fname;
@@ -864,3 +861,11 @@ var google_remarketing_only = true;
 
 </body>
 </html>
+<?php 
+} 
+else
+{
+	echo "Incorrect data";
+	return false;
+}
+?>
