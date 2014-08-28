@@ -1,0 +1,1052 @@
+﻿body{font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;margin:0px;margin-bottom:0px;background-image:url(../img/backgrounds/bg1.png);background-position:0px 0px;background-repeat:repeat}
+html,body { height:100%; }
+
+.vabsmiddle{vertical-align:middle}
+.vabsbottom{vertical-align:bottom !important}
+*{font-family:Arial, Helvetica, sans-serif;font-style:inherit;font-weight:inherit;margin:0px;padding:0px;}
+img{border:none;}
+a{text-decoration:none;}
+strong{font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+input, textarea, button { outline:0 none; }
+
+.clearboth {clear: both;}
+
+a.read-more-btn { display:block; height:32px; }
+a.read-more-btn:hover { opacity:0.8; }
+a.read-more-btn span.leftpic { float:left; display:block; width:23px; height:32px; background:url(../img/common/read-more-left.png) 0 0 no-repeat;  }
+a.read-more-btn span.rightpic { float:left; display:block; height:25px; line-height:32px; color:#802340; font: 12px "メイリオ","MS PGothic", "MS Mincho"; font-weight:600; background:url(../img/common/read-more-right.png) 100% 0 no-repeat; padding:7px 10px 0 10px; text-align:center; position:relative; }
+a.read-more-btn span.icon { display:block; width:18px; height:18px; position:absolute; top:7px; right:8px; }
+a.read-more-btn span.icon.download { background:url(../img/common/download-icon-small.png) 0 0 no-repeat; }
+a.read-more-btn span.icon.PDF { background:url(../img/common/icons/PDF.png) 0 0 no-repeat; width:40px; height:40px; top:-14px; right:6px; }
+
+.bgexpand{background:#fff none !important;}
+#headerwrap{background-color:#fff;padding:0px;margin:0px;color:#CCC;box-shadow:0px 0px 10px #8e8e8e;}
+#headerwrap .header{background-color:#fff;margin:0 auto;width:1000px;height:150px;}
+.topbar-container{width:960px;height:30px;margin:0 auto;padding:0 10px 0 20px;background-color:none;}
+.topbar-container .h1-title{float:left;height:30px;width:50%;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;font-size:8px!important;line-height:30px;letter-spacing:1px;color:#666;font-weight:normal}
+.enago-cn-flag{background-image:url("../img/index/index-sprite.png");background-repeat:no-repeat;background-position:-29px -67px;margin-left:5px;margin-right:5px}
+.enago-tw-flag{background-image:url("../img/index/index-sprite.png");background-repeat:no-repeat;background-position:0px -67px;margin-left:5px;margin-right:5px}
+.enago-tr-flag{background-image:url("../img/index/index-sprite.png");background-repeat:no-repeat;background-position:-116px -67px;margin-left:5px;margin-right:5px}
+.enago-en-flag{background-image:url("../img/index/index-sprite.png");background-repeat:no-repeat;background-position:-58px -67px;margin-left:5px;margin-right:5px}
+.enago-de-flag{background-image:url("../img/index/index-sprite.png");background-repeat:no-repeat;background-position:-87px -67px;margin-left:5px;margin-right:5px}
+.enago-br-flag{background-image:url("../img/index/index-sprite.png");background-repeat:no-repeat;background-position:-116px -41px;margin-left:5px;margin-right:5px}
+.enago-kz-flag{background-image:url("../img/index/index-sprite.png");background-repeat:no-repeat;background-position:0px -403px;margin-left:5px;margin-right:5px}
+.enago-kr-flag{background-image:url("../img/index/index-sprite.png");background-repeat:no-repeat;background-position:-39px -403px;margin-left:5px;margin-right:5px}
+.enago-ae-flag{background-image:url("../img/index/index-sprite.png");background-repeat:no-repeat;background-position:-78px -403px;margin-left:5px;margin-right:5px}
+
+#headerContainer{width:980px;padding-right:10px;margin:auto;margin-top:0px;padding-top:00px;height:115px;padding-bottom:5px;padding-left:10px;float:left}
+#headerContainer #logo{float:left;display:block;height:68px;width:255px;margin-left:10px;margin-top:10px;background-image:url(../img/header/logo.png);background-position:0px 0px;background-repeat:no-repeat;margin-bottom:5px}
+#headerContainer #titleWrapper{height:30px;float:left;width:520px;display:block;line-height:30px;clear:both;margin-top:0px;margin-left:10px;}
+#headerContainer #titleWrapper p{float:left;font-weight:normal;font:normal 16px/30px;font-family:"MS Mincho";color:#000;padding:0px;letter-spacing:1px;display:block;border-top:1px solid #ccc}
+#headerContainer #titleWrapper p strong{font-weight:bold;color:#84213f}
+.header-inner	{float:left; width:670px}
+.header-inner span{font-weight:bold;font:bold 26px/30px;font-family:"MS Mincho";color:#84213f;padding:0px;letter-spacing:2px;padding-top:35px;display:inline-block}
+.titleSlogan1{font-weight:bold;font:bold 26px/30px;font-family:"MS Mincho";color:#84213f;padding:0px;letter-spacing:2px;padding-top:35px;display:inline-block}
+#rightcontainer{float:right;width:276px;vertical-align:top;}
+.topCTAbtn { display:block; height:56px; width:256px; background:url(../images/big-CTA-btn.png) 0 0 no-repeat; }
+.topCTAbtn:hover { background-position:0 -56px; }
+.topCTAbtn:active { background-position:0 -112px; }
+.fonttext{font-size:12px;font-weight:bold;color:#84213f;display:inline-block;padding:2px;height:15px;margin-top:0px;margin-right:5px;letter-spacing:1px}
+.rightlinks{float:right}
+.rightlinks a.toplink{text-decoration:underline;color:#2c181a;font:12px "メイリオ";font-family:"メイリオ", "MS Mincho";padding:0px 0px 0px 5px;line-height:16px;margin-right:7px}
+.rightlinks a.toplink:hover{text-decoration:none;color:#2c181a}
+#rightcontainer .callus{padding:0 10px 3px 0;}
+#rightcontainer #fontsizer{vertical-align:top;margin-top:50px;}
+.toplinkseperator{background:#fff url(../img/index/index-sprite.png);background-repeat:no-repeat;background-position:-117px -133px;width:3px;height:3px; vertical-align:middle;}
+.topnewclient{background:#fff url(../img/index/index-sprite.png);background-repeat:no-repeat;background-position:0px -94px;height:15px;width:16px; vertical-align:middle;}
+#topbar .country{float:right;width:108px;}
+.menu_class{cursor:pointer;width:113px;height:15px;background:#fff url(../img/index/index-sprite.png);background-repeat:no-repeat;background-position:0px -42px;padding:0px 0px 0px 0px; vertical-align:middle}
+.anylinkcss{position:absolute;left:0;top:0;visibility:hidden;border:1px solid #999;border-bottom-width:0;line-height:18px;z-index:100;width:200px;margin-left:-90px;}
+.anylinkcss ul{margin:0;padding:0;}
+.anylinkcss li{background-color:#fff;list-style:none;float:left;width:100px;}
+.anylinkcss li.blank{background-color:#fff;list-style:none;float:left;width:200px;}
+.anylinkcss li a{color:#000;text-decoration:none;display:block;font-size:11px;padding:0px 5px 5px 0px;}
+.anylinkcss li a:hover{color:#A50A3A;}
+.anylinkshadow{position:absolute;left:0;top:0;z-index:99;background:#000;visibility:hidden;margin-left:-90px;}
+.mainnavigation{margin:0 auto;height:30px;overflow:hidden;width:100%;padding:0px;background:url(../img/index/index-sprite.png) repeat-x 0px -292px;}
+.mattblackmenu{margin:0 auto;padding:0;width:1000px}
+.mattblackmenu ul{padding:0;margin:0;border-top:1px solid #d24b74;border-right:1px solid #d24b74;border-left:0px solid #d24b74;}
+.mattblackmenu li{display:inline;margin:0;text-align:center}
+.mattblackmenu li a{float:left;display:block;text-decoration:none;margin:0;color:white;background:url(../img/index/nav-bg.png) repeat-x;height:30px;line-height:30px;text-align:center;font:normal 12px;font-family:"MS Mincho";list-style-type:none;letter-spacing:1px;font-size:14px; padding:0 28px; border-left:2px solid #AC0336; border-right:1px solid #85203F}
+.mattblackmenu li a:hover{background:url(../img/index/nav-bg-hover.png) 0 0 repeat-x; height:43px}
+.mattblackmenu li a:visited{color:white;}
+.mattblackmenu a.selected{background:url(../img/index/nav-bg-hover.png) 0 0 repeat-x;}
+.mattblackmenu li a span{font-family:Arial, Helvetica, sans-serif;font-weight:normal}
+.breadcrumbwrap{width:100%;height:28px;margin:0 auto;border-top:0px #eeeeee solid;display:block;clear:both;background-image:url(../img/index/index-sprite.png);background-repeat:repeat-x;background-position:0px -214px}
+#breadcrumb{width:1000px;height:28px;margin:0 auto;display:block;clear:both;color:#fff;line-height:28px;font-size:11px;font-family:"メイリオ","MS PGothic", "MS Mincho";}
+#breadcrumb span{padding-left:20px;}
+#breadcrumb a{text-decoration:none;color:#fff;}
+#layout-wrapper{margin:0px auto;width:960px;}
+#columns-wrapper{background:url(../img/backgrounds/column-bg.png);background-repeat:repeat-y;background-position:0px 0px;overflow:hidden;border:0px solid #151515;border-top:none;margin:20px 0px 0px 0px;height:auto}
+
+#full-columns-wrapper { margin:20px 0px 0px 0px;height:auto }
+
+#columns-wrapper-ecsupport{overflow:hidden;background-color:#FFF;border:0px solid #151515;border-top:none;margin:20px 0px 0px 0px;width:935px;}
+.columns-wrapper{overflow:hidden;border:0px solid #151515;border-top:none;margin:20px 0px 0px 0px;}
+#layout-wrapper-interviews{margin:0px auto;width:1000px;}
+#columns-wrapper-interviews{overflow:hidden;border-top:none;margin:20px 0px 0px 10px;border-radius:4px 4px 4px 4px;border:1px solid #ccc;}
+.SRiframe{min-height:785px;width:915px;}
+#leftcontainer{float:left;width:253px;padding:10px 10px 0px 10px;font-size:12px;background-image:url(../img/backgrounds/leftcontainerbg.png);background-position:0px 0px;background-repeat:repeat-y;border-radius:4px 4px 4px 4px;border:1px solid #ccc;margin-left:0px;border-bottom:0px}
+.subnav{clear:both;width:250px;padding-bottom:0px;margin-bottom:08px;margin-left:0px;margin-top:0px}
+.subnav .navTitle{height:200px;background:url('../img/subnav/subnav-top.png');background-repeat:no-repeat;background-position:0px 0px;}
+.subnav .navTitle dt{padding-left:30px;font-weight:bold;color:#fff;font-size:17px;font-family:"MS Mincho";padding-top:160px;display:block;height:40px;letter-spacing:0px}
+.subnav .items{overflow:hidden;width:247px;padding:0px;height:auto;margin:0px auto;margin-top:-1px; border: #e4dcde 1px solid;}
+.subnav .items a{height:39px;width:227px;display:block;padding-left:20px;background-image:url(../img/subnav/itembg.png);background-repeat:no-repeat;background-position:0px 0px;margin-right:0px;padding-right:0px;letter-spacing:1pt;cursor:pointer;border-top:1px solid #fff;border-bottom:1px solid #e7e7e7;font:12px/39px "メイリオ","MS PGothic", "MS Mincho";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#000;text-decoration:underline}
+.subnav .items a:hover{color:#fff;text-decoration:none;background-image:url(../img/subnav/itembg-hover.png);background-repeat:no-repeat;background-position:0px 0px;}
+.subnav .items a.itemcurrent{color:#fff;text-decoration:none;background-image:url(../img/subnav/itembg-hover.png);background-repeat:no-repeat;background-position:0px 0px;}
+a.itemcurrent{color:#fff;text-decoration:none;background-image:url(../img/subnav/itembg-hover.png);background-repeat:no-repeat;background-position:0px 0px;}
+.subnav .items a.itemnone{height:39px;width:227px;display:block;padding-left:20px;background-image:url(../img/subnav/itembg.png);background-repeat:no-repeat;background-position:0px 0px;margin-right:0px;padding-right:0px;letter-spacing:1pt;cursor:pointer;border-top:1px solid #fff;border-left:1px solid #dedddd;border-right:1px solid #e7e7e7;border-bottom:1px solid #e7e7e7;font:12px/39px "メイリオ","MS PGothic", "MS Mincho";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#000;text-decoration:none}
+.subnav .items a.itemnone:hover{height:39px;width:227px;display:block;padding-left:20px;background-image:url(../img/subnav/itembg.png);background-repeat:no-repeat;background-position:0px 0px;margin-right:0px;padding-right:0px;letter-spacing:1pt;cursor:default;border-top:1px solid #fff;border-left:1px solid #dedddd;border-right:1px solid #e7e7e7;border-bottom:1px solid #e7e7e7;font:12px/39px "メイリオ","MS PGothic", "MS Mincho";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#000;text-decoration:none}
+.subnav .items a.first{height:39px;width:227px;display:block;padding-left:20px;background-image:url(../img/subnav/itembg.png);background-repeat:no-repeat;background-position:0px 0px;margin-right:0px;padding-right:0px;letter-spacing:1pt;cursor:pointer;border-top:1px solid #e7e7e7;border-left:1px solid #dedddd;border-right:1px solid #e7e7e7;border-bottom:1px solid #e7e7e7;font:12px/39px "メイリオ","MS PGothic", "MS Mincho";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#000;text-decoration:underline}
+.subnav .items a.first:hover{color:#fff;text-decoration:none;background-image:url(../img/subnav/itembg-hover.png);background-repeat:no-repeat;background-position:0px 0px;}
+/*
+.subnav .items a.itemL3{height:39px;width:227px;display:block;padding-left:20px;text-indent:20px;background-image:url(../img/subnav/iteml3bg.png);background-repeat:no-repeat;background-position:0px 0px;margin-right:0px;padding-right:0px;letter-spacing:1pt;cursor:pointer;border-top:1px solid #fff;border-left:1px solid #dedddd;border-right:1px solid #e7e7e7;border-bottom:1px solid #e7e7e7;font:12px/39px "メイリオ","MS PGothic", "MS Mincho";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#000;text-decoration:underline}
+.subnav .items a.itemL3:hover{color:#fff;text-decoration:none;background-image:url(../img/subnav/iteml3bg-hover.png);background-repeat:no-repeat;background-position:0px 0px;}
+.subnav .items a.itemL3current{height:39px;width:227px;display:block;padding-left:20px;text-indent:20px;background-image:url(../img/subnav/iteml3bg-hover.png);background-repeat:no-repeat;background-position:0px 0px;margin-right:0px;padding-right:0px;letter-spacing:1pt;cursor:pointer;border-top:1px solid #fff;border-left:1px solid #dedddd;border-right:1px solid #e7e7e7;border-bottom:1px solid #e7e7e7;font:12px/39px "メイリオ","MS PGothic", "MS Mincho";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#fff;text-decoration:underline}
+*/
+.subnav .items a.itemL3{height:auto;width:210px;display:block;letter-spacing:normal;cursor:pointer;font:normal 11px/39px "メイリオ","MS PGothic", "MS Mincho";color:#000; text-decoration:none; line-height:normal; background:url(../img/common/itemL3.png) 0 6px no-repeat; padding:5px 0 5px 12px; margin:0 0 0 25px; border:0; border-bottom:#e4dcde 1px solid; }
+
+.subnav .items a.itemL3:hover{color:#fff;text-decoration:none;background:#481220; border-left:#c43c65 2px solid; border-bottom:0; padding-bottom:6px; }
+.subItem .itemcurrent{height:auto!important;width:210px!important;display:block!important;letter-spacing:normal!important;cursor:pointer;font:normal 11px/39px "メイリオ","MS PGothic", "MS Mincho";color:#FFF!important; text-decoration:none!important; line-height:normal!important; background:#481220!important; padding:5px 0 5px 12px!important; margin:0 0 0 25px!important; border:0!important;  border-left:#c43c65 2px solid!important;}
+
+.ccPayment { display:block; background:url(../img/sidebar/sidebar-banners-sprite.png) 1px -842px no-repeat; width:115px; height:21px; float:right; margin:9px 2px 0 0;  }
+.bankPayment { display:block; background:url(../img/sidebar/sidebar-banners-sprite.png) -114px -842px no-repeat; width:25px; height:21px; float:right; margin:9px 2px 0 0;  }
+.subnav .items a:hover span, .itemcurrent span { background:none; }
+.notice{background-image:url(../img/index/notice.png);width:250px;height:99px;display:block;margin-bottom:13px;margin-left:0px;clear:both;}
+.noticetext{font:12px "メイリオ", "MS PGothic", "MS Mincho";color:#313131;line-height:18px;letter-spacing:1px;padding:32px 10px 2px 10px;display:block;}
+.bannerContainer3{clear:both;width:244px;margin-bottom:5px;border:3px solid #dedbdb; transition: all 0.3s ease;}
+.bannerContainer3:hover{clear:both;width:244px;margin-bottom:5px; border-color:#99133b;}
+.rightbanner-sprite{background-image:url(../img/sidebar/sidebar-banners-sprite.png);background-repeat:no-repeat;}
+.isobanner{background-position:0px -865px;width:250px;height:42px;margin:0 0 9px 7px;}
+.isobanner2{background-position:0px -906px;width:250px;height:42px;margin: 3px 0 9px 7px;}
+.recommendbanner{background-position:4px -780px;width:250px;height:60px;margin-top:-1px;margin-bottom:-5px;}
+@media screen and (-webkit-min-device-pixel-ratio:0){.recommendbanner{background-position:4px -782px;width:250px;height:60px;margin-top:-1px;margin-bottom:-5px;}}
+.redherringbanner{background-position:3px -60px;width:250px;height:60px;}
+@media screen and (-webkit-min-device-pixel-ratio:0){.redherringbanner{background-position:3px -60px;width:250px;height:62px;}}
+.achieveBox { background:#fff; border:#ccc 1px solid; padding: 10px 0px 10px; margin-bottom: 15px; width:248px; }
+.ios-isms { margin:15px 0; }
+
+.bannerContainer3 .materialgoldbanner{background-position:-1px -131px;width:244px;height:58px;}
+.bannerContainer3 .interviewbanner{background-position:-1px -196px;width:244px;height:58px;}
+.bannerContainer3 .subjectareabanner{background-position:-1px -262px;width:244px;height:58px;}
+.bannerContainer3 .conferencesbanner{background-position:-1px -328px;width:244px;height:58px;}
+.bannerContainer3 .acceptedpapersbanner{background-position:-1px -393px;width:244px;height:58px;}
+.discountbanner { margin-bottom:13px; }
+.beginnerbanner{background-position:0px -547px;width:250px;height:75px;margin-bottom:15px}
+.bannerContainer4{clear:both;width:250px;margin-bottom:20px;margin-top:40px;border:0px solid #dedbdb;}
+.paymentsbanner{background-position:3px -470px;width:244px;height:35px;}
+.bannerContainer5{clear:both;width:248px;margin:15px 0 5px;border:1px solid #dedbdb}
+.bannerContainer5:hover{clear:both;width:248px;margin-bottom:5px;border:1px solid #057fd7}
+.bannerContainer5 .ulatus{background-position:-1px -631px;width:248px;height:140px;}
+.blogContainer{clear:both;width:248px;margin-top:20px;border:1px solid #ccc;background-color:#FFF}
+.blogContainer .title{font:normal 28px "MS PMincho";color:#000;font-size:28px;font-weight:bold;letter-spacing:4px;display:block;height:40px;margin:10px 10px 10px 10px;width:224px;clear:both;}
+.blogContainer .title a{font:normal 28px "MS PMincho";color:#000;font-size:28px;font-weight:bold;text-decoration:none;line-height:50px;}
+.blogContainer .title a:hover{color:#057fd7}
+.blogContainer .content{margin:0px 10px 0px 10px;width:234px;clear:both;}
+ul.bloglist{margin:0px;padding:0px;margin-left:0px;margin-bottom:0px;margin-top:0px;clear:both;}
+ul.bloglist li{list-style-image:none;list-style-type:none;list-style-position:outside;font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#057fd7;padding-left:15px;margin-bottom:10px;vertical-align:top;margin-top:0px;clear:both;line-height:18px;letter-spacing:0px;padding-right:10px}
+.feedburnerFeedBlock{padding:0px 0 0px 0;border-bottom:0px solid #820026;border-left:0px solid #e3e3e3;border-right:0px solid #e3e3e3;border-top:0px solid #800025;height:auto;}
+.feedburnerFeedBlock ul{margin:0px;padding:0px;margin-left:0px;margin-bottom:0px;margin-top:0px;clear:both;}
+.feedburnerFeedBlock ul li{list-style-image:none;list-style-type:none;list-style-position:outside;font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#057fd7;padding-left:15px;margin-bottom:10px;vertical-align:top;margin-top:0px;clear:both;line-height:18px;letter-spacing:0px;padding-right:10px}
+.feedTitle{display:none;visibility:hidden}
+.feedTitle a{color:#057fd7;text-decoration:underline}
+.feedTitle a:visited{color:#057fd7;text-decoration:underline}
+.feedTitle a:hover{color:#057fd7;text-decoration:none}
+.feedTitle img{display:none;visibility:hidden;height:16px;width:16px;}
+.headline{font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#111111;}
+.headline a{color:#111111;text-decoration:underline}
+.headline a:visited{color:#111111;text-decoration:underline}
+.headline a:visited:hover{text-decoration:none;height:15px;padding-left:3px;padding-right:3px;margin:0px;color:#111111;}
+.headline a:hover{color:#111111;text-decoration:none}
+.date{color:#9b2649;font-size:10px;}
+.fbsubscribelink{display:none;visibility:hidden;}
+.fbsubscribelink img{height:10px;width:10px;}
+#creditfooter{display:none;visibility:hidden;}
+#creditfooter img{height:18px;width:88px;}
+.testimonialContainer{clear:both;width:248px;margin-top:0;border:1px solid #ccc;background-color:#FFF;/*background-image:url(../img/sidebar/testimonials-image.png);*/background-repeat:no-repeat;background-position:50% 100%;}
+.testimonialContainer .title{ background:url(../img/sidebar/testimonials-icon.png) 8px 3px no-repeat; padding-left:55px; font:normal 28px "MS PMincho";color:#000;font-size:28px;font-weight:bold;letter-spacing:5px;display:block;height:40px;margin:10px 5px 0px 5px;width:234px;clear:both;text-align:left;height:60px;}
+.testimonialContainer .title a{font:normal 28px "MS PMincho";color:#821f3b;font-size:28px;font-weight:bold;text-decoration:none;}
+.testimonialContainer .title a:hover{color:#057fd7}
+.testimonialContainer .title a.testimoniallink{color:#057fd7;text-decoration:underline;font:12px "メイリオ","MS PGothic", "MS Mincho";letter-spacing:1px}
+.testimonialContainer .title a.testimoniallink:hover{text-decoration:none}
+.testimonialContainer .content{margin:0px 0px 0px 0px;width:234px;clear:both;height:314px;}
+.testimonialquoteText{font:12px "メイリオ", "MS Mincho";color:#444444;line-height:16px;padding:5px 0px 0px 10px;letter-spacing:1px}
+.testimonialname{PADDING-RIGHT:0px;PADDING-LEFT:0px;FONT-WEIGHT:bold;PADDING-BOTTOM:10px;COLOR:#9b2649;font-size:12px;PADDING-TOP:0px;TEXT-ALIGN:right}
+.testimonialname img{background-image:url(../img/index/index-sprite.png);background-repeat:no-repeat;background-position:-83px -126px}
+.designation{FONT-WEIGHT:normal;COLOR:#9b2649;font-size:12px;}
+.payment{clear:both;width:244px; border:3px #ccc solid;margin-bottom:10px;margin-left:0px;margin-top:15px; background:#fff;}
+.paymentbannerLink{color:#057FD7;text-decoration:underline; font-size:14px !important;}
+.payment .title{display:block;height:50px;margin:0px 0px 10px 10px;width:234px;clear:both;}
+.payment .content{margin:0px 10px 0px 10px;width:234px;clear:both;text-align:center}
+.payment-qt{font:12px "メイリオ", "MS PGothic", "MS Mincho";color:#444444;padding:0px 0px 0px 0px;letter-spacing:1px;font-weight:bold;text-align:center;}
+.payment-que{FONT-WEIGHT:normal;COLOR:#000;font-size:12px;"メイリオ", "MS Mincho";letter-spacing:1px;padding:0px 5px 10px 0px;}
+.payment-imagediv{align:center;width:234px;text-align:center;display:block;margin-top:10px;padding:2px 0px 8px 0px;}
+.payment-img{width:226px;height:41px;margin-right:0px;vertical-align:middle;margin-left:10px}
+#maincontentcontainer{float:left;width:650px;margin-left:10px;margin-right:0px;font-size:14px;margin-top:0px;background-image:url(../img/backgrounds/maincontentcontainerbg.png);background-repeat:no-repeat;}
+#full-maincontentcontainer{float:left;width:940px;margin-left:10px;margin-right:0px;font-size:14px;margin-top:0px;background:url(../img/backgrounds/maincontainerbg.png) 0 0 no-repeat;}
+
+#maincontentcontainer_ecsupport{float:left;width:903px;margin-left:0px;margin-right:0px;font-size:14px;margin-top:0px;background-image:url(../img/backgrounds/maincontentcontainerbg.png);background-repeat:no-repeat;}
+#maincontentcontainer-quotation{float:left;width:650px;margin-left:10px;margin-right:0px;font-size:14px;margin-top:0px;background-image:url(../img/backgrounds/maincontentcontainerbg.png);background-repeat:no-repeat;}
+.inner-bottom-bg{height:1px;}
+.inner-bottom-bg img{margin-left:0px}
+#floatMenu{position:absolute;top:294px;left:50%;margin-left:454px;width:33px;}
+#fmjfloatMenu{ right:0; margin-left:462px; position:fixed; top:230px; width:103px; z-index:1; }
+.commonPageTitle{font:bold 28px "MS PMincho";font-family:"MS PMincho";color:#9b2649;font-size:28px;margin:33px 0px 0px 0px;padding-left:15px;display:block;text-align:left;letter-spacing:0px;}
+.commonPageTitle span.bankPayment { display:block; float:right; background: url(../img/sidebar/sidebar-banners-sprite.png) -204px -470px no-repeat; width:32px; height:35px; margin:-3px 190px 0 0; }
+.commonPageTitle-beginner{font:bold 28px "MS PMincho";font-family:"MS PMincho";color:#9b2649;font-size:28px;margin:28px 0px 0px 0px;padding-left:15px;display:block;text-align:left;letter-spacing:0px;background-image:url(../img/beginner/beginner-icon.png);background-repeat:no-repeat;background-position:10px 0px;text-indent:30px;height:36px}
+.PageTitle_description{font:normal "MS PGothic", "MS Gothic", "MS PMincho", "MS Mincho";color:#9b2649;font-size:13px;font-weight:normal;margin:0px;text-align:left;vertical-align:middle;letter-spacing:0px;padding-left:10px;padding-top:5px;display:inline-block}
+.commonIntroductionText{font:12px "メイリオ","MS PGothic", "MS Mincho";width:620px;color:#313131;line-height:20px;margin-left:0px;margin-right:0px;margin-bottom:20px;padding:0px;letter-spacing:1px;clear:both;}
+.commonTextBlue{font:12px "メイリオ","MS PGothic", "MS Mincho";width:600px;color:#082f7f;line-height:20px;margin-left:20px;margin-right:0px;margin-bottom:20px;padding:0px;letter-spacing:1px;clear:both;}
+.para590{font:12px "メイリオ", "MS PGothic", "MS Mincho";width:590px;color:#313131;line-height:20px;margin-left:30px;margin-right:0px;margin-bottom:20px;padding:0px;letter-spacing:1px;clear:both}
+.h3Normal{background-image:url("../img/sprite/sprite.png");background-position:0% -145px;background-repeat:no-repeat;font:18px "メイリオ";font-family:"メイリオ", "MS PGothic", "MS Gothic";width:630px;height:36px;color:#84213f;line-height:36px;margin-left:0px;margin-right:0px;margin-bottom:20px;margin-top:12px;padding:0px;text-indent:35px;letter-spacing:1px;clear:both;display:block;font-weight:bold}
+
+.h3Num { padding:15px 0 15px 65px; }
+.h3Num span { display:inline-block; font:bold 18px "メイリオ", "MS PGothic", "MS Gothic"; color:#84213f; letter-spacing: 1px; border-bottom:#CCC 1px solid; width:100%; }
+.h3Num.one { background:url(../img/sprite/steps-sprite.png) -35px 0 no-repeat; }
+.h3Num.two { background:url(../img/sprite/steps-sprite.png) -35px -60px no-repeat; }
+.h3Num.three { background:url(../img/sprite/steps-sprite.png) -35px -120px no-repeat; }
+
+
+
+.h3Normalcrwn { background:url(../img/common/crown-normalediting.png) 0 3px no-repeat; border-bottom:#dcdcdc 1px solid; font:18px "メイリオ";font-family:"メイリオ", "MS PGothic", "MS Gothic";width:625px;height:36px;color:#84213f;line-height:36px;margin:12px 0 20px 0;padding:0 0  0 5px;text-indent:35px;letter-spacing:1px;clear:both;display:block;font-weight:bold }
+.h3Advancedcrwn { background:url(../img/common/crown-advanceediting.png) 0 3px no-repeat; border-bottom:#dcdcdc 1px solid; font:18px "メイリオ";font-family:"メイリオ", "MS PGothic", "MS Gothic";width:625px;height:36px;color:#84213f;line-height:36px;margin:12px 0 20px 0;padding:0 0  0 5px;text-indent:35px;letter-spacing:1px;clear:both;display:block;font-weight:bold }
+
+.h3black{font:16px "メイリオ";font-weight:normal;font-family:"メイリオ","MS PGothic", "MS Mincho";width:630px;height:36px;color:#000;margin-left:0px;margin-right:0px;margin-bottom:0px;margin-top:20px;padding:0px;letter-spacing:1px;clear:both;display:block}
+.brd1{border:1px solid #ccc;border-radius:4px 4px 4px 4px;}
+.brd1shadow{border:1px solid #f8f8f8;border-radius:4px 4px 4px 4px;-moz-box-shadow:0px 1px 3px 1px #ccc;-webkit-box-shadow:0px 1px 3px 1px #ccc;box-shadow:0px 1px 3px 1px #ccc;}
+.aligncenter{text-align:center}
+.ulBasic{margin-bottom:10px;}
+.ulBasic li{background-image:url(../img/header/toplinkseperator.png);background-position:0px 8px;background-repeat:no-repeat;list-style-image:none;list-style-type:none;list-style-position:outside;font:12px/20px "メイリオ", "MS PGothic", "MS Mincho";font-family:"メイリオ", "MS PGothic", "MS Mincho";padding-left:10px;margin-bottom:0px;vertical-align:top;clear:both}
+.olBasic1{margin:10px;font:12px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;list-style:none;}
+.olBasic1 li{line-height:1.6em;}
+
+.quotation-callus-banner{ clear:both;width:624px;height:276px;background-color:#e8e8e9;margin:20px auto; border:#dcdbdc 1px solid; border-radius:1px;}
+.quotation-callus-banner .inner{display:block;clear:both;width:624px;height:240px;margin:14px auto;border:0px solid #fff;padding:0px}
+
+.quotation-callus-banner .inner .quotationbutton{ display:block; background:url(../images/bottom-big-CTA.png) 0 0 no-repeat;height:76px;width:604px; margin:0 auto;}
+.quotation-callus-banner .inner .quotationbutton:hover{background-position:0px -76px}.quotation-callus-banner .inner .quotationbutton:active{background-position:0px -152px}
+
+.quotation-callus-banner .inner .autoquotebutton,.quotation-callus-banner .inner .questionbutton { width:297px; height:50px; margin-top:10px; }
+.quotation-callus-banner .inner .autoquotebutton { background:url(../images/bottom-small-CTA.png) 0 0 no-repeat; margin-left:10px; }
+.quotation-callus-banner .inner .autoquotebutton:hover{background-position:0px -51px}.quotation-callus-banner .inner .autoquotebutton:active{background-position:0px -102px}
+.quotation-callus-banner .inner .questionbutton { background:url(../images/bottom-small-CTA.png) -297px 0 no-repeat; margin-left:4px; }
+.quotation-callus-banner .inner .questionbutton:hover{background-position:-297px -51px}.quotation-callus-banner .inner .questionbutton:active{background-position:-297px -102px}
+
+.quotation-callus-banner .inner .callus{background:url(../images/bottom-call-banner.jpg);height:113px;width:620px; margin-left:2px;}
+
+.inner .buttons{width:100%;float:left;}
+.inner .banner{width:100%;float:left;margin-top:10px;}
+
+.quotation-callus-banner2{clear:both;width:624px;height:215px;background-color:#e8e8e9;margin:20px auto; border:#dcdbdc 1px solid; border-radius:1px;}
+.quotation-callus-banner2 .inner{display:block;clear:both;width:624px;height:215px;margin:14px auto;border:0px solid #fff;padding:0px}
+.quotation-callus-banner2 .inner .quotationbutton{ display:block; background:url(../images/bottom-big-CTA.png) 0 0 no-repeat;height:76px;width:604px; margin:0 auto;}
+.quotation-callus-banner2 .inner .quotationbutton:hover{background-position:0px -76px}
+.quotation-callus-banner .inner .quotationbutton:active{background-position:0px -152px}
+.quotation-callus-banner2 .inner .callus{background:url(../images/bottom-call-banner.jpg);height:113px;width:620px; margin-left:2px;}
+
+.inner .buttons a {
+	display:inline !important;
+}
+.yellow-bg-txt{background:#f4e98b;color:#9c264a;font-size:14px;padding:5px 15px;display:inline-block;margin:10px 0 10px 6px;font-weight:bold;}
+.news-subtitle{color:#b80139;font-size:14px;line-height:50px;font-weight:bold;}
+#footerwrap{color:#000000;background-color:#e0dcdd;padding:0px 0px 0px 0px;font-size:12px;box-shadow:0px 8px 10px 5px #8e8e8e;margin-bottom:0px;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+#footerwrap .footerContainer{background-color:#e0dcdd;margin:0 auto;width:1000px;height:394px;padding:0px 0px}
+.copy {color: #000000 !important;font-size: 10px !important;padding-top: 4px !important;}
+.copy a{color:#000 !important;}
+.copy a:hover{color:#000 !important; text-decoration:underline !important;}
+.footertoplinks{height:30px;width:980px;margin-left:0px;margin-top:10px;margin-bottom:0px;text-align:center;color:#bfbbbc;line-height:30px;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+.footertoplinks{height:30px;width:980px;margin-left:0px;margin-top:10px;margin-bottom:0px;text-align:center;color:#bfbbbc;line-height:30px;}
+.footertoplinks a{text-decoration:none;color:#000;font-size:11px;letter-spacing:1px;font-family:"メイリオ","MS PGothic", "MS Mincho";padding:0px 5px}
+.footertoplinks a:hover{text-decoration:underline}
+#footerListContainer{display:block;height:120px;width:100%;margin-left:0px;padding-top:10px;padding-left:0px;}
+#footerLogos{display:block;height:80px;width:980px;margin-left:0px;margin-top:10px;padding-top:10px;border-top:1px solid #ccc;border-bottom:1px solid #ccc;text-align:center;padding-left:00px;background-color:#FFF}
+#footerLogos .leftlogos{float:left;width:48%;padding-left:10px;text-align:left;height:50px}
+#footerLogos .rightlogos{float:right;width:48%;text-align:right;padding-right:20px;height:50px;margin-top:0px}
+.footerlogotext{font-size:10px;color:#000000;letter-spacing:0px;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+.footerlogotext a{font-size:10px;color:#000000;text-decoration:none;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+.footerlogotext a:hover{font-size:10px;color:#000000;text-decoration:underlinel;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+.footerlogotextsmall{font-size:10px;color:#000000;letter-spacing:0px;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+.footerlogotextsmall a{font-size:10px;color:#000000;text-decoration:none;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+.footerlogotextsmall a:hover{font-size:10px;color:#000000;text-decoration:underline;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+a.righttext{font:10px "メイリオ","MS PGothic", "MS Mincho";color:#000;}
+.footerTitleSpan{color:#84213f;font-size:12px;font-weight:bold;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+.footerList1{width:450px;padding-left:20px;margin-right:10px;text-align:left;display:inline-block;height:110px;float:left;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+.footerList1 p{margin-top:10px;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+a.generalLink{color:#000000;font-size:12px;font-family:"メイリオ", "MS Mincho";letter-spacing:0px;text-decoration:none}
+a.generalLink:hover{text-decoration:underline}
+a.footerLink{text-decoration:underline;color:#000000;font-size:11px;font-family:"メイリオ", "MS Mincho";}
+a.footerLink:hover{color:#aaa;}
+.footerList2{padding-left:10px;margin-right:10px;text-align:left;display:inline-block;height:110px;float:left;}
+.footerList3{padding-left:10px;margin-right:10px;text-align:left;display:inline-block;height:110px;float:left;}
+.footerList4{width:980px;clear:both;margin:10px 0 10px 20px;text-align:left;font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+.footerLink{text-decoration:none;color:#000000;}
+.footerLink:hover{color:#aaa;}
+.footerCopyright{color:#777475;font:normal 9px "メイリオ", "MS Mincho";font-family:"メイリオ","MS Mincho";margin-top:0px;padding:0px 20px 0px 0px;letter-spacing:0px;width:960px;display:block;text-align:left}
+.footerCopyright a{color:#777475;text-decoration:none}
+.footerCopyright a:hover{color:#000;text-decoration:none}
+.sprite{background-image:url(../img/footer/footer-sprite.png);}
+.spritebanners{background-image:url(../img/footer/footer-sprite.png);}
+.dandb{background-position:-14px -102px;width:95px;height:52px;}
+.iso{background-position:-117px -128px;width:55px;height:46px;margin-left:20px;margin-right:20px;margin-top:3px;margin-bottom:3px;}
+.verisign{background-position:-176px -128px;width:82px;height:38px;margin-left:7px;margin-right:6px;margin-top:7px;margin-bottom:7px;}
+.enagologo{background-position:-16px -273px;width:112px;height:22px;margin-left:9px;margin-right:9px;margin-top:7px;margin-bottom:6px;}
+.voxtablogo{background-position:-119px -239px;width:111px;height:28px;margin-left:10px;margin-right:9px;margin-top:4px;margin-bottom:3px;}
+.ulatuslogo{background-position:-3px -239px;width:114px;height:29px;margin-left:8px;margin-right:8px;margin-top:3px;margin-bottom:3px;}
+.maruzen{background-position:-138px -267px;width:130px;height:30px;}
+.nri{background-position:-4px -334px;width:130px;height:30px;}
+.dnp{background-position:-4px -300px;width:130px;height:30px;}
+.nhk{background-position:-138px -300px;width:130px;height:30px;}
+.validlogo{background-position:-138px -334px;width:88px;height:31px; margin-bottom:10px;}
+#gototop{display:block;margin-bottom:20px;margin-top:0px;padding:0px;background-color:none;height:40px;width:960px;margin:0 auto;text-align:right;background-image:url(../img/backgrounds/layout-bottom.png);background-repeat:no-repeat;background-position:0px 0px}
+#gototop img{margin-right:45px;background-image:url(../img/index/index-sprite.png);background-repeat:no-repeat;background-position:0px 0px;height:32px;width:138px;}
+.wd610{width:610px;}
+.wd630{width:630px;}
+.wd545{width:545px;}
+.lh200{line-height:200%}
+.steps-sprite{background-image:url(../img/sprite/steps-sprite.png);background-repeat:no-repeat;display:block;float:left;width:630px;height:50px;margin-bottom:10px;}
+.steps-sprite span{font:16px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#9b2649;font-weight:bold;margin-left:97px;display:block;margin-top:15px;}
+.steps-sprite span.text{font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#313131;font-weight:normal;margin-left:97px;display:block;margin-top:15px;}
+.steps-sprite span.text3{font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#313131;font-weight:normal;margin-left:97px;display:block;margin-top:0px;line-height:18px}
+.steps-sprite span.text2{font:16px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#9f0c38;font-weight:bold;margin-left:97px;display:block;margin-top:15px;}
+.step1{background-position:0px 0px;}
+.step2{background-position:0px -61px;margin-top:20px;}
+.step3{background-position:0px -122px;margin-top:20px;}
+.step4{background-position:0px -183px;margin-top:20px;}
+.step5{background-position:0px -244px;margin-top:20px;}
+.step6{background-position:0px -305px;margin-top:20px;}
+.step7{background-position:0px -366px;margin-top:20px;}
+.step8{background-position:0px -427px;margin-top:20px;}
+.step9{background-position:0px -488px;margin-top:20px;}
+.stepsarrow{display:block;clear:both;background-image:url(../img/common/stepsdivider.png);background-position:0px 0px;background-repeat:no-repeat;width:630px;height:10px;margin-bottom:10px;}
+.stepsPara{font:12px "メイリオ", "MS PGothic", "MS Mincho";width:575px;color:#313131;line-height:20px;margin-left:55px;margin-right:0px;margin-bottom:20px;padding:0px;letter-spacing:1px;clear:both}
+.stepsParafull{font:12px "メイリオ", "MS PGothic", "MS Mincho";width:630px;color:#313131;line-height:20px;margin-left:0px;margin-right:0px;margin-bottom:20px;padding:0px;letter-spacing:1px;clear:both}
+.case-sprite{background-image:url(../img/sprite/case-sprite.png);background-repeat:no-repeat;display:block;float:left;width:630px;height:50px;margin-bottom:10px;}
+.case-sprite span{font:16px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#9b2649;font-weight:bold;margin-left:97px;display:block;margin-top:10px;}
+.case-sprite span.text{font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#313131;font-weight:normal;margin-left:97px;display:block;margin-top:5px;}
+.case1{background-position:0px 0px;}
+.case2{background-position:0px -61px;margin-top:20px;}
+.case3{background-position:0px -122px;margin-top:20px;}
+.case4{background-position:0px -183px;margin-top:20px;}
+.case5{background-position:0px -244px;margin-top:20px;}
+.casearrow{display:block;clear:both;background-image:url(../img/common/stepsdivider.png);background-position:0px 0px;background-repeat:no-repeat;width:630px;height:10px;margin-bottom:10px;}
+.casePara{font:12px "メイリオ", "MS PGothic", "MS Mincho";width:610px;color:#313131;line-height:20px;margin-left:0px;margin-right:0px;margin-bottom:20px;padding:0px;letter-spacing:1px;clear:both}
+.h4-enago1{font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";width:auto;color:#000;margin:0px;margin-bottom:10px;padding:0px;letter-spacing:1px;clear:both;float:left;font-weight:bold;margin-bottom:10px;background-image:url(../img/sprite/sprite.png);background-repeat:no-repeat;background-position:0px -190px;line-height:16px;text-indent:30px}
+.points-sprite{background-image:url(../img/sprite/points-sprite.png);background-repeat:no-repeat;display:block;float:left;width:630px;height:58px;margin-bottom:10px;}
+.points-sprite span{font:16px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#9b2649;font-weight:bold;margin-left:98px;display:block;margin-top:15px;}
+.points-sprite span.text{font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#313131;font-weight:normal;margin-left:98px;display:block;margin-top:15px;}
+.points-sprite span.text2{font:16px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#9f0c38;font-weight:bold;margin-left:110px;display:block;margin-top:15px;}
+.point1{background-position:0px 0px;}
+.point2{background-position:0px -71px;margin-top:20px;}
+.point3{background-position:0px -138px;margin-top:20px;}
+.point4{background-position:0px -206px;margin-top:20px;}
+.point5{background-position:0px -277px;margin-top:20px;}
+.point6{background-position:0px -345px;margin-top:20px;}
+.point7{background-position:0px -423px;margin-top:20px;}
+.pointsarrow{display:block;clear:both;background-image:url(../img/common/stepsdivider.png);background-position:0px 0px;background-repeat:no-repeat;width:630px;height:10px;margin-bottom:10px;}
+.pointsPara{font:12px "メイリオ", "MS PGothic", "MS Mincho";width:575px;color:#313131;line-height:20px;margin-left:55px;margin-right:0px;margin-bottom:20px;padding:0px;letter-spacing:1px;clear:both}
+.smallpoints-sprite{background-image:url(../img/sprite/smallpoints-sprite.png);background-repeat:no-repeat;display:block;float:left;width:630px;height:30px;margin-bottom:10px;}
+.smallpoints-sprite span{font:16px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#9b2649;font-weight:bold;margin-left:78px;display:block;margin-top:5px;}
+.smallpoints-sprite span.text{font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#313131;font-weight:normal;margin-left:98px;display:block;margin-top:15px;}
+.smallpoints-sprite span.text2{font:16px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#9f0c38;font-weight:bold;margin-left:110px;display:block;margin-top:15px;}
+.smallpoint1{background-position:0px 0px;}
+.smallpoint2{background-position:0px -36px;}
+.smallpoint3{background-position:0px -73px;}
+.smallpoint4{background-position:0px -110px;}
+.smallpoint5{background-position:0px -146px;}
+.smallpointsPara{font:12px "メイリオ", "MS PGothic", "MS Mincho";width:590px;color:#313131;line-height:20px;margin-left:20px;margin-right:0px;margin-bottom:20px;padding:0px;letter-spacing:1px;clear:both}
+.number-sprite{background-image:url(../img/sprite/steps-sprite.png);background-repeat:no-repeat;display:block;float:left;width:630px;height:50px;margin-bottom:10px;}
+.number-sprite span{font:16px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#9b2649;font-weight:bold;margin-left:67px;display:block;margin-top:15px;}
+.number-sprite span.text{font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#313131;font-weight:normal;margin-left:97px;display:block;margin-top:15px;}
+.number-sprite span.text2{font:16px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#9f0c38;font-weight:bold;margin-left:97px;display:block;margin-top:15px;}
+.number1{background-position:-35px 0px;}
+.number2{background-position:-35px -61px;margin-top:20px;}
+.number3{background-position:-35px -122px;margin-top:20px;}
+.number4{background-position:-35px -183px;margin-top:20px;}
+.number5{background-position:-35px -244px;margin-top:20px;}
+.number6{background-position:-35px -305px;margin-top:20px;}
+.number7{background-position:-35px -366px;margin-top:20px;}
+.number8{background-position:-35px -427px;margin-top:20px;}
+.number9{background-position:-35px -488px;margin-top:20px;}
+.paymentbox{width:630px;clear:both;display:block;margin-bottom:20px;border:none;clear:both;float:left}
+.paymentbox .icon{padding:10px;background-color:#fff;text-align:center;width:70px;float:left;display:inline;height:59px}
+.paymentbox .text{padding:10px;background-color:#F6EFF1;width:520px;font:12px "メイリオ", "MS PGothic", "MS Mincho";color:#313131;line-height:20px;float:left;display:inline;height:59px;letter-spacing:0.1em;}
+.paymentbox .text span{vertical-align:middle;display:block;margin-top:10px}
+.paymentbox .text strong{font-weight:bold;color:#961a40;clear:both;}
+.payment-sprite{background-image:url(../img/payment/payment-sprite.png);background-repeat:no-repeat}
+.payment-icon1{background-position:0px 0px;height:45px;width:45px}
+.payment-icon2{background-position:-68px 0px;height:44px;width:54px}
+.payment-icon3{background-position:-176px -57px;height:82px;width:73px}
+.payment-icon4{background-position:-148px 0px;height:47px;width:47px}
+.payment-button1{background-position:0px -57px;height:32px;width:166px}
+.payment-button1:hover{background-position:0px -99px;height:32px;width:166px}
+.payment-button2{background-position:0px -141px;height:32px;width:246px}
+.payment-button2:hover{background-position:0px -182px;height:32px;width:246px}
+.paymentbox .payment-buttons{width:630px;display:block;margin:10px 0px;float:left;clear:both;text-align:right}
+.stepend{width:630px;display:block;margin-bottom:20px;text-align:center;clear:both}
+.payment-faq-title{width:630px;display:block;margin-bottom:30px;margin-top:30px;text-align:left;clear:both;font:21px "MS PMincho", "MS Mincho";color:#0480d8;line-height:20px;letter-spacing:0px;font-weight:bold}
+.paymentbox2{width:630px;clear:both;display:block;margin-bottom:20px;border:none;clear:both;float:left}
+.paymentbox2 .icon{padding:10px;background-color:#fff;text-align:center;width:70px;float:left;display:inline;height:59px}
+.paymentbox2 .text{padding:10px;background-color:#F6EFF1;width:520px;font:12px "メイリオ", "MS PGothic", "MS Mincho";color:#313131;line-height:20px;float:left;display:inline;height:auto;letter-spacing:0.1em}
+.paymentbox2 .payment-buttons{width:630px;display:block;margin:10px 0px;float:left;clear:both;text-align:right}
+.paymentbox2 .text strong.title{font-weight:bold;color:#961a40;clear:both;}
+.paymentbox2 .text strong.title a{color:#961a40;text-decoration:underline}
+.paymentbox2 .text strong.title a:hover{text-decoration:none}
+.paymentbox2 .text strong{font-weight:bold}
+.txt12{font-size:12px !important;}
+.payment-funds-sprite{background-image:url(../img/payment/payment-funds-sprite.png);background-repeat:no-repeat}
+.payment-funds-icon1{background-position:0px -141px;height:51px;width:62px}
+.payment-funds-icon2{background-position:-95px -141px;height:56px;width:60px}
+.payment-funds-icon3{background-position:-176px -57px;height:80px;width:73px}
+.payment-funds-icon4{background-position:-148px 0px;height:47px;width:47px}
+.payment-funds-icon5{background-position:-175px -141px;height:49px;width:74px}
+.payment-button1{background-position:0px -57px;height:32px;width:166px}
+.payment-button1:hover{background-position:0px -99px;height:32px;width:166px}
+ul.ulpayment{margin:0px;padding:0px;margin-left:15px;margin-bottom:0px;margin-top:10px}
+ul.ulpayment li{background-image:url(../img/common/icons/green-bullet6x6.png);background-position:0px 7px;background-repeat:no-repeat;list-style-image:none;list-style-type:none;list-style-position:outside;font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#313131;padding-left:20px;margin-bottom:0px;vertical-align:top;margin-top:0px;clear:both;line-height:24px;letter-spacing:0px}
+.payment-faq-title{width:630px;display:block;margin-bottom:30px;margin-top:30px;text-align:left;clear:both;font:21px "MS PMincho", "MS Mincho";color:#84213f;line-height:20px;letter-spacing:0px;font-weight:bold}
+.h3ulatus{display:block;margin:30px 0px 0px 0px;width:630px;height:93px;background-image:url(../img/about/otherbrands-banners.png);background-repeat:no-repeat;background-position:0px 0px;clear:both}
+.h3voxtab{display:block;margin:30px 0px 0px 0px;width:630px;height:92px;background-image:url(../img/about/otherbrands-banners.png);background-repeat:no-repeat;background-position:0px -97px;clear:both}
+.h3consultancy{display:block;margin:30px 0px 0px 0px;width:630px;height:92px;background-image:url(../img/about/otherbrands-banners.png);background-repeat:no-repeat;background-position:0px -194px;clear:both}
+ul.otherbrands{margin:0px;padding:0px;}
+ul.otherbrands li{list-style-image:none;list-style-type:none;list-style-position:outside;padding-left:0px;margin-top:0px;margin-bottom:2px;vertical-align:top;clear:both;line-height:20px;letter-spacing:0px;font-size:12px;font-family:"メイリオ","MS PGothic", "MS Mincho";color:#313131;}
+ul.otherbrands1{padding:0px;}
+ul.otherbrands1 li{background-image:url(../img/common/squere/4x4blue.gif);background-position:0px 7px;background-repeat:no-repeat;list-style-image:none;list-style-type:none;list-style-position:outside;font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#313131;padding-left:15px;margin-bottom:0px;vertical-align:top;margin-top:0px;clear:both;}
+
+.otherbrandsPara{font:12px "メイリオ", "MS PGothic", "MS Mincho";width:592px;color:#313131;line-height:20px;margin-left:38px;margin-right:0px;margin-bottom:20px;padding:0px;letter-spacing:1px;clear:both}
+.h4-enago{font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";width:630px;color:#951a41;margin:0px;margin-bottom:10px;padding:0px;letter-spacing:1px;clear:both;float:left;font-weight:bold;margin-top:20px;}
+.h4-voxtab{font-size:12px ;font-family:"メイリオ","MS PGothic", "MS Mincho";color:#a5cd39;font-weight:bold;}
+.h4-ulatus{font-size:12px ;font-family:"メイリオ","MS PGothic", "MS Mincho";color:#5bacdc;font-weight:bold; }
+/*
+.h4-ulatus{font-size:12px ;font-family:"メイリオ","MS PGothic", "MS Mincho";color:#5bacdc;margin:10px;padding:0px;letter-spacing:1px;clear:both;float:left;font-weight:bold;}
+*/
+.h4-consultancy{font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";width:630px;color:#bf0505;margin:0px;margin-bottom:10px;padding:0px;letter-spacing:1px;clear:both;float:left;font-weight:bold;margin-top:20px;}
+a.banner-after-care{background-image:url(../img/banners/after-care-banner.png);background-repeat:no-repeat;background-position:0px 0px;width:297px;height:54px;margin-right:10px;display:inline-block}
+a.banner-after-care:hover{background-position:0px -58px}
+a.banner-auto-quotation{background-image:url(../img/banners/auto-quotation-banner.png);background-repeat:no-repeat;background-position:0px 0px;width:297px;height:54px;margin-right:10px;display:inline-block}
+a.banner-auto-quotation:hover{background-position:0px -58px}
+a.banner-compare-service{background-image:url(../img/banners/compare-service-banner.png);background-repeat:no-repeat;background-position:0px 0px;width:297px;height:54px;margin-right:10px;display:inline-block}
+a.banner-compare-service:hover{background-position:0px -58px}
+a.banner-editor-profile{background-image:url(../img/banners/editor-profile-banner.png);background-repeat:no-repeat;background-position:0px 0px;width:297px;height:54px;margin-right:10px;display:inline-block}
+a.banner-editor-profile:hover{background-position:0px -58px}
+a.banner-fee-n-tat{background-image:url(../img/banners/fee-n-tat-banner.png);background-repeat:no-repeat;background-position:0px 0px;width:297px;height:54px;margin-right:10px;display:inline-block}
+a.banner-fee-n-tat:hover{background-position:0px -57px}
+a.ec-support{background-image:url(../img/banners/ec-support.png);background-repeat:no-repeat;background-position:0px 0px;width:297px;height:54px;margin-right:10px;display:inline-block}
+a.ec-support:hover{background-position:0px -58px}
+a.banner-journal{background-image:url(../img/banners/journal-banner.png);background-repeat:no-repeat;background-position:0px 0px;width:297px;height:54px;margin-right:10px;display:inline-block}
+a.banner-journal:hover{background-position:0px -58px}
+a.banner-order-quotation{background-image:url(../img/banners/order-quotation-banner.png);background-repeat:no-repeat;background-position:0px 0px;width:297px;height:54px;margin-right:10px;display:inline-block}
+a.banner-order-quotation:hover{background-position:0px -58px}
+a.banner-sample{background-image:url(../img/banners/sample-banner.png);background-repeat:no-repeat;background-position:0px 0px;width:297px;height:54px;margin-right:10px;display:inline-block}
+a.banner-sample:hover{background-position:0px -58px}
+a.banner-subject-area{background-image:url(../img/banners/subject-area-banner.png);background-repeat:no-repeat;background-position:0px 0px;width:297px;height:54px;margin-right:10px;display:inline-block}
+a.banner-subject-area:hover{background-position:0px -57px}
+a.other-service{background-image:url(../img/banners/other-service.png);background-repeat:no-repeat;background-position:0px 0px;width:297px;height:54px;margin-right:10px;display:inline-block}
+a.other-service:hover{background-position:0px -57px}
+a.banner-quality{background-image:url(../img/banners/quality-banner.png);background-repeat:no-repeat;background-position:0px 0px;width:297px;height:54px;margin-right:10px;display:inline-block}
+a.banner-quality:hover{background-position:0px -57px}
+a.banner-at-quotation{background-image:url(../img/banners/at-quotation-banner.png);background-repeat:no-repeat;background-position:0px 0px;width:355px;height:64px;margin-right:10px;display:block}
+a.banner-at-quotation:hover{background-position:0px -69px}
+a.banner-re-at-quotation{background-image:url(../img/banners/re-at-quotation-banner.png);background-repeat:no-repeat;background-position:0px 0px;width:355px;height:64px;margin-right:10px;display:inline-block}
+a.banner-re-at-quotation:hover{background-position:0px -69px}
+a.banner-checkpiont{background-image:url(../img/banners/checklist.png);background-repeat:no-repeat;background-position:0px 0px;width:272px;height:75px;display:inline-block; float:right;}
+a.banner-checkpiont:hover{background-position:0px -75px}
+
+.h4-enago1 { width: 100%; margin-top: 25px; }
+
+a.c-banner-check-detail{background-image:url(../img/banners/capsle-banners/check-detail.png);background-repeat:no-repeat;background-position:-3px -2px;width:243px;height:30px;display:inline-block}
+a.c-banner-check-detail:hover{background-position:-3px -34px}
+a.c-check-more-sample{background-image:url(../img/banners/capsle-banners/check-more-sample.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-check-more-sample:hover{background-position:0px -34px}
+a.c-membership{background-image:url(../img/banners/capsle-banners/membership.png);background-repeat:no-repeat;background-position:-3px -2px;width:243px;height:30px;display:inline-block}
+a.c-membership:hover{background-position:-3px -34px}
+a.c-membership2{background-image:url(../img/banners/capsle-banners/membership2.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-membership2:hover{background-position:0px -34px}
+a.c-free-qa{background-image:url(../img/banners/capsle-banners/free-qa.png);background-repeat:no-repeat;background-position:-3px -2px;width:243px;height:30px;display:inline-block}
+a.c-free-qa:hover{background-position:-3px -34px}
+a.c-mi{background-image:url(../img/banners/capsle-banners/mi.png);background-repeat:no-repeat;background-position:-3px -2px;width:243px;height:30px;display:inline-block}
+a.c-mi:hover{background-position:-3px -34px}
+a.c-201{background-image:url(../img/banners/capsle-banners/201.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-201:hover{background-position:0px -34px}
+a.c-202{background-image:url(../img/banners/capsle-banners/202.png);background-repeat:no-repeat;background-position:-3px -2px;width:243px;height:30px;display:inline-block}
+a.c-202:hover{background-position:-3px -34px}
+a.c-203{background-image:url(../img/banners/capsle-banners/203.png);background-repeat:no-repeat;background-position:-3px -2px;width:243px;height:30px;display:inline-block}
+a.c-203:hover{background-position:-3px -34px}
+a.c-204{background-image:url(../img/banners/capsle-banners/204.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-204:hover{background-position:0px -34px}
+a.c-205{background-image:url(../img/banners/capsle-banners/205.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-205:hover{background-position:0px -34px}
+a.c-206{background-image:url(../img/banners/capsle-banners/206.png);background-repeat:no-repeat;background-position:-3px -2px;width:243px;height:30px;display:inline-block}
+a.c-206:hover{background-position:-3px -34px}
+a.c-207{background-image:url(../img/banners/capsle-banners/207.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-207:hover{background-position:0px -34px}
+a.c-208{background-image:url(../img/banners/capsle-banners/208.png);background-repeat:no-repeat;background-position:-3px -2px;width:243px;height:30px;display:inline-block}
+a.c-208:hover{background-position:-3px -34px}
+a.c-301{background-image:url(../img/banners/capsle-banners/301.png);background-repeat:no-repeat;background-position:-3px -2px;width:243px;height:30px;display:inline-block}
+a.c-301:hover{background-position:-3px -34px}
+a.c-302{background-image:url(../img/banners/capsle-banners/302.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-302:hover{background-position:0px -34px}
+a.c-303{background-image:url(../img/banners/capsle-banners/303.png);background-repeat:no-repeat;background-position:-3px -2px;width:243px;height:30px;display:inline-block}
+a.c-303:hover{background-position:-3px -34px}
+a.c-super-ex{background-image:url(../img/banners/capsle-banners/super-ex.png);background-repeat:no-repeat;background-position:-3px -2px;width:243px;height:30px;display:inline-block}
+a.c-super-ex:hover{background-position:-3px -34px}
+a.c-testimonial-form{background-image:url(../img/banners/capsle-banners/testimonial-form.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-testimonial-form:hover{background-position:0px -34px}
+a.c-sub-check-form{background-image:url(../img/banners/capsle-banners/sub-check-form.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-sub-check-form:hover{background-position:0px -34px}
+a.c-sample-receipt{background-image:url(../img/banners/capsle-banners/sample-receipt.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-sample-receipt:hover{background-position:0px -34px}
+a.c-sample-receipt2{background-image:url(../img/banners/capsle-banners/sample-receipt2.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-sample-receipt2:hover{background-position:0px -34px}
+a.c-poster{background-image:url(../img/banners/capsle-banners/poster.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-poster:hover{background-position:0px -34px}
+a.c-textcount{background-image:url(../img/banners/capsle-banners/textcount.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-textcount:hover{background-position:0px -34px}
+.c-send{background-image:url(../img/banners/capsle-banners/send.png?n=1);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+.c-send:hover{background-position:0px -34px}
+a.c-rejectjournal{background-image:url(../img/banners/capsle-banners/reject-journal.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-rejectjournal:hover{background-position:0px -34px}
+a.c-qualityassurance{background-image:url(../img/banners/capsle-banners/quality-assurance.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-qualityassurance:hover{background-position:0px -34px}
+a.c-handwritingsamples{background-image:url(../img/banners/capsle-banners/handwritingsamples.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-handwritingsamples:hover{background-position:0px -34px}
+a.c-proofreadingsymbols{background-image:url(../img/banners/capsle-banners/proofreadingsymbols.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-proofreadingsymbols:hover{background-position:0px -34px}
+a.c-order{background-image:url(../img/banners/capsle-banners/order.png);background-repeat:no-repeat;background-position:0px -2px;width:241px;height:30px;display:inline-block}
+a.c-order:hover{background-position:0px -34px}
+a.c-readmore{background-image:url(../img/banners/capsle-banners/readmore.png);background-repeat:no-repeat;background-position:0px -2px;width:202px;height:30px;display:inline-block}
+a.c-readmore:hover{background-position:0px -34px}
+a.c-aftersalesfees{background-image:url(../img/banners/capsle-banners/after-sales-fees.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-aftersalesfees:hover{background-position:0px -34px}
+a.c-qna{background-image:url(../img/banners/capsle-banners/qna.png);background-repeat:no-repeat;background-position:0px -2px;width:243px;height:30px;display:inline-block}
+a.c-qna:hover{background-position:0px -34px}
+.our-editors{width:300px;display:inline-block;margin-bottom:10px;padding:10px 0px 0px 0px;border-bottom:1px dashed #999;min-height:83px;float:left}
+.our-editors .image{width:73px;text-align:left;vertical-align:middle;float:left;margin:0px;padding:5px 0px 0px 0px;}
+.our-editors .editor-details{font:12px "メイリオ","MS PGothic", "MS Mincho";color:#313131;line-height:25px;margin:0px;padding:0px;letter-spacing:1px;float:left;width:227px;text-align:left;}
+.detail-caption1{background-image:url(../img/our-editors/editor-thumbs/detail-captions.png);background-repeat:no-repeat;background-position:0px 0px;height:17px;width:32px;margin-right:5px;margin-left:10px;vertical-align:middle}
+.detail-caption2{background-image:url(../img/our-editors/editor-thumbs/detail-captions.png);background-repeat:no-repeat;background-position:0px -22px;height:17px;width:32px;margin-right:5px;margin-left:10px;vertical-align:middle}
+.detail-caption3{background-image:url(../img/our-editors/editor-thumbs/detail-captions.png);background-repeat:no-repeat;background-position:0px -44px;height:17px;width:57px;margin-right:5px;margin-left:10px;vertical-align:middle}
+.detail-caption4{background-image:url(../img/our-editors/editor-thumbs/detail-captions.png);background-repeat:no-repeat;background-position:0px -66px;height:17px;width:32px;margin-right:5px;margin-left:10px;vertical-align:middle}
+.our-editors .editor-details a.editorlink{color:#9f0c38;text-decoration:underline;font-size:11px;letter-spacing:0px;display:block;margin-right:10px}
+.our-editors .editor-details a.editorlink:hover{color:#9f0c38;text-decoration:none}
+.sitemap{clear:both;width:250px;padding-bottom:0px;margin-bottom:20px;margin-left:0px;margin-top:0px}
+.sitemap .navTitle{height:35px;background:url('../img/subnav/sitemap-top.png');background-repeat:no-repeat;background-position:0px 0px;border-top:1px solid #e7e7e7;border-left:1px solid #e7e7e7;border-right:1px solid #e7e7e7;border-bottom:1px solid #e7e7e7;background-color:#f8f8f8}
+.sitemap .navTitle dt{padding-left:30px;font-weight:bold;color:#9B2649;font-size:17px;font-family:"MS Mincho";padding-top:0px;display:block;height:35px;letter-spacing:0px;line-height:35px}
+.sitemap .items{overflow:auto;width:250px;padding:0px 5px 7px 0px;height:auto;margin:0px auto;margin-top:-1px;}
+.sitemap .items a{height:35px;width:227px;display:block;padding-left:25px;background-image:url(../img/subnav/sitemapitembg.png);background-repeat:no-repeat;background-position:0% 50%;margin-right:0px;padding-right:0px;letter-spacing:1pt;cursor:pointer;font:12px/39px "メイリオ","MS PGothic", "MS Mincho";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#000;text-decoration:underline}
+.sitemap .items a:hover{color:#9B2649;text-decoration:underline;}
+.sitemap .items a.itemL3{height:30px;width:227px;display:block;padding-left:20px;text-indent:20px;background-image:url(../img/subnav/sitemapiteml3bg.png);background-repeat:no-repeat;background-position:0% 50%;margin-right:0px;padding-right:0px;letter-spacing:1pt;cursor:pointer;font:12px/30px "メイリオ","MS PGothic", "MS Mincho";font-family:"メイリオ","MS PGothic", "MS Mincho";color:#000;text-decoration:underline}
+.sitemap .items a.itemL3:hover{color:#9B2649;text-decoration:underline;}
+.gototoparrow{background-image:url(../img/sprite/sprite.png);background-position:0px 0px;background-repeat:no-repeat;width:97px;height:17px;margin-top:10px}
+.gototoparrow:hover{background-position:0px -17px;}
+#editor-nav{font-family:Arial, Helvetica, sans-serif;font-size:15px;margin:15px 0;font-weight:bold;}
+#editor-nav .green{float:left;width:210px;}
+#editor-nav .green a{background:url(../editor-profile/images/nav.gif) 0 0 no-repeat;width:210px;height:97px;}
+#editor-nav .green a:hover{background:url(../editor-profile/images/nav.gif) 0 -97px;no-repeat;}
+.green-active{background:url(../editor-profile/images/nav.gif) 0 -97px;no-repeat;}
+#editor-nav .copper{float:left;width:210px;}
+#editor-nav .copper a{background:url(../editor-profile/images/nav.gif) -420px 0 no-repeat;width:210px;height:97px;}
+#editor-nav .copper a:hover{background:url(../editor-profile/images/nav.gif) -420px -97px;no-repeat;}
+.copper-active{background:url(../editor-profile/images/nav.gif) -420px -97px;no-repeat;}
+#editor-nav .blue{float:left;width:210px;}
+#editor-nav .blue a{background:url(../editor-profile/images/nav.gif) -210px 0 no-repeat;width:210px;height:97px;}
+#editor-nav .blue a:hover{background:url(../editor-profile/images/nav.gif) -210px -97px;no-repeat;}
+.blue-active{background:url(../editor-profile/images/nav.gif) -210px -97px;no-repeat;}
+.editor-pro	{margin:0;}
+.editor-pro li{background:none repeat scroll 0 0 #F0F0F2;border:1px solid #A4A4A4;float:left;list-style-type:none;margin:0 6px 6px 0;padding:0 0 0;width:151px; position:relative}
+.exp-small{font-size: 17px; left: 50px; position: absolute; top: 131px; color: rgb(194, 19, 70); font-weight: bold; letter-spacing: 1px;}
+.editor-pro li a{color:#84213f;}
+.editor-pro li a:hover{color:#000 !important;}
+.editor-pro li img{padding:0 0 5px 0;}
+.edu-icon{float:left;padding:5px 0 0;width:46px;}
+.edu-head{color:#84213F;letter-spacing:0;float:left;font-family:Verdana,Geneva,sans-serif;font-size:12px;line-height:16px;padding:3px 5px 2px;height:35px;font-weight:normal;}
+.editor-pro li span{padding:5px 0 5px 0px;}
+.last{margin:0 0 6px 0 !important;}
+
+#editor6, #bfpr4, #el452, #ac356, #editor24, #editor19, #editor23, #editor30, #editor5, #vbsc29, #dj321, #nm398, #cj406, #tm457, #editor4, #editor7, #editor2, #rs434, #lh437, #editor1, #casc30, #editor9, #editor25, #mb402, #editor3, #editor28, #editor21, #cj401, #sl359, #editor29, #jg395, #db461, #editor8, #editor33, #th393, #ag419, #mg423, #ks470, #editor36, #jq386, #mb458, #mb478, #mb538, #mb440, #mb502, #mb394, #mb412, #mb551, #mb524, #mb540, #mb479, #mb508, #mb489, #mb552, #mb558, #mb563, #mb567, #mb566, #mb504, #mb418, #mbsc36, #mb485, #mb490, #mb480, #mb505, #mb512, #mb515, #mb523, #mb534, #mb548, #mb564, #mb557, #mbsc46, #editor35, #editor38, #gt377, #cc339, #editor26, #ch472, #dx335, #mspr1, #editor20, #editor22, #sl424, #sm468, #pl183, #editor27, #sp462, #tn353, #editor12, #editor11, #lp414, #ag379, #sm469, #editor31, #ah460, #dh428, #ja466, #tc417, #rl425, #jlsc37, #pse404, #pse387, #pse484, #pse447, #pse536, #pse455, #pse442, #pse544, #pse543, #pse456, #pse562, #pse483, #pse413, #pse498, #pse477, #pse487, #pse501, #psesc42, #pse517, #pse519, #pse541, #pse569, #pse522, #pse499, #pse492, #pse507, #pse533, #editor17, #wt463, #editor34, #ln411, #editor13, #editor16, #pw252, #editor14, #editor18, #gj392, #editor37, #cd388, #editor15, #bh521, #bh365, #bh403, #bh481, #bh491, #bh545, #bh494, #bhsc43, #bh550, #bh559, #bh570, #bh539, #art-a7, #art-a13{width:700px;min-height:500px;padding:20px 15px 0;}
+
+.profile-img{margin:0 20px 6px 0;*float:left;}
+.key-heighlight{width:480px;float:left;margin:0 0 15px 0;background:#fff;}
+.key-heighlight .headline{background:#FFFFFF;color:#9c284c;font-family:verdana;font-size:17px;height:15px;letter-spacing:0;line-height:11px;margin:1px;padding:4px 0 9px;border-bottom:1px solid #8a8a8a;}
+.key-heighlight .headline span{font-size:12px;color:#9c284c;font-family:Verdana, Geneva, sans-serif;}
+.key-heighlight .headline b{float:right;font-size:15px;color:#9c284c;font-family:"メイリオ","MS PGothic","MS Mincho";padding:6px 0 0;}
+.key-heighlight ul{margin:4px 0;padding:0;}
+.key-heighlight ul li{color:#313131;font:12px/20px "メイリオ","MS PGothic","MS Mincho";letter-spacing:2px;line-height:20px;list-style:none outside none;padding:5px 9px 7px 5px;}
+.key-heighlight ul li span{font-size:12px;letter-spacing:0;font-family:Verdana, Geneva, sans-serif;}
+.key-heighlight .bottom{height:37px;}
+.peer-head{margin:2px 1px 9px 4px;}
+.profile-p{font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#000;text-align:justify;line-height:19px;padding:15px 0 0 0;}
+.flag{padding:0 11px 0 0;vertical-align:middle !important;}
+#areas-exp{float:left;width:260px;}
+#education-x{float:left;width:400px;}
+.areas-exp-head{background:url(../editor-profile/images/sub-head-bg.png) no-repeat scroll 0 0 transparent;color:#000000;font-family:'DiavloLight';font-size:18px;margin:15px 0 7px;padding:0 0 5px 34px;}
+#areas-exp ul, #education-x ul{margin:0 0 0 15px;padding:0;}
+#areas-exp ul li, #education-x ul li{background:url(../editor-profile/images/bullet2.gif) no-repeat scroll 0 8px transparent;color:#3B3A3A;font-family:Verdana,Geneva,sans-serif;font-size:12px;list-style:none outside none;padding:3px 5px 3px 15px;}
+.profile-width{width:675px !important;}
+.mar0{padding:24px 15px !important;width:948px !important;}
+.left-x-width{width:273px !important;}
+.hide{position:absolute;top:-9999px;left:-9999px;}
+#example-one{}
+#example-one .nav{overflow:hidden;padding:0;}
+#example-one .nav li{float:left;margin:0;}
+#example-one .nav li.{width:203px;}
+#example-one ul{list-style:none;margin:0 0 20px;padding:0;}
+#example-one ul li a{display:block;}
+#example-one ul li a:hover{}
+#example-one ul li:last-child a{border:none;}
+#example-one ul li.green a.current, #example-one ul.featured li a:hover{background:url(../editor-profile/images/nav.gif) 0 -97px;no-repeat;}
+#example-one ul li.blue a.current, #example-one ul.core li a:hover{background:url(../editor-profile/images/nav.gif) -210px -97px;no-repeat;}
+#example-one ul li.copper a.current, #example-one ul.jquerytuts li a:hover{background:url(../editor-profile/images/nav.gif) -420px -97px;no-repeat;}
+.pad20{padding:20px 0;}
+.tableBasic1{border-collapse:collapse;padding:0px;clear:both;}
+.tableBasic1 td{background-color:#FFFFFF;border:1px solid #8A8A8A;color:#2d2a2b;font:12px/18px verdana;letter-spacing:0;padding:8px 12px;vertical-align:top;}
+.tableBasic1 td.head{background:#F6EFF1;padding-left:12px;letter-spacing:0;padding-right:12px;border:1px solid #8A8A8A;color:#961a40;font:15px arial;}
+.table_form{width:100%;}
+.table_form tr.even{background-color:#EEE;}
+.table_form tr.row1{background-color:#f3f3f3;height:20px;}
+.table_form tr.row2{background-color:#FFF;height:20px;}
+.table_form td.head{background-color:#87052d;color:#FFF;border:0 solid #F3F3F3;text-align:left;font:16px Arial, Helvetica, sans-serif;font-weight:700;border-bottom:0 solid #e2d1d6;}
+.table_form td.col1{width:37%;background-color:#F2E9EC;border-bottom:solid 1px #E8D9DE;vertical-align:top;}
+.table_form td.col1a{width:37%;background-color:#F2E9EC;border-bottom:solid 0 #E8D9DE;vertical-align:top;}
+.table_form td.col2{width:36px;background-color:#F2E9EC;border-bottom:solid 1px #E8D9DE;vertical-align:top;}
+.table_form td.col2a{width:36px;background-color:#F2E9EC;border-bottom:solid 0 #E8D9DE;vertical-align:top;}
+.table_form td.col3{background-color:#FFF;border-bottom:solid 1px #E8D9DE;vertical-align:top;}
+.table_form td.col3a{background-color:#FFF;border-bottom:solid 0 #E8D9DE;vertical-align:top;}
+.table_form td{color:#000;font:normal 12px/18px Arial, Helvetica, sans-serif;border-bottom:0 solid #F3F3F3;vertical-align:middle;padding:5px;}
+.table_form select optgroup{font-family:Arial, Helvetica, sans-serif;font-size:13px;font-weight:700;}
+.table_form select option{font-family:Arial, Helvetica, sans-serif;font-size:12px;font-weight:400;}
+.heading_formsection{height:30px;color:#FFF;border:solid 1px #88052d;display:block;line-height:30px;font-size:14px;font-weight:700;padding-left:10px;}
+.outline21{border-top:1px solid #E8D9DE;}
+.borderbottom{border-bottom:1px solid #E8D9DE;}
+.holder_formsteps{border:solid 0px #88052d;}
+.fontred{color:#ff0000;font-family:"メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;}
+.round-button{cursor:pointer;cursor:hand;line-height:34px;height:34px;background:url(../img/common/button.png) no-repeat right top;padding-right:19px;display:inline-block;font-family:"メイリオ", Meiryo,"MS PGothic", "MS Mincho";color:#b60f42;text-decoration:none;font-size:14px;font-weight:700}
+.round-button span{background:url(../img/common/button.png) no-repeat left top;height:31px;line-height:31px;display:inline-block;padding-left:25px;min-width:187px;text-align:center}
+.round-button:hover{background-position:right -34px;color:#fff}
+.round-button:hover span{background-position:left -34px;}
+a.round-button{cursor:pointer;cursor:hand;line-height:34px;height:34px;background:url(../img/common/button.png) no-repeat right top;padding-right:19px;display:inline-block;font-family:"メイリオ","MS PGothic", "MS Mincho";color:#b60f42;text-decoration:none;font-size:14px;font-weight:700}
+a.round-button span{background:url(../img/common/button.png) no-repeat left top;height:34px;line-height:34px;display:inline-block;padding-left:25px;min-width:187px;text-align:center}
+a.round-button:hover{background-position:right -34px;color:#fff}
+a.round-button:hover span{background-position:left -34px;}
+.camp-title{padding:5px;font:14px 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;background-color:#F9E6EB;border:solid 1px #CCC;}
+.camp-target{margin:10px 0;}
+.camp-target img{margin-right:10px;}
+.camp-content{padding:0 10px;}
+.checkLine{background:url(../img/editing-services/check-point.png) no-repeat;width:630px;font:13px/35px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;height:290px;}
+.checkLine p{padding:35px 15px 0px 15px;font:12px/35px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;width:420px;}
+.coverletter{background:url(../img/free-cover-letter/coverletter.jpg) no-repeat;width:622x;font:12px/35px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;height:210px;margin-bottom:20px;}
+ul.coverletterList{padding:60px 25px 0px 45px;list-style-type:none;}
+ul.coverletterList li{padding-top:0px;font:13px/33px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;}
+
+#stickyfooter{position:fixed;bottom:0px;margin:0 auto;width:860px;left:50%;margin-left:-440px;height:40px;background:#161616;border-top:1px solid #333333;padding:0px 10px 0px 10px;font-family:Arial, Helvetica, sans-serif;text-shadow:1px 1px 1px #000;z-index:1000;-moz-box-shadow:0px -1px 0px #161616;-webkit-box-shadow:0px -1px 0px #161616;box-shadow:0px -1px 0px #161616;-moz-border-radius:10px 10px 0px 0px;-webkit-border-radius:10px 10px 0px 0px;border-radius:10px 10px 0px 0px;background:-moz-linear-gradient(top, #222222, #111111);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#222222), to(#111111));letter-spacing:1px;}
+/*#stickyfooter h2{font-size:20px;line-height:24px;color:#FF6600;letter-spacing:0;font-weight:700;padding:0px 10px 0px 10px;margin:12px 0;}*/
+#stickyfooter h2{color:#FF6600; font-size:20px; font-weight: bold; letter-spacing:0; line-height:24px; margin:12px 0 9px; padding: 0 10px;}
+#stickyfooter h3{font-size:16px;line-height:24px;color:#92C82F;letter-spacing:1px;font-weight:400;padding:0px 10px 0px 10px;margin:12px 0 8px;}
+#stickyfooter p{color:#fff;font-size:12px;padding:0 6px 0 11px;line-height:18px;float:left;margin:10px 0;}
+#stickyfooter img{border:none;}
+#stickyfooter a{color:#FF6600;text-decoration:none;}
+#stickyfooter li ul{list-style:none;padding:0;margin:0 0 12px 0;}
+#stickyfooter .strong{font-weight:bold;}
+#stickyfooter .italic{font-style:italic;}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0;}
+#stickyfooter .imgshadow{background:#FFFFFE;padding:4px;border:1px solid #333333;margin-top:5px;-moz-box-shadow:0px 0px 5px #000000;-webkit-box-shadow:0px 0px 5px #000000;box-shadow:0px 0px 5px #000000;}
+#stickyfooter .img_left{width:auto;float:left;margin:5px 15px 5px 0px;}
+#stickyfooter .img_right{width:auto;float:right;margin:5px 0px 5px 15px;}
+#stickyfooter #social{float:right;width:auto;margin:5px 0px 0px 0px;padding:0px;overflow:hidden;}
+#stickyfooter #social li{margin-right:7px;_margin-right:0px;float:left;width:24px;padding:0px;height:32px;list-style:none;}
+#stickyfooter #social li:hover{margin-top:-1px;}
+a.tooltip:hover{text-decoration:none;}
+a.tooltip span{display:none;padding:5px;bottom:44px;position:relative;width:55px;text-align:center;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;}
+a.tooltip:hover span{display:block;position:absolute;border:1px solid #333333;background:#181818;color:#dddddd;font-size:12px;margin-left:-20px;}
+#footer_menu{margin:0;padding:0;width:auto;}
+#footer_menu li{list-style:none;float:left;font-size:12px;padding:12px 13px 14px 13px;border-right:1px solid #111111;border-left:1px solid #444444;background:#3E3E3E;background:-moz-linear-gradient(top, #3E3E3E, #313131);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#3E3E3E), to(#313131));}
+#footer_menu li:hover{background:#313131;background:-moz-linear-gradient(top, #313131, #3E3E3E);background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#313131), to(#3E3E3E));}
+#footer_menu li a{display:block;color:#fff;text-decoration:none;}
+#footer_menu li a:hover{color:#ccc;}
+#footer_menu .imgmenu{padding:5px 0 0 0;border:none;background:none;}
+#footer_menu .imgmenu a{background:url("../img/footer/home.png") top left no-repeat;width:36px;height:30px;}
+#footer_menu li.imgmenu:hover{background:none;}
+#footer_menu li.imgmenu a:hover{background:url("../img/footer/home2.png") top left no-repeat;}
+#footer_menu li ul.dropup{display:none;width:10em;}
+#footer_menu li:hover ul.dropup{display:block;position:absolute;margin:0 0 0 -16px;bottom:40px;background-color:#222222;border:1px solid #111111;border-bottom:none;-moz-border-radius:7px 7px 0px 0px;-webkit-border-radius:7px 7px 0px 0px;border-radius:7px 7px 0px 0px;}
+#footer_menu li:hover li{float:none;background:none;border:none;/*border-bottom:1px solid #161616;*/padding:12px 10px 12px 10px;}
+#footer_menu li:hover a{color:#fff;}
+#footer_menu li:hover a:hover{color:#ccc;}
+#footer_menu li:hover p{margin:6px 0;}
+#footer_menu .right{float:right;right:10px;}
+#stickyfooter .dropdown_1column,
+#stickyfooter .dropdown_2columns,
+#stickyfooter .dropdown_3columns{margin:4px auto;position:absolute;padding:10px 5px 10px 5px;display:none;text-align:left;}
+#stickyfooter .dropdown_1column{width:140px;}
+#stickyfooter .dropdown_2columns{width:360px;}
+#stickyfooter .dropdown_3columns{width:750px;}
+#footer_menu li:hover .dropdown_1column,
+#footer_menu li:hover .dropdown_2columns,
+#footer_menu li:hover .dropdown_3columns{display:block;position:absolute;margin:0 0 0 -10px;bottom:40px;background-color:#222222;border:1px solid #111111;-moz-border-radius:7px 7px 0px 0px;-webkit-border-radius:7px 7px 0px 0px;border-radius:7px 7px 0px 0px;}
+#stickyfooter .col_1,
+#stickyfooter .col_2,
+#stickyfooter .col_3,
+#stickyfooter .col_11{display:inline;float:left;position:relative;margin-left:0px;margin-right:5px;}
+#stickyfooter .col_1{width:130px;}
+#stickyfooter .col_2{width:360px; padding-bottom:10px;}
+#stickyfooter .col_3{width:740px;}
+#stickyfooter .col_11{width:310px;}
+#footer_menu li ul.simple{margin-left:5px;color:#FFF;}
+#footer_menu li ul.simple li{border:none;padding:0px;width:140px;line-height:24px;list-style:none;margin-left:12px;background-image:url(../img/common/squere/bullet.gif);background-repeat:no-repeat;background-position:0px 9px;padding-left:15px; float:left;}
+#footer_menu li ul.simple li a.linkhead{font-size:16px;text-decoration:none;line-height:22px;margin-left:0px;margin-bottom:10px;color:#FF6600;letter-spacing:1px;font-weight:bold;}
+.col_1 ul.simple1{margin-left:5px;}
+.col_1 ul.simple1 li{border:none;padding:0px;width:140px;line-height:24px;list-style:none;margin-left:5px;background-image:url(../img/common/squere/4x4gray.gif);background-repeat:no-repeat;background-position:0px 9px;padding-left:10px;}
+.col_1 ul.simple1 li a.linkhead{font-size:16px;text-decoration:none;line-height:22px;margin-left:0px;margin-bottom:10px;color:#FF6600;letter-spacing:1px;font-weight:bold;}
+#stickyfooter h2.servicemenu{font-size:16px;line-height:22px;color:#FF6600;letter-spacing:1px;font-weight:bold;padding:0px 10px 0px 10px;margin:10px 0;}
+#stickyfooter h2.servicemenu a.linkhead{text-decoration:none;color:#FF6600;}
+#stickyfooter li ul.ulwhyenagolist{margin-bottom:0px;display:block;clear:both;margin-top:0px;margin-left:10px;width:300px;}
+#stickyfooter li ul.ulwhyenagolist li{background-image:url(../img/footer/tickmark.png);background-position:0px 2px;background-repeat:no-repeat;list-style-image:none;list-style-type:none;list-style-position:outside;font:11px/13px Arial, Helvetica, sans-serif;color:#FFF;padding-left:28px;margin-bottom:5px;line-height:20px;vertical-align:top;margin-top:0px; padding-top:0; padding-bottom:8px;}
+#stickyfooter li ul.ulwhyenagolist li strong{font-weight:400;color:#92c82f;font-size:13px;}
+#stickyfooter li ul.ulwhyenagolist li a{text-decoration:none;display:block;color:#FFF;margin-left:0px;}
+#stickyfooter li ul.ulwhyenagolist li a:hover{text-decoration:none;color:#cccccc;}
+#stickyfooter li ul.acceptedpapers-list{margin-bottom:0px;clear:both;margin-top:0px;margin-left:10px;}
+#stickyfooter li ul.acceptedpapers-list li{background-image:url(../img/footer/tickmark.png);background-position:0px 11px;background-repeat:no-repeat;list-style-image:none;list-style-type:none;list-style-position:outside;font:11px/13px Arial, Helvetica, sans-serif;color:#FFF;padding-left:28px;margin-bottom:0px;line-height:5px;vertical-align:top;margin-top:0px;border-bottom:none;padding-bottom:0px; padding-bottom:10px; margin-left:5px; float:left; width:130px; }
+#stickyfooter li ul.acceptedpapers-list li.num1{background-image:url(../img/footer/num1.png);background-position:0px 6px;background-repeat:no-repeat;font-size:13px;}
+#stickyfooter li ul.acceptedpapers-list li.num2{background-image:url(../img/footer/num2.png);background-position:0px 6px;background-repeat:no-repeat;font-size:13px;}
+#stickyfooter li ul.acceptedpapers-list li.num3{background-image:url(../img/footer/num3.png);background-position:0px 6px;background-repeat:no-repeat;font-size:13px;}
+#stickyfooter li ul.acceptedpapers-list li.num4{background-image:url(../img/footer/num4.png);background-position:0px 6px;background-repeat:no-repeat;font-size:13px;}
+#stickyfooter li ul.acceptedpapers-list li.num5{background-image:url(../img/footer/num5.png);background-position:0px 6px;background-repeat:no-repeat;font-size:13px;}
+#stickyfooter li ul.acceptedpapers-list li.num6{background-image:url(../img/footer/num6.png);background-position:0px 6px;background-repeat:no-repeat;font-size:13px;}
+#stickyfooter li ul.acceptedpapers-list li strong{font-weight:400;color:#92c82f;font-size:13px;}
+#stickyfooter li ul.acceptedpapers-list li a{text-decoration:underline;display:inline;color:#FFF;margin-left:0px;}
+#stickyfooter li ul.acceptedpapers-list li a:hover{text-decoration:none;color:#cccccc;}
+#stickyfooter li .col_1 ul.ulsublist{margin-bottom:0px;clear:both;margin-top:0px;margin-left:5px;}
+#stickyfooter li .col_1 ul.ulsublist li{background-image:url(../img/common/squere/6x6enago.gif);background-position:0px 16px;background-repeat:no-repeat;list-style-image:none;list-style-type:none;list-style-position:outside;font:11px/13px Arial, Helvetica, sans-serif;color:#FFF;padding-left:15px;margin-bottom:5px;line-height:170%;vertical-align:top;margin-top:0px;}
+.fontorange{color:#FF6600;}
+.clients-nav{display:block;margin:10px 0px 10px 0px;}
+.clients-nav a.client1{background-image:url(../footer/img/client-sprite.jpg);background-repeat:no-repeat;background-position:0px 0px;width:99px;height:142px;}
+.clients-nav a.client1:hover{background-position:0px -148px;}
+.clients-nav a.client2{background-image:url(../footer/img/client-sprite.jpg);background-repeat:no-repeat;background-position:-103px 0px;width:99px;height:142px;}
+.clients-nav a.client2:hover{background-position:-103px -148px;}
+.clients-nav a.client3{background-image:url(../footer/img/client-sprite.jpg);background-repeat:no-repeat;background-position:-203px 0px;width:99px;height:142px;}
+.clients-nav a.client3:hover{background-position:-203px -148px;}
+.clients-nav a.client4{background-image:url(../footer/img/client-sprite.jpg);background-repeat:no-repeat;background-position:-304px 0px;width:99px;height:142px;}
+.clients-nav a.client4:hover{background-position:-304px -148px;}
+.dropdown_3columns .feedburnerFeedBlock{padding:0px 0 0px 0;height:auto;}
+.dropdown_3columns .feedburnerFeedBlock p.feedTitle a{color:#ff6600!important;font:bold 16px Arial, Helvetica, sans-serif;padding-top:0px;padding-left:0px;word-spacing:normal;display:block;clear:both;}
+.dropdown_3columns .feedburnerFeedBlock p.feedTitle a:hover{color:#ff6600!important;font:bold 16px Arial, Helvetica, sans-serif;padding-top:0px;padding-left:0px;word-spacing:normal;display:block;clear:both;text-decoration:underline}
+.dropdown_3columns .feedburnerFeedBlock p.feedTitle img{display:none;visibility:hidden;}
+.dropdown_3columns .feedburnerFeedBlock ul{padding-left:0px;padding-top:0px;display:block;clear:both}
+.dropdown_3columns .feedburnerFeedBlock ul li{background-image:url(../img/footer/tickmark.png);background-position:0px 11px;background-repeat:no-repeat;list-style-image:none;list-style-type:none;list-style-position:outside;font:11px/13px Arial, Helvetica, sans-serif;color:#cccccc;padding-left:25px;margin-bottom:5px;line-height:170%;vertical-align:top;margin-top:0px;}
+.headline{font:normal 11px Arial, Helvetica, sans-serif;}
+.headline a{font:normal 11px Arial, Helvetica, sans-serif;text-decoration:none;height:15px;padding-left:3px;padding-right:3px;margin:0px;color:#454545;}
+.headline a:visited{font:normal 11px Arial, Helvetica, sans-serif;text-decoration:none;height:15px;padding-left:3px;padding-right:3px;margin:0px;color:#454545;}
+.headline a:visited:hover{font:normal 11px Arial, Helvetica, sans-serif;text-decoration:none;height:15px;padding-left:3px;padding-right:3px;margin:0px;color:#454545;}
+.headline a:hover{font:normal 11px Arial, Helvetica, sans-serif;text-decoration:none;height:15px;padding-left:3px;padding-right:3px;margin:0px;color:#454545;}
+.fbsubscribelink{display:none;visibility:hidden;}
+#creditfooter{display:none;visibility:hidden;}
+#stickyfooter .col_3 a.titlelink{font-size:24px;line-height:24px;color:#FF6600;letter-spacing:1px;font-weight:400;padding:0px 10px 0px 10px;margin:12px 0;}
+#stickyfooter .col_3 a.titlelink:hover{font-size:24px;line-height:24px;color:#FF6600;letter-spacing:1px;font-weight:400;padding:0px 10px 0px 10px;margin:12px 0;}
+.marb20{margin-bottom:20px;}
+.floatRight{float:right}
+.mart5{margin-top:5px;}
+.mart10{margin-top:10px;}
+.marR10{margin-right:10px;}
+.marR20{margin-right:20px;}
+.marL10{margin-left:10px;}
+.mart30{margin-top:30px;}
+.exclamation{color:#B8345D;font-weight:bold; font-size:20px; text-shadow: 0 0 10px #FFFF00;}
+.highlightext{color:#B8345D; text-shadow:0 0 10px #FFFF00;}
+
+.bt-manuscript-orijinal{height:55px;width:180px;background-image:url(../img/new-services/sample-manuscripts.png);background-position:-20px 0px;background-repeat:no-repeat;margin-right:0px;float:left;}
+.bt-manuscript-ok{height:55px;width:180px;background-image:url(../img/new-services/sample-manuscripts.png);background-position:-225px 0px;background-repeat:no-repeat;margin-right:0px;float:left;}
+.bt-manuscript-ng{height:55px;width:180px;background-image:url(../img/new-services/sample-manuscripts.png);background-position:-430px 0px;background-repeat:no-repeat;margin-right:0px;float:left;}
+.sample-manuscript-orijinal{height:253px;width:185px;background-image:url(../img/new-services/sample-manuscripts.png);background-position:-20px -55px;background-repeat:no-repeat;margin-right:10px;float:left;}
+.sample-manuscript-ok{height:253px;width:180px;background-image:url(../img/new-services/sample-manuscripts.png);background-position:-225px -55px;background-repeat:no-repeat;margin-right:0px;float:left;}
+.sample-manuscript-ng{height:253px;width:180px;background-image:url(../img/new-services/sample-manuscripts.png);background-position:-430px -55px;background-repeat:no-repeat;margin-right:0px;float:left;}
+.ofurikomi{margin-left:41px; font-family:"メイリオ", "MS PGothic", "MS Mincho";}
+
+.li-enago{font:12px "メイリオ","MS PGothic", "MS Mincho";
+	color:#313131;
+	margin: 10px;
+	padding-left:12px;
+	background-image: url('../img/common/squere/6x6black.gif');
+    background-position: 0px 6px;
+    background-repeat: no-repeat;
+    list-style-image: none;
+    list-style-type:none; 
+    list-style-position:outside;
+	}
+.yukoreply{float:left;display:block;width:630px;clear:both;margin:0px;padding:0px;margin-bottom:40px}
+.yukoreply2{float:left;display:block;width:630px;clear:both;margin:0px;padding:0px;margin-bottom:40px}
+.yukoreply3{float:left;display:block;width:630px;clear:both;margin:0px;padding:0px;margin-bottom:40px}
+.tableReply{border-collapse:collapse;margin-top:0px;float:left;vertical-align:top;clear:both}
+.tableReply td.head{font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";width:600px;color:#fff;background-color:#951a41;margin:0px;letter-spacing:1px;clear:both;float:left;font-weight:bold;padding:5px 5px 5px 10px ;margin-top:10px;}
+
+#bookediting-samples {
+	float: left;
+	margin:0px 10px 0px 5px;
+}
+#bookediting-text {
+	font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";
+	color:#313131;
+	margin-left: 40px;
+	float: left;
+	width:250px;
+	padding:10x;
+}
+
+#bookediting-samples2 {
+	float: left;
+	margin:0px 10px 0px 5px;
+}
+#bookediting-text2 {
+		font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";
+	color:#313131;
+	margin-left: 40px;
+	marign-top:20px;
+	float: left;
+	width:250px;
+	padding:10x;
+}
+
+.bookediting-samples3 {
+	float: left;
+	margin:0px 10px 0px 5px;
+}
+#bookediting-text3 {
+		font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";
+	color:#313131;
+	margin-left: 40px;
+	float: left;
+	width:250px;
+	padding:10x;
+}
+
+#bookediting-text4 {
+		font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";
+	color:#313131;
+	float: left;
+	width:600px;
+	padding:10x;
+}
+
+.teian-text{
+	width:600px;
+	padding:10px 10px 10px 10px;
+	font:12px "メイリオ","MS PGothic", "MS Mincho";
+	color:#313131;
+	border-left:solid 1px #ccc;
+	border-bottom:solid 1px #ccc;
+	border-right:solid 1px #ccc;
+	background-color:#fff;
+}
+
+.bookediting-line{
+	align:center;
+	margin:40px;
+}
+.h4-enago-bookediting{font:16px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho";width:630px;color:#951a41;margin:0px;margin-bottom:10px;padding:0px;letter-spacing:1px;clear:both;float:left;font-weight:bold;}
+
+.space20	{width:20px;}
+.crownh	{padding-right:10px; margin-bottom:5px; vertical-align:middle;}
+.padT5	{padding-top:5px;}
+.padT0	{padding-top:0px !important;}
+.but-pad{padding:15px 0 0 190px;}
+.but-pad a	{display: block; width:255px; height:60px;}
+.font16	{font-size:16px;}
+.font14	{font-size:14px;}
+.font12	{font-size:12px;}
+.font18 {font-size:18px !important;}
+.eng18	{font-size:18px; font-family:Arial,Helvetica,sans-serif; letter-spacing:0;}
+.cur-def	{cursor:default;}
+.cur-poi	{cursor:pointer;}
+.img-border	{border:2px solid #CCCCCC;}
+.padT10	{padding-top:10px;}
+.padL20	{padding-left:20px;}
+.padL10	{padding-left:10px;}
+.pad10	{padding:10px;}
+.padLR1020 { padding:10px 20px }
+.padLR1070 { padding:10px 70px }
+.mar10	{margin:10px;}
+.afterDiv {width:185px; float:left; margin-left:20px;}
+.padR5	{padding-right:5px;}
+.padR0	{padding-right:0px !important;}
+.pad0	{padding:0 !important;}
+.olbasic {margin-left: 20px; margin-top: 10px; line-height: 125%;}
+
+.stepsMainWrap { width:920px; margin:20px auto; font:normal 16px "Open Sans"; color:#826971; }
+.formContWrap { position:relative; background:#f6f6f6; margin-top:50px; padding:50px 40px 0 40px; }
+.stepTextBox { width:920px; height:60px; background:url(../images/form-prosees-bar-1.png) 0 25px no-repeat; position:absolute; top:-40px; left:0px; margin-bottom:20px; }
+.stepTwoTextBox { width:920px; height:60px; background:url(../images/form-prosees-bar-2.png) 0 25px no-repeat; position:absolute; top:-40px; left:0px; margin-bottom:20px; }
+.stepThreeTextBox { width:920px; height:60px; background:url(../images/form-prosees-bar-3.png) 0 25px no-repeat; position:absolute; top:-40px; left:0px; margin-bottom:20px; }
+.stepTextBox div, .stepTwoTextBox div, .stepThreeTextBox div { float:left; color:#d8c8cd; font:normal 16px "Open Sans"; }
+.stepTextBox div.active, .stepTwoTextBox div.active, .stepThreeTextBox div.active { color:#826971; }
+.stepOneText { margin-left:270px; }
+.stepTwoText { margin-left:100px; }
+.stepThreeText { margin-left:85px; }
+.formContWrap h2 { color:#826971; font:normal 24px "Open Sans"; background:url(../images/head-bullet.png) 0 4px no-repeat; padding-left:40px; }
+.formFildBox { border-bottom:#e9d9de 1px solid; padding:15px 0;}
+.formFildBox .checkBoxs {  float:left; width:320px; }
+.formFildBox .textFild, .textFildSmall, .textArea { padding:15px 20px; width:795px; background:#f2e9ec; border:#eee3e7 2px solid; border-radius:5px; border-top:#eee3e7 3px solid; border-bottom-width:1px; font-size:16px; color:#826971; }
+.textFildSmall { width:280px; float:right; margin-left:20px; }
+.NextBtnBox { background:#f2e9ec; padding:20px 30px; }
+.NextBtnBox a { display:block; width:140px; height:46px; background:#93173c; float:right; border-radius:6px; font-size:18px; text-transform:uppercase; text-align:center; color:#FFF; line-height:46px; }
+.NextBtnBox a span { display:inline-block; background:url(../images/next-arrow.png) 0 0 no-repeat; width:17px; height:10px; margin-left:17px; }
+.NextBtnBox a:hover { background:#ab224b; } .NextBtnBox a:active { background:#860f33; }
+
+.formFildBox p { float:left; line-height:46px; }
+.formFildBox.small label.label_radio { width:60px; float:right; }
+.formFildBox.small2 label.label_radio2 {  }
+/*.formFildBox.small2 label.label_radio2.first { width:10px; }*/
+
+label.label_check { display:block; width:280px; height:23px; margin:20px 0; padding-left:40px; }
+.label_check    { background: url(../images/check-box.png) 0 -24px no-repeat; }
+label.c_on      { background: url(../images/check-box.png) 0 -1px no-repeat; }
+
+label.label_radio { display:block; height:23px; padding-left:40px; margin-top:10px; }
+.label_radio    { background: url(../images/check-box.png) 0 -24px no-repeat; }
+label.r_on      { background: url(../images/check-box.png) 0 -1px no-repeat; }
+
+.whoPayBtn { float:right; width:200px; height:23px; background: url(../images/who-pay-btn.png) 0 0 no-repeat; padding:3px; }
+.whoPayBtn span { margin-left:10px;}
+
+.mobileHome,.beginnertable.Mobile,.mobileLeft,.footerLogoMobile { display:none; }
+
+label.label_radio2 { display:block; float:left; color:#826971; padding:3px 11px; border-radius:5px; }
+.label_radio2    {  }
+label.r_on2      { background:#826971; color:#FFF;  }
+
+.label_check input, .label_radio input, .label_radio2 input { position: absolute; left: -9999px; }
+
+.ui-tooltip { padding:20px 10px 10px; background:url(../images/tooltip-bg.png) 0 0 no-repeat; color:#FFF; font-size:12px; width:180px; position:absolute; z-index:999; }
+.upload_file, .add_file { display:inline-block; width:495px; padding:15px 20px; background:#f2e9ec url(../images/up-icon.png) 455px 15px no-repeat; border:#eee3e7 2px solid; border-radius:5px; border-top:#eee3e7 3px solid; border-bottom-width:1px; float:left; font-size:16px; color:#826971; text-align:left; }
+.add_file { width:320px; background:#f2e9ec url(../images/add-icon.png) 280px 15px no-repeat; margin-left:20px; }
+
+/* accepted papers banner right side */
+.static-loader { height: 2px; background: red; transition: all 1.2s ease 0s; width: 0%;}
+div.div-roles{height:314px; width:250px;background:url(../img/sidebar/accepted-papers-banner-bg.jpg) no-repeat 0 0; text-decoration:none; display:block; margin:16px 0 14px; display:block; cursor:pointer}
+div.div-roles div {display: none; position:relative }
+.role-content {position:absolute; top:77px; left:90px; letter-spacing:0px; width:150px; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; line-height:18px;}
+.author{margin-bottom:15px; display:block }
+.author strong{ display:block; color:#057fd7; font-size:14px; font-weight:bold}
+
+.publisher{margin-bottom:15px; display:block }
+.publisher strong{ display:block; color:#057fd7; font-size:14px; font-weight:bold}
+
+.journal{margin-bottom:15px; display:block }
+.journal strong{ display:block; color:#057fd7; font-size:14px; font-weight:bold}
+
+.impactfactor{color: #000; display: block; font-family: Arial,Helvetica,sans-serif; font-size: 24px; height: 30px; letter-spacing: 0; position: absolute; right: 10px; text-align: center; top: 280px;    width: 88px;}
+.news-highlight	{background: url(../img/about/news/quote.jpg) no-repeat 5px 5px #F6EFF1; width:580px; padding:15px 10px 10px 15px; font:12px/175% "メイリオ",Meiryo,"ＭＳ Ｐゴシック","MS PGothic","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro",Osaka,sans-serif; margin:15px 0; text-align:justify}
+.form23 #floatMenu, .hideflomenu #floatMenu, .hideflomenu #fmjfloatMenu {display: none;}
+
+.bgexpand{background:#fff none !important;}
+
+/* Ribbon CSS */
+
+#ribbons{width:100%;height:65px;border-bottom:solid 2px #85062d;background-color:#1794d0;}
+#ribbons a{color:#FFF; text-decoration:underline;}
+#ribbons a:hover{color:#FFF; text-decoration:none;}
+#ribbonmsg{width:981px !important; margin:auto !important; border:none; display:block;}
+
+.ribtext{font-family:verdana;color:#fff;font-size:12px;line-height:20px;width:100%;text-align:center; margin:auto; padding-top:10px;}
+.closebtn{line-height:25px;position:absolute;right:10px;top:7px;}
+.topband-close-icon{background:url(../img/sprite/common-sprite.png) -90px -90px;width:20px;height:20px}
+.movetop{top:66px !important;}
+
+.testip	{padding:20px 10px 0!important; margin-bottom:0 !important;}
+.testid	{background:#fff !important; border-right:1px solid #CCCCCC;border-left:1px solid #CCCCCC;}
+
+
+.sample-icons-img	{background:url(../img/sprite/sample-quotation-icons.png) no-repeat; width:32px; height:32px;}
+.ic1	{background:url(../img/sprite/sample-quotation-icons.png) -6px -4px no-repeat; float:left; margin:0 5px 5px 0;}
+.ic2	{background:url(../img/sprite/sample-quotation-icons.png) -42px -4px no-repeat; float:left; margin:0 5px 5px 0; }
+.ic3	{background:url(../img/sprite/sample-quotation-icons.png) -78px -5px no-repeat; float:left; margin:0 5px 5px 0; }
+.ic4	{background:url(../img/sprite/sample-quotation-icons.png) -113px -5px no-repeat; float:left; margin:0 5px 5px 0; }
+.ic5	{background:url(../img/sprite/sample-quotation-icons.png) -6px -39px no-repeat; float:left; margin:0 5px 5px 0; }
+.ic6	{background:url(../img/sprite/sample-quotation-icons.png) -41px -39px no-repeat; float:left; margin:0 5px 5px 0; }
+.ic7	{background:url(../img/sprite/sample-quotation-icons.png) -78px -39px no-repeat; float:left; margin:0 5px 5px 0; }
+.txt-left td	{text-align:left !important; vertical-align:middle !important;}
+.popupTbl td { font:12px "メイリオ";font-family:"メイリオ","MS PGothic", "MS Mincho" }
+
+@media screen and (min-width: 301px) and (max-width: 1200px) {
+   #fmjfloatMenu { display:none; }
+}
+/* new author support pages design 
+#maincontentcontainer-authorsupport{float:left;width:650px;margin-left:10px;margin-right:0px;font-size:14px;margin-top:0px;background-image:url(../img/backgrounds/maincontentcontainerbg1.png);background-repeat:no-repeat;}
+#maincontentcontainer-authorsupport h3{ display:block; height:50px; width:630px; padding:0px; line-height:50px; margin:0 0 15px 0; font:bold 18px/50px "メイリオ","MS PGothic","MS Gothic"; letter-spacing:1px; background:url(../img/author-support/h3-bg.png) no-repeat 0 0; text-indent: 20px; color:#333333}
+#maincontentcontainer-authorsupport p{font:12px "メイリオ","MS PGothic", "MS Mincho";width:620px;color:#313131;line-height:20px;margin:0px 0px 15px 10px; padding:0px;letter-spacing:1px;clear:both;}
+.divider-btm{border-bottom:1px dashed #ccc; margin-bottom:10px; padding:0px; display:block; clear:both; margin-left:10px}
+.btn-nav-top{ display:block; width:630px; height:114px; margin-bottom:30px;}
+.btn-nav-top a{ float:left; margin:0 12px 5px 0; background-image:url(../img/author-support/btn-nav-sprite.png); background-repeat:no-repeat; width:202px; height:52px;}
+.btn-nav-top a.btn1{ background-position:0px 0px; }
+.btn-nav-top a.btn1:hover{background-position:0px -114px;}
+.btn-nav-top a.btn2{ background-position:-215px 0px; }
+.btn-nav-top a.btn2:hover{background-position:-215px -114px;}
+.btn-nav-top a.btn3{ background-position:-430px 0px; margin-right:0px!important }
+.btn-nav-top a.btn3:hover{background-position:-430px -114px;}
+.btn-nav-top a.btn4{ background-position:0px -57px; }
+.btn-nav-top a.btn4:hover{background-position:0px -171px;}
+.btn-nav-top a.btn5{ background-position:-215px -57px; }
+.btn-nav-top a.btn5:hover{background-position:-215px -171px;}
+.btn-nav-top a.btn6{ background-position:-430px -57px; margin-right:0px!important}
+.btn-nav-top a.btn6:hover{background-position:-430px -171px;}
+.pt{ background-image:url(../img/author-support/pt-sprite.png); background-repeat:no-repeat; display:block; line-height:23px; text-indent:33px; margin:15px 0px 10px; font:bold 13px/23px "メイリオ","MS PGothic", "MS Mincho"; color:#9F0836}
+.pt1{background-position:0px 0px;}
+.pt2{background-position:0px -38px;}
+.pt3{background-position:0px -76px;}
+.pt4{background-position:0px -114px;}
+.tick-list{margin-bottom:10px; margin-left:20px;}
+.tick-list li{background-image: url(../img/author-support/tick-icon.png);background-position:0px 0px;background-repeat:no-repeat;list-style-image:none;list-style-type:none;list-style-position:outside;font:bold 13px/20px "メイリオ","MS PGothic", "MS Mincho"; color:#9F0836; padding-left:23px;margin-bottom:5px;vertical-align:top;clear:both}
+.sample-div{ display:block; margin-bottom:20px; background:url(../img/author-support/sample-image.jpg) no-repeat top right; width:630px; height:160px;}
+.ht210{height:210px!important;}
+.ht280{height:280px!important;}
+.qa-bg-none{ background-color:#fff!important; border: none!important;}
+.qa-bg-none .qa-box{padding-left:5px!important;padding-top:10px!important; padding-right:0px!important;}
+.buttoncontainer{display:block; width:630px; text-align:right; }
+a.read-more-btn1 { display:block; height:32px; float:right }
+a.read-more-btn1:hover { opacity:0.8; }
+a.read-more-btn1 span.leftpic { float:left; display:block; width:23px; height:32px; background:url(../img/common/read-more-left.png) 0 0 no-repeat;  }
+a.read-more-btn1 span.rightpic {background: url("../img/common/read-more-right.png") no-repeat scroll 100% 0 rgba(0, 0, 0, 0); color: #802340; display: block; float: left; font: 600 13px "メイリオ","MS PGothic","MS Mincho";   height: 25px; letter-spacing: 1px; padding: 7px 10px 0; position: relative; text-align: center;}
+.gototopcontainer{clear: both; display: block; margin-bottom: 40px; text-align: right; width: 630px;}
+.marb10{margin-bottom:10px !important;}
+.marL10{margin-left:10px !important;}
+.marL0{margin-left:0px !important;}
+.tabletext{letter-spacing:1px!important;; font:12px/20px "メイリオ","MS PGothic","MS Mincho"!important;; vertical-align:top!important}
+.arteditorcontainer { clear: both;display: block;width: 620px; margin-left:10px;}
+.arteditorcontainer .arteditor {float: left;margin-bottom: 20px;width: 310px;}
+.table-interview {border-collapse: collapse;clear: both;}
+.table-interview td.text {border: 1px solid #CCCCCC;color: #313131;font: 12px/20px "メイリオ","MS PGothic","MS Mincho";letter-spacing: 1px;padding: 10px;}
+.table-interview td.text .strong {color: #000000;display: block;font: 18px "メイリオ","MS PGothic","MS Mincho";letter-spacing: 1px;margin-bottom: 10px;}
+.table-interview td.text a {display: inline-block;margin-top: 10px;}
+.table-interview td.text img {float: right;}
+.table-interview td.head {background-color: #F6EFF1;border: 1px solid #CCCCCC;color: #961A40;font: 14px/25px "メイリオ","MS PGothic","MS Mincho";letter-spacing: 1px;padding: 0 0 0 10px;}
+.table-interview td.head1 {background-color: #8FC31E;border: 1px solid #CCCCCC;color: #FFFFFF;font: 14px/25px "メイリオ","MS PGothic","MS Mincho";letter-spacing: 1px;padding: 0 0 0 10px;}
+.table-interview td.text .translator-ny {height: 106px;width: 111px;}
+
+.qa-Wrap-author { }
+.qa-Wrap-author hr { clear:both; width:50%; margin:15px auto; border:0; border-bottom:#CCC 1px dashed; }
+.qa-Wrap-author .qa-head { display:block; font-size:14px; font-weight:bold; }
+.qa-Wrap-author .qa-box { padding:18px 15px; margin:0;  overflow:hidden; color:#000; }
+.qa-Wrap-author .qa-box a, .qa-text { color:#0000ff; text-decoration:underline;font: 12px "メイリオ","MS PGothic", "MS Mincho";letter-spacing: 1px;line-height: 20px; }
+.qa-Wrap-author .qa-box a:hover .qa-text:hover { text-decoration:none; }
+.qa-Wrap-author .qa-box.last { border:0 none; padding-top:0 !important; }
+.qa-Wrap-author .qa-box:hover { background:#f7f7f7; }
+.qa-Wrap-author .qa-box span { float:left; display:block }
+.qa-Wrap-author .qa-box div{ float:left; display:block }
+.qa-Wrap-author .qa-box .qa-text { width:540px; margin-left:15px;}
+.qa-Wrap-author .qa-box span.qa-icon { width:29px; height:29px; }
+.qa-Wrap-author .qa-box span.qa-icon.qsn { background:url(../images/Q-A-icon.png) 0 0 no-repeat; }
+.qa-Wrap-author .qa-box span.qa-icon.ans { background:url(../images/Q-A-icon.png) -29px 0 no-repeat; }
+.qa-Wrap-author .qa-box:hover span.qa-icon.qsn { background-position: 0 -29px; }
+.qa-Wrap-author.qa-singal .qa-box {padding: 10px 15px; }
+.qa-Wrap-author.qa-singal .qa-box .qa-text { line-height:28px; }
+.qa-Wrap-author.qa-singal hr { margin:10px auto; display:none; }
+.qa-Wrap-author.qa-single-ans .qa-box { padding-bottom:0; }
+.qa-Wrap-author.qa-single-ans .qa-text { line-height:29px; }
+
+.qa-abox-wrap { background:#f7f7f7; border:#d5d5d5 1px solid; margin-bottom:15px; margin-left:10px }
+.qa-abox-wrap .qa-head { border-bottom:#d5d5d5 1px solid; padding:8px 10px; background:url(../images/qa-up-arrow.png) 99% 7px no-repeat; }
+.qa-abox-wrap .qa-head a { display:block; color:#000; }
+.qa-abox-wrap .qa-box { margin:0; color:#000; }
+.qa-abox-wrap .qa-box .qa-text.ans { color:#000; cursor:auto; line-height:20px; }
+.qa-abox-wrap .qa-box span.qa-icon.qsn { background:url(../images/Q-A-icon.png) 0 -29px no-repeat; }
+.qa-abox-wrap .qa-text { color:#000; text-decoration:none; }
+.qa-abox-wrap .qa-text:hover { color:#000; }
+.qa-Wrap-author.qa-single-ans.qa-idea span.qa-icon.ans { background:none; }
+.qa-Wrap-author.qa-single-ans.qa-idea span.qa-icon.qsn { background:url(../images/Q-A-icon.png) -58px 0 no-repeat; }*/
