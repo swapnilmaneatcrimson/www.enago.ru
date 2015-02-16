@@ -222,7 +222,7 @@ while ($row= mysql_fetch_array($Subarea1))
 		  <td style=\"word-wrap:break-word;\">".$Publisher_Name."</td>
 		  <td style=\"word-wrap:break-word;\">".$Journal_Details."</td>
 		  <td style=\"word-wrap:break-word;\">".$Impact_Factor."</td>
-		  <td style=\"word-wrap:break-word;\"><a href=".$Article_Link." target=\"_blank\">".$Revised_Paper_Title."</a></td>
+		  <td style=\"word-wrap:break-word;\"><a href=".$Article_Link." rel=\"nofollow\" target=\"_blank\">".$Revised_Paper_Title."</a></td>
 		  <td style=\"word-wrap:break-word;\">".$Last_Name." ".$First_Name." ".$ContainerTestimonial."</td></tr> ";
 
 			$spannum++;
@@ -298,7 +298,7 @@ echo "<tr class=\"\">
 		  <td style=\"word-wrap:break-word;\">".$Publisher_Name."</td>
 		  <td style=\"word-wrap:break-word;\">".$Journal_Details."</td>
 		  <td style=\"word-wrap:break-word;\">".$Impact_Factor."</td>
-		  <td style=\"word-wrap:break-word;\"><a href=".$Article_Link." target=\"_blank\">".$Revised_Paper_Title."</a></td>
+		  <td style=\"word-wrap:break-word;\"><a href=".$Article_Link." rel=\"nofollow\" target=\"_blank\">".$Revised_Paper_Title."</a></td>
 		  <td style=\"word-wrap:break-word;\">".$Last_Name." ".$First_Name." ".$ContainerTestimonial."</td></tr> ";
 
 	$spannum++;
@@ -377,7 +377,7 @@ echo "<tr class=\"\">
 		  <td style=\"word-wrap:break-word;\">".$Publisher_Name."</td>
 		  <td style=\"word-wrap:break-word;\">".$Journal_Details."</td>
 		  <td style=\"word-wrap:break-word;\">".$Impact_Factor."</td>
-		  <td style=\"word-wrap:break-word;\"><a href=".$Article_Link." target=\"_blank\">".$Revised_Paper_Title."</a></td>
+		  <td style=\"word-wrap:break-word;\"><a href=".$Article_Link." rel=\"nofollow\" target=\"_blank\">".$Revised_Paper_Title."</a></td>
 		  <td style=\"word-wrap:break-word;\">".$Last_Name." ".$First_Name." ".$ContainerTestimonial."</td></tr> ";
 
 	$spannum++;
@@ -458,7 +458,7 @@ echo "<tr class=\"\">
 		  <td style=\"word-wrap:break-word;\">".$Publisher_Name."</td>
 		  <td style=\"word-wrap:break-word;\">".$Journal_Details."</td>
 		  <td style=\"word-wrap:break-word;\">".$Impact_Factor."</td>
-		  <td style=\"word-wrap:break-word;\"><a href=".$Article_Link." target=\"_blank\">".$Revised_Paper_Title."</a></td>
+		  <td style=\"word-wrap:break-word;\"><a href=".$Article_Link." rel=\"nofollow\" target=\"_blank\">".$Revised_Paper_Title."</a></td>
 		  <td style=\"word-wrap:break-word;\">".$Last_Name." ".$First_Name." ".$ContainerTestimonial."</td></tr> ";
 	
 	$spannum++;
