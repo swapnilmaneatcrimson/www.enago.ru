@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+
+label {
+ font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+.table_quotform td {
+	font: 12px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	/*padding: 10px 0px 10px 10px;*/
+}
+
+
+.textfield {
+	padding:2px;
+	font: 12px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+.cell3 {
+	font: 12px "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	}
+
+#process1,
+#process2,
+#process3,
+#process4 {
+padding-bottom:2px;
+margin-bottom:16px;
+}
+
+.payer_name {
+ font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+border: #999999 1px dotted; visibility:hidden; display:none; padding:5px; background-color:#FFFEEF;
+}

@@ -1,0 +1,65 @@
+@charset "utf-8";.subjectarea{padding:0px;width:630px;margin-left:0px}
+/*.subjectarea .subbox{width:295px;float:left;margin-right:20px;margin-bottom:20px;background-color:#fff}
+.subjectarea .subbox .img{text-align:center;padding:10px}*/
+.subjectarea .subbox { width:638px; height:164px; background:url(../img/subjectarea/landing-link-box-bg.png) 0 0 no-repeat; margin-bottom: 8px; cursor:pointer; }
+.subjectarea .subbox:hover { background:url(../img/subjectarea/landing-link-box-bg-hover.png) 0 0 no-repeat; }
+.subjectarea .subbox .img-box { float:left; width:130px; height:130px; margin:15px 25px 0 20px; }
+.subjectarea .subbox .img-box a { width:130px; height:130px; display:block; }
+.subjectarea .subbox .cont-box { float:left; margin:15px 0 0 0; width:440px; }
+.subjectarea .subbox .cont-box h2 { color:#972447; font-size:18px; font:600 18px "メイリオ","MS PGothic", "MS Mincho"; padding:8px 0; }
+.subjectarea .subbox .cont-box p { font:12px "メイリオ","MS PGothic", "MS Mincho"; color:#313131;}
+.subjectarea .subbox .cont-box a { margin-top:8px; }
+.subjectarea .subbox .cont-box a span.rightpic { width:130px; }
+.subjectarea .subbox .img-box .img-1 { background:url(../img/subjectarea/subjectarea-icons.png) 0 0 no-repeat;  }
+.subjectarea .subbox .img-box .img-2 { background:url(../img/subjectarea/subjectarea-icons.png) 0 -130px no-repeat;  }
+.subjectarea .subbox .img-box .img-3 { background:url(../img/subjectarea/subjectarea-icons.png) 0 -260px no-repeat;  }
+.subjectarea .subbox .img-box .img-4 { background:url(../img/subjectarea/subjectarea-icons.png) 0 -390px no-repeat;  }
+.subjectarea .subbox .img-box .img-5 { background:url(../img/subjectarea/subjectarea-icons.png) 0 -520px no-repeat;  }
+.subjectarea .subbox:hover .img-box .img-1 { background-position:-130px 0; }
+.subjectarea .subbox:hover .img-box .img-2 { background-position:-130px -130px; }
+.subjectarea .subbox:hover .img-box .img-3 { background-position:-130px -260px; }
+.subjectarea .subbox:hover .img-box .img-4{ background-position:-130px -390px; }
+.subjectarea .subbox:hover .img-box .img-5 { background-position:-130px -520px; }
+
+.subjecttitle{font-size:14px;font-weight:bold;font-family:"メイリオ","MS PGothic", "MS Mincho";color:#85223e;letter-spacing:1px;line-height:22px;height:22px;overflow:hidden;background-color:#fbf0f3;text-align:center}
+.subjecttitle a{text-decoration:none;color:#85223e}
+.subjecttitle a:hover{text-decoration:underline;}
+ul.ulsublist{margin-bottom:0px;display:block;padding:5px 5px 5px 2px;clear:both;margin-top:0px;}
+ul.ulsublist li{background-image:url('../img/common/squere/6x6black.gif');background-position:0px 6px;background-repeat:no-repeat;list-style-image:none;list-style-type:none;list-style-position:outside;font:12px/14px "メイリオ","MS PGothic", "MS Mincho";font-size:12px;padding-left:10px;margin-bottom:0px;line-height:175%;vertical-align:top;margin-top:0px;color:#777777;letter-spacing:1px}
+ul.ulsublist li a{text-decoration:none;padding:0;margin:0;color:#777777;line-height:100%}
+ul.ulsublist li a:hover{color:#434343}
+.listNav{margin:10px 0px 10px 0px;clear:both}
+.ln-letters{overflow:hidden;width:536px}
+.ln-letters a{font-size:11px;display:block;float:left;padding:2px 4px;border:1px solid silver;border-right:none;text-decoration:none;color:#000;font-family:Verdana, Geneva, sans-serif}
+.ln-letters a.ln-last{border-right:1px solid silver;}
+.ln-letters a:hover,
+.ln-letters a.ln-selected{background-color:#f8f8f8;color:#84213f}
+.ln-letters a.ln-disabled{color:#ccc;}
+.ln-letter-count{text-align:center;font-size:11px;line-height:100%;margin-bottom:3px;color:#FFF;visibility:hidden}
+#demo4 #listWrapper{width:621px;margin:0px;padding:2px;}
+#demoFour li{float:left;font:Verdana, Geneva, sans-serif;list-style:none}
+#demoFour a{display:block;font-size:11px;text-align:left;width:287px;border:0px solid silver;padding:5px;margin:0 2px 2px 0;text-decoration:none;color:#000;font-family:Verdana, Geneva, sans-serif;letter-spacing:0px;}
+#demoFour a:hover{background-color:#fff}
+.demo{margin:0px;max-height:635px;overflow-y:scroll;overflow-x:hidden;border:1px solid #f8f8f8;}
+#tablist{padding:5px 0;margin-left:0;margin-bottom:0;float:left;margin-top:0.1em;font:bold 12px "ms Gothic";width:100%;}
+#tablist li{list-style:none;width:100px;display:inline;margin:0;}
+#tablist li a{padding:5px 0.5em;margin-bottom:0px;margin-left:3px;display:inline-block;width:100px;border:1px solid #ccc;background:#f8f8f8;}
+#tablist li a:link, #tablist li a:visited{color:#000;}
+#tablist li a.current{background:#fff;}
+#tabcontentcontainer{width:630px;padding:5px;border:1px solid #ccc;height:250px;overflow-y:scroll;overflow-x:hidden;}
+.tabcontent{display:none;}
+.h3-100perc{font:bold 20px "MS PGothic", "MS Gothic", "MS PMincho", "MS Mincho";color:#000;font-size:20px;letter-spacing:1px;font-weight:bold;text-indent:20px;display:block;width:630px;line-height:26px;height:26px;background-image:url(../img/subjectarea/h3bg-sprite.png);background-position:0px 0px;background-repeat:no-repeat;clear:both;float:left;margin:30px 0px 20px 0px;}
+.h3-50perc{font:bold 20px "MS PGothic", "MS Gothic", "MS PMincho", "MS Mincho";color:#000;font-size:20px;letter-spacing:1px;font-weight:bold;text-indent:20px;display:block;width:630px;line-height:26px;height:26px;background-image:url(../img/subjectarea/h3bg-sprite.png);background-position:0px -41px;background-repeat:no-repeat;clear:both;float:left;margin:30px 0px 20px 0px;}
+.h3-25perc{font:bold 20px "MS PGothic", "MS Gothic", "MS PMincho", "MS Mincho";color:#000;font-size:20px;letter-spacing:1px;font-weight:bold;text-indent:20px;display:block;width:630px;line-height:26px;height:26px;background-image:url(../img/subjectarea/h3bg-sprite.png);background-position:0px -82px;background-repeat:no-repeat;clear:both;float:left;margin:30px 0px 20px 0px;}
+.h4-subjectarea-eng{font-family:Arial, Helvetica, sans-serif;font-size:14px;letter-spacing:0px;font-weight:normal;color:#84213f;margin-left:0px;margin-bottom:0px;padding-top:3px;padding-left:20px;display:block;line-height:18px;background-image:url(../img/new-services/h4-bullet.png);background-position:0px 5px;background-repeat:no-repeat;border-top:0px solid #cdadb7;clear:both;}
+.h4-subjectarea{font:normal 12px "MS PGothic", "MS Gothic", "MS PMincho", "MS Mincho";color:#000;font-size:12px;letter-spacing:2px;font-weight:normal;margin-left:0px;margin-bottom:10px;padding-top:3px;padding-left:20px;display:block;width:315px;line-height:18px;background-image:url(../img/new-services/h4-bullet.png);background-position:0px 5px;background-repeat:no-repeat;border-top:0px solid #cdadb7;clear:both;}
+.quality-table{border-collapse:collapse;background-image:url(../img/subjectarea/qualitytable-bg.png);background-repeat:no-repeat;background-position:0px 0px;width:610px;margin-left:13px;margin-bottom:20px}
+.quality-table td{color:#000;padding:5px;padding-right:12px;padding-left:12px;font:normal 12px/18px "MS PGothic";border:0px solid #F3F3F3;vertical-align:middle;}
+.quality-table td.qualitytitle{color:#84213f;font-weight:bold;padding:5px;padding-right:12px;padding-left:12px;font:bold 12px/18px "MS PGothic";border:0px solid #F3F3F3;vertical-align:middle;padding-top:20px;}
+.quality-table td.qualitynumber{color:#84213f;font-weight:bold;padding:5px;padding-right:12px;padding-left:12px;font:bold 26px Arial, Helvetica, sans-serif;border:0px solid #F3F3F3;vertical-align:middle;font-style:italic;padding-top:10px;}
+.enagoeditor-box{clear:both;width:267px;background:url(../img/subjectarea/enago-editor.png) no-repeat 0px 0px;padding-bottom:0px;margin-bottom:20px;height:108px}
+.enagoeditor-box .boxTitle{height:28px;padding-left:78px;line-height:28px;font-weight:bold;font:normal 12px/28px "MS PGothic";font-size:12px;color:#84213f;padding-top:23px}
+.enagoeditor-box .overflowH275{font:normal 12px "MS PGothic";font-size:12px;color:#000;line-height:150%;overflow:auto;letter-spacing:1px;padding:5px 7px 10px 53px;height:auto;margin:0px;}
+.enagoeditor-box2{clear:both;width:267px;background:url(../img/subjectarea/enago-editor.png) no-repeat -280px 0px;padding-bottom:0px;margin-bottom:20px;margin-left:10px;height:108px}
+.enagoeditor-box2 .boxTitle{height:28px;padding-left:38px;line-height:28px;font-weight:bold;font:normal 12px/28px "MS PGothic";font-size:12px;color:#84213f;padding-top:23px}
+.enagoeditor-box2 .overflowH275{font:normal 12px "MS PGothic";font-size:12px;color:#000;line-height:150%;overflow:auto;letter-spacing:1px;padding:5px 45px 10px 15px;height:auto;margin:0px;}

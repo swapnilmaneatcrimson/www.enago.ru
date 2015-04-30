@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+.enago_color{
+	background-color:#96183F;
+	width:20px;
+	}
+
+.subheading {
+	font-weight:bold; 
+	font-size:12px;
+	height:22px;
+	padding-left:5px;
+	border-bottom:solid;
+	border-bottom-color:#6B6B6B;
+	border-bottom-width:1px;
+	border-collapse:collapse;
+	}
+	table.valigntop td{
+	vertical-align:top;
+	}
+table.valignmiddle td{
+	vertical-align:middle;
+	}
+table.valignbottom td{
+	vertical-align:bottom;
+	}
+	.paddingtop{
+	padding-top:7px;
+	}
+	
+	.fontwhite {
+	color: #F9F9F9;  
+}
+.fontwhite A {
+	color: #ffffff;
+	text-decoration: none 
+}
+.txt14 {
+	font-family:"メイリオ","MS PGothic", "MS Mincho";
+	font-size: 14px;
+	
+}
+.fontpink {
+	color: #FFF1F5;
+}
+.fontpink A {
+	color: #FFF1F5;
+	text-decoration:underline;
+}
+.tabledesign2_header2 {
+	background-color:#EEDAE0;
+	font-size:12px;
+	font-weight:normal;
+	color:#000000;
+	height:24px; padding-top:5px
+	}
+
+.paddingleft10 {
+	padding-left: 10px;
+}
+.lh150{line-height:150%}
+.lh175{line-height:175%}
+.valigntop{vertical-align:top}
+.marR10{margin-right:10px;}

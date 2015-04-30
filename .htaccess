@@ -1,1 +1,30 @@
+
+<FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=290304000, public"
+</FilesMatch>
+
+Options All -Indexes -MultiViews
+RewriteEngine on
+#
+# Externally redirect all http or httpS direct client requests
+# for index.htm or index.htm pages to http home page "/"
+RewriteCond %{http_host} ^enago.ru
+RewriteRule ^(.*) http://www.enago.ru/$1 [R=301,L]
+
+RewriteCond %{THE_REQUEST} /index\.htm [NC]
+RewriteRule ^(.*/)?index\.htm$ /$1 [R=301,L]
+
+Redirect 301 /106.htm http://www.enago.ru/index.htm
+
+order allow,deny
+deny from 203.123.139.230
+deny from 59.163.40.2
+deny from 220.227.63.98
+deny from 220.224.19.132
+deny from 123.252.133.186
+deny from 115.113.120.242
+allow from all
+
+
+ErrorDocument 404 /
 AddType application/x-httpd-php .php .htm .html

@@ -1,0 +1,43 @@
+#main-nav { background:#9e0d39 url(../img/index/index-sprite.png) repeat-x 0px -292px; }
+
+@media only screen and (max-width: 1000px)  {
+#main-nav { width:1000px;} 
+.breadcrumbwrap { width:1000px;} 
+#floatMenu	{right:32px;}
+}
+
+#main-nav ul { width:1000px; list-style: none; margin:0 auto; padding:0; border-left:1px solid #85203f; height:30px; display:block;  /*border-right:2px solid #ac0336;*/ }
+#main-nav li { float: left; position: relative; clear:none; transition:all 0.2s ease; }
+#main-nav li a { color: #FFF; display: block; font:normal 14px/30px "MS Mincho"; padding: 0 24px; text-decoration:none; letter-spacing:1px; border-right:1px solid #85203f;  border-left:2px solid #ac0336; transition:all 0.5s ease; }
+
+#main-nav li a span { font-family:Arial, Helvetica, sans-serif; }
+#main-nav ul ul { display: none; position: absolute; top:30px; left: 0; float: left; width:250px; z-index: 99999; clear:none; border:0 none; padding:0; margin:0; box-shadow:#333 0px 2px 10px; }
+#main-nav ul ul li { min-width: 230px; } 
+#main-nav ul ul ul { left: 100%; top: 0; }
+#main-nav ul ul a { background:#47252a url(../img/index/nav-drop-bg.jpg) 15px 10px no-repeat; line-height:1.3em; padding:8px 10px 8px 30px; width:210px; height:auto; color:#FFF; border:0; border-bottom:#573439 1px solid; }
+#main-nav ul ul a.sub-cat { background-image:none; padding:5px 10px 5px 35px; width:205px; } #main-nav ul ul a.sub-cat:hover { background-image:none; }
+#main-nav li:hover > a, #main-nav li a.active  { background: url(../img/index/nav-bg-hover.png) 0 0 repeat-x; color: #fff; }
+#main-nav ul ul :hover > a { background:#93163c url(../img/index/nav-drop-hover-bg.jpg) 15px 10px no-repeat; color: #fff; }
+#main-nav ul li:hover > ul { display: block; }
+
+
+#main-nav ul ul li a.sub-head { position:relative; }
+#main-nav ul ul li a.sub-head span.sub-head-arrow { display:block; position:absolute; background:url(../img/index/nav-sub-head-arrow.png) 0 0 no-repeat; width:8px; height:10px; top:12px; right:10px; } 
+
+#main-nav ul li.first:hover { background: url(../img/index/nav-bg-hover.png) 0 0 repeat-x; color: #fff; }
+#main-nav ul li.first a { background:url(../img/navigation/home-icon.png) center 6px no-repeat; text-indent:-9999px; } 
+
+#main-nav ul li.ulatus-btn { background:#47252a; padding:8px 0; }
+#main-nav ul li.ulatus-btn a { text-indent:-9999px; background:#47252a url(../img/navigation/ulatus-ps-btn.png) 12px 1px no-repeat; transition:none; height:24px; border:0; }
+#main-nav ul li.ulatus-btn a:hover { background-position:12px -39px; }
+
+#main-nav ul li.last { margin-bottom:0 !important; }
+#main-nav ul li.last ul { left:-128px; }
+
+#main-nav ul #ps ul a { width:235px; }
+#main-nav ul li.ps-btn { background:#47252a; padding:8px 0; }
+#main-nav ul li.ps-btn a { text-indent:-9999px; background:#47252a url(../img/navigation/ulatus-ps-btn.png) -226px 1px no-repeat; transition:none; height:24px; border:0; }
+#main-nav ul li.ps-btn a:hover { background-position:-226px -39px; }
+
+#home .first, #editing-services .nav-editing-services, #sub-area .nav-sub-area, #about .nav-about, #publication-support .nav-publication-support, #quote .nav-quote, #payment .nav-payment { background: url(../img/index/nav-bg-hover.png) 0 0 repeat-x;
+}

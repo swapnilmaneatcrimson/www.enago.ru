@@ -1,0 +1,423 @@
+@charset "utf-8";
+/* CSS Document */
+
+#EC-support {
+    font-family: 'DiavloLight';
+    font-size: 18px;
+    margin: 15px 0;
+}
+#EC-support .ec-tab1 {
+    float: left;
+    width: 210px
+}
+#EC-support .ec-tab1 a {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) 0 0;
+	height:97px;
+}
+#EC-support .ec-tab1 a:hover {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) 0 -97px !important;
+}
+.ec-tab1-active {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) 0 -97px !important;
+}
+#EC-support .ec-tab2 {
+    float: left;
+    width: 211px
+}
+#EC-support .ec-tab2 a {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) -210px 0;
+	height:97px;
+}
+#EC-support .ec-tab2 a:hover {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) -210px -97px !important;
+}
+.ec-tab2-active {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) -210px -97px !important;
+}
+#EC-support .ec-tab3 {
+    float: left;
+    width: 209px
+}
+#EC-support .ec-tab3 a {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) -421px 0;
+	height:97px;
+}
+#EC-support .ec-tab3 a:hover {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) -421px -97px !important;
+}
+.ec-tab3-active {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) -421px -97px !important;
+}
+#EC-support .ec-tab4 {
+    float: left;
+    width: 209px
+}
+#EC-support .ec-tab4 a {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) -471px 0;
+	height:97px;
+}
+#EC-support .ec-tab4 a:hover {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) -471px -97px !important;
+}
+.ec-tab4-active {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) -471px -97px !important;
+}
+#example-one {
+}
+#example-one .ECtab {
+    overflow: hidden;
+}
+#example-one .ECtab li {
+    float: left;
+    margin: 0;
+}
+#example-one ul li.ec-tab1 a.current, #example-one ul.featured1 li a:hover {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) 0 -97px !important;
+}
+#example-one ul li.ec-tab2 a.current, #example-one ul.core1 li a:hover {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) -210px -97px !important;
+}
+#example-one ul li.ec-tab3 a.current, #example-one ul.jquerytuts1 li a:hover {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) -421px -97px !important;
+}
+#example-one ul li.ec-tab4 a.current, #example-one ul.php1 li a:hover {
+    background:url(../img/ec-support/ec-tab-sprite1.gif) -471px -97px !important;
+}
+#ec-div-main	{}
+#ec-side-bar	{float:left; width:212px; margin:0 0 0 30px}
+#ec-div	{ float:left;}
+#ec-div h2	{
+    color: #454545;
+	border-bottom:1px solid #E0E0E0;
+    display: block;
+    font: bold 18px/18px Arial,Helvetica,sans-serif;
+    letter-spacing: 2px;
+    margin: 0 0 10px;
+	padding:0 0 11px;
+}
+/*#ec-div p	{
+    color: #454545;
+    font: 15px/24px Arial,Helvetica,sans-serif;
+    letter-spacing: 1pt;
+    margin-bottom: 20px;
+    margin-left: 0;
+}
+*/
+
+.EC-sidetab1 {
+}
+.EC-sidetab1 li {
+    display: inline;
+    list-style: none outside none;
+    margin: 0 0 8px;
+}
+.EC-sidetab1 li.marR0 {
+    margin-right: 0;
+}
+.EC-sidetab1 li a {
+    border: 1px solid #DFDFDF;
+    color: #0C77A3;
+    display: block;
+	float:left;
+    font-family: 'DiavloLight';
+    font-size: 20px;
+    font-weight: bold;
+    height: 103px;
+    letter-spacing: 0;
+    padding: 28px 0 0 60px;
+    text-align: center;
+	width:146px;
+	margin-bottom:16px;
+}
+.EC-sidetab1 li a.bt {
+    border: none;
+    display: block;
+    height: auto;
+    padding: 0;
+	width:auto;
+	margin-bottom:16px;
+	cursor:pointer;
+}
+.EC-sidetab1 li a.bt:hover {
+	padding:0;
+}
+.EC-sidetab1 li a.tab1 {
+    background: url(../img/ec-support/ectab1bg.png) no-repeat scroll 29px 9px #EEEEEE;
+}
+.EC-sidetab1 li a.tab1:hover {
+    background: url(../img/ec-support/ectab1bg_hover.png) no-repeat scroll 29px 9px #82CEEE;
+}
+.EC-sidetab1 li a.tab2 {
+    background: url(../img/ec-support/ectab2bg.png) no-repeat scroll 29px 9px #EEEEEE;
+}
+.EC-sidetab1 li a.tab2:hover {
+    background: url(../img/ec-support/ectab2bg_hover.png) no-repeat scroll 29px 9px #82CEEE;
+}
+.EC-sidetab1 li a.tab3 {
+    background: url(../img/ec-support/ectab3bg.png) no-repeat scroll 9px 9px #EEEEEE;
+}
+.EC-sidetab1 li a.tab3:hover {
+    background: url(../img/ec-support/ectab3bg_hover.png) no-repeat scroll 9px 9px #82CEEE;
+}
+.EC-sidetab1 li a.tab4 {
+    background: #EEEEEE;
+}
+.EC-sidetab1 li a.tab4:hover {
+    background: #82CEEE;
+}
+.EC-sidetab1 li a span {
+    border-bottom: 4px solid #BFBFBF;
+    color: #5F5F5F;
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: 2px;
+    line-height: 18px;
+    margin: 0 0 0 -60px;
+    padding: 28px 15px 11px;
+    text-align: left;
+	width:176px;
+}
+.cursor	{	cursor:auto !important;}
+.cursorh	{	cursor:pointer !important;}
+.EC-sidetab1 li a span b {
+    font-weight: normal;
+    letter-spacing: 0;
+}
+.EC-sidetab1 li a:hover {
+    color: #0C77A3;
+    padding: 28px 0 0 60px;
+}
+.EC-sidetab1 li a:hover span {
+    background: url(../img/ec-support/span_hover.png) no-repeat scroll center bottom transparent;
+    border-bottom: medium none;
+    color: #FFFFFF;
+    margin: 0 0 0 -60px;
+    padding: 26px 15px 18px;
+}
+.ECtable {
+    border-collapse: collapse;
+    clear: both;
+    padding: 0;
+}
+.ECtable td {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E5E5;
+    color: #252525;
+    font: 14px/21px verdana;
+    letter-spacing: 1px;
+    padding: 8px 12px;
+    vertical-align: top;
+}
+.ECtable td p	{
+	min-height:85px;
+}
+.ECtable td.head {
+    background-image: url(../img/common/stripbgred.jpg);
+    background-position: 0 0;
+    background-repeat: repeat;
+    border: 1px solid #EAC7C7;
+    color: #FFFFFF;
+    font: bold 16px Arial,Helvetica,sans-serif;
+    letter-spacing: 1px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.ECstepsbox {
+    background:url(../img/ec-support/stepboxbgbottom.png) no-repeat scroll 0 bottom transparent;
+    clear: both;
+    height: auto;
+    padding-bottom: 30px;
+    width: 430px;
+}
+.ECstepsbox .stepsboxTitle, .ECstepsbox1 .stepsboxTitle {
+    background: url(../img/ec-support/impboxbgtop.gif) no-repeat scroll 0 top transparent;
+    font-weight: bold;
+    height: 31px;
+    line-height: 31px;
+    padding-left: 10px;
+}
+.ECstepsbox .stepsboxTitle span, .ECstepsbox1 .stepsboxTitle span {
+    color: #84213F;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.ECstepsbox .overflowH275, .ECstepsbox1 .overflowH275 {
+    height: auto;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 5px 15px 2px;
+    width: 405px;
+}
+.ECstepsbox1 {
+    background: url(../img/ec-support/impboxbgbottom.png) no-repeat scroll 0 bottom transparent;
+    clear: both;
+    padding-bottom: 0;
+    width: 430px;
+}
+.EC-srbox	{
+	border:1px solid #b3b3b3;
+	padding:5px;
+	margin:0 6px;
+}
+.EC-srbox .img	{
+	float:left;
+	margin:0 10px 0 0;
+}
+.yellow-text {
+    font:12px/175% "メイリオ","MS PGothic","MS Mincho" !important;
+    margin: 9px 6px 0 !important;
+    padding: 0;
+	letter-spacing:1px;
+}
+.float-clear	{float:none;}
+.sample-download {
+    background: url(../img/ec-support/sample-download-bg1.png) no-repeat;
+    height: 64px;
+    margin: 15px 0 0;
+    padding: 28px 0 0 449px;
+    width: 182px;
+}
+.sam-button	{
+	background:url(../img/ec-support/downloa-sample-bt1.png) no-repeat;
+	width:167px;
+	height:45px;
+}
+.sam-button:hover	{
+	background:url(../img/ec-support/downloa-sample-bt-hover1.png);
+}
+.ec-quot	{
+	background:url(../img/ec-support/quote-now.png) 0 0;
+	width:244px;
+	height:63px;
+	margin:20px auto 0;
+}
+.ec-quot:hover	{
+	background:url(../img/ec-support/quote-now.png) 0 -63px;
+}
+#example-one ul {
+    margin:0 !important;
+}
+.yellow-bg-txt	{
+	background:#f4e98b;
+	color:#9c264a;
+	font-size:14px;
+	padding:5px 15px;
+	display:inline-block;
+	margin:10px 0;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+
+
+.transstep-sprite {
+    background-image:url("../img/ec-support/steps.png");
+    background-repeat: no-repeat;
+    display: block;
+    margin-bottom: 10px;
+}
+.transstep-sprite .head {
+    color: #9B2649;
+    font-size: 16px "メイリオ";
+	font-family:"メイリオ","MS PGothic", "MS Mincho";
+    font-weight: bold;
+    line-height: 40px;
+    margin: 0 0 0 75px;
+	letter-spacing:1px;
+}
+.transstep-sprite .btext {
+    background: #FFFFFF;
+    color: #000000;
+    font: 12px/175% "メイリオ","MS PGothic","MS Mincho";
+    letter-spacing: 1px;
+    padding: 0 0 10px 35px;
+}
+.transstep1 {
+    background-position: 0 0;
+}
+.transstep2 {
+    background-position: 0 -71px;
+}
+.transstep3 {
+    background-position: 0 -142px;
+}
+.transstep4 {
+    background-position: 0 -213px;
+}
+.transstep5 {
+    background-position: 0 -284px;
+}
+.transstep6 {
+    background-position: 0 -355px;
+}
+.transstep7 {
+    background-position: 0 -426px;
+}
+.transstep8 {
+    background-position: 0 -497px;
+}
+.transstep9 {
+    background-position: 0 -568px;
+}
+.transstep10 {
+    background-position: 0 -639px;
+}
+.transstep11 {
+    background-position: 0 -710px;
+}
+.transstep12 {
+    background-position: 0 -781px;
+}
+a.round-button {
+    background:url(../img/ec-support/button.png) no-repeat scroll right top transparent;
+    cursor: pointer;
+    display: inline-block !important;
+    font-family: "メイリオ","MS PGothic","MS Mincho";
+    font-size: 14px;
+    font-weight: 700;
+    height: 31px;
+    line-height: 31px;
+    padding-right: 19px;
+    text-decoration: none;
+	margin-right:15px;
+}
+a.round-button span {
+    background: url(../img/ec-support/button.png) no-repeat scroll left top transparent;
+    display: inline-block;
+    height: 31px;
+    line-height: 31px;
+    min-width: 187px;
+    padding-left: 25px;
+    text-align: center;
+	color:#b60f42;
+}
+a.round-button:hover {
+    background-position: right -36px;
+}
+a.round-button:hover span {
+    background-position: left -36px;
+    color: #FFFFFF;
+}
+.alignbut {
+    text-align: right;
+	margin-bottom:5px !important;
+}
+.let-sp	{
+	letter-spacing:2px !important;
+}
+.ec-commonPara {
+    color: #000000;
+    font: 12px/175% "メイリオ","MS PGothic","MS Mincho";
+    margin: 10px 20px 20px 10px;
+	letter-spacing:1px;
+}
+.ulBasic1	{
+	margin:0 6px !important;
+}
+
+/* floatMenu will be invalid */
+#floatMenu{ display:none;}

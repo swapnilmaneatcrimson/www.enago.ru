@@ -1,0 +1,394 @@
+@charset "UTF-8";
+
+/* subjectarea_add.css*/
+
+/* === common =============*/
+.subIntroductionText {
+font:12px "メイリオ","MS PGothic", "MS Mincho";
+width:620px;
+color:#313131;
+line-height:20px;
+margin-left:0px;
+margin-right:0px;
+margin-bottom:20px; 
+padding:0px; 
+letter-spacing:1px; 
+clear:both;}
+}
+
+a.subcontentlink{
+color:#057fd7; 
+text-decoration:underline; 
+display:inline-block !important; 
+font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+}
+
+a.subcontentlink:link{
+color:#057fd7; 
+text-decoration:underline; 
+display:inline-block !important; 
+font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+}
+
+a.subcontentlink:visited{
+color:#057fd7; 
+text-decoration:underline; 
+font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+}
+
+a.subcontentlink:hover{
+color:#057fd7; 
+text-decoration:none; 
+font-family: "メイリオ", Meiryo, "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ＭＳ Ｐゴシック", "Lucida Grande", "Lucida Sans Unicode", Arial, Verdana, sans-serif;
+}
+
+
+#topics_subjectarea{
+width:630px;
+margin:0 0 10px 0;
+padding-top:80px;
+}
+
+.medicine{
+background: url(../img/subjectarea/medicine/ttl_subjectarea.jpg) left top no-repeat;
+}
+
+.biology{
+background: url(../img/subjectarea/medicine/ttl_biology.jpg) left top no-repeat;
+}
+
+.physical{
+background: url(../img/subjectarea/medicine/ttl_physical.jpg) left top no-repeat;
+}
+
+.economics{
+background: url(../img/subjectarea/medicine/ttl_economics.jpg) left top no-repeat;
+}
+
+.sociology{
+background: url(../img/subjectarea/medicine/ttl_sociology.jpg) left top no-repeat;
+}
+
+#topics_subjectarea h3{
+display:none;
+}
+
+.topics_mark{
+padding:0 2px;
+color:#B8345D;
+font-size:20px;
+font-weight:bold;
+text-shadow: 0 0 10px #FFFF00;
+behavior: url(ie-css3.htc);
+}
+
+#topics_subjectarea #left{
+float:left;
+width:332px;
+margin-left:8px;
+padding:0;
+letter-spacing:1px;
+text-shadow: 1px 1px 1px #CCC;
+behavior: url(ie-css3.htc);
+}
+
+#topics_subjectarea #left li{
+margin:0;
+padding:18px 0;
+font-size:12px;
+list-style:none;
+border-bottom:1px dashed #000;
+}
+
+#topics_subjectarea #left li.top{
+padding-top:0;
+}
+
+#topics_subjectarea #left li.last{
+border-bottom:none;
+}
+
+#topics_subjectarea #right{
+float:right;
+width:285px;
+margin:0;
+padding:0;
+}
+
+.subjectarea_box {
+width:267px;
+border:1px solid #E3E3E3;
+border-radius:4px;
+-moz-border-radius:4px;
+-webkit-border-radius:4px;
+background-color:#FFF;
+-moz-box-shadow: 0 0 5px #999;
+-webkit-box-shadow: 0 0 5px #999;
+margin-left:10px;
+padding:0;
+behavior: url(ie-css3.htc);
+}
+
+.subjectarea_boxttl{
+padding:15px 0 7px 0;
+}
+
+.subjectarea_box li{
+font-size:11px;
+padding:11px 11px 11px 20px;
+list-style:none;
+color:#666;
+}
+
+.subjectarea_box li.act{
+padding:4px 4px 4px 20px;
+background-color:#F5EFF1;
+}
+
+.read{
+float:right;
+padding:0 10px 10px 0;
+}
+
+.read a:hover img {
+opacity: 0.8;
+filter: alpha(opacity=70);
+}	
+
+#topics_tab{
+width:630px;
+margin:25px 0;
+padding:0;
+}
+
+#topics_tab li{
+float:left;
+position:relative;
+width:315px;
+height:167px;
+margin:0;
+padding:0;
+list-style:none;
+background:url(../img/subjectarea/tab.jpg) 0 0 no-repeat;
+transition: all 0.5s ease;
+}
+#topics_tab li:hover { background:url(../img/subjectarea/tab_on.jpg) 0 0 no-repeat; }
+
+#topics_tab .ttl{
+position:absolute;
+width:250px;
+top:40px;
+left:95px;
+font-size:16px;
+font-weight:bold;
+color:#851F3E;
+line-height:110%;
+}
+
+#topics_tab .cap{
+position:absolute;
+width:250px;
+top:90px;
+left:30px;
+font-size:11px;
+color:#666;
+}
+
+#topics_tab li span.tab-icon { position:absolute; width:55px; height:55px; top:25px; left:30px; }
+#topics_tab li span.tab-icon.journal { background:url(../img/subjectarea/journal-icon.png) 0 0 no-repeat; }
+#topics_tab li span.tab-icon.sample { background:url(../img/subjectarea/sample-icon.png) 3px 0 no-repeat; }
+#topics_tab li span.tab-icon.customer { background:url(../img/subjectarea/customer-icon.png) 2px 12px no-repeat; }
+#topics_tab li span.tab-icon.article { background:url(../img/subjectarea/article-icon.png) 15px 3px no-repeat; }
+#topics_tab li span.article-accepted { position:absolute; width:78px; height:75px; bottom:20px; right:25px; background:url(../img/subjectarea/article-accepted.png) 0 0 no-repeat; }
+
+#topics_tab li a{
+display:block;
+width:315px;
+height:167px;
+}
+
+.tab_inner{
+width:95%;
+margin:0;
+padding:0;
+}
+
+.tab_inner h1{
+padding:0 0 20px 25px;
+font-size:20px;
+font-weight:bold;
+color:#851F3E;
+background: url(../img/subjectarea/medicine/tab_logo.gif) 0 4px no-repeat;
+}
+
+.tab_table{
+width:635px;
+margin:0;
+padding:0;
+border-top:1px solid #E1E1E1;
+border-left:1px solid #E1E1E1;
+color:#333333;
+letter-spacing:1px;
+font-size:12px;
+}
+
+.tab_table tr{
+padding:10px;
+background-color:#FFFFFF;
+}
+
+.tab_table tr.even{
+background-color:#F5EFF1;
+}
+
+.tab_table tr.white{
+background-color:#FFFFFF;
+}
+
+.tab_table th{
+padding:10px;
+background-color:#F5EFF1;
+border-right:1px solid #E1E1E1;
+border-bottom:1px solid #E1E1E1;
+color:#851F3E;
+font-weight:bold;
+}
+
+.tab_table th.customer{
+padding:10px;
+background-color:#F5EFF1;
+border-right:1px solid #E1E1E1;
+border-bottom:1px solid #E1E1E1;
+color:#333333;
+font-weight:normal;
+text-align:left;
+}
+
+.tab_table td{
+padding:10px;
+border-right:1px solid #E1E1E1;
+border-bottom:1px solid #E1E1E1;
+}
+
+
+#topics_area{
+width:630px;
+margin:0;
+padding-top:105px;
+}
+
+#topics_area h3{
+display:none;
+}
+
+.area_medicine{
+background: url(../img/subjectarea/medicine/ttl_area.jpg) left top no-repeat;
+}
+
+.area_biology{
+background: url(../img/subjectarea/medicine/ttl_area1.jpg) left top no-repeat;
+}
+
+.area_physical{
+background: url(../img/subjectarea/medicine/ttl_area2.jpg) left top no-repeat;
+}
+
+.area_economics{
+background: url(../img/subjectarea/medicine/ttl_area3.jpg) left top no-repeat;
+}
+
+.area_sociology{
+background: url(../img/subjectarea/medicine/ttl_area4.jpg) left top no-repeat;
+}
+
+#topics_area #attention{
+width:540px;
+height:38px;
+margin:0 0 0 6px;
+padding:4px 7px 0 7px;
+background: url(../img/subjectarea/medicine/area_bg.gif) left top no-repeat;
+font-size:11px;
+color:#666;
+}
+
+#topics_area #list{
+width:500px;
+margin:0;
+padding:0;
+}
+
+#topics_area #list li{
+float:left;
+margin:0;
+padding-right:3px;
+list-style:none;
+}
+
+#topics_area #list li a:hover img {
+opacity: 0.8;
+filter: alpha(opacity=70);
+}
+
+.TabbedPanelsContentGroup_arrenge { 
+width:629px;
+clear: both; 
+height:auto; 
+margin-left:1px; 
+background-color: #FFF;
+}
+
+.area_box{
+width:618px;
+margin-top:2px;
+padding:10px 0 8px 10px;
+border:1px solid #B8345D;
+box-shadow:0 0 6px rgba(0,0,0,0.4) inset;
+behavior: url(ie-css3.htc);
+}
+
+#topics_journal{
+width:630px;
+margin:0 0 25px 0;
+padding-top:120px;
+}
+
+#topics_journal h3{
+display:none;
+}
+
+.journal_medicine{
+background: url(../img/subjectarea/medicine/ttl_journal.jpg) left top no-repeat;
+}
+
+.journal_economics{
+background: url(../img/subjectarea/medicine/ttl_journal1.jpg) left top no-repeat;
+}
+
+.journal_sociology{
+background: url(../img/subjectarea/medicine/ttl_journal2.jpg) left top no-repeat;
+}
+
+.journal_physics{
+background: url(../img/subjectarea/medicine/ttl_journal-b.jpg) left top no-repeat;
+}
+
+.journal_biology{
+background: url(../img/subjectarea/medicine/ttl_journal-e.jpg) left top no-repeat;
+}
+.journal_box{
+width:618px;
+margin-top:15px;
+padding:3px 0 10px 10px;
+border:1px solid #B8345D;
+box-shadow:0 0 6px rgba(0,0,0,0.4) inset;
+behavior: url(ie-css3.htc);
+}
+
+.journal_nav{
+width:614px; 
+margin:0;
+padding:0;
+max-height:315px; 
+overflow-y:scroll; 
+overflow-x:hidden; 
+}

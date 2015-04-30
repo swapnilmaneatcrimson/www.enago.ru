@@ -1,0 +1,318 @@
+/********************************************************************
+    File:   
+        indexCSS.css
+    Brief:  
+        Hold styles used in index.html
+    Author:
+        DigitalCavalry
+    Author URI:
+        http://graphicriver.net/user/DigitalCavalry
+*********************************************************************/
+
+/****************************************** 
+   SERVICES AND PRODUCTS, LAST NEWS LIST
+*******************************************/  
+
+#corporateInfoContainer
+{
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 1000px;
+    padding-left: 40px;
+    padding-bottom: 30px;
+    border-top: 0px dotted #ccc;  
+    border-bottom: 0px solid #FFF;
+    background-image: url('../img/index/gradient.jpg');
+    background-position: 50% 100%;
+    background-repeat: repeat-x;
+}
+
+.columnServicesProducts
+{
+    display:block;
+    float:left;
+    color:#222;
+    width:660px;
+    padding-left:0px;
+    padding-right:10px;
+    margin-top: 15px;
+    background-color: transparent;
+}
+
+.columnLatestNews1
+{
+    display:block;
+    float:left;
+    width:300px;
+    padding-left:5px;
+    padding-right:30px;
+    margin-top: 10px;
+    font: 12px Verdana;
+    line-height: 150%;
+    background-color: transparent;
+	
+	background-image: url('../img/index/spliterForGradient.jpg');
+    background-repeat:no-repeat;
+    background-position: 100% 50%;
+	float:left;
+}
+.columnLatestNews2
+{
+    display:block;
+    float:left;
+    width:300px;
+    padding-left:15px;
+    padding-right:5px;
+    margin-top: 10px;
+    font: 12px Verdana;
+    line-height: 150%;
+    background-color: transparent;
+	float:right;
+}
+
+.lastNews
+{
+    height: 60px;
+    padding: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 10px;
+    padding-top: 5px;
+    cursor: pointer;
+    background-color: transparent;
+    border-bottom: 1px solid #ECECEC;
+}
+
+.lastNews:hover
+{
+    background-color: #e8e8e8;
+}
+
+.lastNewsDate
+{
+    color: #84213f;
+    font: 9px Verdana;
+    line-height: 10px;
+}  
+
+.lastNewsTitle
+{
+    color: #333;
+    font: 12px Verdana;
+    margin-top: 2px;
+    display: block;
+}
+
+.lastNewsText
+{
+    color: #999;
+    font: 9px Verdana;
+    margin-top: 2px;
+    display: block;
+}   
+
+.columnText
+{
+    padding-top: 15px;
+    padding-left: 0px;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    font: 12px Verdana;
+    line-height: 140%;
+}
+
+.columnTextLastNews
+{
+    padding-top: 10px;
+    padding-left: 0px;
+    border-top: 1px solid #ddd;
+    margin-top: 10px;
+    font: 12px "MS PGothic";
+    line-height: 145%;
+}
+
+
+#servicesProductsHeader
+{
+    font: bold 20px "MS PGothic", "MS Gothic", "MS PMincho", "MS Mincho";
+    color: #000;
+    padding-left: 0px;
+}
+
+#latestNewsHeader1
+{
+    font: bold 20px "MS PGothic", "MS Gothic", "MS PMincho", "MS Mincho";
+    color: #000;
+    padding-left: 0px;
+}
+#latestNewsHeader2
+{
+    font: bold 20px "MS PGothic", "MS Gothic", "MS PMincho", "MS Mincho";
+    color: #000;
+    padding-left: 0px;
+}
+
+/* added css  */
+    
+#aboutContainer
+{
+    width: 780px;
+    min-height: 480px;
+    margin-left:20px; 
+    padding-bottom: 40px; float:left; z-index:0; 
+}
+#aboutContainerindex
+{
+    width: 1004px;
+    min-height: 480px;
+    margin-left:00px;
+    padding-bottom: 40px; float:left
+}
+
+.aboutSectionLabel
+{
+    font: 11px "MS PGothic";
+    color: #000;
+    padding: 5px;
+    display:block;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.divider
+{
+    display:block;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px; 
+}
+
+.aboutImgPreviewTxtLabel
+{
+    text-align: center;
+    font: 11px/14px "MS PGothic";
+}
+
+.aboutCenterText
+{
+    text-align: center;
+    font: 11px "MS PGothic";
+}
+
+.aboutThumbsContainer
+{
+    height: 100px;
+    width: 30px;
+    margin-left: 0px;
+}
+
+
+
+#heading_sidepanel_a {
+	font: bold 16px "MS PGothic";
+	text-transform:capitalize; color:#585856;
+  	width: 225px; margin: 0px 0 0 0px; letter-spacing:0px;
+}
+#heading_sidepanel_a a{
+	font: bold 16px "MS PGothic";
+	text-transform:capitalize; color:#585856;
+  	width: 225px; margin: 0px 0 0 0px; 
+}
+#heading_sidepanel_b {
+    font: bold 16px "MS PGothic";
+	text-transform:capitalize; color:#585856;
+  	width: 225px; margin: 15px 0 0 0px; letter-spacing:0px;
+}
+#heading_sidepanel_b a{
+    font: bold 16px "MS PGothic";
+	text-transform:capitalize; color:#585856;
+  	width: 225px; margin: 15px 0 0 0px
+}
+
+#heading_sidepanel_c {
+    font: bold 16px "MS PGothic";
+	text-transform:capitalize; color:#585856;
+  	width: 225px; margin: 15px 0 0 0px
+}
+#heading_sidepanel_d {
+    font: bold 16px "MS PGothic";
+	text-transform:capitalize; color:#585856;
+  	width: 225px; margin: 15px 0 0 0px
+}
+
+.readMoreBtn
+{
+    width: 120px;
+    height: 27px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    color: #000;
+    font: bold 16px/25px Tahoma;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display:block;
+}
+
+.readMoreBtn:hover
+{
+    
+    background-color: #585856;
+    border: 1px solid #585856; 
+    color: #FFF;
+}
+#aboutContentContainer{width:984px;margin-left:10px;margin-right:10px;padding-left:0px;padding-right:0px;margin-top:20px;padding-bottom:20px; font: normal 12px "MS PGothic";}
+#leftcontainer-interviews{width:750px;height:auto;margin:0px;padding:0px;float:left; background-color:#fff; font: normal 12px "MS PGothic";}
+#rightcontainer{width:220px;height:auto;margin-left:0px;padding:0px;float:left; font: normal 12px "MS PGothic";}
+
+#intpage_rightlinks1{
+	width:220px;
+	background-color:#FFFFFF;
+	border:thin;
+	border-color:#000000;
+	border-collapse:collapse;
+	border-style:solid;
+	float:left;
+	}
+#intpage_communitybuttons{
+	width:200px; margin-top:10px; height:34px; overflow:hidden; text-align:center;
+	background-color:#f8f8f8; max-height:34px;
+	border:1px solid #ccc; padding:10px 10px 0px 10px; clear:both; float:left;
+	}	
+#intpage_feedburner{
+	width:210px; margin-top:10px; border:1px solid #000; padding:10px 0px 0px 10px; clear:both; float:left;
+	}	
+
+.bodytext_intpage{
+	font-family: "MS PGothic";
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#000000;
+	vertical-align:top;
+	line-height:18px;
+	text-align:justify;
+	letter-spacing:0px;
+	}
+.bodytext_intpage1{
+	font-family: "MS PGothic";
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#000000;
+	vertical-align:top;
+	line-height:18px;
+	text-align:justify left;
+	letter-spacing:0px;
+	}
+.paddingtop5px{
+	padding-top:5px;
+	}
+.paddingtop8px{
+	padding-top:8px;
+	}
+.fontwhite {
+	color: #F9F9F9;  
+}
+.fontwhite A {
+	color: #ffffff;
+	text-decoration: none 
+}
