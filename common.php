@@ -6,8 +6,8 @@ $toec="ec.enago@crimsoni.com, uploads@enago.com";
 
 $toecs="requestecs@enago.com, marketing@enago.com";
 // $autotod = "autoquote@enago.jp"; // autoquote emails
-$tod = "uploads@enago.com, uploads@enago.net, request-ru@enago.com"; // to the people in the company
-$fromAdd= "uploads@enago.com"; //from which address
+$tod = "russiauploads@enago.com, alluploads@crimsonjapan.co.jp"; // to the people in the company
+$fromAdd= "russiauploads@enago.com"; //from which address
 $clientfromAdd= "DO_NOT_REPLY@enago.com"; //client email from address
 $toq = "uploads@enago.com, uploads@enago.net";
 // $fromjapanstaff= "japanstaff@enago.jp"; //from which address
@@ -26,8 +26,8 @@ $toqc="quality@enago.com";
 
 
 //VCS
-$replyvcs="uploads@enago.com";
-$tovcs="lyazzat.ilimkhanova@gmail.com"; //lyazzats email address for vcs purposes
+//$replyvcs="uploads@enago.com";
+//$tovcs="lyazzat.ilimkhanova@gmail.com"; //lyazzats email address for vcs purposes
 //VCS END
 
 //EC Support

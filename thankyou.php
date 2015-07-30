@@ -705,13 +705,14 @@ mail("$to", "$subjectline", $message,
 				"Content-type: text/plain; charset=utf-8");
 
 //
+/*
 
 $messagevcs = $msgvcs;
 
 
 mail("$tovcs", "$subjectline", $messagevcs,  
               "From: Uploads-ENAGO<$fromAdd>\r\n" .
-				"Content-type: text/plain; charset=utf-8");
+				"Content-type: text/plain; charset=utf-8");*/
 
 //AUTORESPONSE
 
