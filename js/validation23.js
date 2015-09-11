@@ -29,7 +29,7 @@ function validate_step2()
 function validate_step3()
 {
 	_gaq.push(['_trackEvent', 'Form', 'Submit', 'Step4']);
-	if (isUpload() && isExtension() && isattachfiles() && isCLtype())
+	if (isUpload() && isExtension() && isCLtype())
 	{
 		return showonlyone('personaldetails');
 	}
