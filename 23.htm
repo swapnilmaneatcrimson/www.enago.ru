@@ -588,9 +588,9 @@ $a = "Английское редактирование, Английский р
     <td class="col2 mandatory">*</td>
     <td class="col3"><table class="noborder innertable">
       <tr>
-        <td><input name="superdat" type="file"  class="textfield" id="superdat" size="30" /><br />
-<br />
-<strong class="color_red">※</strong> You can upload (doc, docx, xls, xlsm, xlsx, ppt, pptx, rtf, dot, hwp, zip, rar, lzh, pdf, tex, 7z, txt, jpeg, tiff, eps, png, gif)</td>
+        <td><input name="superdat" type="file"  class="textfield" id="superdat" size="30" />
+       <p id="pic_error1" class="marT10" style="display:none; color:#FF0000;"><strong class="color_red">※</strong> You can upload (doc, docx, xls, xlsm, xlsx, ppt, pptx, rtf, dot, hwp, zip, rar, lzh, pdf, tex, 7z, txt, jpeg, tiff, eps, png, gif).</p>
+<p id="pic_error2" class="marT10" style="display:none; color:#FF0000;"><strong class="color_red">※</strong> Max file size should be 8 MB.</p></td>
       </tr>
     </table>
       <br />
@@ -1146,6 +1146,24 @@ $().ready(function() {
 		
 	});  
 });  
+
+
+//$('input[type="submit"]').prop("disabled", true);
+var a=0;
+var b=0;
+//binds to onchange event of your input field
+$('#superdat').bind('change', function() {
+//if ($('input:submit').attr('disabled',false)) {$('input:submit').attr('disabled',true);}
+var ext = $('#superdat').val().split('.').pop().toLowerCase();
+if($.inArray(ext, ['doc', 'docx', 'xls', 'xlsm', 'xlsx', 'ppt', 'pptx', 'rtf', 'dot', 'hwp', 'zip', 'rar', 'lzh', 'pdf', 'tex', '7z', 'txt', 'jpeg', 'jpg', 'tiff', 'eps', 'png', 'gif']) == -1)
+{ $('#pic_error1').slideDown("slow"); $('#pic_error2').slideUp("slow"); a=0;} else {
+var picsize = (this.files[0].size);
+if (picsize > 8000000)
+{ $('#pic_error2').slideDown("slow"); a=0; $('#superdat').val('')} else { a=1; $('#pic_error2').slideUp("slow"); }
+$('#pic_error1').slideUp("slow");
+//if (a==1 && b==2) {$('input:submit').attr('disabled',false);}
+}
+});
 </script> 
 </body>
 </html>

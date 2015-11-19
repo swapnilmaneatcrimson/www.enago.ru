@@ -1,9 +1,60 @@
 <?php
 ini_set("mbstring.internal_encoding","UTF-8");
+$agreeterms = $_POST['agreeterms'];
+$answer = $_POST['answer'];
+$asneditor = $_POST['asneditor'];
+$certificate = $_POST['certificate'];
+$city = $_POST['city'];
+$clienttype = $_POST['clienttype'];
+$country = $_POST['country'];
+$coverletter = $_POST['coverletter'];
+$deadlinestrict = $_POST['deadlinestrict'];
+$delDay = $_POST['delDay'];
+$delHrs = $_POST['delHrs'];
+$delMin = $_POST['delMin'];
+$delMonth = $_POST['delMonth'];
+$delYear = $_POST['delYear'];
+$department = $_POST['department'];
+$designation = $_POST['designation'];
+$email = $_POST['email'];
+$email2 = $_POST['email2'];
+$emailconfirm = $_POST['emailconfirm'];
+$ePayment = $_POST['ePayment'];
+$extno = $_POST['extno'];
+$fax = $_POST['fax'];
+$fname = $_POST['fname'];
+$format = $_POST['format'];
+$inputfile = $_POST['inputfile'];
+$journalname = $_POST['journalname'];
+$language = $_POST['language'];
+$lname = $_POST['lname'];
+$mailingaddress1 = $_POST['mailingaddress1'];
+$membershipid = $_POST['membershipid'];
+$mrc = $_POST['mrc'];
 $num1 = $_POST['num1'];
 $num2 = $_POST['num2'];
-$answer = $_POST['answer'];
+$numeditingfiles = $_POST['numeditingfiles'];
+$numreferencefiles = $_POST['numreferencefiles'];
+$oldeditor = $_POST['oldeditor'];
+$organisation = $_POST['organisation'];
+$other_typeofdoc = $_POST['other_typeofdoc'];
+$otherspecialization = $_POST['otherspecialization'];
+$outputfile = $_POST['outputfile'];
+$phone = $_POST['phone'];
+$priority = $_POST['priority'];
+$R1 = $_POST['R1'];
+$R2 = $_POST['R2'];
+$service = $_POST['service'];
+$sInstructions = $_POST['sInstructions'];
+$specialcode = $_POST['specialcode'];
+$specialization = $_POST['specialization'];
+$subsubject = $_POST['subsubject'];
 $trackcode = $_POST['trackcode'];
+$txtRef = $_POST['txtRef'];
+$typeofdoc = $_POST['typeofdoc'];
+$useofdoc = $_POST['useofdoc'];
+$website = $_POST['website'];
+$zipcode = $_POST['zipcode'];
 
 $answer2 = $num1 + $num2;
 
@@ -351,9 +402,7 @@ if($firstchar == "Art")
 }
 //
 
-
 $subsubject_a = substr($subsubject, 4);
-
 
 $specialization_a = $specialization;
 
@@ -361,53 +410,73 @@ if($specialization == "Other")
 {
 	$specialization_a = $otherspecialization;
 }
-//
+/****************  Upload Path  ********************/
 
-/****************  EXT Rstriction  ********************/
+$target_dir = $absolute_path;
+$target_file = $target_dir . basename($_FILES["superdat"]["name"]);
+$uploadOk = 1;
+$imageFileType = pathinfo($target_file,PATHINFO_EXTENSION);
 
-$finfo = explode('.',$superdat_name);
-$ext = array_pop($finfo);
+// Check if image file is a actual image or fake image
+if(isset($_POST["submit"])) {
+    $check = getimagesize($_FILES["superdat"]["tmp_name"]);
+    if($check !== false) {
+        //echo "File is an image - " . $check["mime"] . ".";
+        $uploadOk = 1;
+    } else {
+        //echo "File is not an image.";
+        $uploadOk = 0;
+    }
+}
 
-/****************  End  ********************/
-if ($superdat_name == "")
-	{
+
+// Check if file already exists
+if (file_exists($target_file)) {
+    //echo "Sorry, file already exists.";
+	$target_file= $target_dir.$nowClock."_".$_FILES['superdat']['name'];
+    //$uploadOk = 0;
+}
+
+
+// Check file size
+if ($_FILES["superdat"]["size"] > 8000000) {
+    //echo "Max file size should be 1 MB.";
+    $uploadOk = 0;
+}
+
+
+// Allow certain file formats
+if($imageFileType != "doc" && $imageFileType != "docx" && $imageFileType != "xls" && $imageFileType != "xlsm" && $imageFileType != "xlsx" && $imageFileType != "ppt" && $imageFileType != "pptx" && $imageFileType != "rtf" && $imageFileType != "dot" && $imageFileType != "hwp" && $imageFileType != "zip" && $imageFileType != "rar" && 
+$imageFileType != "lzh" && $imageFileType != "pdf" && $imageFileType != "tex" && $imageFileType != "7z" && $imageFileType != "txt" && $imageFileType != "jpeg" && $imageFileType != "jpg" && $imageFileType != "tiff" && $imageFileType != "eps" && $imageFileType != "png" && $imageFileType != "gif") {
+    //echo "Sorry, only JPG, JPEG, PNG & GIF files are allowed.";
+    $uploadOk = 0;
+}
+
+/****************  Path  ********************/
+
+if ($uploadOk == 0) 
+{
 	$autoresponse="Пожалуйста,  загрузите  файл.";
 	$crimsonemailtext="Client did not upload the file";
 	$thankyoupagetext="<p>Пожалуйста,  загрузите  файл.</p>";
-	}
-else if (($ext == "doc") || ($ext == "docx") || ($ext == "xls") || ($ext == "xlsm") || ($ext == "xlsx") || ($ext == "ppt") || ($ext == "pptx") || ($ext == "rtf") || ($ext == "dot")
-|| ($ext == "hwp") || ($ext == "zip") || ($ext == "rar") || ($ext == "lzh") || ($ext == "pdf") || ($ext == "tex") || ($ext == "7z") || ($ext == "txt") || ($ext == "jpeg") || ($ext == "tiff") || ($ext == "eps") || ($ext == "png") || ($ext == "gif"))
-	{
-	if (($size_limit == "yes") && ($limit_size < $superdat_size))
-	{
-	$superdat_name=$fname."_".$lname."_".$date."_".$nowClock."_".$superdat_name;
-	$autoresponse="File size is very large, so cannot upload through website";
-	$crimsonemailtext="FILE SIZE MORE THAN 8 MB, so cannot upload through website";
-	$thankyoupagetext="<p>File size is very large, so cannot upload through website</p>";
-	}
-	else
-	{
-	if (file_exists("$absolute_path/$superdat_name"))
-		{
-		$superdat_name=$fname."_".$lname."_".$date."_".$nowClock."_".$superdat_name;
-		}
-		else {$superdat_name=$fname."_".$lname."_".$date."_".$nowClock."_".$superdat_name;}
-	@copy($superdat, "$absolute_path/$superdat_name");
-	$autoresponse="Вы загрузили следующие файлы: $superdat_name";
-	$crimsonemailtext="FILE UPLOADED";
-	$thankyoupagetext="<p>Сіз келесідей файлдарды жүктедіңіз: $superdat_name</p>";
-	};
 }
 else
 {
-	$thankyoupagetext="File type not supported.";
-	$autoresponse="File type not supported.";
-	$crimsonemailtext="File type not supported.";
+	if (move_uploaded_file($_FILES["superdat"]["tmp_name"], $target_file)) 
+	{
+		$autoresponse="Вы загрузили следующие файлы: ".basename( $_FILES["superdat"]["name"]);
+		$crimsonemailtext="FILE UPLOADED";
+		$thankyoupagetext="<p>Сіз келесідей файлдарды жүктедіңіз: ". basename( $_FILES["superdat"]["name"])."</p>";
+    } 
+	else 
+	{
+        echo "Sorry, there was an error uploading your file.";
+    }
 }
 
 /////////////////
-
 $to = $tod;
+
 if ($typeofdoc == "Abstract")
 	{
 $subjecttypeofdoc="{ABS}";
@@ -693,26 +762,26 @@ Comments: $sInstructions
 
 //
 $file_size=$superdat_size/1024;
-$lname=ucwords(strtolower($lname));
-$fname=ucwords(strtolower($fname));
 $tandc="$agreeterms, I have agreed the terms & conditions. ";
-
 
 $message = $msgrequest;
 
-mail("$to", "$subjectline", $message,
-              "From: Uploads-ENAGO<$fromAdd>\r\n" .
-				"Content-type: text/plain; charset=utf-8");
+$myemail = strpbrk($email, '@');
+$fname=ucwords(strtolower($fname));
+$lname=ucwords(strtolower($lname));
+if($fname =="Crimson" || $lname =="Crimson" || $fname =="Test" || $lname =="Test" || $myemail == "@crimsoni.com" || $myemail == "@enago.com" || $myemail == "@ulatus.com" || $myemail == "@voxtab.com")
+	{ 
+		$to = $email; 
+		$tovcs = $email; 
+		$subalert="[FORM TESTING]";
+		$testalert="FORM TESTING >>>>>>> FORM TESTING >>>>>>> FORM TESTING >>>>>>> FORM TESTING >>>>>>> FORM TESTING >>>>>>> FORM TESTING";
+	}
 
-//
-/*
 
-$messagevcs = $msgvcs;
+$headers1 =  $headers.'From: "Uploads-ENAGO"<'.$fromAdd.'>' . "\r\n";
 
+mail($to, $subjectline, $message, $headers1);
 
-mail("$tovcs", "$subjectline", $messagevcs,  
-              "From: Uploads-ENAGO<$fromAdd>\r\n" .
-				"Content-type: text/plain; charset=utf-8");*/
 
 //AUTORESPONSE
 
@@ -728,8 +797,11 @@ $autoresponse
 научного редактирования  
 CRIMSON INTERACTIVE, LLC (USA)";
 
+$headers2 = $headers.'From: "CRIMSON (DO_NOT_REPLY-ENAGO)"<'.$clientfromAdd.'>' . "\r\n";
+   
+mail($email, $sub, $message1, $headers2);
 		
-mb_send_mail("$email", "$sub", $message1, "From: CRIMSON (DO_NOT_REPLY-ENAGO)<$clientfromAdd>\r\n" );
+
 ?> 
 <?php 
   $currentPage="Quotation";
