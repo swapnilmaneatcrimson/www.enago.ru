@@ -86,7 +86,7 @@ function isExtension()
 	if(s !== "")
 	{
 			if ((ext == "doc") || (ext == "docx") || (ext == "xls") || (ext == "xlsm") || (ext == "xlsx") || (ext == "ppt") || (ext == "pptx") || (ext == "rtf") || (ext == "dot")
-		|| (ext == "hwp") || (ext == "zip") || (ext == "rar") || (ext == "lzh") || (ext == "pdf") || (ext == "tex") || (ext == "7z") || (ext == "txt") || (ext == "jpeg") || (ext == "jpg") || (ext == "tiff") || (ext == "eps") || (ext == "png") || (ext == "gif"))
+		|| (ext == "hwp") || (ext == "zip") || (ext == "rar") || (ext == "lzh") || (ext == "pdf") || (ext == "tex") || (ext == "7z") || (ext == "txt") || (ext == "jpeg") || (ext == "tiff") || (ext == "eps") || (ext == "png") || (ext == "gif"))
 			{
 				return true;
 			}

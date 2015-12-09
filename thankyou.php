@@ -411,7 +411,8 @@ if($specialization == "Other")
 	$specialization_a = $otherspecialization;
 }
 /****************  Upload Path  ********************/
-
+$superdat_name = $_FILES['superdat']['name'];
+$file_size  = $_FILES['superdat']['size'];
 $target_dir = $absolute_path;
 $target_file = $target_dir . basename($_FILES["superdat"]["name"]);
 $uploadOk = 1;
@@ -797,11 +798,11 @@ $autoresponse
 научного редактирования  
 CRIMSON INTERACTIVE, LLC (USA)";
 
-$headers2 = $headers.'From: "CRIMSON (DO_NOT_REPLY-ENAGO)"<'.$clientfromAdd.'>' . "\r\n";
-   
-mail($email, $sub, $message1, $headers2);
-		
+$headers2 = $headers.'From: " RUSSIA-CRIMSON (DO_NOT_REPLY-ENAGO)"<'.$clientfromAdd.'>' . "\r\n";
 
+ 
+mail($email, $sub, $message1, $headers2);
+    
 ?> 
 <?php 
   $currentPage="Quotation";
