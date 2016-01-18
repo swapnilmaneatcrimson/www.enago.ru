@@ -1,3 +1,4 @@
+
 <FilesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
 Header set Cache-Control "max-age=290304000, public"
 </FilesMatch>
@@ -7,7 +8,6 @@ RewriteEngine on
 #
 # Externally redirect all http or httpS direct client requests
 # for index.htm or index.htm pages to http home page "/"
-
 RewriteCond %{http_host} ^enago.ru
 RewriteRule ^(.*) http://www.enago.ru/$1 [R=301,L]
 
